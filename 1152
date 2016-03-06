@@ -1,0 +1,67 @@
+Brb, compromised/The Science
+[[brb, compromised|Back to '''brb, compromised]]
+
+==[[SFB|INTERNETS! SRYS FUCKIN BIDNESS!]]==
+[[Image:News.4chan.jpg|center|frame|[http://beta.glexia.com/suspended.page/ updates]]]
+[[Image:Seriouscat.jpg|thumb|This are very relevant to my interests!]]
+
+[[Image:Brb compromised.jpg|thumb|200px|[[brb, soup]]?]] 
+For the morons in the audience that think [[Eternal_September|AOL is the internets]], here's a technical run-down of what exactly has happened to 4chan.  First, a primer:
+* A domain name consists of three individual components: the registration, which is ownership of the domain; the DNS, which tells people where to find web services; and web services themselves, such as websites, email, and so on.
+* DNS, or the Domain Name System, is like the phonebook of the internet. When you visit <i>4chan.org</i> in your browser, your computer uses DNS to convert the name into the IP address, and your browser connects to that IP directly, e.g. <i>4chan.org</i> to <i>66.207.165.166</i>
+* Special server machines, called nameservers, are responsible for answering questions about domains, such as "Where can I find the <s>lulz</s> IP address for <i>4chan.org</i>?"
+* Domain registration, which is domain ownership, is the most vital component; control of registration gives you control over DNS, which in turn gives you control over web services.
+* And if you don't understand those tubes can be filled and if they are filled, when you put your message in, it gets in line and its going to be delayed by anyone that puts into that tube enormous amounts of material, enormous amounts of material. 
+
+With me so far?  Good.  [http://4chanstatus.blogspot.com/ As the 4chan status blog notes], Moot's account with the registrar has been compromised (in this case, [[FAIL|Network Solutions]]).  This means he no longer has control over the domain registration, and in turn has no power over the domain's DNS or web services.  
+
+This isn't as juvenile as getting into the webserver and putting a picture of Goatse on the front page; these people hijacked 4chan like someone hijacks a plane.  They're in direct control of it, and Moot's helplessly along for the ride unless he can get back into the account.  (Given his choice of registrars, though, 4chan is going to be down for a few days at the least.)
+
+When they took over Moot's account at NetSol, they changed the nameserver delegation, which means they changed the DNS duties from 4chan's nameservers over to their own.  Right now, visitors to 4chan aren't getting answers about the domain from Moot, they're getting the answers from the failfags.  
+
+Here's the response from 4chan's actual nameservers:
+
+<pre>~$ dig 4chan.org @206.220.140.2
+
+;; QUESTION SECTION:
+;www.4chan.org. IN A
+
+;; ANSWER SECTION:
+www.4chan.org. 86400 IN CNAME 4chan.org.
+4chan.org. 86400 IN A 66.207.165.166
+
+;; AUTHORITY SECTION:
+4chan.org. 86400 IN NS ns1.4chan.org.
+4chan.org. 86400 IN NS ns2.4chan.org.
+4chan.org. 86400 IN NS ns3.4chan.org.</pre>
+
+Here's what it currently looks like after the hijacking:
+
+[[Image:Prince911.gif|thumb|left|~$ dig 4chan.org]]
+
+===The Moral of the Story===
+[[Image:mootjay.jpg|thumb|right|150px|An accurate depiction of [[moot]]'s puzzlement.]]
+<i>Let this be a lesson the rest of you can learn.</i> If you <i>ever</i> buy your own domain or work for a company with a noticeable web presence, <i>pay the fuck attention to this kind of shit.</i> It is abso-fucking-<i>lutely</i> vital to know this!
+
+If you hire an IT guy to "make me a web domain on the internets", you <i>need</i> to make sure that your own personal addresses are listed as the contacts for the domain, and that you have full control over the registration, DNS provision, and web services, and that your own personal credit cards have been used to purchase and pay for all of these, even if you need to reimburse yourself through the company.  If a problem ever occurs and you fire that IT guy, <i>he won't be able to dangle your domain over your head as a bargaining chip.</i>
+
+[[tl%3Bdr]] <i>Don't make the same mistakes Moot did!</i> Be diligent in keeping track of this information or someone will steal it from you! Don't use a cheap bulk registrar like NetSol because you're going to get the security and help you pay for! <i>DESU IS NOT A SECURE PASSWORD!</i>
+
+===Addedum===
+Their [[Bullshit|provider believed that this was a sale]].
+
+<pre>Hello Jason/ All, 
+We have advised you many times in regards to this issue.  The domain was never renewed and you allowed
+it to expire past the grace period.  As it was not renewed it was taking up by the registry.  We have
+asked you several times if you felt it was an error in the expiration to foward us the receipt you 
+received for the renewal of the domain which you have failed to provide.  The charge you are attaching 
+in this email was for the actual "Purchase" of the domain that was listed by another client of ours in 
+our marketplace.  This is a private sale and is only that, a sale.  It had nothing to do with the 
+actual renewal of the domain.  So Please, lets get the facts straight.
+
+Regards,
+Michael K.</pre>
+
+
+[[Category:Internets Phenomena]]
+[[Category:Chans]]

@@ -1,0 +1,36 @@
+Dau.pl
+'''Dau.pl''' is an [[irssi]] script much in the fashion of [[Gay.pl]], in that it is designed to make you look like a [[complete]] asshole on [[IRC]]. It has a number of useful features.
+[[Image:Daudotpl.png|thumb|[[User:Jesuitx|Me]] being an asshole]]
+
+==Features==
+
+* Destroy text in a number of different ways
+** Jbulme leretts
+** ADD AN UNBELIEVABLE NMUBER OF [[?|WUESTION MARQS]] AND [[!|EXCLANATION POIBTS]] !!!!!!!!!!!!??!???????!!!!!!!??????///
+** <font color="#003366">R<font color="#006633">a<font color="#003366">n<font color="#999966">d<font color="#663399">o<font color="#660000">m <font color="#FF0099">c<font color="#66FF00">o<font color="#FFFF33">l<font color="#333333">o<font color="#9999CC">r<font color="#6666FF">s</font></font></font></font></font></font></font></font></font></font></font></font>
+* Greet people in channels in a wonderfully annoying way (see screenshot)
+* Do some other [[ASCII]] crap
+<pre>
+  -------------------------------------------------------------
+ < Dau.pl lets you cowsay without cowsay being installed. >
+  -------------------------------------------------------------
+         \   ^__^
+          \  (oo)\_______
+             (__)\       )\/\
+                 ||----w |
+                 ||     ||
+</pre>
+
+==Instructions==
+Go to http://www.dau.pl and download the script. Put it where you normally put your irssi scripts, and load it in the usual way. You will need shitty [[Perl]]. Set dau in action by executing /dau --daumode. Your text will be garbled before it is sent, and all the text you receive will be garbled as well. It's wonderful!
+
+*Pressing and holding enter sends a lovely flood of HI@ALL's in a number of randomly messed up formats
+*/dau --greet sends a great greet to the entire channel
+*Dau.pl can be combined with Gay.pl. For example, /gay -1 hihihihi will color the text using Gay.pl, and destroy the formatting with Dau.pl (since --daumode is on). IRC annoyances are like Voltron: Their power increases exponentially when they combine.
+
+==External Links==
+* [http://www.dau.pl/dauproxy/dauproxy.pl?url=http%3A%2F%2Fwww.encyclopediadramatica.com%2Findex.php%2FDau.pl&option_preset=--moron&german=1# This is how this page would like through the DAUproxy]
+{{Trolls}}
+{{ircseries}}
+
+[[Category:Softwarez]]

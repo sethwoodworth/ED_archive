@@ -1,0 +1,58 @@
+HorseNews
+{{perfect}}
+
+'''HorseNews''' is an [[IRC]] news [[bot]] written in [[Python]] that updates the channel with news related to [[Horse|horses]]. Some argue that the malware bundled with [[KaZaA]] is more useful than HorseNews. Judging by the logs below it seems that HorseNews was probably created by a baby with Klinefelter's syndrome.  There are estimated to be 5 people, worldwide, that are interested in horse-related news and have the internet. 6 of those 5 people use Google News search instead of HorseNews.
+
+The bot uses an [[RSS]] feed parser and an [[IRC]] client library. The [[RSS]] feed parser checks [[Google]] news every minute for new [[Horse|horse]] related stories. If any story that appears in the [[RSS]] feed is not present in HorseNews' cache, the link and title of the news story will be messaged to the channel(s) configured in the bot.
+
+In addition to up-to-the-minute updates on breaking [[Horse|horse]] news, the bot also works on demand. If a user messages the channel with "!horse", HorseNews will post the last 10 [[Horse|horse]] news headlines to the channel. Each headline will be prefixed with a digit from 0 to 9. If a user wants to read more about a story, they can message the channel with !horse [digit] and then HorseNews will message the channel with the URL.
+
+==Thank God for HorseNews==
+<pre style="/*margin-right:220px;*/overflow:auto">
+Jan 04 18:37:47 <HorseNews>     1870s Dead Horse Photo Sparks Mystery -> http://www.wral.com/news/strange/story/1126742/
+Jan 04 18:42:49 <HorseNews>     1870s Dead Horse Photo Sparks Mystery -> http://www.telegram.com/apps/pbcs.dll/article?AID=/20070104/APA/701043550
+Jan 04 18:47:50 <HorseNews>     1870s Dead Horse Photo Sparks Mystery -> http://abcnews.go.com/US/wireStory?id=2771680
+Jan 04 18:47:50 <HorseNews>     1870s dead horse photo sparks mystery -> http://www.kansas.com/mld/kansas/news/weird_news/16384907.htm
+Jan 04 18:52:51 <HorseNews>     1870s Dead Horse Photo Sparks Mystery -> http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2007/01/04/national/a151837S81.DTL
+Jan 04 18:57:52 <HorseNews>     1870s dead horse photo sparks mystery -> http://www.localnewswatch.com/jordanfalls/stories/index.php?action=fullnews&id=40034
+Jan 04 19:02:53 <HorseNews>     1870s Dead Horse Photo Sparks Mystery - KSL-TV -> http://www.ksl.com/?nid=333&sid=777471
+Jan 04 19:02:53 <HorseNews>     1870s dead horse photo sparks mystery - The Jackson Citizen-Patriot -> http://www.mlive.com/newsflash/national/index.ssf?/base/national-7/1167953055301140.xml&storylist=national
+Jan 04 19:07:55 <HorseNews>     1870s Dead Horse Photo Sparks Mystery -> http://www.casperstartribune.net/articles/2007/01/04/ap/strange/d8meomt81.txt
+Jan 04 19:12:59 <HorseNews>     1870s dead horse photo sparks mystery -> http://www.boston.com/news/odd/articles/2007/01/04/1870s_dead_horse_photo_sparks_mystery
+Jan 04 19:18:00 <HorseNews>     1870s dead horse photo sparks mystery - Pioneer Times-Journal -> http://www.onelocalnews.com/pioneertimesjournal/ViewArticle.aspx?id=40034&source=2
+Jan 04 19:18:00 <HorseNews>     1870s Dead Horse Photo Sparks Mystery -> http://www.siouxcityjournal.com/articles/2007/01/04/ap/strange/d8meomt81.txt
+Jan 04 19:23:01 <HorseNews>     1870s dead horse photo sparks mystery -> http://www.denverpost.com/watercooler/ci_4951130
+Jan 04 19:33:05 <HorseNews>     1870s Dead Horse Photo Sparks Mystery -> http://www.bismarcktribune.com/articles/2007/01/04/ap/strange/d8meomt81.txt
+Jan 04 20:05:45 <HorseNews>     1870s Dead Horse Photo Sparks Mystery -> http://www.cbsnews.com/stories/2007/01/04/ap/strange/mainD8MEOMT81.shtml
+Jan 04 20:30:50 <HorseNews>     1870s Dead Horse Photo Sparks Mystery -> http://www.wtopnews.com/index.php?nid=456&sid=1023480
+Jan 04 20:55:59 <HorseNews>     1870s dead horse photo sparks mystery -> http://www.mercurynews.com/mld/mercurynews/news/16384907.htm
+Jan 04 21:01:00 <HorseNews>     1870s dead horse photo sparks mystery -> http://www.miami.com/mld/miamiherald/news/16384907.htm
+Jan 04 21:09:21 <HorseNews>     1870s dead horse photo sparks mystery - Wilkes Barre Times-Leader -> http://www.timesleader.com/mld/timesleader/16384907.htm
+Jan 04 21:19:24 <HorseNews>     1870s dead horse photo sparks mystery -> http://www.ohio.com/mld/beaconjournal/16384907.htm
+Jan 04 21:24:25 <HorseNews>     1870s Dead Horse Photo Sparks Mystery -> http://www.washingtonpost.com/wp-dyn/content/article/2007/01/04/AR2007010401317.html
+Jan 04 21:29:26 <HorseNews>     1870s photo of man on dead horse sparks national humor -> http://www.wbay.com/Global/story.asp?S=5894201
+Jan 04 22:42:28 <HorseNews>     1870s Dead Horse Photo Sparks Mystery -> http://www.cumberlink.com/articles/2007/01/04/ap/strange/d8meomt81.txt
+Jan 04 22:47:32 <HorseNews>     1870s Photo Of Man On Dead Horse Sparks National Interest -> http://www.channel3000.com/news/10674336/detail.html
+Jan 04 23:12:44 <HorseNews>     1870s Dead Horse Photo Sparks Mystery -> http://www.theconservativevoice.com/ap/article.html?mi=D8MEOMT81&apc=9024
+Jan 05 01:41:22 <HorseNews>     1870s Dead Horse Photo Sparks Mystery -> http://www.casperstartribune.net/articles/2007/01/05/ap/strange/d8meomt81.txt
+Jan 05 02:10:13 <HorseNews>     1870s dead horse photo sparks mystery -> http://www.localnewswatch.com/benton/stories/index.php?action=fullnews&id=40125
+Jan 05 02:15:43 <HorseNews>     1870s dead horse photo sparks mystery - Pioneer Times-Journal -> http://www.onelocalnews.com/pioneertimesjournal/ViewArticle.aspx?id=40125&source=2
+Jan 05 02:19:35 <HorseNews>     1870s dead horse photo sparks mystery -> http://www.localnewsleader.com/brocktown/stories/index.php?action=fullnews&id=40125
+Jan 05 02:22:03 <HorseNews>     1870s dead horse photo sparks mystery -> http://www.newsone.ca/hinesbergjournal/ViewArticle.aspx?id=40125&source=2
+Jan 05 02:32:05 <HorseNews>     1870s Dead Horse Photo Sparks Mystery -> http://www.helenair.com/articles/2007/01/05/ap/strange/d8meomt81.txt
+Jan 05 03:27:51 <HorseNews>     1870s dead horse photo sparks mystery -> http://www.tri-cityherald.com/24hour/weird/story/3463981p-12676288c.html
+Jan 05 03:32:52 <HorseNews>     1870s Dead Horse Photo Sparks Mystery -> http://www.journaltimes.com/articles/2007/01/05/ap/strange/d8meomt81.txt
+Jan 05 04:48:14 <HorseNews>     Photo of a man on a dead horse from the 1870s sparks national ... -> http://www.iht.com/articles/ap/2007/01/05/america/NA_GEN_US_Dead_Horse.php
+Jan 05 05:57:57 <HorseNews>     Photo of a man on a dead horse from the 1870s sparks national ... - Asheville Citizen-Times -> http://www.citizen-times.com/apps/pbcs.dll/article?AID=200770105010
+Jan 05 06:23:58 <HorseNews>     Photo of a man on a dead horse from the 1870s sparks national interest -> http://www.cantonrep.com/index.php?ID=328464&Category=18
+Jan 05 08:38:56 <HorseNews>     1870s Dead Horse Photo Sparks Mystery -> http://www.thehorse.com/ViewArticle.aspx?ID=8605
+Jan 05 08:52:06 <HorseNews>     1870s photo of man on dead horse sparks national humor -> http://www.chippewa.com/articles/2007/01/05/ap-state-wi/d8mendeg3.txt
+Jan 05 10:45:59 <HorseNews>     Photo of a man on a dead horse from the 1870s sparks national ... -> http://www.komotv.com/news/national/5098431.html
+Jan 05 11:16:07 <HorseNews>     Photo of a man on a dead horse from the 1870s sparks national ... -> http://www.signonsandiego.com/news/nation/20070105-0037-deadhorse.html
+Jan 05 23:33:49 <HorseNews>     PHOTO OF A MAN ON A DEAD HORSE FROM THE 1870S SPARKS INTEREST ... -> http://www.thestar.co.za/index.php?fArticleId=3615312
+Jan 05 23:53:54 <HorseNews>     Photo of a man on a dead horse from the 1870s sparks national ... -> http://www.signonsandiego.com/news/nation/20070105-0037-deadhorse.html
+</pre>
+
+{{Timeline|Featured article March 10, [[2008]]|[[Dianne Thorley]]|[[{{PAGENAME}}]]|[[Gas Mask Girl]]}}
+
+[[Category: In Jokes]]

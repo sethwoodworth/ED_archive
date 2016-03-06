@@ -1,0 +1,15 @@
+Cowsay
+{{Stub}}
+
+Cowsay is a [[CLI]] program for making [[ascii art]] [[cow|cows]] with speech bubbles developed as a [[GNU]] replacement for [[figlet]].  It is necessary for chatting on the [[IRC]] network [[freenode]].
+
+== Example ==
+<tt><pre> ________ 
+< lol hy >
+ -------- 
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+</pre></tt>

@@ -1,0 +1,68 @@
+Bookz
+<center><big><big><big><big><big><font color="red"><font face="Courier New">#bookz</font></font></big></big></big></big></big></center><br>
+[[Image:Undernet Bookz - 1.jpg|thumb|The searchbot has returned my query for "frank herbert" in green highlighted text.]]
+Do you read a lot?  Are you fond of a relaxing evening curled up in front of a fire with a good book?  How do you like paying for books?  After reading this article, you will never have to go to a bookstore, a library, or shop online at [[Amazon]] for reading material ever again.  '''#bookz''' is an [[IRC]] channel on undernet.org that servers literally '''''millions''''' of files to users who know how to go about getting them.
+
+==Undernet==
+
+[http://www.undernet.org/ Undernet] is one of the "big three" IRC networks available to IRC users all over the world.  At any given time, there are over 100,000 users connected and chatting over the Undernet network, so you should have a pretty good idea of what sorts of things are going on on that server.  Since the server allows for file transfer, think of the network as your one-stop outlet for any sort of pirated software, movies, mp3s, and any other contraband you can think of...and amid all of that, you can find a little channel serving text files called simply "#bookz."
+
+==How to Find #bookz==
+[[Image:America reading is for faggots.jpg|thumb|If you are American, don't bother with this tutorial.]]
+It is a pretty simple process that involves a chat client and typing on the users part.
+
+#Obtain a working [[IRC]] chat client like [[mIRC]] or [http://www.xchat.org/ XChat] that allows the user to transfer files.
+#Connect to the irc.undernet.org server through that chat client.
+#Upon connection, find and enter the channel #bookz.
+
+==How to Find Books==
+[[Image:Undernet Bookz - 2.jpg|thumb|While in the channel, I typed out @search "frank herbert."  This will give the searchbot a set of parameters to look for.  The searchbot then returns all the replies it gets in a text file via DCC.]]
+
+Once you have connected to undernet and are in the channel called #bookz, it should be pretty easy to figure out what is going on there.  However, a quick set of instructions might be necessary for novice users:
+
+#Figure out what you want to read.  For example, you wish to read "Dune" by Frank Herbert.
+#Search for what you want.  #bookz has several "bots" that will quickly search through all of the files hosted within the channel.  To do a search, you must use the correct command words within the channel before you will be able to see a list.<BR />'''Example:  @search Frank Herbert'''<br />Doing a search like this will give you back a text file list of ALL the titles and ALL the files that contain the words "Frank" and "Herbert."  There is a very good chance that you will find "Dune" on that list.  However, that search is too broad, perhaps you want to narrow that down a bit so that you get a shorter list of files to choose from?<br/ > '''Example: @search Frank Herbert Dune'''<br /> This search will give you a list of all files containing both the author and the title of the file you are looking for.
+#Once you have that text file full of all those files you want, simply select the best version available.  Do this by copying the whole line of text that contains the file you wish.  Start with the exclamation point (!) and keep selecting all the way to the file size.  Copy that line.
+#Paste that line directly into the channel.  This will tell the file server that you wish to download that file.  You will be placed in a queue that usually moves pretty quickly owing to the fact that text files and .pdf files are generally small in size.  
+#Wait.
+#Your file should automatically begin downloading to your IRC client's default download folder.  
+#Once the download is complete, you can unrar, unzip, or open the file and read it as you would any other sort of eBook or txt file.
+
+{|style="margin: auto;"
+|<gallery>
+Image:Undernet Bookz - 3.jpg|mIRC gives you a warning when somebody is attempting to send you a file.  Click "Okay," and the bot will attempt to send you the search text.
+Image:Undernet Bookz - 4.jpg|Once you click "Okay," mIRC gives you this dialog, which is similar to a Firefox download dialog. Accept the download and you will receive your search text.
+Image:Undernet Bookz - 6.jpg|When you get your search query text file, make sure to select the whole line of text for the file you wish to download.  If you do not get the whole line (highlighted in red) the bot will not understand you and you wont get your book.
+Image:Undernet Bookz - 5.jpg|Once you paste the whole line of text in the channel, you should soon be seeing this download dialog.  This means that you are receiving your book.
+</gallery>
+|}
+
+==Etiquette==
+
+Since #bookz is not a "chat channel," but rather a channel reserved for the sharing of files, do not attempt to spam or chat there.  If you do, you will be banned in short order for at least 24 hours.  Repeat offenders will become permanently banned from the channel.  
+
+It must also be noted that several of the bots within #bookz also serve other types of files such as mp3 files.  While this is great, the downloader must remember that these sorts of files are much larger than simple .pdf files.  '''They are going to take much longer to download!''' Also, the IRC protocol isn't the best way to download files, it is often slower than other, more dedicated protocols.  Use it when you can't find your files anyplace else...unless you are looking for a book.
+
+==Crying About Reading==
+
+{{quote|It's such a shame.  I would read all those books if it weren't for...|Typical faggot who can't figure out how to download from #bookz}}
+
+One of the most common excuses people use for not reading books on their computers is that "they can't read that much online...it makes their eyes hurt."  This is a bullshit excuse, fucker, you are reading on your computer right now, so [[STFU]].  
+
+==See Also==
+
+*[[Books]]
+*[[IRC]]
+*[[Old media]]
+*[[ED IRC]]
+
+==External Links==
+
+*[http://www.undernet.org/ Welcome to the Undernet.org network]
+*[http://www.friedbeef.com/top-10-best-places-to-get-free-books-part-1/ Other ways to get some books.]
+*[http://forum.undernet.org/viewtopic.php?f=2&t=8065 Some faggot got banned from #bookz.  Now he is crying about it.]
+*[irc://irc.undernet.org irc.undernet.org]
+
+{{ircseries}}
+{{Danmatica}}
+[[Category:Communicae]]

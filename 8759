@@ -1,0 +1,113 @@
+Vandalize Every Equation
+'''''Vandalize Every Equation''''' is an organized [[Wikipedia]] vandalization effort and a [[forced meme]] started by [[User:jbs|jbs]] in the summer of [[2007]].
+
+The average mongrel dumbass opines, to questions of Wiki-legitimacy, that while [[TOW]] is not a reliable source for humanities topics, it is a reliable source for factoids related to exact and natural sciences. ''Vandalize Every Equation'' hopes to systematically erode this remaining source of credibility by adding intentional errors into [[LaTeX]] equations. 
+
+==Theory==
+[[Image:DangerousEquations.jpg|frame|right|[[David Carradine|This]] is what will happen to mathematicians who see this if you do this.]]
+[[Asspie]] [[Wikipedian]]s only know about useless shit [[noone|no one]] cares about and obtained by
+
+#watching television,
+#watching movies,
+#reading [[fan fiction]],
+#gaming, and
+#using [[open source|open-source]] software.
+
+Consequently, they never know anything useful, educational or credentialed. Therefore, edits relating to [http://en.wikipedia.org/wiki/Runge-kutta Runge-Kutta] won't be reverted for years, while edits to the [http://en.wikipedia.org/wiki/Harry_Potter Harry Potter] page will be reverted in milliseconds, not because the edits were necessarily vandalism, but rather because the someone used an American spelling while the rest was in British form.
+
+==Areas of [[Wikipedian|Wikipedian]] Knowledge ==
+* [[Wikipedia Porn]]
+* [[Star Wars]]
+* [[Lord of the Rings]]
+* [[Power Rangers]]
+* [[Lunix]]
+* [[Furries]]
+
+== Areas of No [[Wikipedian|Wikipedian]] Knowledge ==
+* De Casteljau's Algorithm
+* Distributed Constraint Optimization
+* Picard Algorithm
+* Black–Scholes
+* Fourier transform
+* Vector Calculus
+* The Finite Element Method
+* Any physics problem that doesn't involve [[Albert Einstein|Jewish relativity]]
+* Any formal languages or algorithms problem that doesn't involve the existence of quantum computers
+* Linguistics topics that don't directly relate to Esperanto, Ido, Interlingua, '''[[Klingon]]''', Modern Hebrew, Sindarin, or some other [[asspie]] artificial language understood by nobody.
+* The Genus and Species of Animals (Despite their knowledge of furries)
+
+==How To==
+Go into the source, and it will look something like this:
+
+<code>[; \mathbb{I}=\mathbb{T}\cup\left(\underset{n\in\mathbb{N}}{\bigcup}\overline{\mathbb{Q}}_{n}\right) ;]</code>
+
+Now, make the following replacements:
+
+{|
+|-
+! Replace every instance of || With
+|-
+| \frac || ''either'' \atop ''or'' \choose
+|-
+| \in || \subset
+|-
+| \subset || \in
+|-
+| \mathbb || \mathcal
+|-
+| \mathcal || \mathfrak
+|-
+| \mathfrak || \mathbb
+|}
+
+Wherever you see \xxxxx, where xxxxx is some Greek letter spelled out, capitalize the first letter \Xxxxx.
+
+Wherever you see \Xxxxx, where Xxxxx is some Greek letter spelled out with the first letter capitalized, change it to \xxxxx.
+
+{|
+|-
+! Change every || To
+|-
+| \exists || \nexists.
+|-
+| = ''sign'' || \neq
+|-
+| \cup || \cap ''and vice-versa''
+|-
+| \bigcup || \bigcap ''and vice-versa''
+|}
+
+[[????]]
+
+[[Profit]]!
+
+For more advanced vandalism techniques, you can study Advanced [[LaTeX| Cockulus]] or actually learn math jokes.
+For example: <math>e^\pi-\pi=20</math> is a good test for floating point errors. As no one on Wikipedia can get the jokes on XKCD, they won't know this is a setup because they don't read it.
+
+[[Image:E_to_the_pi_minus_pi.png]]
+
+==Project goals==
+The stated goal of ''Vandalize Every Equation'' is to discredit [[the Wikipedia Jews]] and restore mathematics and the sciences to its rightful owner, [http://www.springer-verlag.de Springer-Verlag].
+<math>e^\pi-\pi=20</math>
+
+==See also==
+*[[Vandal#How_to_properly_vandalize_Wikipedia|How to properly vandalize Wikipedia]]
+*[[X is not your personal army|The Internet is not your personal army]]
+
+==Links to examples==
+*[http://en.wikipedia.org/w/index.php?title=Distributed_constraint_optimization&oldid=142784352#Distributed_Jews_in_the_Oven_Problem Distributed constraint optimization]
+*[http://en.wikipedia.org/wiki/Distributed_constraint_optimization#Distributed_graph_coloring A second attempt to improve the mentioned article above.]
+*[http://en.wikipedia.org/w/index.php?title=Vector_calculus&oldid=158135160 Nobody can read this either way.]  But somebody did: [http://en.wikipedia.org/w/index.php?title=Vector_calculus&diff=158233260&oldid=158135160 Jitse Niesen (Talk | contribs) (revert - edit has many mistakes and I couldn't see anything positive at first glance)]  Of course Jitse Niesen comes from Europe where they don't have the crap education of America.
+
+
+{{WP}}
+{{Timeline|Featured article February 15, [[2008]]|[[Buttsecks]]|[[{{PAGENAME}}]]|[[Vandal]]}}
+
+[[Category:Wikis Suck]]
+[[Category:Trolls]]
+[[Category:Sites]]
+[[Category:Memes]]
+[[Category:In Jokes]]
+[[Category:Fandom Stuff]]
+[[Category:Events]]
+[[Category:Communicae]]

@@ -1,0 +1,40 @@
+Mi-Chan
+Mi-Chan is a nifty little app that dumps all the images on the front page of 4chan to your harddrive and displays them as a slideshow. It was written by [[anonymous]], probably to download [[hentai]]. [[Image:chancrawl.jpg|thumb|Mi-Chan dumping [[/B/]]]]
+
+
+Original post by Anon:
+
+''"Crawls any folder on 4chan, dumps images to local folder, configurable with bandwidth limit, refresh times, etc.
+''Also comes with a little gui app that refreshes by pressing space and shows the images as they're being grabbed - 4chan slideshow!
+''Unzip before using. Run Mi-Chan GUI, press space.
+''If you want to know how to change from B to another folder or stuff, read readme.
+
+''I'd that this is going to be an awful bandwidth rape, but most of you sit there hitting F5 repeatedly anyway, so this is only marginally worse.
+''Have fun!"'''
+
+
+04-07-09 Update: To be able to download from folders other than \b\ the program had to be modified. By default it just connected to img.4chan.org. 
+Many of the other folders are located at zip.4chan.org, orz.4chan.org, and cgi.4chan.org.
+Below are four new programs modified to work for specific boards. Each specifies which boards it will work for. Both the base programs and the silent versions have been modified.
+* [http://www.mediafire.com/?njnno2ywjdw img.4chan.org Version] - b and r9k
+* [http://www.mediafire.com/?kjghmldhnzm orz.4chan.org Version] - cgl, fa, fit, hr, wg, d, e, u, y
+* [http://www.mediafire.com/?juzgwediwjn zip.4chan.org Version] - a, an, c, ck, co, g, k, m, mu, n, o, p, po, sp, tg, toy, trv, tv, v, w, x, cm
+* [http://www.mediafire.com/?4xyyyqbqfct cgi.4chan.org Version] - gif, hc, r, h, s
+
+
+==See Also==
+*[[4chan]]
+*[[XChan Directory Dumper]]
+*[[4cGet|Chanmongler]]
+*[[4chan_image_downloader]]
+
+==External links==
+* [http://www.mediafire.com/?4yzgd0ydzsz Mi-Chan download #1]
+* [http://www.megaupload.com/?d=7XJNMBOH Mi-Chan download #2]
+* [http://www.megaupload.com/?d=QO4ZKFWJ Mi-Chan GUI download #1]
+* [http://www.4chan.org/ 4chan]
+* [http://cal.freeshell.org/2009/12/4chan-image-downloader/ Working python based clone]
+
+
+[[Category: Softwarez]] 
+[[Category:Chans]]

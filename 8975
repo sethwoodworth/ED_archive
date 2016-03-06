@@ -1,0 +1,91 @@
+What.CD
+'''[http://what.cd/ What.cd]''' claims to have born from an arguement with the holy one of [[waffles.fm]], but in fact they were born after an arguement between [[Jesus]] and [[OiNK]]. Jesus wanted to be made [[sysop|VIP]] on [[OiNK]] but was told that he was "a terrible cook" resulting in [[Raptor jesus|creative differences]].
+
+==Growth==
+What.cd has become the go-to site for [[stolen|advance]] releases of new CDs from [[noobs|hot new bands]] and [[SNCA|established acts]]. Of course, pre-releases are overwhelmingly [[scene]] releases, and these are always uploaded to torrent trackers after the pre. However, it is in the area of "ground breaking" experimental music, that What.cd pwns [[Waffles.fm]] every time.
+
+<center><gallery>
+Image:What smoothie upload.png
+Image:What smoothie top 10.png
+Image:What smoothie post.png
+</gallery></center>
+
+==[[RIAA]] H4x ==
+[[Image:What.cd.main.png|thumb|right|500px|how cryptic.]]
+In early November a serise of hacks took place on What.cd. This is because What.cd former sysop forgot What.cd was on a shared host and that this is royally stupid. He is now [[an hero]].
+
+==sickofjesus==
+''Main article: [[fag]]''
+
+A [[Shit nobody cares about|popular]] [[fag|mod]] at what.cd named [[butthurt|sickofjesus]] is the scum of the site.  He also hides his recently downloaded and uploaded torrents so that nobody knows that [[shit|his taste in music]] is composed primarily of [[rape|Hannah Montana]] and [[shit|Boats N' Hoes]]
+
+==Site Administration==
+Since they have no life, the staff over at what.cd frequently lurk this page so they can [[Asking for it|RAGE]] at users who edit it and talk negatively about the site or its members.  They then purge the evil from the site and tighten their assholes to make their 12-year-old angst seem more important than it actually is.  After this, the purged user then realizes that it's better over at waffles, and reports the site to the RIAA.
+
+==Oh Noes==
+[[Image:What.png|thumb|'''what''''s artist interface.]]
+These are the conversations between staff members and others about What.cd using user donations to rent seedboxes to improve their ratio economy on their own site. They have tried numerous times to take these conversations down from pastebin.ca. They have deleted multiple threads about this in their forums. There is currently one right now that is not being deleted and it has been replied with a lie from WhatMan.
+
+There are threads on zeropaid and filesharingtalk.org [http://www.zeropaid.com/bbs/showthread.php?t=48162 here] and [http://filesharingtalk.com/vb3/f-bittorrent-43/t-whatcd-uses-user-donations-seedbox-fix-ratio-economy-284999 here]
+
+== What.cd and MattieTK Drama==
+''Main article: [[Shit nobody cares about]]''
+
+Alright, official staff response coming in. These logs were posted by our former staff member MattieTK, who was demoted recently because he wouldn't stop sharing (half-true) confidential staff information with the general public. Looks like he's trying to go out with a bang.
+
+I see the first log as being the most important. It references a 'seedbox', which was actually one of our old leaseweb boxes that had been converted into an HTTP proxy, IRC Bouncer, mail server, backup server, SSH bouncer, testing server (for a new tracker we were trying for a while), and a seedbox (runing tf-b4rt). The reason for this server was to completely shelter our IP addresses from our actual server, in the event of a raid (since the staff are the biggest target here). Of course, most of the security features (eg. SSH bouncing) were only of interest to the sysops and admins, so many of the staff started refering to the box as simply "the seedbox". It cost almost nothing - less than one donation per day, and provided security to 15 staff members.
+
+After we moved to our newer, powerful server in Canada, we were able to set up all of the important features on it (the proxy, IRC bouncer, testing bed (the VIPs know where this is), and mail server, and we disabled SSH logging) since this server could actually handle the load (I'm sure most of you remember what our old server felt like - imagine what it'd be like if the staff were using it as an HTTP proxy, or hammering a php tracker to death as well). We also got a new 'backup server' closer to the data center (an old PC in one of the staff members' apartments). As such, the 'seedbox' became useless for anything besides torrenting (and it was rarely used for What.CD torrents, as was the intention when we installed tf-b4rt), so we just let it expire and got rid of it. Quotes:
+
+Staff channel on IRC Wrote:
+<pre>
+[Thu Mar 13 2008] [13:26:32] <A9>       we shouldn't be renewing it
+[Thu Mar 13 2008] [13:26:46] <A9>       that money needs to go into the second server
+[Thu Mar 13 2008] [13:27:15] <A9>       with 2 hosting plans, how the hell do we plan to
+                                         afford a seedbox too
+[Thu Mar 13 2008] [13:28:04] <WhatMan>  We get enough money in two days to pay for that seedbox.
+[Thu Mar 13 2008] [13:28:07] <WhatMan>  Less.
+[Thu Mar 13 2008] [13:28:15] <WhatMan>  It's not a moneysink.
+[Thu Mar 13 2008] [13:28:34] <WhatMan>  But I agree, it's pretty useless now.
+</pre>
+<br>
+Staff channel on IRC Wrote:
+<pre>
+[01:51am] xorian: (23:47:51) (A9) and the seedbox will be going byebye soon
+[01:51am] xorian: no way?!
+[01:52am] A9: it willz :P
+[01:52am] xorian: WHY!
+[01:55am] A9: because of hosting costs of having a server in canada AND sweeden
+          Note: The plan to stick another server in Sweden was canceled for technical purposes.
+</pre>
+
+
+Around a month ago, we found out that MattieTK was leaking sensitive information from our staff channels to the general public - including our move date to Canada (which was kept a secret then, in case our deal fell through). Most of the staff wanted to demote him immediately, but I was quite fond of him and opted to let him off with a verbal warning. Clearly, this was a pretty stupid idea.
+
+Two days ago, (incidentally, two days after we let our spare box go), we found out that MattieTK hadn't stopped leaking information (and was badmouthing us in public for giving disabled users second chances), so we made a snap decision and removed him from the staff. Needless to say, he got pretty pissed off at us for this, and now appears to be rather intent on destroying us. His method is, obviously, posting incomplete logs to make us look bad.
+
+Also - to those concerned - I vetoed the "let's whore ratio" idea once I came online, since that wasn't what the box was for (and the global ratio sorts itself out anyways when people download). Mattie left that part out of his log (he also left out the discussions where we decided that the 'seedbox' was no longer necessary).
+
+The other two logs aren't important at all.
+
+The second log was me chatting with NOP in a channel for disabled users, for exploiting a vulnerability found in all TBSource sites. It was from a few hours before I had to get on a plane to Thailand - I'm not going to go and code in an authorization system to every GET url on the site when I should be packing just because one dickhead decided to log people out with his avatar. Regardless, this minor security feature is present in Gazelle and has been there for a very long time.
+
+The final log is dblaze after a very long and stressful day - wonderful Mattie left out dblaze's reprimandation and our apology. Once I got online, the user was sent an extremely sincere letter of apology later and given back his account. And dblaze got in some serious shit.
+
+Basically, it's clear that MattieTK is just pissed off at us for finding out that he was leaking information and demoting him, and he's trying to drag us down with him via his usual method of posting incomplete log files. <i>Plox see [[What.cd/transcripts|What.cd and MattieTK]] for [[tl;dr]] drama</i>:
+
+==See Also==
+*[[OiNK]]
+*[[Waffles.fm]]
+*[[BitTorrent]]
+*[[Private tracker]]
+
+==External Links==
+*[http://what.cd/ what.cd]
+*[http://torrentfreak.com/search/what.cd What.cd harbl on Torrentfreak]
+<br>
+{{music}}
+
+[[Category:Sites]]
+[[Category:Music]]
+[[Category:Fandom Stuff]]

@@ -1,0 +1,52 @@
+Twatter/KanyeWest
+:<div>
+</div>
+:<div>
+</div>
+:<div>
+</div>
+:<div>
+</div>
+<div style="width:100%; height:100%; position:absolute; top:0; background-color:black; left:0; z-index:9000; font-size:127%; vertical-align:middle;">
+<div id="twitter-container" style="width:600px; margin:1em auto; font:0.75em 'Lucida Grande',sans-serif">
+<div id="twitter-header" style="text-align:left; width:600px">
+<div id="twitter-menu" style="float:right; border-radius:5px; -moz-border-radius:5px; padding:0.15em 0.7em; background-color:white;font-size:1.2em">
+<span style="padding:0.5em 0.15em; border:1px solid transparent">[[Main Page|Home]]</span>
+<span style="padding:0.5em 0.15em; border:1px solid transparent">[[Special:Mypage|Profile]]</span>
+<span style="padding:0.5em 0.15em; border:1px solid transparent">[[Special:Search|Find People]]</span>
+<span style="padding:0.5em 0.15em; border:1px solid transparent">[[Special:Preferences|Settings]]</span>
+<span style="padding:0.5em 0.15em; border:1px solid transparent">[[Encyclopedia Dramatica:Help|Help]]</span>
+<span style="padding:0.5em 0.15em; border:1px solid transparent">[[Special:Userlogout|Sign out]]</span>
+</div>
+[[Image:Twitter_logo_header.png]]
+</div>
+<div id="twitter-content-bubble-arrow" style="height:12px; margin-top:6px; padding-left:32px"><div style="border:6px; border-style:solid; border-bottom-color:white; border-right-color:white; width:0; height:0; display:inline-block"></div><div style="border:6px; border-style:solid; border-bottom-color:white; border-left-color:white; width:0; height:0; display:inline-block"></div></div>
+<div id="twitter-content" style="background-color:white; border-radius:5px; -moz-border-radius:5px; margin-bottom:15px; padding:15px; width:570px">
+<div id="twitter-wrapper" style="padding:5px 10px 15px; margin:0">
+<div id="twitter-status-body" style="font-size:1.2em; margin-right:30px; padding-bottom:15px">
+<div id="twitter-entry-content" style="font-size:2em; font-family:georgia; overflow:hidden; line-height:1.25em; font-weight:400">'''Twitter''', or as President Obama calls it, '''Twitter's''', was invented by [[Paulo Querido]] and is the Internets for black people and </div>
+<div id="twitter-reply" style="float:right; margin-right:-30px; margin-top:2px">[[Image:Twitter_reply_icon.png]][{{fullurl:{{TALKPAGENAME}}|action=edit&section=new}} Reply]</div>
+<div id="twitter-entry-meta" style="color:#999999; font-family:'Lucida Grande'; padding-top:2px">about {{#expr: (({{#time: U}} - 1234567890) / 86400) round 0}} days ago via web</div>
+</div>
+<div id="twitter-user-info" style="border-top:1px solid #E6E6E6; height:73px; line-height:1; padding-top:15px">
+<div id="twitter-thumb" style="float:left; margin-right:20px">[[Image:Twitter lm thumb.jpeg|48px]]</div><div style="font-size:2.3em">[http://twitter.com/KanyeWest kanyewest]</div><div style="font-size:1.2em; margin:3px 0 0 2px">Kanye West</div>
+</div>
+</div>
+</div>
+<div id="twitter-nav" style="border-radius:5px; -moz-border-radius:5px; padding:0.5em 0.7em; margin-top:15px; background-color:white; text-align:center">
+<span style="padding:0.5em 0.15em; border:1px solid transparent">© 2010 ED</span>
+<span style="padding:0.5em 0.15em; border:1px solid transparent">[[Encyclopedia_Dramatica:About|About us]]</span>
+<span style="padding:0.5em 0.15em; border:1px solid transparent">[[Special:Random|Contact]]</span>
+<span style="padding:0.5em 0.15em; border:1px solid transparent">[[Special:Recentchanges|Blog]]</span>
+<span style="padding:0.5em 0.15em; border:1px solid transparent">[[Special:Statistics|Status]]</span>
+<span style="padding:0.5em 0.15em; border:1px solid transparent">[[Encyclopedia_Dramatica:Portals|Goodies]]</span>
+<span style="padding:0.5em 0.15em; border:1px solid transparent">[http://encyclopediadramatica.com/api.php API]</span>
+<span style="padding:0.5em 0.15em; border:1px solid transparent">[[Serious business|Business]]</span>
+<span style="padding:0.5em 0.15em; border:1px solid transparent">[[ED:FAQ|Help]]</span>
+<span style="padding:0.5em 0.15em; border:1px solid transparent">[[Template:Opentasks|Jobs]]</span>
+<span style="padding:0.5em 0.15em; border:1px solid transparent">[[Special:Random|Terms]]</span>
+<span style="padding:0.5em 0.15em; border:1px solid transparent">[[Encyclopedia_Dramatica:Privacy_Policy|Privacy]]</span>
+</div>
+</div>
+</div>
+[[w:Twitter]] [[en.w:Twitter]]

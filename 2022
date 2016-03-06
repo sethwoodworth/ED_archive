@@ -1,0 +1,34 @@
+Daniel J. Bernstein
+Daniel J. Bernstein (DJB) is a [[l33t]] [[h4x0r]] and professor of mathematics at [[Rutgers University|UIUC]]. He is the author of qmail and djbdns, a mailer and a DNS server noted for their secure design and association with epic [[trolling]].
+
+Qmail is notable for its [[shit nobody cares about|software license]], which forbids redistribution of modified versions. This of course [[drama|raised the hackles]] of [[Lunix]] [[fanboys]] for whom principle demands that software be [[Richard Stallman|free]]. 
+
+DJB was the source of much [[lulz]] on the [[OpenBSD]] mailing lists when he [[kibo|swooped in]] to defend qmail's licensing policy after [[Theo de Raadt]] removed it from [[OpenBSD]]. The resulting flamewar ended in the infamous rejoinder:
+
+<blockquote>
+<pre>
+From: Theo de Raadt <deraadt@cvs.openbsd.org>
+To: "D. J. Bernstein" <djb@cr.yp.to>
+cc: ports@openbsd.org
+Subject: Re: Why were all DJB's ports removed? No more qmail?
+Date: Tue, 28 Aug 2001 00:17:16 -0600
+
+
+> It [Netscape --Ed.] has been provided for years as a port. It has even been provided as a
+> package on several of the CD-ROMs. Why haven't you been objecting to it?
+
+No it has never been on the CD. The most restrictive source or binary
+license on the CD is the GPL. I don't think vim or pine or pico made
+it on either, since their licenses have tiny restrictions.
+
+> Hypocrite.
+>
+> ---Dan
+>
+
+Why do you sign your email twice? 
+</pre>
+[http://archives.neohapsis.com/archives/openbsd/2001-08/2854.html]
+</blockquote>
+
+{{Trolls}} [[Category:Softwarez]]

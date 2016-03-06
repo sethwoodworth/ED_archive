@@ -1,0 +1,144 @@
+PROJECT CHANOLOGY/CONTACT INFO
+[[PROJECT CHANOLOGY|'''Back to PROJECT CHANOLOGY article.''']]
+{{chanology}}
+
+{{clear}}
+{{TOCright}}
+
+== Introduction ==
+
+'''<u>Decentralization</u>''' is the name of the game. Each local anon cell needs to get its own:
+
+* Website
+* Partyvan IRC channel
+* Email contact(s)
+* Fallback IRC channel on EFnet or Freenode
+
+And add it to the list of contacts by continent, below.
+
+== Contacts By Continent ==
+
+*'''[[PROJECT CHANOLOGY/CONTACT INFO/N AMERICA|N America]]'''
+*'''[[PROJECT CHANOLOGY/CONTACT INFO/S AMERICA|S America]]'''
+*'''[[PROJECT CHANOLOGY/CONTACT INFO/EUROPE|Europe]]'''
+*'''[[PROJECT CHANOLOGY/CONTACT INFO/AFRICA|Africa]]'''
+*'''[[PROJECT CHANOLOGY/CONTACT INFO/ASIA|Asia]]'''
+*'''[[PROJECT CHANOLOGY/CONTACT INFO/OCEANIA|Oceania]]'''
+
+== IRC ==
+
+*Get the [https://addons.mozilla.org/en-US/firefox/addon/16 Chatzilla Firefox Extension] or your prefered client ([http://www.xchat.org/ XChat]) and click a link under "Servers" or type:<br>
+<code>/server irc.partyvan.fm</code> and then, once connected, <code>/join #xemu</code>.  Chatzilla is the easist way to do this.
+
+
+=== Partyvan ===
+
+* Partyvan is the main IRC network for Project Chanology.
+
+*An additional irc server on a dedicated server has has been set up at irc.xeross.net, #xenu 
+**[irc://irc.xeross.net/xenu Click to Join]
+
+*Another irc server at irc.rizon.net #xenu
+**[irc://irc.rizon.net/xenu Click to join]
+
+*Ausfags on the other side of the intarnets, irc.synirc.net, #ausraid
+**[irc://irc.synirc.net/ausraid Click to Join] 
+
+==== Servers ====
+
+Partyvan servers include:
+
+*[irc://irc.g00ns.net irc.g00ns.net]
+*[irc://irc.lulzhost.net irc.lulzhost.net]
+*[irc://irc.partyvan.fm irc.partyvan.fm]
+*[irc://irc.pirated.us irc.pirated.us]
+*[irc://irc.evilcoders.net irc.evilcoders.net]
+*[irc://irc.exploitercode.net irc.exploitercode.net]
+*[irc://irc.blabstation.net irc.blabstation.net ]
+*[irc://irc.anonymousrelations.net irc.anonymousrelations.net]
+*[irc://lord.ron.hubbard.anonymousrelations.org lord.ron.hubbard.anonymousrelations.org]
+*[irc://lain.psychomatic.us lain.psychomatic.us ]
+*[irc://hand.banana.anonymousrelations.org hand.banana.anonymousrelations.org]
+*[irc://genesis.quasared.net genesis.quasared.net]
+*[irc://pastafarians.for.anonymousrelations.org pastafarians.for.anonymousrelations.org]
+*[irc://mudkipz.ath.cx mudkipz.ath.cx]
+
+
+==== Channels ====
+
+Some notable channels
+
+* #xemu -- main chanology channel
+* #strategy -- talk short/long term strategy
+* #reports -- media reports on Anonymous
+* #Disseminate -- Articles/info to be published/Submitted to Digg, spread across the interwebs
+* <del>#IRL -- talk about IRL raids.</del> Now deprecated, use local chans for this!
+* #315chan -- official chan for #315chan
+* #radio -- Partyvan Radio
+* #g00ns -- official g00ns #chan
+* #prank -- official prank #chan
+* #digg -- discuss articles to digg/bury, see [[Digg Brigade]]
+* #ddigg -- chan for [[Operation DDigg]]
+* #COA -- Church of Anonymous, plans for writing [[The Book of Anon]]
+* #enturbulation -- Enturbulation.org channel
+
+=== EFnet ===
+
+* [irc://irc.efnet.net irc.efnet.net]
+
+Large IRC network, bans Tor.
+
+=== Freenode === 
+
+* [irc://irc.freenode.net irc.freenode.net]
+
+Friendly to Tor
+
+== 315chan ==
+
+* Primary Chanology-related chan: [http://315chan.org/ 315chan]
+
+== Getting a Website ==
+
+=== Domain Name ===
+*[http://www.godaddy.com/ GoDaddy.com] is a decent Domain Name Registrar.
+
+=== Hosting ===
+*http://www.hightechhost.net is a new Hosting Company run by one of the g00ns. They offer DDoS Protection and Offshore Hosting, and are very cheap compared to most hosts. I encourage all Anons to patronize them.
+*The shopping cart is currently down, so go to #hightechhost on [irc://irc.efnet.net/ EFnet] and PM tribal if you want hosting.
+
+==Freenet for Anonymous==
+The irc server above has a channel called #freenet. there, you can swap noderefs. Don't know what they r? u r noob, but i forgive. You can have freenet, too. Go to [http://freenetproject.org/download.html the Freenet site] and download the one for your operating system. go through the setup wizard that appears in your web browser.
+
+DO NOT ADD THE 5 "FREE" FRIENDS! we want this network to ONLY have Anonymous.
+
+Done? find out your [http://moanmyip.com ip address]. go back to your [http://127.0.0.1:8888/ freenet homepage] and click "configuration." scroll down to the "ip hint" paste it there. submit the page.
+
+go to the friends link. scroll down and click teh "as text" link. COPY THE RESULTING PAGE AS-IS. Go to a [http://pastebin.ca pastebin]. paste your noderef info to it. see how the link for that is http://pastebin.ca/[a number] ? change it to http://pastebin.ca/raw/[a number]. COPY that url.
+
+In the freenet irc channel... see if anyone is around.. and, if so, offer to swap refs. if they agree, paste them that last url you copied. they'l give you a url. on your freenet homepage, click "friends" again. paste that url your anonymous friend gave you into the appropriate place, and click submit.
+
+Done.
+
+NOTE: IF YOU AND YOUR NEW FRIEND ARE BEHIND A NAT, IT WILL NOT WORK. IF YOU DID EVERYTHING RIGHT, AND YOUR FRIEND DID EVERYTHING RIGHT, AND YOU DON'T CONNECT, THIS IS YOUR PROBLEM. but if just one of you is NATted, you're good to go.
+
+'''Secure Board:''' Xenu <br>
+Get [http://jtcfrost.sourceforge.net/ Frost]
+
+== Social networking groups ==
+
+'''Note: IT IS STRONGLY INADVISABLE TO JOIN THESE GROUPS UNDER YOUR REAL NAME, AS THIS WOULD MEAN LOSING YOUR ANONYMITY. JOIN AT YOUR OWN RISK.'''
+
+*[http://apps.facebook.com/causes/view_cause/60523?recruiter_id=11844267 Facebook Cause]
+*[http://forums.somethingawful.com/showthread.php?threadid=2751120&userid=0&perpage=40&pagenumber=1 Something Awful thread]
+*[http://www.facebook.com/group.php?gid=8321268365&ref=mf Project Chanology (Facebook)]
+*[http://www.facebook.com/group.php?gid=9922246956 PROJECT CHANOLOGY (Facebook)]
+*[http://www.facebook.com/group.php?gid=8692134295&ref=mf War Against Scientology (Facebook)]
+*[http://www.myspace.com/lulzscientology PROJECT CHANOLOGY MYSPACE]
+*[http://facebook.com/group.php?gid=8285909901 Ohio Anonymous Legion (Facebook)]
+*[http://www.bebo.com/scientology08  The War on Scientology bebo group!(Bebo)]
+
+Torfag group: http://www.facebook.com/group.php?gid=8066723446
+
+[[Category:Events]]
+[[Category:Chans]]

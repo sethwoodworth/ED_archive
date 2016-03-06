@@ -1,0 +1,32 @@
+Irssi
+[[Image:Irssi.png|thumb|In an untypical open sores manner Irssi completely lacks the evil auto-rejoin feature that all the [[script kiddie]]s love.]]
+
+Fast, modular, [[Perl]]-scriptable, and low memory imprint [[IRC]] client. The official client of [[Buttes]], [[Bantown]], and [[Insub]].
+
+To scroll in irssi, simply hit escape, then p to go up or n to go down. Remember to hit escape for each window move. It couldn't possibly be easier! As an alternative, if you happen to live in the current era, you can just use the "Page Up" and "Page Down" keys, though irssi loses half of its fun if you do that, and of course that only works if you're actually using a terminal, and not a VT100 compliant xterm, in which case you're just scrolling your xterm.
+
+==As a drama-generating technique==
+EPIC and BitchX fanatics are known to get [[penis]] rash when confronted with the facts of irssi's excellent UI and superior scriptability. It is suggested that you join #epic and #bitchx and scroll "irssi 4 lyf" in [[gay.pl|rainbow figlet]].
+
+
+Alternatively, irssi users can be [[butthurt]] should you suggest they use an IRC client that lets you use the magical technological advance known as a "Graphic Interface" instead of using a 30-year-old [[Command line]].
+
+== IRC: Serious business ==
+
+As the [http://www.irssi.org/documentation/faq irssi faq] notifies us:
+
+*'''Q: How do I autorejoin channels after being kicked?'''
+**''A: That's evil and you shouldn't do it... If you're joined to channels who kick people for fun, try changing channels or something.''
+In this way, the creators of irssi remind us that [[the internets]] truly is [[serious business|serious fucking business]]!
+
+Of course, in a completely contradictory manner, you can find the autorejoin script at [http://scripts.irssi.org/scripts/autorejoin.pl http://scripts.irssi.org/].
+
+==Awesome Features (That irssi doesn't have)==
+* Proxy support
+* Easy user setup
+* Understandable interface
+* Efficiency
+* Not depending on fucking GLib
+<br>
+{{ircseries}}
+[[Category: Softwarez]]

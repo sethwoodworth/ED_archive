@@ -1,0 +1,110 @@
+Banbot
+[[Image:Banbot.png|thumb|The banbot in action]][[Image:Grenadeb0t.jpg|thumb|[[Last Thursday]], [[Yiri]] ported the banbot to RL.]]
+
+The banbot is a bot authored by [[aempirei]]. It joins every public channel on a given [[IRC]] network and proceeds to announce the existence of [[Bantown]]. It then /invites every user it encounters to #bantown and adds their nick to its queue.
+
+When a nick in the queue joins bantown, it bans them.
+
+The banbot sometimes leads to interesting dialogue with the administrators of the largest IRC networks in the world:
+
+   01:07 <@[[oclet]]> 22:05 -!- Irssi: Starting query in mzima with Lindy_
+   01:07 <@oclet> 22:05 <Lindy_> my want to stop spamming
+   01:07 <@oclet> 22:06 <oclet> i am pleading to you
+   01:07 <@oclet> 22:06 <oclet> to allow us to continue spamming
+   01:07 <@oclet> 22:06 <oclet> we are sad internet losers
+   01:07 <@oclet> 22:06 <oclet> and find this to be fairly entertaining
+   01:07 <@oclet> 22:07 <Lindy_> then find another network
+   01:07 <@oclet> 22:07 <Lindy_> I bet you do.
+   01:07 <@oclet> 22:07 <oclet> we're doing it on 3 other networks as well
+   01:07 <@oclet> 22:07 <Lindy_> just dont do it on mine
+   01:08 <@oclet> 22:07 <Lindy_> humor someone else
+   01:08 <@oclet> 22:07 <oclet> we'll let you hang out there
+   01:08 <@oclet> 22:07 <oclet> if you promise to be nice
+   01:08 <@[[sdf]]-> hhahah
+   01:08 <@sdf-> promise her +v
+
+==root66 was never in Bantown.==
+[[Image:Banbot2.jpg|thumb|In the future, an advanced version of the Banbot will serve as Matt LeBlanc's bodyguard]]You heard me! Never in Bantown. It's a lie!
+   03:16 -!- mode/#bantown [+b root66!*@*] by RAPETIME
+   03:16 -!- root66 was kicked from #bantown by RAPETIME <nowiki>[lol welcome to BANTOWN : http://i9.photobucket.com/albums/a71/sdfromage/tbb.gif ] </nowiki>
+   03:17 <@LOL-ita> i ate too much cotton candy
+   03:17 <@aempirei> LOL IS KATIES LABIA FIRM
+   03:17 <@LOL-ita> lol root66
+   03:17 -!- RAPETIME [bbqjewface@undef.net] has quit [Killed (root66 (ban this))]
+   03:17 <@veew> bahahaha
+   03:17 <@aempirei> LOL BAN THIS
+   03:17 <@LOL-ita> lol root66
+   03:17 <@aempirei> everyone /invite root66
+   03:17 <+HIVlntine> haha
+   03:17 <@LOL-ita> LOL BANT THIS
+   03:17 <@aempirei> >>> Inviting root66 to #bantown
+   03:17 -!- mode/#bantown [-b root66!*@*] by veew
+   03:18 -!- root66 [root66@efnet.orgy] has joined #bantown
+   03:18 < root66> ahahaha
+   03:18 <@veew> WELCOME TO BANTOWN
+   03:18 < root66> best
+   03:18 < root66> channel
+   03:18 <@aempirei> whats up rape time!
+   03:18 < root66> ever
+   03:18 -!- mode/#bantown [+v root66] by veew
+   03:18 -!- root66 was kicked from #bantown by LOL-ita [WE BANNED THAT]
+   03:18 -!- root66 [root66@efnet.orgy] has joined #bantown
+   03:18 <@aml> What about Katie? Is she curious about Scientology?
+   03:18 < root66> YOU ARE DEAD TO ME BANDTOWN
+   03:18 <@aempirei> WHO IS KATIE
+   03:18 <@aml> Yeah, absolutely. She digs it.
+   03:18 < root66> YOU HEAR THAT?
+   03:18 < root66> DEAD TO ME
+   03:18 <@aempirei> HOW IS KATIES LABIA
+   03:19 < root66> GOOD DAY SIR
+   03:19 <@veew> =[
+   03:20 < root66> AHAHAH
+   03:20 <@aempirei> man who wants to see my hard boner
+   03:20 < root66> OK LOOK
+   03:20 < root66> LET'S MAKE A DEAL GUYS
+   03:20 <@aempirei> YOURE LOOKIN AT IT?
+   03:20 < root66> *I WAS NEVER HERE*
+   03:20 -!- mode/#bantown [+v root66] by veew
+   03:20 <@aempirei> i wasnt either
+   03:20 <@aempirei> ;)
+   03:20 <@veew> never here
+   03:20 <@veew> got it.
+   03:20 -!- root66 [root66@efnet.orgy] has left #bantown []
+
+==Banbot vs [[Freenode]]==
+   18:37 <@BearPerson> freenode is a network about open-source software and other projects of peers helping peers
+   18:37 -%- mode/#bant0wn [-bb *!?=oclet@hackforjes.us *!*@*] by oclet
+   18:37 <@oclet> i heard it was for warez
+   18:37 <@oclet> and pron
+   18:37 <@BearPerson> you're quite welcome to hang out in the support channels and get or provide support
+   18:38 <@BearPerson> but we're a bit harsh about warez and spam
+   18:38 <@oclet> yeah me too
+   18:38 <@oclet> i hate when people dont pay for software
+   18:38 <@BearPerson> check out http://irc.netsplit.de/networks/
+   18:38 <@oclet> it makes me want to slice my dong with a razor blade
+   18:38 <@BearPerson> that's probably the most complete list of IRC networks out there
+   18:39 <@BearPerson> I'm sure you'll find a network that is less harsh about this sort of stuff
+   18:39 <@oclet> sweet. wanna harass quakenet with me?
+   18:39 <@oclet> it will be teh l0lz
+   18:40 <@BearPerson> at least, it will be more appropriate ;-)
+   18:40 <@BearPerson> you see, quakenet is more IRC and "chaos" oriented than freenode, though not as much as EFnet
+   18:41 <@BearPerson> freenode is neutral territory. We're here to provide a place for friendly support, which you can use or provide if you want
+   18:42 <@BearPerson> but we can't be that place if we're constantly running after spammers and cleaning up channel wars
+   18:42 <@oclet> i'm just here for the pr0n and the warez
+   18:42 <@oclet> i dont know anything about spam
+   18:42 <@BearPerson> then you're on the wrong network
+   18:42 <@oclet> are you a [[furry]]?
+   18:45 <@BearPerson> just keep this off freenode please, okay?
+   18:45 <@oclet> sure
+   18:45 <@oclet> tell me when you take the ban off of tor
+   18:45 <@oclet> so i can do it again
+
+==License Agreement==
+By using the Banbot you agree to abide by the terms and conditions of the [[BPL]].
+
+==Links==
+*[http://www3.goyk.com/snl3-3xx9cn3l2na33a/cartoons/robotsareourfriends.swf A flash movie] inspired by the banbot.
+*[http://annabot.nl/ A banbot-inspired music video].
+
+[[Category:Drama-generating_techniques]]
+[[Category: Softwarez]]

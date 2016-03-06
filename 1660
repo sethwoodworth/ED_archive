@@ -1,0 +1,75 @@
+Code
+[[Image:Onezeroone.jpg|thumb|left|Code.]]
+{{haxor}}
+'''Code''' (or source code) is a series of statements and words that are written by a [[hacker|programmer]] to make a program (like [[Windows]]). To make your code into a program, you need a compiler. You must first also learn one of the [[over 9000]] [[programming]] languages to code in (no srsly, [http://en.wikipedia.org/wiki/List_of_programming_languages look].). Coding is usually boring as fuck, and takes forever to actually make a working program (having to debug 72 times takes up a lot of time).
+== Examples of Code ==
+
+'''[[Java]]'''
+ // sux.java
+ public class sux {
+ public static void main(String[] args) {
+ System.out.println("Java sucks");
+ }
+ }
+
+'''[[C]]'''
+ #include <stdio.h>
+ int main(void)
+ {
+ printf("C");
+ return 0;
+ }
+
+'''[[QBASIC]]'''
+ 10 INPUT "lol wut?", U$
+ 20 PRINT U$
+ 30 INPUT "???", N
+ 40 S$ = ""
+ 50 FOR I = 1 TO N
+ 60 S$ = S$ + "lolwut"
+ 70 NEXT I
+ 80 PRINT S$
+
+'''[[Scratch|DarkBASIC]]'''
+ sync on
+ make object cube 1,1
+ do
+     yrotate object 1,wrapvalue(object angle y(1)+1)
+     text 0,0,"COCKSUCKER"
+     sync
+ loop
+
+'''[[JavaScript]]'''
+ if(this.WScript){
+     WScript.Echo('You\'re running this program from the desktop.');
+ }else{
+     alert('You\'re running this program from the browser.');
+ }
+
+'''[[Virus|AutoHotkey]]'''
+ MsgBox Hello world.
+
+'''[[LOLCode]]'''
+ HAI
+ CAN HAS STDIO?
+ VISIBLE "I CAN HAZ CHEEZEBURGER?"
+ KTHXBYE
+
+'''[[HTML]]'''
+ <html>
+ <head>
+ <title>8====o</title>
+ </head>
+ <body bgcolor="#FF0000" scroll="no">
+ <nowiki><center><h1><br />COCKS</h1></center></nowiki>
+ </body>
+ </html>
+
+== See Also ==
+*[[Programming]]
+*[[Forth]]
+*[[Dan Brown]]
+
+{{disambig}}
+{{Softwarez}}
+[[Category:Stub]]

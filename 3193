@@ -1,0 +1,140 @@
+GOBBLES
+{{SecurityFaggotry}}
+GOBBLES is the greatest group of [[troll]]s that have ever existed. Their drama-generating techniques used were truly of far greater magnitude than anything that has been seen since. The skill and grace with which they whipped the entire whitehat security industry into a frothing, hateful rage make even hardened masters of trollery like the [[GNAA]] look retarded and inefficient.
+
+GOBBLES was such a master of trollery that songs will be sung of their feats for many generations of trolls to come.
+
+==Who is/are GOBBLES?==
+GOBBLES Security is an off-again on-again group of about 20 [[hackers]] who look for exploitable code and security flaws with all sorts of internet related programs. GOBBLES has found critical flaws in many different programs, including:
+*Cherokee Webserver
+*CSS
+*[[Java]]
+*[[OpenBSD]] servers running [[Apache]]
+*[[UNIX|NTOP]]
+*The [[MP3]] file format (see [[GOBBLES#MP3 Hydra]])
+*Hushmail
+*IRCit IRC Client
+
+GOBBLES is infamous for their no-heads up "Vendor Notifications" which serve as a massive "[[Fuckyou|Fuck You]]" to the company who's product is being [[Rape|worked around]]:
+{{quote|The professional staff of GOBBLES Security believe that by releasing our advisories without vendor notification of any sort is cute and humorous, so this is also the first time the vendor has been made aware of this problem. We hope that you're as amused with our maturity as we are. ;PpPppPpPpPPPpP|GOBBLES Security}}
+
+==MP3 Hydra==
+In 2003, GOBBLES caused an internet-wide panic when they announced that they were working with the [[RIAA]] to make a [[Spyware|hydra]] that had already propagated to all corners of the internet, infecting some 95% of [[p2p]] networks. Furthermore they said that the exploit was [[Your resistance only makes my penis harder!|totally uncatchable using normal means]].
+
+[[Security Faggots]] the world over proceeded to [[shit bricks]] and [[Delete fucking everything|delete all their music]] from their computers, only to have GOBBLES come out a week later saying that it was all an [[I did it for the lulz|elaborate hoax]]. They also pointed out a security vulnerability in the file format itself that allowed for the insertion of code to delete things from Unix-based systems.
+
+{{quote|The only excuse we can offer for our immaturity is that we like the fame|GOBBLES Security talking to <i>[[Wired]]</i>}}
+
+This has also served to smear GOBBLES name through the muck, so that when they release their next security warning the world will ignore them and pay the penalty.
+
+==Trolling the [[Security Faggots|Securifags]]==
+[[Image:Comic-001.jpg|thumb|First issue of GOBBLES webcomic.]]
+GOBBLES' more infamous troll targets included [[Theo de Raadt]], Alfred Huger, and Michal Zalewski (aka lcamtuf). He asked whitehat 'security expert' [[Raven]] what she was doing working in security when she couldn't even keep her own laptop from being [[pwn]]ed at schmoocon.
+
+== drunken.fi.st hax ==
+<pre>Apr 24 08:20:13 <rave> im about to release my httpd
+Apr 24 08:21:01 <rave> yes yes opensource
+Apr 24 08:25:20 <rave> fixing the release of the httpd
+Apr 24 08:27:50 <rave> does this look 1337 or what
+Apr 24 08:27:51 <rave> chmod 777 $install/sphiro/{icons,errors}
+Apr 24 08:29:10 * rave is working on the install .sh script that
+                        works with ./configure and the makefiles
+...
+Apr 24 08:37:27 <rave> ilja #rosiello misses you
+Apr 24 08:38:32 <ilja> no 1 in #rosiello
+Apr 24 08:39:35 <rave> i do
+Apr 24 08:39:40 <rave> im rosiello
+Apr 24 08:39:46 <rave> with 21 others
+Apr 24 08:40:02 <rave> at tops since whe linked with 0x557 securitu
+Apr 24 08:40:05 <rave> at tops since whe linked with 0x557 security
+Apr 24 08:40:42 <rave> <-- mercy heeft verlaten (Ping timeout)
+Apr 24 08:40:46 <rave> hmm
+Apr 24 08:41:07 <rave> he died
+Apr 24 08:41:16 <rave> on rosiello i think here as well
+Apr 24 08:41:25 <rave> my knife actualy worked
+Apr 24 08:41:30 <mercy> O_O
+Apr 24 08:41:32 <mercy> right
+...
+Apr 24 10:09:22 <rave> http://www.taintedknowledge.net/images/people/rave.jpg
+Apr 24 10:11:30 <rave> http://www.taintedknowledge.net/images/people/rosiello/
+...
+Apr 24 10:13:01 <ilja> nraziz is a member of rosiello ?
+Apr 24 10:13:24 <rave> no
+Apr 24 10:13:29 <rave> a visitor
+Apr 24 10:13:33 <rave> mercy is a member
+Apr 24 10:13:34 <rave> me
+Apr 24 10:13:39 <ilja> mercy is ?
+Apr 24 10:13:43 <ilja> didn't know that
+Apr 24 10:13:50 <rave> ex w00w00 what his name again
+Apr 24 10:13:55 <rave> and angelo
+Apr 24 10:14:10 <rave> ex w00w00 napster
+Apr 24 10:14:26 <rave> angelo,rave,napster,mercy
+Apr 24 10:14:38 <ilja> mercy is really in rosiello ?
+Apr 24 10:14:42 <ilja> i though you were kidding
+Apr 24 10:15:06 <rave> no im not
+...
+Apr 24 10:17:23 <rave> no
+Apr 24 10:17:33 <rave> angelo has some lag in updating the site
+Apr 24 10:17:48 <rave> i was like 3 months in rosiello and still the site sayed
+Apr 24 10:17:52 <rave> angelo,phinix
+Apr 24 10:17:58 <rave> *phunix
+Apr 24 10:18:07 <_demiurge> hey rave
+Apr 24 10:18:19 <rave> in the mean while i released 6 remote exploits
+for windows
+... a few hours later ...
+... rave finds out GOBBLES hacked drunken.fi.st ...
+
+Apr 24 13:25:18 <rave> KOKANIN UR BOX IS FUKCING HACKED AND ALL MY
+                        STUFF IS GONE!!!!!!!!!
+Apr 24 13:25:19 <rave> ty
+Apr 24 13:25:45 <rave> eted
+Apr 24 13:25:45 <rave> <calibre> hmm
+Apr 24 13:25:49 <rave> oops
+Apr 24 13:26:02 <rave> /usr/X11R6/bin/xauth: timeout in locking authority file
+/home/rave/.Xauthorityhi from GOBBLES
+Apr 24 13:26:02 <rave> rm: /home/GOBBLES_rave: Permission denied
+Apr 24 13:26:02 <rave> cp: /tmp/suid_shell_rave: Permission denied
+Apr 24 13:26:02 <rave> chmod: /tmp/suid_shell_rave: Operation not
+                        permitted
+Apr 24 13:26:02 <rave> ravedrunken:~ $ls
+Apr 24 13:26:03 <rave> ravedrunken:~ $ls
+Apr 24 13:26:04 <rave> ravedrunken:~ $dir
+Apr 24 13:26:06 <rave> -bash: dir: command not found
+Apr 24 13:26:08 <rave> ravedrunken:~ $ls
+Apr 24 13:26:12 <rave> ravedrunken:~ $
+Apr 24 13:26:16 <rave> where is my research
+Apr 24 13:26:59 <rave> who the fuck has bee g00fing on that box ?, report to me
+and ile show u how mad i am
+Apr 24 13:27:16 <rave> that is like 2 years of research missig stupid
+                        fucks
+Apr 24 13:27:24 <rave> bah
+Apr 24 13:28:58 <rave> sorry i didnt realy intended to react like that
+                        but im mad i hope there are backups some where 
+</pre>
+
+
+== Weev Gettin' "Tree'd" (though not really...) ==
+
+On Sept. 15th 2009, weev was semi-[[dox|dox'd]] on the notorious [[goatse|Full-Disclosure]] mailing list.[http://seclists.org/fulldisclosure/2009/Sep/0167.html (link)]
+
+{{quote|lol buddy i put my name in my own fuckin' blog its not like youve discovered some big secret
+
+also, i lol that it took the worlds most [[waco|well funded law enforcement agency]]
+working at the behest of the one true arm of [[jews|satan]] just to dox me.
+
+you dudes are [[fail|sad.]]
+
+[[Virginia Tech|lets smoke crack and kill jews.]]|weev's responce}}
+
+In essence, GOBBLES gets their name from what [[updownmostly|they like to do to boys cocks]], just like those faggots in [[myg0t|zf0]]. It's not even really a "tree" because his dox [[fail|are not]] in a [[unix|tree format.]]
+
+==Links==
+*[http://www.def-con.org/media/gobbles.avi GOBBLES defcon speech] featuring pr0j3kt m4yh3m leader [[The Unix Terrorist]] (formerly known as zmagic and [[JimJones]]) and the brilliantly eccentric '''silvio''' (commonly referred to as "the smartest hacker alive"). The speech insulted the entire security industry and everyone remotely involved with it.
+*[http://www.phrack.org/phrack/58/p58-0x03 Phrack profile on GOBBLES]
+*[http://attrition.org/security/advisory/gobbles/ GOBBLES Labs advisories]
+*[http://www.securityfocus.com/news/493 Gobbles Release Apache Exploit], a SecurityFocus article written by [[lol-cow]]^H^H^H^H^H^H^H brilliant reporter [http://www.pc-radio.com/ Brian McWilliams]
+
+{{SecurityFaggots}}
+{{trolls}}
+[[Category:Trolls]]
+[[Category:Softwarez]]

@@ -1,0 +1,30 @@
+File Synthesis
+[[Image:Jpgrar.jpg|thumb|right|As explained by this confusing collection of boxes]]
+[[Image:Evading_the_4chan_Lithursday_Filter.png|thumb|right|If you want to post that to 4chan]]
+Combining different filetypes into a single file, such that the appropriate data is preserved with respect to how the file is being read. This is usually accomplished by concatenating the files together.
+
+== Works with any combination of the following ==
+*7ZIP
+*JPG
+*MP3
+*PNG
+*RAR
+*WAV
+*[[4chan.js|HTA]]
+
+== Examples ==
+In Windows:
+ copy /B foo.jpg + bar.rar foobar.jpg
+
+In *nix:
+ cat foo.jpg bar.rar > foobar.jpg
+
+Both of these examples will create a file named foobar.jpg, that when viewed graphically is identical to foo.jpg, but when unrar'd contains the [[CP|contents of bar.rar]].
+
+== See also ==
+*[[CP]]
+*[[Lithursday]]
+*[[4chan.js]]
+
+[[Category: Internets Phenomena]]
+[[Category: Softwarez]]

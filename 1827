@@ -1,0 +1,105 @@
+Crapflood
+[[Image:Kurancrapflood.PNG|thumb|[[Koran]] shitstorm]]
+
+'''Shitstorming''', also known as ''Crapflooding'', is a common (and wonderful) way to attack [[blog]]s, [[wiki]]s or [[forums]] and a surefire way to get admin on [[ED IRC]]. Literally, a shitstorm is a veritable mudslide of [[shit|faeces]]. 
+
+Similarly, on the [[Internets]], a shitstorm is a massive posting of thousands of garbage comments, usually containing [[shock image]]s or [[Discharges.org|loops]] from ED:[[Offended]], the infamous [[Pain series]], [[Tubgirl]]s, [[Goatse]]s and/or other [[shock sites]] along with some [[hate]]ful [[profanity|text]] that almost always contains the word black person. Sometimes they literally contain [[poop]] along with some [[random]]ized text in each post as a workaround for the lame security measure of filtering duplicate posts.
+
+Example of Shitstorming: commanding sammiches from the [[wimminz]]. 
+
+Shitstorms are best done using automation. [[Script]]s are generally easy to write with good [[programming]] languages like [[Perl]] or [[Ruby]], and with shitty languages like [[Python]]. It is possible, if tricky, to shitstorm an imageboard with [[Dump-chan]] or the [[xChan Directory Dumper]].
+
+
+== The [[Philosophy]] of Shitstorming ==
+A [[Bantown]]ian shitstorm guru once said: 
+
+{{tinyquote|"shitstorming is not [[hacking]]. its more like going to a museum and then stuffing 180,503 comments in the comments box all saying "LOL POOPOO. 180,503 is the 16,384th prime number."|[http://web.archive.org/web/20060220154021/http://undef.net/archives/2005/05/26/who-is-john-trippe/ Source]}}
+
+== IRL Shitstorm ==
+Hurricane [[Katrina]] was the most famous IRL shitstorm. The atmospheric condensation combined with all the sewage, pollution, and [[niggers]] in [[Louisiana]] caused [[chocolate rain|diarrhea]] to fall from the sky, literally flooding [[New Orleans]] in slimy, watery fecal matter.
+
+=== Katrina [[FTW]]===
+
+<pre>
+ NEW ORLEANS SHIT FLOOD!         \           \         =|=M=
+       \              \     \ ______     \        =|= _/|\
+ \             \             /      --\o/-_____=|=/|_/ \| \__/
+         \           \      /  \o/     |     /    \|    |
+\             \            /    |     / \   /      \    | \
+_____\__________________\_/____/ \         /        \\__|_____
+shitshitshitshitshitshitcr|    ------_____/    ____  \shitshit
+shitshitapshitshitshitshit|____           |   |_|_|  |shitshit
+shitshitshitshitshitshitshitcra-----______|___|_|_|__|shitshit
+shitshitshitshitshitshitshitshitshitshitshitshitshitshitshitcr
+</pre>
+
+== Tools for Crapflooding ==
+
+===MailRape===
+
+'''MailRape''' is an e-mail flooder (for *nix). It sends a lot of mail, which randomizes the sender and subject, and X-Mailer, via SMTP or Sendmail.
+
+The configuration is inside the script.
+
+Dependencies: Ruby.
+
+====Download====
+
+* http://anonym.to/http://pastebin.ca/raw/947441
+* http://anonym.to/http://anonymous.pastebay.com/9023
+
+
+
+===NRaep===
+
+[[File:Nraep.png|350px|thumb]]
+'''Nraep''' is a PHP application that submits your victim's email to OVER 9000 mail lists.
+<br />Requirements: Apache, PHP, Curl.
+
+====Download====
+Download the screenshot, rename the .png image to .rar, and extract.<br />
+
+RAR password: partyvan<br>
+
+'''nraep v0.5'''
+mirrors:<br>
+[http://anonym.to/http://img8.imageshack.us/img8/605/nraepv05.png 1]<br />
+[http://anonym.to/http://img507.imageshack.us/img507/605/nraepv05.png 2]<br />
+[http://anonym.to/http://stashbox.org/517383/nraep%20v0.5.rar 3]
+
+'''nraep v0.4'''
+mirrors:<br>
+[http://anonym.to/http://img67.imageshack.us/img67/1701/screenepk.png 1]<br />
+[http://anonym.to/http://img139.imageshack.us/img139/5527/notscreen.png 2]<br />
+[http://anonym.to/?http://anonym.to/http://www.megaupload.com/?d=CVW21MJW 3]<br />
+[http://anonym.to/http://anonym.to/?http://stashbox.org/515547/yetanotherapp.rar 4]
+
+
+
+===Domorato===
+
+'''Domorato''' is an SMS bomber written by Masterfabric. It is based on a script written by some anon on [[711chan]].
+It is written in PHP and unlike most SMS bombers, which send text messages via a service providers email gateway, Domorato relies on a flaw in anontext.com (a website which sends anonymous text messages). However, the obvious flaw with this software is that if anontext is fucking up, so will Domorato. It will send random garble to any number you tell it to, until you close out of your browser window/tab.
+
+====Download====
+* http://sharebee.com/79ff7d6f<br>
+* http://anonym.to/http://www.rapidshare.com/files/296202514/domorato.rar<br>
+* http://anonym.to/http://www.megaupload.com/?d=9Y4GGH50<br>
+
+== See Also ==
+* [[GNAA]]
+* [[IRC]]
+** [[Gay.pl]]
+** [[Dau.pl]]
+* [[CloudNine Multimailer]]
+* [[wpcomment.sh]]
+* [[Spam]]
+
+==External Links==
+* [http://slashdot.org/comments.pl?sid=100381&threshold=-1&mode=thread Massive shitstorm] of a [[Slashdot]] story by the [[GNAA]]
+* [http://www.mudfall.com Literal] [[Scat|shitstorm]] ([[shock site|shock loop]])
+
+
+{{ircseries}}
+{{trolls}}
+[[Category: Drama-generating techniques]]

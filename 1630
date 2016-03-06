@@ -1,0 +1,60 @@
+Cloaking
+[[Image:Jenkens make love not warcraft.jpg|thumb|''South Park'' creators accurately depicted Brett as this character on the episode "Make Love, Not Warcraft".]]
+
+"They can't have disappeared. No ship that small has a cloaking device."
+Captain Needa, Empire Strikes Back
+
+'''Cloaking''' is where a website feeds a search engine one thing and then gives users the other.  It is the way skilled experts [[spam]] to the top of search engines' [[B&|ban lists]].
+
+Cloaking originated as a [[drama-generating technique]] by the [[troll]] Brett Tabke who runs webmasterworld.com who on [[April Fools Day]] did a bunch of spamming so his site returned to the top of the of the Google results and then made it so when you click it and then see "You must pay $250 every six months to read this content".  Then of course you click back and see there's no Google cache available.  To his surprise, people actually paid him that money to read [[User-generated content|content generated entirely by his site's users]].  Not only that, people paid him $250 every six months to generate him new content so he can charge more users to view his site.  Due to the massive revenue, Brett does not work and spends all his free time on ''[[World of Warcraft]]''.
+
+As Google and others claim to blacklist cloaking sites, using cloaking generates a lot of drama when all these people start complaining that all their Google results return cloaking sites but Google never does anything.
+
+[[Fact]] is, all top Google results are [[lie|totally not]] cloaking.
+
+'''[[PROTIP]]:''' Change your User-Agent.
+
+==Examples==
+
+;[[whyweprotest.net]]: A forum full of [[moralfags]] finds nothing wrong with cloaking.  <s>[http://www.google.com/search?hl=en&safe=off&q=%22Rick+Astley%22+dead+%22Never+Gonna+Give+You+Up%22+48446+site%3Awhyweprotest.net Example]</s> [[B&]]
+
+
+;<font color="#009900">expert</font><font color="#990099">s-ex</font><font color="#009900">change</font>.com: This site is like [[yahoo answers]] with a random internet person asking a question and random unpaid people answering the question.  Except that unlike yahoo answers, people have to pay to ask questions, view answers, and most of all.....  people have to pay to answer the questions!
+
+:That's right!  People pay this website to generate its content that it then tries to make money with.
+
+:However, it [[Fail|fails]] at cloaking. Instead of where the answers are supposed to be, there's the message: ''"All comments and solutions are available to Premium Service Members only. Start your 7-day free trial and see for yourself why Experts Exchange is the easiest and most proven technology resource in the world. Get Started!  Already a member? Login to view this solution."'' 
+
+:With its money, it then buys pagerank so it outranks yahoo answers.  However, Google called them out on their [[bullshit]], so they [[Retarded|cunningly]] put all the answers at the bottom. But people still have to pay the site to answer questions.
+
+
+;webmasterworld.com: This site has been cloaking for over five years.  The owner, Brett Tabke, claims to need to spend the money to pay for bandwidth bills, but you know it's a [[lie]] because if that was the case then he wouldn't block search engines from letting people view an archive of his pages.  Googling the site's name with "cloaking" brings tons of results complaining about this.  This site even has a dynamically generated robots.txt, which lets search engines crawl its site all it wants and spams it straight to the top of Google every time.  But when a human clicks on them, it tells them they must pay to view the forums.  The cost to view the forums isn't [[Something Awful|$10 bucks for life with the ability to post images]], but it is $250 every six months and you can only post text.  After cloaking for four years, [[Google]] at one point actually read one of their emails and instead of blacklisting the site like they do to most websites, they simply emailed the site owner.  The site owner responded by making the first article viewed by non-search-engines viewable and then after that, it IP bans you for 24 hours until you pay.  A common bypass is setting your user-agent to googlebot and you can read the site all you want.
+
+:But like with Americans voting for George Bush, you can't blame Brett as much as you have to blame all the idiots who keep paying $250 to view that site.
+
+
+;nytimes.com: Some time in the last millennium, nytimes set up a website and made it pay to read articles.  That was all fine, except at the same time they let search engines crawl their site all they want.  And of course, they would prevent search engines from letting people view a cached copy of their site.  In 2005, the site changed it so if you have cookies enabled you can view, but if cookies are disabled, you can't.  Search engines, however, as cookies are disabled, are magically allowed to bypass this.
+
+:To quote [http://seoblackhat.com/2006/06/18/google-bans-ny-times-for-cloaking/], "Google Bans NY Times For Cloaking!"  ... then later it says "Ha! That’s a headline that will never be true. Yup they still have their page rank 10 even though they are flagrantly violating Google’s Webmaster Guidelines."
+
+:Digg is also to blame, since the 6 people who are responsible for 100% of the [[Digg]] frontpage (due to [[sock puppet]] voting) make all their news articles link to nytimes.com
+
+
+[[File:NY-Times-Article-on-ED yep still cloaking.png|center|400px|thumb|New York Times wrote an article on ED http://www.nytimes.com/2008/08/03/magazine/03trolls-t.html?pagewanted=all . Here's a screenshot of visiting that article with cookies disabled if you're not a search engine bot.]]
+
+
+;lioncity.net: Has many forums. Always at the very top of Google, every time.  Always blocks search engines from saving cached pages.  When you try to view it, it says "you must be logged in."  But change your user-agent to googlebot or slurp (yahoo crawler) and it lets you view.
+
+;mjjcommunity.com: Another cloaking forum but they forgot to disable google cache. [http://www.mjjcommunity.com/forum/showthread.php?p=2504687] vs [http://74.125.155.132/search?q=cache:Td3OrlKM_KAJ:www.mjjcommunity.com/forum/showthread.php%3Fp%3D2504687+blockbuster+%22Blu+Ray%22+unplayable+-netflix&cd=89&hl=en&ct=clnk&gl=us]
+
+
+;[[Twitter]]: Twitter is cloaking now, too.  Try to view anything on twitter with Javascript off (which is how all search engine bots read pages) and twitter won't let you view anything.  Example http://twitter.com/dentonpolice
+
+== Proof Google loves cloaking websites ==
+*http://www.rustyrazorblade.com/2007/07/30/experts-exchange-should-be-removed-from-google-search-results/
+
+==See also==
+*[[DMOZ]]
+
+[[Category:Drama-generating techniques]]
+[[Category:Internets Phenomena]]

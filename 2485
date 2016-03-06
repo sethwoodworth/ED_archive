@@ -1,0 +1,55 @@
+Dump-chan
+[[Image:Dump-chan.jpg|thumb|right|Dump-chan]]
+[[Image:Dump-chan(Actions).png|thumb|right|Dump-chan Actions Tab.]]
+[[Image:Dump-chan(Setup).png|thumb|right|Dump-chan Setup Tab.]]
+''Dear user,''
+
+''Hello. I'm [[Dump-chan]], a wonderful little program brought to you by the numbers [[divide by zero|0]] and [[1]] as well as viewers like you. I was forged from the mythical elements of [[Java]], [[win]], and [[loli]] found deep within the bowels of [[4chan]]. I allow users like [[Anonymous]] to upload entire directories of [[epic]] imagery into a desired thread. Basically, consider me cruise control for making any [[thread]] instantly [[awesome]]. Even though I am geared for use on [[4chan]] if you're willing to find the post URL in a *chan thread I will happily upload your images with a smile and (if you're lucky) a flash of [[vagoo]]. I hope I can help out. Let's be friends, okay?''
+
+''♥ [[Dump-chan]]''
+
+
+==Download Dump-chan==
+[[Anonymous]] is quite well known for being a force which is quite adept at [[raping]] [[bandwidth]]. Thusly [[Dump-chan]] is hosted on Megaupload. You can find the most recent version here:
+
+*[http://www.megaupload.com/?d=S5UTW9UL Dump-chan v1.0.1]
+
+==Requirements==
+Since [[Dump-chan]] was written in the Rosetta Stone that is [[Java]], she should function on nearly any [[Operating system|system]] that has a JRE. If your system does not have a JRE whose version is greater than 1.5 you should probably go ahead and put yourself out of your [[Emo|misery]]. Grab the nearest blunt object and [[bash]] yourself in the head repeatedly until you become [[an hero]]. Alternatively you could download the latest JRE for your operating system from Sun: [http://java.sun.com/javase/downloads/index.jsp click here since you're too lazy to use Google].
+
+==Running Dump-chan==
+Running [[Dump-chan]] is really easy and has been so simplified that even a [[faggot]] like you can run it. Here are the different ways to run [[Dump-chan]]:
+*If you installed the JRE and associated all files that end with .[[java]] with said JRE just double-click Dump-chan.java and enjoy.
+*If you installed the JRE and did not associate all files that end with .[[java]] with said JRE go [[fuck]] yourself. Once you're done post pictures and run [[Dump-chan]] by executing the Dump-chan.bat file and the damn program will try and find the [[Java]] executable for you.
+*If neither of the above worked then you're royally screwed. Find the [[java]].exe file somewhere on your computer and type from the command line: ''[path to java.exe]\java.exe -jar [path to Dump-chan.java]\Dump-chan.java''. Need an example? Figures. Let's suppose your [[Java]] executable is at ''C:\Program Files\Java\jre_1_50\bin\java.exe'' and Dump-chan.java is confined to ''C:\Dump-chan\Dump-chan.java'', then you need to type ''"C:\Program Files\Java\jre_1_50\bin\java.exe" -jar "C:\Dump-chan\Dump-chan.java"''. [[tl;dr]] - Go eat lye.
+
+==Using Dump-chan==
+[[Dump-chan]] is easy to use and is extremely self-explanatory. The specifications for each [[control]] are listed below, but if you really need this information to use this program then you may want to consider a career in the knife swallowing business.
+
+Although everything is easy to understand, [[Dump-chan]] doesn't work anymore. Typically only 10% of the images you wanted to dump will actually get posted, often times not even that many.  So you may want to consider a career in the knife swallowing business '''anyway'''.  Or...just use [[xChan Directory Dumper]] instead.
+
+===Action Tab===
+;Select files...:Opens an open file dialog to select the [[pix|images]] you wish to upload. Note that any directories you choose will be recursively scanned for any [[PNG]], [[GIF]], or [[Goatse|JPG]] files contained therein. Files chosen will be added to the selected file list below.
+
+;Selected file list:Select one or more files and hit [[Delete|DEL]] to remove any item(s) from the list.
+
+;Upload!:Begins the [[upload]] of all the files listed in the selected file list.
+
+===Setup Tab===
+;Thread URL:The full URL to the [[thread]] in which you intend to [[post]].
+
+;Image Board:Select the [[board]] in which the previously specified [[thread]] is located. Note that if ''Other'' is selected you will need to specify the board's form POST URL in the enabled box.
+
+;Post Setup:The usual information you would submit with an [[image]]. Don't get cute and try to use [[Dump-chan]] to [[sage]] threads, she really hates that word.
+
+==See also==
+*[[xChan Directory Dumper]]
+
+==External Links==
+*[http://www.megaupload.com/?d=S5UTW9UL Dump-chan v1.0.1]
+*[http://www.mediafire.com/?9ttnnzzyxcl Dump-chan v1.0.1 Mirror]
+
+{{chans}}
+
+[[Category: Softwarez]] 
+[[Category:Chans]]

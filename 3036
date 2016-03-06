@@ -1,0 +1,33 @@
+Forth
+{{boring}}
+
+'''Forth''' is a highly potent neurotoxin developed in [[Russia|the Soviet Union]] during the mid 1960s and injected into the spinal column of US Observatory worker Charles Moore. Under the influence of this highly toxic nerve agent, Moore's brain structure was catastrophically altered, causing him to start uttering meaningless words in reverse.
+
+So ingenious was the Russians' biological weapon that Moore's colleagues, and later, much of the global IT community, came to regard the toxin as a programming language and, following Moore's lead, named it Forth.
+
+Forth does indeed have application as a minimalist programming language well suited to resource-limited embedded programming applications. However, it tempts its programmer to take a one-way trip away from [[IRL|the real world]] into a profoundly autistic, anti-social schizoidal world from which he or she will never return.
+
+At any time, there are '''kn''' implementations of Forth, where '''k''' is a constant greater than 3, and '''n''' is the number of currently active Forth programmers. When starting out on a programming project, a programmer invariably turns his or her attention to the language implementation itself, fine-tuning it along the way, and ultimately diving off onto the tangent of writing a whole new implementation, forgetting about the original project.
+
+To give an example of how mind-damaging Forth can be, compare the following two code excerpts. They are both implementing a recursive Fibbonacci function, with the first implementation in Python and the second one in Forth.
+
+<pre>
+# Implementation of a recursive fibbonacci function in Python
+
+def fib(n):
+    if n < 3:
+        return 1
+    return fib(n-1) + fib(n-2)
+</pre>
+
+And here's the Forth version
+<pre>
+\ This forth code is much more readable than average
+: fib dup 3 < if drop 1 else 1- dup recurse swap 1- recurse + then ;
+</pre>
+
+You can be assured that if you take more than a passing interest in Forth, you will never get laid again. You will lose your job, and be unable to get a new one. Eventually, you will be found living in a squat, surrounded by rotting garbage and vermin, writing completely useless Forth code on an 80486-based laptop. You won't be at all concerned, because you will have your basic Forth operating system working, and your Forth motherboard drivers mostly bug free, and your Forth window manager code coming along nicely. You will even have written a rudimentary TCP/IP stack and web browser, so you can post to Forth web forums about how gay everyone else's Forth implementation is.
+
+Fortunately, this Soviet biological weapons attack on the fledgling US IT industry had only limited success. While it had devastating effects on a handful of victims in the "free" world, most IT workers escaped relatively unscathed.
+
+[[Category: Softwarez]]

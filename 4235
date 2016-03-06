@@ -1,0 +1,322 @@
+Java
+{{haxor}}
+{{FactCat|'''[[Lie|JavaScript is not Java.]] If you were looking for [[Javascript]], you might want to look [[Javascript|here]], [[you]] ignorant fuck.'''}}
+
+[[Image:Java-Plate-1.jpg|right|thumb|Well they won't get pulled over for speeding.]]
+[[Image:JavaHelloWorldRam.jpg|thumb|There is no excuse.]]
+[[Image:Sun_disappoint.jpg|right|thumb|Bloatware.]]
+[[Image:Jawa.jpg|right|thumb|A Jawa.]]
+
+
+Java is an [[Slow|interpreted]] language which is [[Special|unique]] in that it includes a pretend compiler so that [[Script kiddie|Java programmers]] can feel like they're using a [[C|grownup programming language]]. It is [[Objectivism|object oriented]] and has automatic [[garbage]] collection to make it as easy as possible to allocate memory.
+
+Java is like [[Alzheimers]]; it starts slow and eventually, it takes away all of your memory. Something Java fans like to talk about is the [[Ebonics|JIT]] compiler which eventually does turn Java into [[Machine code|native code]] but only after it's been interpreted [[Over 9000|10,000]] times. By that time the program has probably already crashed with an out of memory error. Programming in Java drives most [[hacker]]s permanently [[insane]]. Evidence of this can easily be obtained by attempting to comprehend the content of [http://www.picocontainer.org/ this website].
+
+Java is notable (along with [[Flash]]) for being one of the few technologies that allows [[Alan Turing]] to [[pwn]] your [[browser]]. Also of note is that Java is one of the most bloated languages with a minimum of twelve lines needed to do something as complex as print "Hello" on the screen.
+
+Java is like [[C]] for people who are too [[pussy]] to do real programming. Instead of creating actual fucking programs anyone can run on any computer, one must have a separate interpreter installed on their computer in order to run the bytecode, which is what Java calls code that's been "compiled". Unfortunately, since no one has installed this since Flash came out, no one will be able to use your user-programmable Pokedex (only 500MB!)
+
+{{quote|Java is high performance. By high performance we mean adequate. By adequate we mean slow.|[http://www.mrbunny.com/ Mr. Bunny]}}
+
+Java [[GUI]] applications are dogshit [[Slowpoke|slow]] to load and run, and [[Condom|never feel right]]. To deflect criticism and hide this [[shit]]tiness from decent, honest folk who are just trying to get some work done quickly, Java developers:
+* use splash screens to mask the load time (they call this a "[[LHC|time warp]].")
+* use ''external, non-Java'' splash screen software when even the previous item [[Fail|fails]] at fooling the user ([http://java.sun.com/developer/technicalArticles/J2SE/Desktop/javase6/splashscreen/ srsly])
+* blame the Virtual Machine vendor
+* blame the user for not fiddling with his Virtual Machine settings
+* blame the user for not already having the JVM cached in memory. "What are you, a fucking [[LOL|retard]]?"
+* use third-party toolkits
+* fool you with bullshit millisecond measurements. "Who are you going to believe, me, or your lying eyes?"
+
+Any version of Java released in the past 10 years requires the user to download a 110 megabyte file (compared to the 70 meg download for [[Shit Nobody Cares About|Microsoft's .NET Framework]]). Java web applets run in a [[sandbox]] and unless your applet is [[Internet licence|signed]], it [[H4x|can't even access your clipboard]] but nobody uses Java applets anyway.
+
+Since Java is the all-ruling and most powerful language in the universe, one might think that was is easy to learn. He would be right. Even [[Teachers|half-assed morons]] can learn how to do it. Java isn't about creating something from scratch, its just an intricate [[Copypasta|copy and paste]] program.
+== Developing a GUI in Java==
+Java has two GUI namespaces, which are AWT and Swing.
+use swing for making your app look like java apps. when you use swing user will see the same components in all platforms
+use awt for making your app look like the OS default apps. when you use this type of components, using the software on the OS you have not designed your software for, will shit bricks because defaults components have different borders and shit.
+you are using Java for OS independence, so you, like all other java developers, will use swing components. After testing your software, you will see how slow Java works. Java itself might be stable, but the difficulty of programming makes the programmer ignore all exception handling (too time consuming), so the software will eventually be buggy in some way.
+
+== Why Use Java? ==
+Java is platform independent, like all its competitors C#, php, asp.net,asp, C, C++, Phyton, etc..
+The only logical use of Java is building browser games which use Java applets today. Period.
+== Hello World! I'm a program that is useless! ==
+This is the layout of a basic "Hello World" in Java:
+<pre style="margin-right:220px;">
+   public class HelloWorld
+   {
+      public static void main(String[] args)
+      {
+       System.out.println("Hello World! I'm a useless program!");
+      }
+   }
+</pre>
+
+Lets look at this a little deeper(eww). The first line is the class heading. This program is "public", which means it is avaliable to other programs for their use. This heading creates a "class" called helloWorld. "helloWorld" is an identifier, which means the programmer names it, so it doesn't matter what it is, as long as it doesn't contain numbers or spaces.
+
+The bracket on line 2 contains the class.
+ 
+The next line contains the method, called "main". Again, public means the same as above, but for the method, instead of the class. void means that it doesn't return a value, and main is the name of the method. (Just take my word for it, you have to write it this way until you become more advanced in Java).
+
+The next line calls the "System.out.println" method, which prints the text in the double quotes to the console. You have a ";" at the of a statement to tell the compiler to stop for that statement.
+
+Then you end with two brackets.
+
+Of course, any java weenie will tell you that this is totally wrong. Static methods are bad. As are using the "no-name" package. Also, putting opening braces on a new line is completely retarded, as any non-retarded person knows. What you really need is something like:
+
+<pre style="margin-right:220px;">  
+   package com.mydomain.sampleprograms;
+   
+   public class HelloWorld {
+      public static void main(String[] args) {
+         new HelloWorld().helloWorld();
+      }
+   
+      protected void helloWorld()   {
+          System.out.println("Hello World! I'm a useless program!");
+      }
+   }
+</pre>
+
+
+Instead of using static methods they might even go further and create so called singleton classes which do the EXACT samething but instead they don't have the static declaration. 
+
+If you use static methods the java weenie will "blame" you of having a C programer's mind. (As if it is something to be ashamed of)
+
+The only case they let you to use static methods is the mathematical functions such as sin,cos,sqrt. The reason they let you do is, that they forgot to make the Math class singleton during the development of java. It is rumored that Math class would be a singleton either but some of the java developers said: "OK guys.. Object Oriented.. nice.. but.. what the f*ck are we doing here?? aren't we going too stupid?" Than they used static methods. Later those developers quited java and Math class became one of the few classes that used static methods.
+
+
+An example of a stupid "singleton" helloworld:
+
+<pre style="margin-right:220px;">  
+   package com.mydomain.sampleprograms;
+
+   public class HelloWorld {
+
+      private static HelloWorld hw;
+
+      public static void main(String[] args) {
+         System.out.println(HelloWorld.getInstance());
+      }
+   
+      public static HelloWorld getInstance(){
+         if(hw == null){
+            hw = new HelloWorld();
+         }
+         return hw;            
+      }
+ 
+      private HelloWorld()   {
+          //constructor became entirely useless 
+          //but whatever static methods are "bad"
+      }
+
+      public String toString(){
+          return "Hello World! I'm a useless program!";
+      }
+   }
+</pre>
+
+== Trolling Java [[Fanbois]] ==
+Much like [[Apple]], Java has a user base who would die defending it. These people like to say "it's [[Bullshit|just as fast as C]]" and "it's not slow it only [[Truth|starts slow]]". These people are ridiculously easy to troll because almost anything you can say about their sorry excuse for a programming language will make them [[butthurt]].
+Here are a few ways to get [[lulz]] from Java "programmers":
+
+* Say '''interpreter'''. They hate this word, they like ''virtual machine'' since it sounds cool and futuristic while ''interpreter'' is just a program that evaluates script.
+* Ask why in such a fast language, nobody ever wrote a video player or [[Minecraft|a game]].
+* Point out that everyone else uses [[php]] for web apps.
+* Point out that everyone else uses [[C]] for desktop apps.
+* Ask where to find affordable Java hosting.
+* Mention that Eclipse IDE is now using GCJ to convert their Java into [[machine code]] so it will run faster.
+* Join a Java IRC [[chan]] and ask for help with GCJ, tell people it's faster.
+* Write a [http://arstechnica.com/tech-policy/news/2010/08/oracle-sues-google-over-use-of-java-in-android-sdk.ars java interpreter that is not slow]. OMG if it's not a resource hog <s>Sun</s> Oracle won't be able to sell the new ''SparkXXXIV Genitalia'' 800 core processor.
+* Create another programming language and give it the same name.
+
+{{quote|We did [[JavaScript]] to try to be an intermediate bridge between [[HTML]] and Java. I got in huge fights with [[Sun]] over this. They got mad. Then I told them we wanted to [[Win|name it JavaScript]], and that made them even [[You Mad|madder]].|Marc Andreessen on [[doing it right]] ([http://www.zdnet.com.au/andreessen-php-succeeding-where-java-isn-t-139218171.htm sauce])}}
+
+== Restarting the VM ==
+If you use Java shared hosting and you can't be bothered to open a ticket just to get the server restarted (who has time for that anyway?) You can restart the virtual machine any time you want using this slick little piece of java code:
+
+<pre>
+Object[] o = null; for(;;) { o = new Object[] {o}; }
+</pre>
+
+The admins will admire your cleverness and [[ban|appreciate]] you for not opening tickets every time you need a restart. <small>Disclamer: [[Script kiddie|I didn't discover this]]</small>
+
+== Lack of Unsigned Numbers ==
+There is no such thing as unsigned numeric values in Java because Sun thought they would be too difficult for programmers to grasp. This is the intelligence level that Java is built around.
+
+== Type Bullshit ==
+Java implements strict typing yet hypocritically has loose type casting, so adding two '''bytes''' with a value of 1 will result in an '''int''', not a '''short''', which is the next storage type above byte. If you want to store an unsigned byte, you better use an int and do some magic <strike>operator overloading</strike> add/sub/mul/div function gymnastics for the math to work.
+
+== Boolean literals - true and false ==
+
+
+The two values are written with the reserved words true and false.
+codded as:
+
+<b style="color:#2E8B57;font-size:103%;">boolean</b> butthurt;
+
+butthurt = <span style="color:#FF00FF">true</span>;
+
+or all at once:
+
+<b style="color:#2E8B57;font-size:103%;">boolean</b> butthurt = <span style="color:#FF00FF">true</span>;
+
+== Loops ==
+
+if loop- if (condition) = true, do code.
+
+ int i = 0;
+ 
+ if (i<5){
+   System.out.println(i);
+ }
+
+This code checks to see if variable i is less than 5, if it is print out i's value.
+This code will print: 0
+
+for loop- for (A;B;C){
+statements;
+}
+A-initialization
+B-termination
+C-increment
+Example:
+
+ for (int i=0;i<5;i++){
+   System.out.println(i);
+ }
+
+This code sets variable i to start at 0, check if its less then 5, if it is run statements and increment i by one.
+This will print:
+                 0
+                 1
+                 2
+                 3
+                 4
+while loop- while (condition) do statements
+
+This one is pretty straight forward, if the condition is true, do the statements.
+Example:
+
+ int i=0;
+ 
+ while(i<5){
+   System.out.println(i++);
+ }
+
+This will print: 
+                 0
+                 1
+                 2
+                 3
+                 4
+do while loop- do statements while (condition)
+
+Very similar to the while loop, but the do while loop always executes once since it evaluates the condition after the statement. A while will never run if the condition is false.
+
+ do {
+    Statements;
+ }
+ while(condition);
+
+Do the statement until the condition equals true.
+
+Example:
+
+ int i=0;
+ do {
+    System.out.println(i);
+ } while (i>5);
+
+Note that the condition is false and will never be true from this code. So the statement will only run once.
+This will print: 0
+
+== Comparison operators ==
+[[Image:SunJavaCoffeeCup.jpg|thumb|If you write in Java, you'll have time to make a pot of this while your code is "compiling".]]
+
+Comparison operators are used to compare two primitive values (rarely objects).
+The comparison operators are:
+
+<  less than
+
+<= less than or equal to
+
+== equal to
+
+>  greater than
+
+>= greater than or equal to
+
+!= not equal to
+
+6 < 24 is true
+
+6 <= 24 is true.
+
+6 == 24 is false.
+
+10 >= 10 is true.
+
+10 > 10 is false.
+
+6 != 24 is true.
+
+
+== Logical operators ==
+
+Logical operators are like an extension of comparison operators.
+The logical operators are:
+
+&& and
+
+|| or
+
+Example:
+a && b	and	The result is true only if both a and b are true.
+
+a || b 	or 	The result is true if either a or b is true.
+
+You can also use the not operator.
+!a 	not	true if a is false and false if a is true.
+
+int i=0;
+
+int j=4;
+
+if (i>3||j<=4){
+
+System.out.println("hfsdkjhs");
+
+}
+This will print the statement because the or operator only requires one of the conditions to be true.
+
+if (i>3&&j<=4){
+
+System.out.println("hfsdkjhs");
+
+}
+This wont print since the and operator requires all the conditions to be true.
+
+if (!(i>3)&&j<=4){
+
+System.out.println("hfsdkjhs");
+
+}
+This will print the statement since !(i>3) is actually true, so both conditions are now true.
+
+==Memory allocation and garbage collection==
+
+What? You are too lazy to tediously free() all your mallocs()?
+
+== See Also ==
+* [[Python]] a superior object-oriented language
+* [[Camel|CamelCase]] TheAnnoyingWayJavaProgrammersUseAbsurdlyLongFunctionNamesWithoutUsingTheUnderscoreCharacter
+
+==External links==
+*[http://www.bejug.org/confluenceBeJUG/download/attachments/3920/JavaCondom.jpg What Java is really about]
+*[http://www.oracle.com/technetwork/java/javase/index.html Sun Java SE – Sun's current stable release]
+*[http://www.sun.com/service/developer/index.jsp Developer Support Services from Sun Microsystems]
+*[http://www.javarmi.com Java Learning And Tutorial]
+
+[[Category: Softwarez]]
+[[Category: Internets Phenomena]]

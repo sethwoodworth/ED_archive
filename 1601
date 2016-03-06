@@ -1,0 +1,81 @@
+Citadel
+[[Image:Uglyinside.jpg|thumb|right|A typical Citadel user]]
+[[Image:Citatel ruins.jpg|thumb|right|A visual summary]]
+
+Citadel is one of the oldest of [[old media]]. Why do both [[LiveJournal]] and Citadel have such a high [[drama quotient]]? They both originated in [[Seattle]] when the original authors attended the [[college|UW]]. 
+
+== History ==
+By Internet Time Citadel is pre-historic. The [[ARPAnet]] became the [[internets|Internet]] when it switched from NCP to TCP/IP on January 1, 1983. Citadel as [[BBS]] software came online in 1981. The ideas behind it are even older than that. In 1978, on a timeshared PDP-10 at the UW there was a multi-user game called DandD.pas loosely resembling what is now known as a [[MUD]]. A feature of DandD.pas was being able to write on the walls of rooms. Soon the communication in the rooms became as important as the game itself.
+
+Citadel built on this paradigm (The castle, of course, sits above the dungeon) of conversations happening in rooms. Citadel as BBS software was an instant hit. The original ran in less than 16k and stored messages on floppy disks to a single user at a time connected by a modem, 300 baud if that. The source code became publicly available and was quickly ported from running on CP/M to MS-DOS and every major (and minor!) computer OS and platform after that.
+
+The strengths of the Citadel interface include:
+* a clean, stripped-down interface which allows users to focus on drama and BBS politics, not the mechanics of generating them
+* the ability to scare off dumber lusers with said stripped-down, text-only interface, which leads to a more insular community and higher-quality drama which can self-perpetuate over a span of ''decades.''  See also: [[Israel|Israeli]]-[[Palestine|Palestinian]] conflict.
+
+Many users used to other BBS software find Citadel strange. Instead of nice friendly menus to navigate around, once a user logs in they are dumped onto a room prompt and command interface about as helpful as the [[linux|lunix]] command line. Citadel navigation is much easier than it looks, however. You only need three keys. '''G''' goes to a new room. '''N''' reads New messages. '''E''' enters a new message.
+
+One of the most common drama sources on a Citadel is, of course, [[sex]]. Although, after two decades and very few new Citadel users the well is dry - everyone has already had sex with everyone else. [[Your mom]] got laid using citadel. This has also been a great reason for many Citadel and ex-citadel users to join LiveJournal!
+
+Citadel drama extends to the source code itself. Whenever two programmers stop having sex they stop cooperating on code changes to Citadel and one of them goes on to create a YACV, Yet Another Citadel Variant. Vast efforts are made by some people to track all [[teh]] forks and splits of the various Citadel codebases in a document called the [[Citadel Family Tree]].
+
+=== True Citadels ===
+True Citadels are source descendant from the original Citadel.
+
+Most True Citadels actually trace their lineage through DragCit (Dragon's Citadel). At version 3.11, a feature was added that changed Citadel forever - networking. All Citadels previous were isolated systems. A user might call several Citadels but they were all separate. DragCit networking allowed two Citadels to connect when neither system had an active user. When connected they could exchange messages and email. DragCit networking also allowed messages and email to "hop" and traverse the entire Citadel network. Message propagation this way often took ''days''! This accomplishment allowed flame wars to occur nationwide for months at a time.
+
+The introduction and enhancement of networking also led to a new phenomenon - net wars. The amount of damage a single user could do was usually limited to message base [[crapflood|flooding]] or other vandalism. More entertaining though, was that the [[SysOp]]s often ''hated'' each other! Why bother paying for long distance costs to network your Citadel when you hated the other person? Because it gave you the ability to attack their system too! Crafty Cit SysOps found innumerable ways to [[Denial of Service|DoS]] and damage other systems, even when the other systems were several hops away. The craftiest could create a vanity YACV and turn the code itself into a tool.
+
+As the web took over the role of the BBS, and Citadel users ran out of fresh meat to have sex with or flame, Citadel development stagnated. Today, Citadel+ runs as a native Windows application and allows multiple users via telnet. It is still occasionally developed.
+
+===Clones===
+The bastard stepchildren of True Citadels, a clone may embody the essence of the Citadel interface but includes none of the original code.  Many clones are vanity projects, such as making a Citadel talk to the serial port of a graphing calculator.
+
+One popular clone, Citadel/UX, is still used today, and even passes itself off as "groupware". The developers now simply refer to it as "Citadel," under the erroneous assumption that it is the only remaining actively developed Citadel codebase.
+
+====DOC====
+In the early 90s, a variant of Citadel known as Dave's Own Version of Citadel (DOC) was developed by a drug-addled parking garage attendant while on the job at the garage, as well as by other University of Iowa [[Computer Science III|computer science students]].  It was very loosely based on Cit/UX 3.01H with large amounts of new code allowing for direct access from the [[Internets]], multiuser capability, instant messaging, and queuing of users during peak hours.  This [[gay|great]] and [[goatse|amazing]] codebase was used to run [[ISCABBS]], the Iowa Student Computing Association BBS.  This particular Citadel had over a thousand simultaneous [[luser]]s at its peak in the mid 1990s and was likely the largest noncommercial BBS in history.
+
+As could be expected for any incestuous Internets community, large amounts of [[drama]] were created and continue to be created to this day on ISCA and many spinoff boards running DOC and clones such as YAWC and BBS100.
+
+A major source of sex-related drama as described above is the annual ISCAnic.
+
+==List of dramatic Citadel users==
+[[Image:Gross2.jpg|thumb|right|Utopia, Dammit!'s user formerly known as Xtal]]
+* Bearwalker
+* Bud Fields - see also [[Bud smiley]]
+* Fleep
+* [[Frasier]]
+* Holy Bull
+* Ivor
+* Khelair
+* [[Livy]]
+* Magic Negruh/Smoke Eater
+* [[Mary Moon]]
+* [[Mcfnord]]
+* [[Mela]]
+* Neurophyre
+* Scalar
+* [[Starcade]]
+* Thufir
+* War Boy/War Boi
+* Wobbly
+
+===Active Citadels===
+* [http://bbs.slumberland.org A web interface to Slumberland] one of the last remaining True Citadels, alternatively, '''[telnet://bbs.slumberland.org telnet bbs.slumberland.org.]'''
+* [[ISCABBS]] - and old and still one of the largest DOC BBSes, but much declined from its peak.  Few [[lulz]], lots of retarded rules. '''[telnet://bbs.iscabbs.com Telnet to bbs.iscabbs.com.]'''
+* eSchwa BBS - for a particular subgroup of DOC users, often considered the endpoint of several [[Great migration]]s, (possibly) from ISCABBS to Heinous BBS, from Heinous BBS to Atrium BBS, and from Atrium BBS to eSchwa BBS.  Has had largely the same group of users for nearly 10 years, with attendant veiled sniping and occasional explosions of drama in rooms such as Bitch About BBS Policy Here>.  '''[telnet://bbs.eschwa.com Telnet to bbs.eschwa.com.]'''
+* Utopia Dammit! BBS - a cousin of eSchwa, where sporadic development of the DOC codebase still goes on nearly 15 years after its creation.  At one point, had a room called BBSDrama Dot Org>, devoted to chronicling the lulz from eschwa and ISCA; this content now goes into Neutron Star>.  '''[telnet://bbs.utopiadammit.com Telnet to bbs.utopiadammit.com], visit http://bbs.utopiadammit.com/ or ssh bbs@utopiadammit.com with no password.'''
+* [[Inara BBS]] - yet another spinoff of ISCA from ''2006.'' Unbelievable. '''[telnet://inara.macinjosh.com Telnet to inara.macinjosh.com.]'''
+
+==Dead Citadels with surviving dramatic history==
+* Heinous BBS
+* Atrium BBS
+
+==External links==
+* [http://www.anticlimactic.org/Citadel The largest repository] of historical information about True Citadels and their descendants. Lots of drama in archives.
+* [http://www.citadel.org Homepage for Citadel/UX]
+
+{{oldweb}}
+
+[[Category:Softwarez]]

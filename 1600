@@ -1,0 +1,44 @@
+Ciscogate
+{{SecurityFaggotry}}
+July 27, 2005. [[Las Vegas]]. One lone graduate student took the podium at the Black Hat Conference just before [[Defcon]] 17, [[wigger|white hat on backwards]] and [[Drugs|glassy look in his eyes]]. The [[hacker]], [[Michael Lynn]], proceeded to drop the [[drama bomb]] of all drama bombs: [[OMGWTFBBQ|Cisco Systems had released a router OS with a potentially fatal security flaw in it]]. 
+
+==How Bad Was This?==
+Essentially Lynn said that by exposing the server to a certain form of [[DDOS|denial of service]] attack the routers would go haywire. This would mean the [[divide by zero|certain demise of the internet]].
+
+Cisco had ignored the problem for months and Lynn's speech came as a total surprise to the community at large. Cisco had attempted to subvert the announcement a month prior to the speech by releasing a fix and not telling anyone about the severity of the problem. However, this is Black Hat, where full disclosure is king.
+
+{{quote|This is (a scenario in which) the network is down, and it's down in a way that it's not getting up again. How do you ship the patch when the network won't (be up so you can distribute it)? Are you going to mail out a CD? But there's no CD drive.|Michael Lynn, to <i>Wired</i> about the severity of the bug.}}
+
+This flaw was especially problematic because:
+#Cisco hadn't had the time to distribute/make it clear to people that their patch covered a critical security flaw, and
+#Every [[expert]] that could deal with the problem was in [[Las Vegas]], [[Party Hard|partying hard]] in the lead up to [[Defcon]].
+
+==The Prequel==
+Mike had quit his job at Internet Security Systems (ISS) a mere hour before his speech. ISS had been pressured by Cisco and its own customers to [[ban|fire]] Michael Lynn if he made the speech. Black Hat had done their best to discourage him as well. Cisco and ISS even banded together to produce an alternative speech that would expose a little less of Cisco's systems in the process. 
+
+Michael was reluctant at first to announce his findings, going into a schpiel about [[TL;DR|VOiP networks]] and getting booed by [[hackers]] who were now expecting the original speech with the announcement of Micheal's resignation from his company. With a little more prodding, he launched into his speech about the router exploit.
+
+In short, Mike had gone PERP a mere week before the major hacker conference in the world. Frenzied [[Security Faggots|security faggots]] were on their cell phones in seconds, trying to fix the problem before [[hackers on steroids]] could [[raid]] and [[Almighty Pillage|pillage]] their networks. Cisco was embarrassed in a very public fashion and swore revenge.
+
+==[[Star Wars|The Empire Strikes Back]]==
+
+[[Image:MichaelLynn.jpg|thumb|right|[[I Am In Your Base Killing Your D00ds|I'm in ur conference, ruining ur Cisco]].]]
+
+Lynn could hardly anticipate the [[Katrina|shitstorm]] about to be unleashed upon him. His lawyer arrived at the conference a short while after Michael gave the speech, and the first thing Michael told her is that he anticipated a [[lawsuit]].
+
+Cisco [[Butthurt|bawwed]] at the top of its lungs after the speech. First, they appealed to the security people, asking them to [[unrealistic expectations|understand their point of view]]. They then ran to the [[FBI]], saying that Lynn's speech had constituted a criminal breach of security and was going to cost Cisco millions in the long run.
+
+Cisco and ISS settled with Lynn on the terms that he [[Delete fucking everything|destroy all his research]] and [[STFU|never discuss the materials in depth again]]. However, the FBI pressed their investigation onward, claiming he violated trade secrets held by ISS.
+
+Michael Lynn was forbidden from speaking at future Black Hats and [[Defcon]]s, a ban later rescinded as Cisco attempted to [[Troll's Remorse|make nice]] during the backlash created after people began rushing to Lynn's side. Cisco would later invite him to their pre-Black Hat 2006 party.
+
+==See Also==
+*[[Defcon]]
+*[[Hacker]]
+*[[Michael Lynn]]
+*[[Security Faggots]]
+
+{{SecurityFaggots}}
+
+[[Category:Events]]
+[[Category:Drama-generating techniques]]

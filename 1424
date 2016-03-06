@@ -1,0 +1,61 @@
+Chanmongler
+[[Image:Chanmongler 1,0,1.png|thumb|right|350px|Screenshot of Chanmongler v1.0.1]]<br>
+
+Chanmongler (formerly known as '''4cGet''') lets you download and/or search through threads from a range of *chans.
+Chanmongler is no longer developed, and support for most chans is broken. Another program called [[Chan Thread Watch]] works as a good replacement, and works with most chans without chan files.
+==Usage==
+Getting started is fairly simple. Download it, extract it, start it. The only obstacle would be if you don't have .NET Framework installed. Don't [[an hero|give up]] though, there's a link to it at the bottom of the article. Once you've started mongler, you have a couple of options. You may use the GUI like some [[fag|guiwhore]], you may control it using the tray icon (the thing down where the clock is), or you may use hotkeys (the [[What_is_a_man?|manly]] option).
+
+Speaking of hotkeys:
+
+*Press Alt+1 to add thread from your browser (works with Opera, Failurecox 2.0, IE6 and IE7, although not when viewing *chan through frames)
+*Press Alt+2 to add thread from clipboard (for framefags)
+*Press Alt+3 to check for (and download) any new files from added threads
+*Press Alt+4 to bring up the search function
+
+You may also minimize mongler to the tray by doubleclicking the tray icon. Combine this with the Alt+4 hotkey to use it like some searching front-end. Note that the application may also be used for regular websites - this includes directory listings, sites with music downloads or embedded videos. Your [[fantasy|imagination]] is the only limit, which is also why the creator had to stop adding chanfiles.
+
+
+Furthermore, it's probably worth to mention some of the newest features. Due to popular demand, the creator has finally added some new features.
+
+*Sorting function for the threadlist
+*Thread thumbnails and stats
+*Automatic checking for / downloading of new content
+*Removed the nagscreen on startup (thanks to a generous anon)
+
+==Compatibility==
+There's built-in support for the following *chans:
+*4chan
+*4chan Archive
+*7chan
+*420chan
+*Chansluts
+*Fapchan
+*Not4chan
+
+Additional chans can be added by creating a .chan file with the proper configurations. As this might seem horribly difficult, the creator will add new *chans on request. Use the "Contact me" button to nag him about that.
+
+==Note to imageboard owners==
+If you don't want Chanmongler to work with your imageboard, just do a simple modification of the board's design. I will not try to circumvent any attempts to block Chanmongler, as that is not the purpose of this project. For ideas of what to modify, have a look at the chanfiles. This won't stop the odd anon from making a new chanfile himself though, but I doubt that many are capable of doing so. Stopping most of the users could be as simple as just adding a space somewhere critical.
+
+==See Also==
+*[[Bwatch]]
+*[[Chan Thread Watch]]
+*[[rape.sh]]
+*[[Mi-Chan]]
+*[[xChan Directory Dumper]]
+*[[Dump-chan]]
+*[[4chan_image_downloader]]
+
+==External Links==
+*[http://www.praetox.com/site/software/chanmongler.html Project website (info, etc)]
+*[http://www.praetox.com/site/software/download.php?app=Chanmongler Direct download link]- May throw a trojan warning from Norton, but site says it's clean.
+*[http://www.microsoft.com/downloads/details.aspx?FamilyID=0856EACB-4362-4B0D-8EDD-AAB15C5E04F5&displaylang=en .NET Framework]
+*[http://www.mediafire.com/?cbswfi1dkfy Mirror | v1.0.1]
+*[http://www.fathax.com/files/Chanmongler.zip Mirror | v1.0.0.3] - clean
+*[http://cal.freeshell.org/2009/12/4chan-image-downloader/ Working python based clone]
+
+{{4chan}}
+
+[[Category: Softwarez]] 
+[[Category:Chans]]

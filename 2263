@@ -1,0 +1,18 @@
+Dikkv
+DiKKv, a product of the [[GNAA]], is a [[PHP]] script that randomly plays back quotes from three months' IRC logs of Martin "[[DiKKy|DiKKy Heartiez]]" Liland, the [[GNAA|GNAA's]] new president and current [[Norway|Norwegian Soldier]].
+
+The script contains intelligent analysis of chat. For example, it is able to determine the "busyness" of an IRC channel. If a channel has more talking, DiKKv pastes more quotes. Interestingly enough, the quote database has been tuned to not only resemble the real DiKKy Hearties, but to pick certain quotes based on chat context to make the bot seem more real. It is very effective at making annoyed [[IRC]] netizens talk to it (usually telling it to [[STFU]]).
+
+A popular fork of Dikkv is known as [[Grogv]].
+
+
+[[File:Gnaa - Tinychat-3.jpg]]
+
+[[File:Gnaa - Tinychat.jpg]]
+
+==External links==
+* [http://www.kuro5hin.org/story/2004/4/7/192752/7337 My contribution to the study of AI], [[Kuro5hin]]
+* [http://www.kuro5hin.org/story/2004/4/8/225652/4435 Dikky meets his automated replacement]
+<br>
+{{stub}}
+[[Category:Softwarez]]

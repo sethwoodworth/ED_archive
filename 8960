@@ -1,0 +1,184 @@
+Werdna/Chat logs
+<noinclude>Back to the [[Werdna|Main article]]</noinclude>
+
+== nice way to introduce yourself on ed irc ==
+
+<pre>	*	Werdnum (Andrew@serious-D2223229.nsw.bigpond.net.au) has joined #ed
+	showMeDoMoney	see, i care deeply
+	Werdnum	hey guys
+	Aardvark|Gone	Hai2u
+	pathogen	hai
+	Werdnum	I just quit wikipedia last week :-)
+	Werdnum	it's been coming for a while.
+	Aardvark|Gone	Oh? I just forcibly quit Wikipedia today.
+	showMeDoMoney	I am on wikia patches. Do they work?
+	Werdnum	Aardvark|Gone: eh?
+	Aardvark|Gone	Raul got happy and banned my ISP for six months. Anon and AC only, but... wee
+	Werdnum	whee
+	*	soap has quit (Quit: leaving)
+	Aardvark|Gone	No more trolling for a while. Well, I could haul out my two-dozen sockpuppets, but they'd fall too quickly to piss around with.
+	Werdnum	I've been doing some actually useful stuff
+	pathogen	useful = vandalism?
+	*	Einsidler wants a .co.ck domain name
+	Aardvark|Gone	I've been doing some useful stuff as well. Well, depending on how you define "useful".
+	Werdnum	shrug, they rejected my tor blocker bot because "OMG KILLER ROBOTS" (that was Jimbo's summary of why it was opposed), so you can use Tor to create some puppets.
+	Werdnum	heh, I've got some fun disruption planned.
+	Aardvark|Gone	My trolling and vandalism was primarily experimental. To poke Wikipedia and see how, why, and where it reacted.
+	Werdnum	well, today I've been coding for mediawiki
+	pathogen	seems a bit batshit insane to block an entire isp
+	Werdnum	which is far more rewarding, and doesn't involve unqualified opinions being shouted at you.
+	Aardvark|Gone	I've discovered three or for effective techniques that are hard to prevent. They could be fixed on the software level, naturally, but the current setup is easily manipulated
+	Aardvark|Gone	/s/for/four
+	pathogen	how would you go about setting up your own isp?
+	showMeDoMoney	buy some space in a datacentre
+	Aardvark|Gone	First (and easiest to prevent) is the username creation troll.
+	Werdnum	heh, if I wanted to vandalise and puppet, wikimedia couldn't stop me if they tried
+	*	Drop has quit (Ping timeout)
+	Werdnum	I have so many proxies and shell accounts and VPSes that the point would be completely moot
+	Aardvark|Gone	There are already extensions available that could be installed to block accounts "on wheels" and other such nonsense, but they've never actually been implemented on Wikipedia.
+	Werdnum	if I wanted to, I could probably throw together a zombie botnet, but I don't want to break the law.
+	Aardvark|Gone	Indeed.
+	Werdnum	I've already coded most of the software anyway
+	Werdnum	I don't care what wikipedia says, I really like most of ED
+	Werdnum	it's funny as fuck, and mostly true.
+	Aardvark|Gone	Another technique is the forced page protection troll. Quite effective with an attack account, as it can force an attack to be displayed in search results. Can't be deleted, can't be oversighted, because blocked users can edit talk pages, and if they can't, well, it will show up anyway.
+	Aardvark|Gone	Easily fixed by allowing pages to be truly protected deleted. As it is, a page has to have some content for protection to work
+	Werdnum	yes, I know.
+	Werdnum	I could fix that in software.
+	*	pathogen is now known as TOW_smells_funny
+	Einsidler	lol
+	Werdnum	but it's bothersome, because you need an entry in the page table to set permissions
+	Aardvark|Gone	One of my Wikipedia sockpuppets displays in the top ten google search results for "JEWS DID WTC". Or at least, it did last week.
+	Werdnum	s/permissions/restrictions/g
+	Aardvark|Gone	Ah, I see.
+	Werdnum	I suppose you could have a page with no revision data.
+	Werdnum	but that's quite a PITA change.
+	Werdnum	it's really not that effective, anyway. You can create the same shit at a different location.
+	Aardvark|Gone	A third technique which I have never employed, and don't intend to because it is positively evil, is the [[Special:Emailuser]] spam attack. By creating an account, letting it sit until CheckUser data expires, tying it to a gmail account, and running a bot via proxy, one can mass spam any Wikipedians with email enabled. Easily prevented via CAPTCHA, but CAPTCHA hasn't been implemented for that yet.
+	Werdnum	Whoever did the publicgirluk thing was a fucking genius
+	Werdnum	generated well over thirty-to-fifty pages of discussion.
+	Aardvark|Gone	Heh. I didn't read about it on Wikipedia, but I followed it a bit on WikiTruth.
+	Werdnum	funny as fuck
+	Werdnum	I was there at the time
+	Aardvark|Gone	Seemed quite amusing, although I positively lolled at the cookie deletion spree
+	Werdnum	trying to get everybody to calm down, shut up, and get along with their lives.
+	Aardvark|Gone	That's pretty much the way of it.
+	Werdnum	it took a Jimborder to shut everybody the fuck up.
+	Aardvark|Gone	I've come to realize that Wikipedia relies on drama in order to function. Without a troll to ban or something to argue about, Wikipedia would quite simply cease to function.
+	Werdnum	I know
+	Werdnum	I've been trying to classify the different people who hang out on Wikipedia
+	Werdnum	there are
+	Werdnum	1. Article writers who snub everybody else.
+	Werdnum	2. Idiots who spend their whole times commenting on shit, running edits that could be done by a bot, and commenting on shit
+	Werdnum	3. Developers
+	Werdnum	type 2 is very interesting
+	Werdnum	they're generally the admin wannabes
+	Werdnum	and all they do is what they think the RfA voters will like
+	Werdnum	which, at the moment is - running bot-like edits
+	Werdnum	hence my Evil Plan[tm]
+	Einsidler	what about pedos who use wikipedia to network with 15yo girls?
+	Werdnum	they're more a minority
+	Werdnum	heh, I'm sure they exist
+	Werdnum	*cough*nathanrdotcom*cough*
+	Aardvark|Gone	I made the mistake of holding my own opinions. I never could have fallen into the "inclusionist" or "deletionist" camps, because I was more of an "evaluationist". Something has to be decided on it's merits, not on some preset opinion about an issue.
+	Werdnum	yeah, that's a big mistake
+	Werdnum	I think it's funny to watch the dynamics of an RfA
+	Werdnum	do it sometime
+	Werdnum	any decent nomination goes through the following process
+	Werdnum	1. Nomination
+	Werdnum	2. 20 opposes from the RfA-stalkers.
+	Werdnum	erm, supports
+	Werdnum	3. Somebody puts up an objection in the oppose part
+	Werdnum	4. BIG BIG STONY SILENCE -- it's at this point that all the RfA-dwellers STOP in their tracks
+	Werdnum	5. All the RfA-dwellers scurry about to see where the flock is on this one.
+	Werdnum	6. Pile-on support || Oppose
+	Werdnum	7. Nomination is closed, votes (or !votes) are counted and the person is possibly promoted.
+	Werdnum	8. Bitching on Wikipedia talk:Requests for adminship || IRC about the result.
+	Werdnum	The End
+	TOW_smells_funny	and then the one who opposed gets b& from trolling
+	TOW_smells_funny	for*
+	Aardvark|Gone	I love it when the closer is "bold" in making a decision. "Well, there was no consensus, but this isn't a vote, so I'm going to say there was consensus, because I like these arguments better"
+	Werdnum	yeah
+	Werdnum	it's a fucking vote, admit it
+	Werdnum	seriously dudes
+	Werdnum	step off your high horse and either make it not a vote, or say it is.
+	Aardvark|Gone	Generally speaking, it is a straight vote. Saying it isn't is usually reserved for making a controversial decision that goes against the common sense test or the clear community consensus
+	Werdnum	heh, I should create an account
+	Aardvark|Gone	The common sense test is a test I apply to AFD. If it is likely that a user would search Wikipedia and expect that information to be there, the article should be kept.
+	Werdnum	yeah
+	Werdnum	as opposed to the google test or the [[WP:BIO]] test or the [[WP:HUIGHJ]] test
+	Aardvark|Gone	If it is unlikely that a user would search Wikipedia and expect to find that information, the article is probably best deleted.
+	Aardvark|Gone	Exactly
+	Werdnum	the WP:NOT page needs updating too
+	Werdnum	it is a bureaucratic democracy.
+	Werdnum	there is no doubt about that.
+	Aardvark|Gone	My opinion is that Wikipedia is best described as an MMORPG gone horribly wrong rather than an online encyclopedia.
+	Einsidler	lol
+	Werdnum	I use it for reference
+	Werdnum	but I won't get involved in the politics of it.
+	Einsidler	imo [[WP:AEIIIGD]] is annoying
+	Aardvark|Gone	Oh, I do as well. It's handy as a quick reference.
+	Aardvark|Gone	WP:DNLAED
+	Einsidler	AEIIIGDL anything Einsidler is interested in gets deleted
+	Werdnum	Imagine if you could take all of the energy put into stupid shit on Wikipedia
+	showMeDoMoney	heh
+	Einsidler	lol DNLAED lol
+	Werdnum	and channel it into, you know, those things called Articles.
+	Werdnum	or that Software thing, you know, the thing that runs the site?
+	Einsidler	LOL
+	Werdnum	that'd be super.
+	Werdnum	reckon it's possible?
+	showMeDoMoney	no way
+	Aardvark|Gone	Probably not.
+	showMeDoMoney	if you could get everybody working together
+	Aardvark|Gone	First, almost everyone on Wikipedia has an agenda to push. Even if all they are doing is editing articles, they are trying to make sure that it is their point of view that is expressed. NPOV is important to Wikipedia, but it is a failure in implementation.
+	showMeDoMoney	for a common good
+	showMeDoMoney	the soviets would have won the cold war
+	Werdnum	Aardvark|Gone: right.
+	Werdnum	everybody is there for a reason, and most of them are not "to help the kids in africa lol"
+	Werdnum	mostly it's ego that brings them there.
+	Aardvark|Gone	It's easy to game. "Oops, this newbie's edit isn't NPOV, revert". Rather than, "Oops, this newbie's edit isn't NPOV, rewrite and incorporate"
+	Werdnum	yeah
+	Werdnum	I had a brief stint editing anonymously
+	Werdnum	what I discovered was intriguing
+	Aardvark|Gone	The second option is more work, which is why few people do it. It's easier to click "rollback" or use your custom JS to revert or even to just revert manually than it is to improve things.
+	Werdnum	People are so quick to shout at anonymous users, yet they're the future administrators of the site
+	Aardvark|Gone	Wikipedia undergoes hundreds of edits every second. I'd estimate that over half of those edits are reverts of some type.
+	Werdnum	see http://en.wikipedia.org/w/index.php?title=User_talk:138.130.165.178&oldid=82617617
+	Einsidler	lol fgtry
+	*	TOW_smells_funny has quit (Ping timeout)
+	Aardvark|Gone	Anyway, I gotta get heading off again.
+	Werdnum	I basically told him to shove the vandal-warning up his ass
+	Werdnum	alright, later
+	Werdnum	expect to see me around here more often :-)
+	Aardvark|Gone	Alrighty. I'll look forward to it.
+	Werdnum	:-)
+	Einsidler	bye
+	Werdnum	you guys got services here?
+	*	pathogen (furhrer@serious-D0199EBB.dynamic.mnet-online.de) has joined #ed
+	feem	no
+	feem	die
+	Werdnum	yeah, you do.
+	*	paxo (paxo@serious-9B7D8583.free-online.co.uk) has joined #ed
+	Einsidler	lol
+	feem	shut the fuck up, cunt
+	Werdnum	... right
+	*	showMeDoMoney has quit (Quit: Today on Oprah: Wikipedia fucked my child up and now he won't shut up about his schemes of REVENGE)
+	Werdnum	what services are you running here?
+	Werdnum	--- Anope-1.7.13 (951) immunitysec.services :UnrealIRCd 3.2.x -  TM -- build #1, compiled Jun  2 2006 22:41:53
+	Werdnum	hmm.. can't say I've ever used anope or unrealircd
+	Werdnum	alright I gotta take off, too
+	Werdnum	see you guys later
+	Einsidler	bye
+	wattagecat	lol aspie
+	*	Werdnum has quit (Ping timeout)
+	wattagecat	:-)
+	feem	god what a fucking idiot
+</pre>
+
+lol, [[feem]]. I approve of this cuntpasta, it is very interesing. --[[User:Einsidler|Einsteinler]] 13:53, 25 October 2006 (UTC)
+
+{{Chat Logs}}
+
+
+[[Category:Transcripts]]

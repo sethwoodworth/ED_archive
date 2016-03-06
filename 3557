@@ -1,0 +1,166 @@
+HD Moore
+Oh the omnipresent HD Moore, the man with bitch tits and a [[fake]] sounding name, yet capable of creaming the pants of every press reporter and [[blogging]] [[faggot]] across Planet Earth. The bitch tits didn't come as result of using roids like a mad [[cunt]], but of several hours polishing his deadly skills with a keyboard, producing uncountable amounts of [[crap]] and [[fail]].
+
+=== Biography ===
+
+[[Image:Hdmoore-lolz.jpg|thumb|You '''know''' you want it.]]
+
+Born [[last Thursday]] of 1981, he poses as a security researcher who has been active on [[Internets]] mailing lists and [[pedophile]] newsgroups since circa [[100 years ago]]. H D Moore works as the Director of [[Faggotry]] for BreakingButt Systems, where he focuses on the [[anal]] testing features of the RubbingFists product line. Prior to joining BreakingButt, HD co-founded Diarrhea Defense, a managed WC cleaning firm, where he was known to dig snots up his nose and masturbate to company meeting photos of his superiors (that is, the janitors team).
+
+It is known that during his time as cheap overweight hustler in Austin, Texas, he was raped by a [[80 year old Chinese man in panties]]. It's to believe that this left severe traumatic side effects on H D's mind and further pushed him to an information security career.
+
+=== Famous quotes and history ===
+
+==== The good 90s: the beginning of failure ====
+
+In 1998-12-24 3:58:09 (Tarzana Eastern Texas Time zone) HD became self aware and decided to start his [[epic]] craze for fame and publicity, releasing several [[crap]] and no-copyrighted copypasta to the Internets [http://marc.info/?l=bugtraq&m=91454756930070&w=2]:
+
+{{Quote|This code is being released under no type of copyright.  I only ask that if you are to use this in a commercial product, give me credit for the work I've done.|HD Moore "It's fine if you rape me, too"}}
+
+It was bound to happen that other inhabitants of the Intarwebs would expose the [[lulz|security]] [[butt|holes]] of Nlog, the tool created by the young HD to solve all [[Jewish]] problems for Humanity.
+
+<pre>
+hi,
+
+there is still several security holes in the nlog cgi scripts that allow
+arbitary execution of commands..
+
+one such vulnerability is here in rpc-nlog.pl:
+
+$ipaddr = $ENV{'QUERY_STRING'};
+$ipaddr =~ s/\n//g;
+$ipaddr =~ s/\`//g;
+$ipaddr =~ s/\'//g;
+$ipaddr =~ s/\|//g;
+$ipaddr =~ s/\"//g;
+$ipaddr =~ s/\<//g;
+$ipaddr =~ s/\>//g;
+$rpcdata = `$rpcinfo -p $ipaddr`;
+
+this is insufficient checking as it does not include ; and / for
+example, so a user can put in a command separator and execute commands
+that way..
+
+duke
+</pre>
+
+In the forthcoming CGI releases from HD Moore, it was indeed proven that using any of his [[copypasta]] would get you [[rape|ridden]] in [[hax]]. Surprisingly, nobody [[Shit nobody cares about|seems to know]] about this great background nowadays and HD Moore is considered as a security master of [[faggots]].
+
+In 1999, he resorted to publishing [[emo]] sounding messages talking about random [[crap]] which [[Shit nobody cares about|no one gave a shit]] about.
+
+{{Quote|Anyways, I hope someone found this useful.|HD Moore - <em>Am I useless?</em>}}
+
+==== The 2000s: from zero to unhero ====
+
+Back in the early 2000s, HD was struggling to write Mein Kampf, and while at it, he was administrator of some [[loli]] forums. Thankfully, every time he was [[owned]], he posted to Bugtraq, talking about this new cool [[shit]] he found in some random [[software]] nobody gave a shit about.
+
+<pre>
+----- Original Message -----
+From: H D Moore <secure@SECUREAUSTIN.COM>
+To: <BUGTRAQ@SECURITYFOCUS.COM>
+Sent: Monday, February 14, 2000 12:26 PM
+Subject: Re: [BUGTRAQ] perl-cgi hole in UltimateBB by Infopop Corp.
+
+
+> Hi,
+>
+> I am the administrator for a site running the commercial version of UBB,
+> the problem exists there as well.  The faulty code is in ubb_library.pl:
+>
+> if ($ThreadFile =~ /\d\d\.[m|n|ubb|cgi]/) {
+>
+> I don't actually know the original line number, as we hacked up our copy
+> to use MD5 password hashes versus clear-text and added many new
+> logging/security features to curb abuse.  Since all of the modifications
+> to the code were paid for by my client, I may not be able to release
+> them to the public...
+>
+> -HD
+</pre>
+
+He was also known to perform complicated hax on HTML forms and Javascript tricks [http://marc.info/?l=bugtraq&m=99982882224639&w=2]:
+
+<pre>
+In this case you need to create a html form with the action set to the 
+fumsg.asp script using POST method. Use the following variables to narrow 
+down the result set:
+
+DN (Display Name)
+FN (First Name)
+LN (Last Name)
+TL (Title)
+AN (Alias)
+CP (Company)
+DP (Department)
+OF (Office)
+CY (City)
+
+If you get redirected back to the logon page immediately, it means that you 
+must establish a session with your browser first.  To do that, just browse to:
+
+http://exchangesvr/exchange/LogonFrm.asp?mailbox=&isnewwindow=0
+
+Enjoy.
+
+-- 
+H D Moore
+http://www.digitaldefense.net - work
+http://www.digitaloffense.net -  play
+</pre>
+
+Although you might find the above examples of his wisdom utterly [[unfunny|funny]], there's one message dating back to 2000 which quickly brings the [[lulz]] to fight the [[antilulz]] and settle things down:
+
+<pre>
+I tried PAGERas well as every other environment variable I could tell it
+read, no luck.  The PAGER just gives me "AAAAAAAAA" ... "AA: Command not
+found."
+
+-HD
+
+Michal Zalewski wrote:
+>
+> Try setting PAGER instead of MANPAGER - older man version used it.
+</pre>
+
+Whenever you get AAAAAAAAAAAAAAAAAA, you know you are [[doing it wrong|hacking it wrong]]! But HD can send [[cum|missiles]] to [[Saddam]] just by sticking a few AAAAAAAAAAAAAAAAAA together. Beware. Later in 2002, HD posted some scary [[crap|advisories]] [http://marc.info/?l=bugtraq&m=101901273810598&w=2] about Microsoft products being flawed as shit.
+
+[[Image:Romperstomper.gif|thumb|H D Moore is known to be a [[nazi|white supremacist]].]]
+
+{{Quote|I found their unwillingness to release a hotfix absurd.|HD Moore - <em>Microsoft is raping me</em>}}
+
+While this was no surprise, HD gained further fame for posting entire threads of his conversations with Microsoft, thus violating a handful terms of their [[legal]] disclaimers and pissing them off. [[Honorary Ed Lolington]] claimed this could lead to [[rape|subpoenas]] and [[lulz|legal threats]]. HD exposed several FTP [[cock]] gobbling vulnerabilities afterwards, with elite Perl [http://marc.info/?l=bugtraq&m=101122869506725&w=2] [[hax|exploits]], even better than SNOSOFT [http://marc.info/?l=bugtraq&m=101558498401274&w=2].
+
+{{Quote|Mom! I HATE THIS DAVE AITEL MOTHERFUCKER!|HD Moore - <em>Momma, Im teh jealous</em>}}
+
+At some point, HD Moore was hired by Digital Defense (previously known as Diarrhea Defense) to publish and molest random teenagers on security lists [http://marc.info/?l=bugtraq&m=104612710031920&w=2]. His Perl skills became even more sharp, helping the raise of the future Mongosploit project. In his advisories, we could observe sections named ''A Fictitious Case Study'', which included short tales about [[rape]], [[pedo|child molesting]] and other of his sexual fantasies.
+
+{{Quote|At this point, the attacker needs to convince the user to hit enter for the "exploit" to succeed.|HD Moore - <em>exploit expert on manual mode</em>}}
+
+'''PROTIP''': If you don't want to be [[raped|hacked]] by HD Moore, DO NOT press Enter.
+
+==== Apogee of the Metasploit ====
+
+[[Image:Hd moore trippin.jpg|thumb|The Messiah talks to the populace. A new age is coming, fuck yeah. Free burgers for everyone!]]
+
+HD Moore united efforts with several other security faggots to create the infamous [[script kiddie]] and [[faggot|whitefat]] Mongosploit framework, also known as Metasploit [http://metasploit.com/framework/] (but only among its developers and niggers). The framework provides a whopping 18 exploits which work against targets and softwarez that [[Shit nobody cares about|nobody uses]]. H D also violated the distribution terms of Cygwin by adding it to his crap installers, plus hidden spyware infecting your freedoms with [[Jewish|Ninja]] sharp blade Stars of [[Israel|David]].
+
+{{Quote|Metasploit, Ruby bug ridden shit, yet still much better than CANVAS.|HD Moore - <em>CANVAS vs. Mongosploit</em>}}
+
+* http://marc.info/?l=bugtraq&m=109232207129032&w=2
+* http://marc.info/?l=bugtraq&m=108682188421790&w=2
+* http://marc.info/?l=bugtraq&m=108137241418211&w=2
+
+{{Rainbowsmall|Banana Mongosploit}}
+
+=== Spam filter rules ===
+
+In order to prevent HD from [[hacking]] your [[freedom]] like a mad [[Jewish]] [[cunt]], feel free to tell whoever is behind these email addresses to shut the fuck up:
+
+* HD Moore <hdmoore () USA ! NET> ''(used when he was still a cheap hustler in Texas)''
+* H D Moore <secure@SECUREAUSTIN.COM> ''(Fat, incapable of running security guard at some Austin mall)''
+* H D Moore <*@metasploit.com>
+
+{{crap}}
+{{SecurityFaggots}}
+[[Category:People]]
+[[Category:Softwarez]]

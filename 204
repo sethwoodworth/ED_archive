@@ -1,0 +1,67 @@
+Abuse Filter
+[[Image:AntiAbuse Bot.JPG|thumb|right|This is AntiAbuseBot, arch-nemesis of [[MysteryBot]].]]
+[[Image:Abuse filter fail.PNG|thumb|Filter 58 failing hard.]]
+The [http://en.wikipedia.org/wiki/Wikipedia:Abuse_filter '''Abuse Filter'''] is a newly-enabled [[TOW]] [[dildo|extension]].  In theory, Abuse Filter is able to [[ban]] [[drama|disruptive users]] and obvious [[troll]]s.  For [[shit nobody cares about|technical reasons]], the Abuse Filter is an absolute piece of [[shit]] that generates [[at least 100]] false positives a day.
+
+== Designed to handle ==
+*[[Grawp]]
+*[[Willy on Wheels]] impersonators
+*Potty-mouthed [[13 year old boys]]
+*[[Lulzy|Abusive]] [[ASCII]] such as [[Goatse]]
+*Anything funny from [[Encyclopedia Dramatica|the superior wiki]]
+*Four abuse filters [http://en.wikipedia.org/wiki/Special:AbuseLog?wpSearchFilter=7 #7], [http://en.wikipedia.org/wiki/Special:AbuseLog?wpSearchFilter=215 #215], [http://en.wikipedia.org/wiki/Special:AbuseLog?wpSearchFilter=228 #228], and [http://en.wikipedia.org/wiki/Special:AbuseLog?wpSearchFilter=230 #230] exist just to stop the nonstop spam from [[AnonTalk]].
+
+== Widespread acclaim ==
+[[Some argue]] that the filter is the best thing that ever happened to Wikipedia. Most notably, [[Grawp]] (aka [[JarlaxleArtemis]]) has given up on simple page moves, like [[Pixar]] becoming a tax firm, much too far from his roots. He now endlessly [[harassment|harasses]] his enemies instead. If there is anything to blame for a growing pest like Grawp, it would be the Abuse Filter.
+
+Like most other defensive mechanisms on TOW, it will inevitably be [[non-notable]] in two months time. The realm of fake editing and counter-vandalism is rushed at a ridiculous pace.  Many editors become [[rage|irate]] when they do not have the impression of pwning or slowing down "x chronic troll," so the Abuse filter and its ancestors merely prove to be a simple filibuster to a cancerous tumor of angst and [[butthurt]].
+
+== AntiAbuseBot ==
+The precursor to the Abuse Filter, [http://en.wikipedia.org/wiki/User:AntiAbuseBot AntiAbuseBot] (moar liek AbuseBot, [[amirite?]]) is run by some [[faggot]] called Chris G.  More or less it is a complete rip-off of [[MysteryBot]].  The main difference between the two lies in the fact while MysteryBot reverts legit vandalism, AntiAbuseBot removes [[Goatse]] ASCII, [[mudkipz]], and all the stuff cool people actually care about, because [[noone]] gives a shit about 99% of Wikipedia's articles.  In addition, AAB consistently [[B&]] users without the possibility of appealing on their talk page.  [[some argue|Needless to say]],  an autistic sysop will jump in and endorse the block because [[butthurt|all sysops hate ED]].
+
+== Abusing the Abuse Filter ==
+Luckily, entries on the Abuse Filter log can not be [[Oversight|oversighted]], making it a perfect way to spread dox. Just insert the personal information and then add a phrase that you know will be disallowed, and then spam it hundreds of times until your [[Lulz|talk page is protected]].
+
+Furthermore, spamming abuse filters in and of itself is a useful method of abuse. Just stuff your edit with as many keywords that will be disallowed by the filter as possible, crapflooding the logs with spam. One particular vandal who was quite successful at this was {{wpul|ScienceGolfFanatic}}.
+
+== Evading the filters ==
+Luckily, most filters are just stupid Regex matches that are pretty easy to get around. You might want to engineer your vandalism to bypass these filters. Here is an example of a filter designed to stop [[Grawp]] page move vandalism, courtesy of a long time inactive sysop account. This is [[Wikipedia:Special:AbuseFilter/72|Filter 72]] on Wikipedia, titled "Unusual move throttle".
+<pre>
+/* This filter triggers when people on the whole Wikipedia site does the following more than 6 times in 15 mins */
+(action == "move") &
+(user_editcount < 50) &
+(
+  (
+/* A character other than normal letters numbers or punctuation is added to the title */
+    (moved_to_text rlike "[^A-Za-z0-9 _!.,?()&'?\-]") &  
+    !(moved_from_text rlike "[^A-Za-z0-9 _!.,?()&'?\-]")
+  ) |
+/* The page title length has increased by more than 20 characters */
+  (length(moved_to_text) > 20+length(moved_from_text)) |
+  (
+/* Extra text (4 or more characters) is added to the page title,
+   but (Any Text Here) is not added */
+    (length(moved_to_text) >= 4+length(moved_from_text)) &
+    (norm(moved_from_text) in norm(moved_to_text)) &
+    !(moved_to_text rlike "\(.*\)")
+  ) |
+/* Edit summary contains unusual characters */
+  (summary rlike "[^\x00-\x7F]") |
+  (
+    (moved_to_text rlike "[^\w)]$") & /* New title ends in something other than a character */
+    !(moved_from_text rlike "[^\w)]$") &
+    !(moved_to_text in moved_from_text) /* New title does not contain old title */
+  )
+)
+</pre>
+
+So, how can one evade this filter? Some examples:
+#Take a page with a long title. Add your abusive text. Make sure the total length does not increase by more than 20 characters. Do not add any unusual characters in your title or summary. Make sure the new page title contains a <code>(</code> with a <code>)</code> somewhere after.
+#When adding spam to page titles, just make sure to add () to the end. Example: [http://en.wikipedia.org/wiki/Special:Contributions/Hibe3000] Instead of moving <code>Dordt College</code> to <code>Roland's Dordt College</code>, this vandal could have moved it to <code>(Roland's Dordt College)</code> to evade the filter.
+
+== See also ==
+*[[ClueBot]]
+*[http://en.wikipedia.org/w/index.php?title=Special:Log&user=AntiAbuseBot AAB blocks]
+{{WP}}
+<br>
+{{stub}}

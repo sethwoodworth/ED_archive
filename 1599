@@ -1,0 +1,78 @@
+Cisco Systems
+{{boring}}
+{{work|formatting}}
+[[File:Cisco_systems.png|thumb]]
+[[File:Cisco_systems.jpg|thumb|That's moar like it.]]
+Not to be confused with the [[Cisco|delicious beverage]] beloved by the black community, '''Cisco Systems''' is a networking company that focuses on taking away American jobs and sending them to India. They also make routers and switches or some shit like that, too. Not only limited to making hardware that's [[OH EXPLOITABLE]] by China (can a nigga get a HUAWEI), they've also got a cavalcade of certifications which prove exactly NOTHING.
+
+
+==Cisco History==
+
+A guy and a girl go to some hippie university on the West Coast. Guy jacks [[OC|source code]] for routers, makes his own company and brings girl along with it. University is butthurt that he jacked the source, but no one cares because there is no livejournal back then to be emo and ring up the [[911|whambalamps]]. Girl divorces guy, rolls out with the money and guy eventually is ousted from the company. Company builds shitty routers and day-by-day Indians start replacing humans like its reruns of ''[[Scientology|V]]''. Since then, Cisco has excelled in paying [[Fox]] to insert its products in its show [[Jack Bauer|''24'']]. Of course, the products have been more effective on the show than in anyones actual network since the shit doesn't work.
+
+==Cisco Products==
+
+*Cisco 2500 - Small router that was as common in the United States as syphilis.
+*Cisco Catalyst 5500 - Ethernet switches so heavy, they can't be given away on craigslist.
+*Cisco Catalyst 6500 - The router of choice for all ghetto hosters.
+*Cisco Catalyst 7600 - The same thing really as a 6500, but with marketing juice.
+*Cisco GSR 12000 - Where every linecard brings its own list of caveats.
+*Cisco CRS-1 - A router/blowtorch combo. You can feed a small country + haiti with the cost of one of these.
+*Cisco CRS-3 - It's just a CRS-1 with new fabric & linecards. Stickers to change the "1" to a "3" are not included.
+*Cisco Telepresence - It's what CTU and the White House uses on 24.
+*Cisco Guard - It blocks attacks on CTU, but can't handle a rbot ddos in real life.
+*Flip Camera - Because Cisco really needed to buy this? What the fuck?
+
+==Known Cisco-isms==
+*"No one ever got fired for picking Cisco" - if this is where you work, you work with hapless retards.
+*"That's not a bug, thats a feature"
+*"Oh, you wanted ACLs on there too?" - Packet filtering? Riiiight
+*"We can count your packets or forward them, which one do you want?" - This is why your SNMP counters don't work.
+*"Catalyst sixty-five hundred keeps on rollin, one supervisor cause the other one got stolen" - Cisco rap
+*"no redistribute <x> route-map foo did what?!" - Negation of a redistribute + route-map, its a motherfucker.
+*"What do you mean no commit or rollback?" - The realization that Juniper is fucking better.
+*"No other customer asked for THAT feature" - The standard answer to feature requests
+
+
+==Cisco Leadership==
+
+John Chambers has long been the leader of Cisco. He's known for standing in front of audiences and giving presentations with no visual cues or notes. Of course, that would be fucking expected of any competent leader or any nutjob who can ramble on for an hour or so. Chambers has led Cisco to a new era where no longer you deal with clean cut white kids or even asians who cannot speak engrish. The new face of Cisco is staring back at you via a Cisco 7960 IP Phone from Bangalore with their children running around in the background watching Bollywood films. Yes, the new Cisco is one that can theoretically have a new years celebration every day since there are over one thousand religions within India. Strangely, all of them seem to be diwali and involve lighting candles. It has been said that this Indian Problem (IP issues) are becoming a major company issue. Since this has not hurt the sales of Cisco significantly, Juniper has sadly gone the route of hiring Indians to compensate for the butter chicken gap.
+
+
+How to troll a brown cisco employee:
+*Be white and say HAPPY DIWALI repeatedly
+*Throw them a bag of peanuts and say this is an offering to their elephant god
+*Call their home towns by their original slave name (Mumbai = Bombay, Kolkata = Calcutta, etc).
+*Talk shit about ghandi.
+*Ask them how to make BUTTER CHICKEN, the nectar of the gods.
+*Put brown residue on your left hand, force them to shake it.
+
+==Cisco Caste System==
+In order of priority:
+*Chuhra
+*Kurni
+*Parekh
+*Sekhi
+*Whites
+
+==Cisco Ping==
+*!.!.! - Load balancing not working
+*.!!!! - ARP'ing
+*!!!!! - I'm pinging 10!@#!@#
+*..!.. - Cisco saying fuck you
+
+==Cisco Certifications==
+Cisco learned a great way to bilk the network community with certifications. Unfortunately, the certifications mean jack shit because the majority of experience required to do an actual fucking job requires actually doing things in production versus skimming the pages of some shit you picked up at Borders. In any event, thousands of people take tests which qualify them to understand outdated network concepts that have nothing to really do with the modern Internet. Oh yeah, none of them actually teach how the protocols work, only how to make shit work on a Cisco router. If you want to understand how things work, try Juniper certifications or read a book from a non-tainted, neutral party on the subject. If you have valium at your reach, you may dare read RFC's from basement dwellers who have never ran an actual network besides their 4-port hub.
+
+
+*CCNA - Basically qualifies you to turn on the fucking thing and recognize that LED's are illuminated.
+*CCNP - Static routes, access-lists. Just stay away from production.
+*CCIE - Watered down from a 2 day test to bullshit you can learn in a bootcamp. All the hard shit has been removed and any 5-digit CCIE should just not be trusted with enable.
+
+
+==Cisco TAC==
+
+Cisco maintains a technical support center staffed with Indians who communicate via tin cans and strings. All tickets typically result in them asking for you to send "show tech" multiple times, despite you already uploading it to the case. After which, the TAC person will dump your output into a parser which gives them a list of what might be the problem. Without actually investigating further, the TAC Indian will spit back rapid fire alternatives and workarounds for you to try. Generally, the more ways they can try to trick you or your staff into running debug, reloading the router or running undocumented risky commands the better. If none of those solutions work (or if your router is not coming back up), they'll then make a blanket response asking for you to upgrade code to some alphabet-soup revision of code. This revision of code is generally calculated based upon the phases of the moon, the spin of a die and how many fingers is the elephant god holding up.
+
+
+[[Category:Internets Phenomena]][[Category:Softwarez]][[Category:Fandom Stuff]]

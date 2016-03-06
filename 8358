@@ -1,0 +1,48 @@
+Theo de Raadt
+[[Image:Theo.jpg|thumb|Theo de Raadt with parrot. If we had a sound clip, he'd be going ARRRRR!]]
+[[Image:Openbsd.jpg|thumb|What Theo de Raadt means by "proactively secure"]]
+[[Image:Theohasaids.jpg|thumb|An updated picture of Theo. He's lost quite a bit of flesh.]]
+[[Image:TheosClosetScreenshot.png|thumb|Theo browsing safely in his closet where nobody can find him. Yes OpenBSD really looks like this.]]
+
+'''Theo de Raadt''' is the founder of the OpenBSD and OpenSSH projects. One of the most drama-plagued and prolific personalities on the [[internets]], Theo is often labeled an asshole, an egoist and a [[South Africa|South African]]. He frequently flames users on the [[misc@openbsd]] mailing list when they ask questions that he deems redundant, stupid or otherwise deserving of an embellished [[RTFM]]. 
+
+Many believe Theo's acerbic comments to be helpful and beneficial to the [[OpenBSD]] project. It is held by some that frequent text lashings of newbies and those who post before they google keep the project pure and free from only mildly-interested outsiders. Another belief is that Theo's constant bragging about his project's dominant security causes malicious hackers to attack the project more than they would any other. This assertion usually leads to one of two conclusions: the first being that attracting the ire of seasoned malicious hackers with an axe to grind will eventually be a negative, resulting in an over abundance of vulnerabilities found, and thus exploits written for the software. The second conclusion is similar, but carried to another logical end: that the concerted effort on the part of hackers attempting to find vulnerabilities in the code will lead to better, quicker vulnerability discovery and more secure code writing on the part of the programmers on the project. 
+
+== Starting the OpenBSD Project ==
+Excerpt:
+
+<blockquote>After years of working on NetBSD, I was unfairly told to go play elsewhere. So I did, and built a new team of about 80 developers. Where did the inspiration come from? I have no idea. I've been writing and fixing Unix kernel and user-land code for about 15 years, and honestly do not know why, except that I really enjoy it. I also enjoy taking it [[in the ass]].</blockquote>
+
+[http://kerneltrap.org/node/6/print Full text article] and interview
+
+[[Image:Theotrain-oncoming.jpg|center]]
+
+== Theo vs. The World ==
+
+The rivalry and latent homosexual tension between Theo and [[FreeBSD]]'s [[Darren Reed]] is well known and evidenced throughout several mailing lists, websites and CVS commit comments. Theo and Darren had a [[falling out]] in 2001, where Theo removed IPF with no comparable tool to replace it due to the 'you're not exactly allowed to modify and release my code without permission' license Darren had, although Theo's known to have done this countless times with similar excuses.
+
+One example of this is with [http://cr.yp.to/djb.html Dan Bernstein]'s [http://archives.neohapsis.com/archives/openbsd/2001-08/2544.html tools], as Dan's Tools had no 'official license', or [http://cr.yp.to/compatibility.html "sane install path"], despite that these programs were not only OpenBSD's preferred (djbdns for nameservice, qmail rather than sendmail), but [http://monkey.org/openbsd/archive/ports/0108/msg00459.html were] [http://monkey.org/openbsd/archive/ports/0108/msg00460.html once] [http://monkey.org/openbsd/archive/ports/0108/msg00499.html in] [http://monkey.org/openbsd/archive/ports/0108/msg00500.html the] [http://monkey.org/openbsd/archive/ports/0108/msg00504.html official] [http://monkey.org/openbsd/archive/ports/0108/msg00505.html ports] [http://monkey.org/openbsd/archive/ports/0108/msg00508.html tree] ([http://linuxmafia.com/pub/humour/dan-versus-theo Which goes on, and on, and on...])
+
+Theo survived these fights, but later on The World returned with a vengeance when Theo had to fight Dio Brando.
+
+== Theo's Disgusting Expensive Habit ==
+"De Raadt is one open source developer who owns his own home. The DARPA grant gave him the finance to pay up the mortgage. He has a ridiculously high electricity bill, he says - $500 Canadian - but cannot help it as needs to keep his infrastructure going. The money is enough to keep things going at the moment and he has no doubts that donations will continue to come when they are needed." [http://www.theage.com.au/articles/2004/10/07/1097089476287.html?oneclick=true Citation]
+
+== Theo vs. [[GOBBLES]] ==
+To be completed.
+
+See also [[OpenBSD]], [[FreeBSD]], [[Darren Reed]], [[Bilano]]
+
+== Theo vs. [[Kuro5hin]] ==
+David Marcus, a Kuro5hin user, posted an [http://www.kuro5hin.org/story/2007/8/5/2176/52470 article] trolling Da Rat, who naturally responded by threatening to [http://www.kuro5hin.org/comments/2007/8/2/15233/84896/44#44 sue] both Kuro5hin and Mr. Marcus. 
+
+== Theo vs. [[Daniel J. Bernstein|DJB]] ==
+[[drama|Flame-fest]] over qmail licensing policy and directory structure. See [[Daniel J. Bernstein]].
+
+== External Links ==
+*[http://zeus.theos.com/deraadt/ Theo's personal website], talks about his cats like the famous [[LJ]] [[faggot]] [[Jameth]]. [[Category:People|De Raddt, Theo]]
+* [http://www.theage.com.au/articles/2004/10/07/1097089476287.html?oneclick=true OpenBSD report from TheAge, citing Theo's home]:
+
+{{SecurityFaggots}}
+[[Category:Softwarez]]
+[[Category:People]]

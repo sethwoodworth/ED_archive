@@ -1,0 +1,35 @@
+Flagged revisions
+'''Flagged revisions''', also known as '''FlaggedRevs''', is an [[MediaWiki]] extension meant to save [[Wikipedia]]'s reputation as a reliable resource. Since its reception, Wikipedia has been susceptible to hoaxes, especially on [[BLP]] pages. With flagged revisions implemented, [[Wikipedos|trusted editors]] would approve or reject any revision made to any [[Lyor Cohen|sensitive article]]. Basically, Wikipedia is seeking to create a peer review system. Of course, this would mean that a bunch of [[obsessive]] editors with [[POV|agendas]] would be [[MFWIC|in charge of everything]].
+
+==Motivation==
+For years, [[vandals]] and [[trolls]] have written about the [[Hoax|fictional biographies]] of several celebrities and prevented this as [[truth]] on Wikipedia. They claimed that [[Liberal|Ted Kennedy]] died after a seizure (no, this wasn't the same one that killed him) and that [[John Seigenthaler]] killed [[JFK|his brother]] from the [[Conspiracy|Grassy Knol]]. Needless to say, this false information caused major stirs within the media and tarnished Wikipedia's reputation. As a result, [[Jimbo Wales]] organized a team of developers and ordered them to develop a practical peer review system in order to restore the people's faith in Wikipedia.
+
+==Pending changes==
+On June 15, 2010, flagged revisions was enabled on the English Wikipedia (enwiki) as a two-month trial period. For its launch, flagged revisions was re-branded as '''pending changes''' in order to distance the extension from [[YouTube]]'s flagging system. Due to this, [[anonymous]] and new users can't see unreviewed revisions on pages with pending-changes protection.
+
+There are two types of pending-changes protection that wikipedia [[sysops]] can apply to pages:
+
+#Level 1 protection &ndash; Autoconfirmed users can view unreviewed revisions by default. Basically, this means that you are forced to register an account and make a few revisions in order to view unreviewed changes.
+#Level 2 protection &ndash; Only reviewers and sysops can view unreviewed revisions by default. This basically means that only high-ranking, established users can see pages as the vandals intended.
+
+Of course, anyone can view unreviewed revisions through the page history, but there isn't anyone who bothers doing that.
+
+==Feedback==
+This extension isn't without its complications:
+*[[wikipedia:Wikipedia:Pending_changes/Feedback#Observation|Several users claimed that the extension simply created extra, unnecessary work]].
+*[[wikipedia:http://en.wikipedia.org/wiki/Wikipedia:Pending_changes/Feedback#From_an_editor.27s_standpoint.2C_a_bad_idea|Others complained that anonymous editors couldn't revert vandalism any longer]].
+*[[wikipedia:Wikipedia:Pending_changes/Feedback#Too_slow|There is a general agreement that the new special pages take far too much time to load]].
+*[[wikipedia:Wikipedia:Pending_changes/Feedback#Feedback_.28Rules_of_chess.29|There is evidence that Reviewers are too stupid to do their job right]].
+*[[Watchmen|Who reviews the reviewers?]]
+
+For a full list of lists, [[wikipedia:Wikipedia:Pending_changes/Closure#Working_Summary_.28unofficial.29|click here]].
+
+==Next step==
+On August 14, 2010, Wikipedians started [[wikipedia:Wikipedia:Pending_changes/Closure|discussing the future]] of the extension, but the community is divided as always.
+
+==External links==
+*[http://www.mediawiki.org/wiki/Extension:FlaggedRevs Extension:FlaggedRevs] at the [[MediaWiki]] wiki.
+**[http://www.mediawiki.org/wiki/Help:Extension:FlaggedRevs Help:Extension:FlaggedRevs] at the [[MediaWiki]] wiki.
+*[[wikipedia:Category:Wikipedia flagged revisions|Category:Wikipedia flagged revisions]] at [[TOW]]
+
+{{Wikipedia}}

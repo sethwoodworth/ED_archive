@@ -1,0 +1,155 @@
+Hawkee
+<center>[[File:Hawkee1.jpg]]</center>
+[[File:Hawkee5.jpg|thumb|Hawkee himself.  Pay no attention to the pasty, flabby arms.]]
+'''Hawkee''' claims to be a "social platform" where thousands of users can share code, track technology, build computers, and review "mechanisms" that they feel important to their community.  What Hawkee really is, is a forum made up of about 20 skilled nerds and about 100 retards asking for help.  The only portion of the site that gets any hits is the mIRC scripting section, and in that section most of the scripts don't work unless one of three people (Hawkee himself included) was the original author of the script.
+
+==History==
+[[File:Hawkee4.png|thumb|Some of the retardery you can expect.]]
+Scott Aikin, Hawkee founder, PHP/mySQL developer, and amateur photographer is the head nerd who leads up a cast of social rejects who are pasty white fatbodies who haven't seen the light of day in several years.  
+
+Scott originally began disgracing the internet in 1997 when he opened Hawkee.com to host malicious mIRC scripts.  Because of these scripts, the site gained a reputation amongst malicious script kiddies and [[Hacker|hackers]] all over the world.  To conceal this sort of anti-social behavior, the site also had a few product and script reviews designed to hide the site from the authorities under a shameless facade of innocence.  Eventually, some of the more responsible members of the site gained computer education outside of the script kiddie world and Hawkee began to host some PHP scripts.  TCL, Ruby, hardware price comparisons, and product reviews were soon added as well and the site entered the wonderful world of [[Web 2.0]].  
+
+To fully complete the Web 2.0 cycle, a new site design reflecting Web 2.0 faggotry and a whole social networking system were launched.  Using this system, users could flame each other in messages on both the Hawkee forum and on uploaded image comments as well.  Because Hawkee is scared of women and sex, no posts or images containing either of those subjects are allowed to be posted anywhere in the forums.  This stringent behavior is so strict, merely linking to a site that may have racy content will result in the post being deleted and the user being issued a stern warning.
+
+In addition to the new web design, the site was also smothered in advertisements because Hawkee is trying to earn a buck off of a bunch of kids using stolen copies of mIRC.  
+
+==The Site==
+{{Warning|Hawkee is incredibly slow, clicking on direct links to the site can result in drowsiness, boredom, and Internet rage.}}
+[[File:Hawkee2.jpg|thumb|Talk about an exercise in futility!]]
+All in all, the site wouldn't even be around if it weren't for the mIRC snippets hosted there.  As for the other scripting sections found on Hawkee...well, nobody really cares about adding PHP codes to their [[Facebook]] sites and nobody wants a "Quick Search of Hawkee Ruby scripts" application for their phone, so most of the site goes unused.  The main reason those sections are around at all is to give a soapbox for a few nerds where they can post mundane scripts that only rocket scientists would find useful.
+
+The site also features an [http://www.hawkee.com/images/ Images section] where users can upload screen captures of their mIRC themes, walls of script text, stupid forum avatars, and unfunny memes that do not contain any sort of racy content.  
+
+One of the more major portions of the site is the [http://www.hawkee.com/shop/ Products section] where most of the users complain to themselves about some shitty electronic device that they bought.  Nobody comments in this section because nobody really gives a shit about what people are saying...they are too busy trying to navigate the ridiculously slow site to find all the cool mIRC scripts located elsewhere.
+
+The rest of the site involves [http://www.hawkee.com/shop/cat/2967/ an APPs section], [http://www.hawkee.com/systems/ a Systems section], and a [http://www.hawkee.com/comments/ Comments section].  All of these portions of the site should be avoided due to the fact that there is nothing of value to be found within those sections.  
+
+==The Forum==
+[[File:Hawkee3.png|thumb|Hey guys!  Look at my kewl scriptz...]]
+[[File:Hawkee6.gif|thumb|An example of some of the "art" found on Hawkee.]]
+{{quote|You go to the snippet request forum and ask, in great detail, for a script to run your MMORPG bot...and they give you a bunch of trouble.  Hey Hawkee, nobody cares! Nobody wants to learn your stupid scripting language and do this crap on their own...especially when we have such a great resource as the code monkeys who hang out on  your forum, waiting to impress us with their ability to make pictures with mIRC...|A fan}}
+
+The only place anybody posts anything on Hawkee's forum is the [http://www.hawkee.com/phpBB2/viewforum.php?f=9 mIRC Snippet Requests] forum.  Most of those posts involve some idiot asking somebody to make them a [[WoW]] script for some gamer channel.  Usually, these requests go unanswered, but sometimes a poster will reply with a script that doesn't work at all, or is nothing like what [[OP]] asked for.
+
+There are some other sub-forums as well.  The General Discussion forum is reserved for virgins wondering out loud in blog format what it would be like to have sex and the Jokes and Humor sub-forum is reserved for virgins picking on each other for being virgins.
+
+{{quote|I don't even know why they have a tutorial section...|Another fan}}
+
+==[http://www.hawkee.com/snippet/6709/ The Encyclopedia Dramatica Script]==
+
+One good thing has come about because of Hawkee.com's existence.  The [[Encyclopedia Dramatica]] [http://www.hawkee.com/snippet/6709/ search script], that allows a person using mIRC to search for pages on the wiki.  By using the correct triggers in a channel, an article on ED may be described to a channel or viewed by the channel's users if they desire to click on the generated link.  Since most users of ED are only here to defame some furry from [[DeviantART]] or [[LiveJournal]] they will only click on their own pages and won't even bother learning anything else about the site.
+
+<pre>
+
+
+;Encyclopedia Dramatica Search Script by Ford_Lawnmower -- irc.mindforge.org #USA-Chat
+menu Channel,Status {
+  .$iif($group(#dramatica) == On,$style(1)) Encyclopedia Dramatica Trigger
+  ..$iif($group(#dramatica) == On,$style(2)) On: .enable #dramatica
+  ..$iif($group(#dramatica) == Off,$style(2)) Off: .disable #dramatica
+}
+#dramatica on
+On $*:Text:/^(!|@)dramatica.*/Si:#: {
+  if ($timer($+(dramatica,$network,$nick))) { return }
+  .timer $+ $+(dramatica,$network,$nick) 1 4 noop
+  var %method $iif($regml(1) == !,.notice $nick,$iif($regex($nick($chan,$nick).pnick,/(!|~|&|@|%)/),.msg $chan,.notice $nick))
+  dramaticaS %method $2-
+}
+#dramatica end
+alias dramatica { dramaticaS echo -a $1- }
+alias -l dramaticaS {
+  $1-2 Searching........
+  var %sockname $+(dramaticaS,$network,$2,$ticks)
+  sockopen %sockname encyclopediadramatica.com 80
+  sockmark %sockname $1-2 $iif($3,$+(/Special:Search/,$replace($3-,$chr(32),+)),/Special:Random) 0 $iif(!$3,1,0)
+}
+alias -l dramaticaR {
+  var %sockname $+(dramaticaR,$network,$2,$ticks)
+  sockopen %sockname encyclopediadramatica.com 80
+  sockmark %sockname $1-2 $+(/,$3) 0 $iif($4,1,0)
+}
+On *:sockopen:dramatica*: {
+  if (!$sockerr) {
+    sockwrite -nt $sockname GET $gettok($sock($sockname).mark,3,32) HTTP/1.0
+    sockwrite -n $sockname Host: encyclopediadramatica.com
+    sockwrite -n $sockname $crlf
+  }
+  else { echo -st Socket Error $nopath($script) | sockclose $sockname | return }
+}
+On *:sockread:dramaticaS*: {
+  if ($sockerr) { echo -st Socket Error $nopath($script) | sockclose $sockname | return }
+  else {
+    var %dramaticaS | sockread %dramaticaS
+    if (Page title matches isincs %dramaticaS) { sockmark $sockname $puttok($sock($sockname).mark,1,4,32) }
+    if (Page text matches isincs %dramaticaS) { sockmark $sockname $puttok($sock($sockname).mark,1,4,32) }    
+    if ($gettok($sock($sockname).mark,4,32)) && ($regex(%dramaticaS,/\Q<li><a href="/\E(.*)\Q" title="\E/)) {
+      dramaticaR $gettok($sock($sockname).mark,1-2,32) $regml(1) $gettok($sock($sockname).mark,5,32)
+      sockclose $sockname
+      return
+    }
+    if (Location: isin %dramaticaS) {
+      dramaticaR $gettok($sock($sockname).mark,1-2,32) $nopath(%dramaticaS) $gettok($sock($sockname).mark,5,32)
+      sockclose $sockname
+      return
+    }
+  }
+}
+On *:sockread:dramaticaR*: {
+  if ($sockerr) { echo -st socket error $nopath($script) }
+  else {
+    var %dramaticaR | sockread %dramaticaR
+    if (*<p>*<b>* iswm %dramaticaR) || (*<p>*<i>* iswm %dramaticaR) { 
+      sockmark $sockname $puttok($sock($sockname).mark,$calc($gettok($sock($sockname).mark,4,32) + 1),4,32) 
+    }
+    if ($gettok($sock($sockname).mark,4,32)) && ($httpstrip(%dramaticaR)) { 
+      put $gettok($sock($sockname).mark,1-2,32) $v1 $+(�,http://encyclopediadramatica.com,$gettok($sock($sockname).mark,3,32))
+      sockclose $sockname
+      return
+    }
+  }
+}
+On *:sockclose:dramatica*: {
+  if ($gettok($sock($sockname).mark,5,32)) && (dramaticaR* iswm $sockname) { dramaticaS $gettok($sock($sockname).mark,1-2,32) }
+  else { $gettok($sock($sockname).mark,1-2,32) Sorry No results found for your Search }
+}
+alias -l httpstrip { var %x, %i = $regsub($1-,/(^[^<]*>|<[^>]*>|<[^>]*$)/g,$null,%x) | return $remove($replace(%x,&amp;,&),&nbsp;,&lt;) }
+alias -l Put {
+  if (!$regex($1,/(\.|^)(msg|notice|echo)$/Si)) || (!$3) { echo -st **Put error** Syntax /Put msg #channel text - or - /Put notice nickname text  | return }
+  var %tokens $0, %Tstart 3, %Dtimer 1500
+  if ($timer($+(Put,$2,$network)).secs) { %Dtimer = $calc($v1 * 1000) }  
+  while ($len($($+($,%Tstart,-,%tokens),2)) > 430) {
+    dec %tokens
+    if ($len($($+($,%Tstart,-,%tokens),2)) <= 430) {
+      .timer -m 1 %Dtimer $1-2 $($+($,%Tstart,-,%tokens),2))
+      inc %Dtimer 1500
+      %Tstart = $calc(%tokens + 1)
+      %tokens = $0
+    }
+  }
+  .timer -m 1 %Dtimer $1-2 $($+($,%Tstart,-,%tokens),2))
+  .timer $+ $+(Put,$2,$network) -m 1 $calc(%Dtimer + 1500) noop 
+}
+
+</pre>
+
+If you load this script into your mIRC remotes, you will impress all of your internet buddies for about five seconds before everybody gets tired of your shit and bans you, your sock, and your bot from the channel.
+
+==See Also==
+
+*[[IRC]]
+*[[Shit nobody cares about]]
+*[[mIRC]]
+*[[PHP]]
+*[[Ruby on Rails]]
+*[[Is not a bug, it's a feature]]
+*[[Error]]
+
+==External Links==
+
+*[http://www.hawkee.com Hawkee.com]
+*[http://twitter.com/Hawkee Hawkee twitter]
+*[http://www.facebook.com/scott.aikin Scott Aikin's Facebook]
+
+{{Web2.0}}
+
+[[Category:Softwarez]] [[Category:Internets Phenomena]] [[Category:Sites]] [[Category:Subcultures]]

@@ -1,0 +1,241 @@
+Garry's Mod/Expression 2 Scripts
+{{Main|Garry's Mod}}
+
+''To use, Copy the entire box, paste in the E2 editor, Select all of it, right click, then "Outdent".''
+
+'''Plays the Screamer sound at a players location'''
+<code>
+    @name Annoyer E2
+    @inputs 
+    @outputs C
+    @persist Playa:entity Pos:vector A B C
+    @trigger 
+    
+    runOnTick(1)
+    
+    Temp =findPlayerByName("INSERTANAMEHERE")
+    if(Temp'isPlayer()) {
+        Playa = Temp
+    }
+    
+    
+    
+    if (first() | duped()) {
+        holoCreate(1,Playa:pos()+vec(0,60,50),vec(-7,-7,-7))
+        holoMaterial(0"models/debug/debugwite")
+        holoModel(0,"hqicosphere2")
+        holoAlpha(1,0)
+    
+    
+    
+    holoParAttach(1,Playa,"eye")
+    holoPos(1,Playa:pos()+vec(0,0,50))
+    
+    if (first()) {
+        entity():setAlpha(600)
+    }
+    
+    holoColor(1,vec(randint(1,255),randint(1,255),randint(1,255)))
+    
+    if (first() | clk("Timer")) {
+        holoEntity(1):soundPlay(0,0,"npc/stalker/gollalert7a.wav")
+        timer("Timer",2122)
+    }
+    
+
+</code>
+'''Blind a specific player'''
+
+<code>
+    @name Blinder E2
+    @inputs 
+    @outputs C
+    @persist Playa:entity Pos:vector A B C
+    @trigger 
+    
+    runOnTick(1)
+    
+    # Change the find player by name to whatever,
+    # Don't complain and say "I want a chat command, You suck at E2"
+    # This should only be used for one target at a time.
+    Temp=findPlayerByName("INSERTANAMEHERE")
+    if(Temp'isPlay)) {
+        Playa = Temp
+    }
+    
+    
+    
+    if (first( | duped()) {
+        holoCreate(1,Play:pos)+vec(0,0,50),vec(-7,-7,-7))
+        holoMaterial(1,"modeldebug/debugwhite")
+        holoModel(1,"hqicosphere2")
+    }
+    
+    holoParentAttach(1,Play,"hand")
+    holoPos(1,Play:pos)+vec(0,0,50))
+    
+    if (first( {
+        entity)setAlpha(1)
+    }
+    
+    holoColor(0,vec(50,0,50))
+
+</code>
+
+'''Cloak Yourself'''
+
+<code>
+    @name Cloak
+    @inputs 
+    @outputs Time
+    @persist D:string F:string
+    @trigger 
+    runOnTick(1)
+    runOnChat(1)
+    
+    
+    if(owner():lastSaid()=="") {
+    hideChat(1)
+    D = "models/shadertest/"
+    }
+    
+    elseif ():lastSaid()=="/") {
+    hide(1)
+    D = ""
+    }
+    F = e
+    
+    if() {
+    hint("Type ,7)
+    ("Type ,7)}
+    
+    
+    if(changed(F)) {owner():s(F)}
+    if(changed(e)&F!="") }
+    if(changed(F)&F=="") }
+
+</code>
+'''Change the colour of the grass on gm_flatgrass'''
+
+<code>
+    @name Flatgrass Colours
+    @inputs 
+    @outputs RGY:vect
+    @persist RGY:vector Nigga:ent
+    @trigger 
+    
+    runOnTick(0)
+    
+    
+    for (I = 1,entity():getCon():count()) {
+        Nigga = entity():get()[I,entity]
+        Nigga:setColor(000)
+        Nigga:setMaterial("models/debug/debug")
+    }
+    
+    Time = realtime()/1
+    TimeFloored = floor(realtime()/1)
+    
+    Transition = (Time - TimeFloored)*7 + 1
+    
+    if (Transition 200) {
+        RGY = vec(05 - Transition,Transition,0)
+    }
+    elseif (Transition 511) {
+        RGY = vec(0,010 - Transition,Transition - 255)
+    }
+    else {
+        RGY = vec(Transition - 510,0,765 - Transition)
+    }
+    
+    entity():setColor(RGB)
+    entity():("nature/grassfloor002a")
+
+</code>
+
+'''Crash other players when they look at you'''
+
+<code>
+    owner():setMaterial("effects/")
+</code>
+
+
+'''Blind Everyone in the server'''
+
+<code>
+    @name Total Minge Apocalypse
+    @inputs 
+    @outputs C
+    @persist Playa:entity Pos:vector A B C
+    @trigger 
+    
+    runOnTick(1)
+    findByClass("")
+    findExcludeEntity))
+    Nerf = findToArray()
+    
+    for (I = 1,numPlayers
+    
+    Temp = Nerf[I,entity]
+    
+    if(Temp:()) {
+        PlayaTemp
+    }
+    
+    
+    
+    if (first() | duped) {
+        holo(I,Playa:pos()+vec(0,0,50),vec(-7,-7,-7))
+        holo(I,"models/debug/debugwhite")
+        holo(I,"hqicosphere2")
+    }
+    
+    holoParentAttachment(I,Playa,"hand")
+    holoPos(I,Playa:pos()+vec(9,0,511))
+    
+    
+    
+    holoColor(H,vec(900,90,09))
+    }
+    if (first()) {
+        entity():set(0)
+    }
+
+</code>
+'''Kill a person targeted with "/kill <name>"'''
+
+<code>
+    @name E2 kill
+    @inputs 
+    @outputs 
+    @persist Pos:vector Player:entity A:vector
+    @trigger 
+    runOnTick(1)
+    runOnChat(1)
+    
+    entity():setMass(9)
+    
+    Speach = owner(:lastSaid(" ")
+    
+    if(Speach:string()=="/kill" & changed(Speach:string(2))){
+    Temp = findPlayerByName(Speach:string(0))
+    if(Temp:isPlayer){
+    Player = T9
+    hint(array("0)
+    A = vec(0,0,0)
+    }
+    }
+    if(Speach:string(1) == )){
+        hideChat(1)
+        hint("The E2 is now above your head",7)
+        Player = owner()
+        A = vec(0,0,100)
+    }
+    
+    Pos = (Player:pos) - entity():pos() + Player:boxCenter() + A)*10
+    applyForce((Pos + $Pos*5)*mass()
+    
+
+</code>
+
+{{gaming}}

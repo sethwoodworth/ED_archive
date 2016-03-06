@@ -1,0 +1,105 @@
+Programming
+{{pixpls}}{{haxor}}
+
+'''Programming''' is a form of [[magick]] practised by [[nerds]] and [[hackers]].
+
+==On Control Structures Used By Programmers==
+[[Image:Coding-windows-in-a-shell.jpg|thumb|left|[[Bill Gates]] Revelation. Shit happens...]]
+===Windows Control Structures===
+
+One [[BDSM|control]] structure used by [[Hacker|programmers]], particularly [[Microsoft]] is a sort of [[brain]] [[fellatio|sucking]] device. This device makes it impossible for users to use any products but [[fail|Windows]] and makes them incapable of using more sensible operating systems such as Linux. This brain sucking device is linked to the [[Cock|hard]] drives and to maintain control, the arm reading the disks simply detaches itself from the disks and extends to [[Rape|assault]] the mind of the user via the ear. This however, means that the arm is not reading from the disks and causes the dreaded [[BSOD|Blue Screen]]. [[Bill Gates]] for the most part is immune to the effects of the arm, but [[shit|rebellious]] programmers in his [[basement dweller|basement]] have been known to temporarily disable his immunity, hence why he was once subject to the effects of Blue Screen [[Owned|during a presentation]]. The mechanical arm is never noticed by onlookers because its [[Erection|extension]] causes it to become thinner and thinner as it reaches, making it microns thick and invisible to the naked eye. In its early days, it was a little thicker, causing damage to the ears and this is why the [[Old people|elderly]] have deteriorated hearing. Not using Microsoft allows the brain to regenerate slightly but long use of it may make the damage permanent.
+
+===[[Mac]] Control Structures===
+
+A control structure used by programmers of Macs is [[Communism|propaganda]]. If it weren't for the fact that they stole [[Microsoft]]'s brain sucking device, calling it [[army|Boot Camp]] (Proving the [[lie|anti-gay stance of Macintosh]]) and they get [[virus]]es less often, they would not have any users. Mac propaganda is why people think they get less [[AIDS|virus]]es. The actual reason Macs get less [[AIDS|virus]]es is that no-one [[CBF|could be bothered]] to make [[GRIDS|viruses]] for them and even if they did, they probably wouldn't work because Macs [[Shit|can't run anything]]. The reason hackers cannot be bothered to make viruses for Macs is because so few people have them and they'd much rather spend their time looking up [[Goatse|strange pictures]] using [[The Google|Google]]. [[Mac]] users are crazy. They can be easily recognized by the small Apple logo on their left palms. If encountered, by no means steer them to the edge of the room. If placed near the edge of the room, ensure that you are in an underground cement bunker as the mere mention, let alone sight of windows are likely to cause them to froth at the mouth and throw mutated, half bitten apples through them. Linux users are similar, but they just go nuts for the fun of it rather than because of a [[batshit insane|disorder]]. They are more fun to watch as they have a tendency to fuck small penguins.
+
+===[[Lunix]] Control Structures===
+[[Image:Linuxhypno2.jpg|thumb|left]]
+[[Image:Coding_Drunk.jpg|thumb|right| The real way to learn programming]]
+A control structure almost exclusively used by Linux programmers is binary hypnotism. Binary hypnotism is the use of [[1337|ones and zeroes]] to make some sort of sense. Linux users actually believe this makes sense as the [[God|penguin]] tells them so. Binary hypnotism works on Greater Windows and Mac users as well, but this soon converts them to the [[Religion|ways]] of Linux. Linux users, once hypnotized, require a daily dose of monitor rays that is first filtered through the Mother Linux. The Mother Linux is a pregnant penguin and the mother of all Minor penguins that hypnotise Linux users. She is a matriarch bent on controlling the world but has the one obstacle of being only able to speak in binary, meaning that the minor penguins, who speak decimal as well, can translate and attempt to make user manuals for businesses and user friendly Linux products. They haven't succeeded yet. The Mother Linux, however is using those hypnotized by the penguins but yet again is stopped by the fact that those that are hypnotized don't talk to real people anyway. This is why penguins still live in Antarctica.
+
+==How to represent these control structures in psuedocode==
+
+'''[[Windows]]'''
+
+ BEGIN
+ If User has Brain THEN
+ ACTIVATE Drive.
+ BLUE SCREEN!
+ Brain = Brain - 1
+ BLUE SCREEN!
+ END OF WORLD
+
+'''[[Mac]]'''
+
+ BEGIN? We don't know! At least this stuff works.
+ Yes I know there's nothing there, but it works.
+ I have a plan! Let's take what doesn't work, and try to make it work. Bad idea.
+ BLUE SCREEN!
+ END OF BRAIN
+
+'''[[Lunix]]'''
+
+ 1010111010100110101
+ 110010101010
+ 1010101                               'Mother Penguin Roar
+ 1010101
+ 10101                               'Distribution of monitor rays
+ 110101101010
+ 0101010100010101
+ 101010101010                         'Check if anything makes sense, which it doesn't.
+ 110
+
+'''[[Interbutts]]'''
+
+ //Both people are represented by an abstract class
+ public abstract class Person
+ {
+   public bool StrangersToLove { get; set; }
+   public bool KnowTheRules { get; set; }
+ }
+ 
+ //Rick Astley's possible thoughts
+ public enum Thought
+ {
+   FullCommitment
+ }
+ 
+ //Rick class 
+ public sealed class Me : Person
+ {
+   public Thought Thinking()
+   {
+     return Thought.FullCommitment;
+   }
+ }
+ 
+ //The target of Rick's song, notice that GetThought() can only be called by passing in an instance of Rick
+ //which satisfies that she can't get this from any other guy
+ public class You : Person
+ {
+   private Thought whatHeIsThinking;
+   public void GetThought(Me guy)
+   {
+    whatHeIsThinking = guy.Thinking();
+   }
+ }
+ 
+ class Program
+ {
+   //The first verse
+   static void Main(string[] args)
+   {
+ 
+     var Rick = new Me() { KnowTheRules = true, StrangersToLove = false };
+ 
+     var Girl = new You() { KnowTheRules = true, StrangersToLove = false };
+ 
+    Girl.GetThought(Rick); 
+   }
+ }
+ 
+
+As we can see, [[Windows]] removes your brain, [[Mac]] addles it then removes it, [[Linux]] controls it, and [[Tubes|Interbutts]] owns it. [[Computers]] are lovely things really.
+
+[[Category:Softwarez]]

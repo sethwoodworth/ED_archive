@@ -1,0 +1,18 @@
+Omegle Auto Troller
+{{stub}}
+
+[[Omegle Auto Troller]] is a javascript application made by [[User:Matheus28|M28]] to troll [[Omegle]] without the need to type anything, it is called [[lrn2|trolling for kids]].
+
+The tool is avaliable at [http://m28games.com/omegle] 
+
+==Instructions==
+<video type="youtube" id="dfdOT059sLQ" width="480" height="360" frame="false" position="center"/>
+
+==How it works==
+You need to inject the two JavaScript files in the omegle page, it will give them permission to send network messages to Omegle, which is exactly what Omegle does.
+
+The file "omegle.js" contains an unofficial API to communicate with the Omegle server. The other file, called "troll.js" uses that API to connect to Omegle and send random messages.
+
+{{softwarez}}
+
+[[Category:Softwarez]]

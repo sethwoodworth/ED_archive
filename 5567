@@ -1,0 +1,38 @@
+MySQL
+{{More|Everything}}
+
+'''MySQL''' is a huge [[Microsoft]] spreadsheet that people take classes for because they cant use consoles. Built for speed at the expense of getting your database corrupted. Correct usage of MySQL will result in a [[database error]]. If you cannot access [[Encyclopedia Dramatica]], you should blame MySQL all the time, even if you don't understand what it is. It will make you look smart. Really (see below for [[proof]]).
+
+==What the hell is SQL?==
+* In short, SQL is a Database.
+* What the hell is a Database?
+**A database is an organized collection of information.
+**The information can be names, phone numbers, passwords, posts between users, etc.
+**For example: online communities rely heavily on databases to keep track of user login information.
+**Pretty much every bit of persistent and modifiable information on a website resides in a database.
+**The database not only stores this information, but organizes it, and facilitates easy searching of its entries.
+*So what the hell is SQL?
+**MySQL is a particular type of Database.
+**Just as you can have different kinds of containers for storing items, you can have different kinds of databases for storing information.
+**Every container has its own characteristics, pros and cons.
+**MySQL happens to offer a lot of things that many developers like, and as a result, has become something of a standard in the web industry.
+
+==Correct Usage==
+'''Q:''' [[Is chat working?|Is search working?]]<br/>
+'''A:''' No, it is because of MySQL.
+
+==List of Things To Put in a MySQL Database==
+* [[Encyclopedia Dramatica]]
+* [[IRC]] quotes
+* [[Gay]] [[School|assignments]] on databasing that spell out a [[Fuck|rude word]] if you use [[Font size=5|font size 1]].
+* [[Pr0n]]
+* [[Internets|Teh internets]]
+* [[USA|The Universe]]
+* [[Warcraft|Shitty MMO private server databases]]
+
+==Database Problems==
+* [[Database Error]]
+* [[SQL Injection]]
+
+{{stub}}
+[[Category: Softwarez]]

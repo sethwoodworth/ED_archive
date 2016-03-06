@@ -1,0 +1,72 @@
+ARPAnet
+[[Image:mushroom.gif|thumb|right|Somewhere, the creator of ARPAnet is laughing.]]
+Everything has to start somewhere, and for the vast shitpile that is teh internets, it's here. '''The Advanced Research Projects Agency Network (ARPANET)''', a branch of the KGB (or not), decided in the late '60s, that a computer network that could survive a direct nuclear attack was high on the list of priorities for a country that was already suffering the [[Vietnam War]], the Stonewall incident ('''[[Homosexuality|Gays]]''') and ''[[Fail|Rowan &amp; Martin's Laugh-in]].'' Considering that even the most basic pocket calculator was beyond the reach of the common man, no doubt the rest of the US population didn't agree. But fuck it, since when did the Democrats behave like they were living in a democracy? 20 Squillion Pesetas were set aside for the project&mdash;Lyndon Johnson writing the memo to the Treasury Department with two fingers.
+
+   
+
+== The Dawn Of Packet Switching (Important, Lol) ==
+
+Where earlier computer / network systems (such as the Babbage Number-Ukelele and the [[ZX Spectrum]]) used the quaint data-communication system of circuit switching (like old telephone exchanges, except with added [[Miltopia]]), ARPAnet was the first network that utilized Packet Switching. In other words, data was sent in packet form, allowing one machine to communicate with more than one machine at a time). Links could now be shared! Packets could be sent independently!! We seemingly don't give a shit nowadays and take this for granted!!! Well, whatever. It was a more innocent (and bloodthirsty) age.
+
+[[Image:arpamap.png|thumb|left|This is ARPAnet. Not somebody's Ebola Virus collection caught in your pubes.]]
+
+At 10:30 PM on October 29, 1969, the first message was sent over ARPAnet - Which went something like; '''"HELO MY NAME IS FESTUS I NEED YOUR GRACIOUS HLP IN ORDER TO RECEIVE £200000 FROM BANK OF LAGOS..."''' it was routinely ignored, as the [[nigra]] hadn't been invented yet.
+
+   
+== Network Control Program (NCP) ==
+
+ARPAnet sent it's first data-packets through what was known as the 1822 Protocol (as that was the year Charles Dickens wrote ''A Sale Of Two Titties''), where each message sent consisted of a message type, a numeric host address, and a numeric field. The host's address would then be picked up by the 1822 hardware interface, and delivered to wherever it was destined for. However, this system turned out to be largely [[shit]], so the Network Control Program (NCP) was created instead.
+
+It must be pointed out that the '''NCP''' is NOT the same as the '''OCP''' - The '''OCP''' was busy running [[Detroit]].
+
+The '''NCP''' allowed the use of Application Software to be used network-wide for the very first time, which implemented higher-level communication protocols. This allowed bi-directional process links to develop between machines on the network. The next step is playing Duke Nukem across it, but that would be going off on a tangent. After which, this system in turn became [[TCP/IP]], of which we all know. The End.
+
+[[Image:trekkiss.jpg|thumb|right|ARPAnet+TCP/IP+Modern-Day Computing-1960's/Slash Fanfic = Spock And Kirk [[Buttsecks]].]]
+
+   
+== Awesome Achievments For Teh ARPAnet ==
+
+Long before [[Yahoo]] was a glint in the milkman's eye, ARPAnet had surpassed many landmarks. These included :
+
+* The first '''E-Mail'''. This was sent by '''Ray Tomlinson''' (but to whom has been lost in the mists of time. The main consensus is that he was trolling for [[Loli]] on [[MySpace]])
+* '''FTP''' was first used on the Network in 1973. This development was required most urgently, as a young technician had found himself [[an hero]] after inserting large Foolscap Files into his anus. He who dares.... PROFITS????
+* '''Network Voice Protocol''' (NVP) was pioneered on ARPAnet, but never worked well as lurching violently from the wheel to the internal combustion engine is never a good idea. Anybody using an '''Internet Caf&eacute;''' in 1996 would be well aware of this.
+
+
+== What ARPAnet Means For Us ==
+
+Well, you're reading this fucking thing on the [[internet]], aren't you? Do you REALLY want to return to the days when you had to sneak a copy of Penthouse out of your local convenience store? Would you rather go to a store and buy that copy of ''Private Benjamin'' without letting some cretin mail it right to your door? Damn right, you wouldn't.
+
+   
+== Things That Wouldn't Exist Without ARPAnet ==
+[[image:IAO.jpg|thumb|right|Without ARPA , the DARPA would probably not exist]]
+
+* [[Furries]]
+* [[Furries]]
+* [[Furries]]
+* [[HACKERS ON STEROIDS]]
+* [[INTERNET HATE MACHINE|INTERNET HATE MACHINES]]
+* [[Exploding Van|Exploding Vans]]
+* [[Goth|Goths]]
+* [[Furries]]
+* [[Internet Tough Guy|Tough guys]]
+* [[Dog Curtains]]
+
+
+== Was The ARPAnet Beneficial For Mankind? ==
+
+[[B|De/b/atable]].
+
+
+== What's next for the ARPAnets? ==
+
+After 40 years in existence, DARPA finally realized this [[serious_business|internets business]] is complete shit, and has decided to [http://www.lockheedmartin.com/news/press_releases/2009/101509-CyberInfoAssurance.html start the project again.] This obviously proves that government agencies are agile organizations that can turn on a dime, making key decisions in a heart beat. Or not. However DARPA should be cut some slack in this regard, since it spent the period 1972 to 1996 changing its mind about what the fuck it wanted to be called. Clearly knowing what acronym should be kept top secret was a key activity for the [[nerd|boffins]] they employed. It was also probably much more interesting then working on Multics.
+
+
+== External Links ==
+
+*[http://som.csudh.edu/cis/lpress/history/arpamaps/ ARPAnet Maps ]  Slashdot shit. Aaarrr, me hearties!
+*[http://www.isoc.org/internet/history/brief.shtml A History Of This Great <s>Pornographic Device</s> Network.]
+*[http://www.computerhistory.org/exhibits/internet_history/ The Computer History Museum] Photos of fucking ARPAnet being tended by '70s Human Refuse with William Shatner haircuts.
+
+[[Category: Communicae]] [[Category: Softwarez]]

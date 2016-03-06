@@ -1,0 +1,347 @@
+YouTube View Fraud
+{{天
+|1=<div style="text-align:center;padding:10px;">
+<big><big><big><b><font color="#FF0000">This article is OBSOLETE</font></b></big></big></big>
+<br>Google has fixed most of the vulnerabilities listed on this page and no longer counts views from embedded videos. This article is here for historical purposes.</div>
+|2=Very_old_man.jpg
+|3=170px
+|4=white
+|5=800px
+|6=6px solid Black
+|7=2px solid Black
+|8=0px
+}}
+
+[[Image:Viewfr_obvious.png|thumb|300px|View fraud is the most obvious when new users with no subscribers do it. This video has 16 comments, rated 62 times and has 185,000+ views. [[YouTube_View_Fraud#Detecting_it|VPC:]] 11,572. [http://www.youtube.com/watch?v=mC4y84lEQ3U Link to video].]]
+
+[[Image:Youtube viewing spam.png|thumb|300px|Persistent view spamming will eventually be surpassed by legitimate views if you do it long enough.]]
+
+[[Image:Youtube viewfraud flowchart.png|thumb|300px|A simple overview.]]
+
+[[Image:Youtube view millions.png|thumb|300px|The previous days video has over half million more views when they are both the same crap anyway. Maybe it was the view spammers day off?]]
+
+[[Image:yt loop.png|thumb|300px|And you wondered why some people have 100's of videos of absolute [[fail|crap]]?]]
+
+'''YouTube View Fraud''' is the [[cool]] thing to do on [[YouTube|YT]], all the [http://www.youtube.com/members?s=ms&t=a&g=0 Most Subscribed users] are doing it. Why have 10,000 views when you can have 100,000 and be on the [http://youtube.com/browse?s=mp Most Viewed] page for all to see? Nearly all non-copyrighted stuff on the Most Viewed page has almost always got there by view fraud. You can do it yourself or pay [[internets]] experts [[money|moneys]] to do it for you. Why else would videos with half a million views have only 1,000 comments?
+
+If anyone were to follow these instructions they would rape YouTube's bandwidth and ruin the people who paid for advertising on that site. They could find a video with a Banner Advert of a company that they did not like and set their computer to reload that banner over and over while they slept, spending (or wasting) that company's entire advertising budget. They could scare every single advertiser away from YouTube and ruin it so completely that [[Google]]'s share price crashed. 
+
+''So let's not do that then.''
+
+(Google's Class A common stock are listed on The NASDAQ National Market under the symbol [http://finance.yahoo.com/q/bc?s=GOOG&t=1y&l=on&z=m&q=l&c= GOOG]. Their Class B stock is not publicly traded. It is used as an IOU to buy other companies that Google can't really afford, but doesn't want other people to have, like YouTube Inc for example.) 
+
+== Why do people commit view fraud? ==
+
+If <s>you</s> a person followed these simple instructions then they could have their videos on YouTube's critical landing page ([http://www.youtube.com/browse?s=mp the Most Viewed page]) every single day and instantly become an important and respected [[Internet_celebrity|internets personality]].
+
+YouTube is currently paying the staff members' "friends" to commit view fraud on YouTube's behalf. These "friends" are known as YouTube Partners. It's almost like free advertising-space.
+
+==Required Items==
+*A computer
+*A high-speed [[internets]] connection
+*[http://www.mozilla-europe.org/en/products/firefox/ The Firefox internet browser] ([http://www.opera.com Opera] [[A_Cat_Is_Fine_Too|is fine too]])
+*An IQ over 90 (a fact which YouTube relies on to minimize View Fraud by its members)
+
+==Basic Auto-Refreshing==
+By simply refreshing a video's page the view count is increased by one view. This process can be automated by downloading and installing an add-on for Firefox. The Firefox Add-on is called [https://addons.mozilla.org/en-US/firefox/addon/115 ReloadEvery 2.0].
+
+1. Follow the link and click the "Install Now" button then restart Firefox and you are ready to go. 
+
+2. Load up the YouTube page of the video that you want to refresh and rightclick the background.
+
+3. Go to "ReloadEvery" on the rightclick menu and select the time interval you want and then select "enable". The video will start reloading every few seconds, adding a view each time.
+
+4. The same video can be reloading concurrently in multiple Firefox tabs. The time interval depends on the number of tabs that you have open, as the loading time for each individual tab increases as the number of tabs open increases. '''This will allow a maximum of 202 views to accumulate''' before YouTubes analytics are triggered and views from that IP stop being counted. It should take about 10 minutes to do. 
+
+4a. Actually view hits are updated in 'bumps' about 3 times a day. The first '''200+x''' will show up immediately. You will sometimes notice people will have a more ratings than view hits, as those attributes refresh more frequently. And FWIW you CAN hammer away from the same IP address and have them get counted BUT (and this is still in research) those hits seem to get put into the 'week' views not daily views, so it doesn't get you the honors as easily.
+
+5. [[????]]
+
+6. [[PROFIT!]] (or not, in this case)
+
+'''The obvious thing to do now is to change your IP.'''
+
+==IP Hopping and Auto-Refreshing==
+Once you have a new IP, you simply start up "ReloadEvery" again and let it run another 202 times. 
+
+There are many different ways to get a new IP on the internets (almost all invented to get around [[troll]] bans).
+
+You can instantly see your current IP at [http://www.whatismyip.com/ www.whatismyip.com].
+
+If you have a dynamic IP then the simplest way to get a new IP is to disconnect your internet, wait a couple of minutes and then connect again, at which time you should be given a new IP.
+
+[[Image:SwitchProxyConfiguration.jpg|thumb|right|SwitchProxy configuration dialog box.]]
+
+If you do not have a dynamic IP, or want to automate the process in attempt to speed it up, then you can use internet-based proxy computers to mask your IP instead.
+
+Although SwitchProxy was previously the most useful, there is now another proxy-hopping Firefox add-on called [https://addons.mozilla.org/en-US/firefox/addon/2464 FoxyProxy] which claims to be an improvement on SwitchProxy. It's advised that you collect proxies from all over the world to remain completely anonymous and prove to your [[LOL_WUT|friends]] that you're [[Basement_dweller|ub3r 1337]].
+
+You Install this Add-on as before, then you search "proxy list" in Google to find a fresh list a proxies to load into the Addon.
+
+A safe bet is to use the proxy lists on [http://proxy-list.org/ http://proxy-list.org/] which should be saved as a text file (eg. forthelulz.txt) and added as an "anonymous" proxy type. This will allow a proxy-hop time interval in seconds to be specified. Pick a proxy-hop time interval that is slightly longer than it takes for you to rack up 202 views.
+
+The contents of the text file should look like this;
+<pre>
+195.78.91.157:3128
+213.39.246.138:3128
+200.78.117.240:3128
+203.109.33.35:80
+219.93.178.162:3128
+222.89.169.73:3128
+213.170.40.76:8080
+221.209.18.18:8000
+213.170.40.76:3128
+61.156.42.123:6317
+125.65.77.73:80
+</pre>
+
+There is often extra text in proxy lists. This can be quickly stripped away using [http://proxy-list.org/en/proxy-extractor.php proxy-list.org's Proxy Extractor].
+
+''So far - so good. You have an Auto-Refresher set up that can automatically hop proxies and can rack up roughly 1,000 views per hour if everything works as it should. Unfortunately proxies are not always reliable and so racking up the minimum 11,000 views to get onto the Most Viewed pages can take anything up to a day (and you have only 48hrs altogether to reach the top).''
+
+==Using commercial programs==
+'''UPDATE'''. THIS WILL NOT WORK ANYMORE!
+
+[[Image:Tubeincreaser.png|thumb|200px|Tube Increaser main window]] 
+
+If you don't mind wasting money you can buy one of those [[Euphemism|"view increaser"]] programs out there. One notable is [http://www.tubeincreaser.com/software.html Tube Increaser], but any [[MySpace]] profile view increaser (mainly used by [[Attention Whore|attention whores]] and [[shit bands]] there) will suffice, since all of them look the same. You can try out Tube Increaser for about 40 minutes but the programmers are [[stupid | generous enough]] to allow multiple instances of the program. And also you can <s>crash</s> terminate the program at the very last minute to revert the timer!
+
+1. Download [http://www.tubeincreaser.com/software.html Tube Increaser] and install it.
+
+2. Run the program. Paste video link in "Visit" field. In the "Instructions" window (hey, there's the instructions!), scroll down till you find a link named "Proxy List". right click it, and save it as .txt file. 
+
+3. Check the "proxy" box, click the 'load list' button and, select the proxylist you have just saved. Alternatively, you could also use the proxylist you gathered if you followed the instructions in IP-hopping section. After that click the "Start" button.
+
+4. [[????]]
+
+5. [[PROFIT!]]
+
+<b>[[PROTIP]]:</b> Before the timer runs out, exit the program <i>via windows task manager</i>, preferably at the last minute. It's timer will come back to 40 minutes. You can also run multiple instance of the program, as long as your computer and internet connection can handle. Of course you can always go [[over 9000]].
+
+There's many other programs which do it, some better than others (YouTube partners know which are best but they won't tell you, they don't want more view spamming competition) There's MANY to choose from and try so just fucking [http://www.google.com/search?q=increase+youtube+views Google it]. Expert view spammers will use multiple computers running the same view spamming application, Avril Lavinge fans joined forces and did it.
+
+==How can you speed the process up?==
+1. Spam your ratings and comments to get onto the Top Rated and Most Discussed pages first. Both of these pages will deliver between 300 and 600 views per hour if you are on page #1. If you have two computers (or some friends) you can view-spam with one and rating spam with the other. Exactly how to do this will be covered in a different article to keep this one on topic.
+
+2. If you are slightly more technically proficient you can create a html page on your desktop which contains the following code with the Video ID (01234567890) replaced with your own Video ID. This code creates no link-back, so no one can tell were your videos views came from.
+
+    <html>
+    <head>
+    <title>Encyclopedia Dramatica is my personal Jesus</title>
+    </head>
+    <body>
+    <div style="overflow: auto; overflow-x: scroll; width: 98%;">
+    <object type="application/x-shockwave-flash" allowScriptAccess="never" allowNetworking="internal" height="0" width="0" data="http://www.youtube.com/v/01234567890&autoplay=1&rel=0">
+      <param name="allowScriptAccess" value="never" />
+      <param name="allowNetworking" value="internal" />
+      <param name="movie" value="http://www.youtube.com/v/01234567890&autoplay=1&rel=0" />
+    </object>
+    <object type="application/x-shockwave-flash" allowScriptAccess="never" allowNetworking="internal" height="0" width="0" data="http://www.youtube.com/v/01234567890&autoplay=1&rel=0">
+      <param name="allowScriptAccess" value="never" />
+      <param name="allowNetworking" value="internal" />
+      <param name="movie" value="http://www.youtube.com/v/01234567890&autoplay=1&rel=0" />
+    </object>
+    <P>If you see an image, then your proxy is working.</P>
+    <a href="http://youtube.com/"><img src="http://img.youtube.com/vi/8i9BxSRBBpU/default.jpg" border="0"></a>
+    </div>
+    </body>
+    </html>
+
+Replace 01234567890 with your own personal Video ID and save the code as "something.html" on your desktop.
+
+Two copies of the embedded <object> code have been included in the above html document. That means each time the html page is loaded or refreshed in Firefox, the video will get 2 views. 
+
+If I had included 202 copies of the embedded <object>, then the video would get 202 views every time the page is refreshed (but you would need a very fast computer and fast internet connection to stop the page from crashing your machine).
+
+Having ten copies of the embedded <object> on the page and refreshing it twenty times is a good compromise. The proxy-hop interval must allow the page to load entirely so that all the views are triggered.
+
+No videos will appear on the html page because the the height and width is set to zero. Muting the volume on a standard YouTube video page will mute the volume of the invisible videos and further help to optimize the use of your computer's processing resources.
+
+A ten second video will allow the page to load much faster than a 1 minute video. (You could just make a video saying something like "[[GreenTeaGirlie|Hi. I am new.]]"
+
+==Do you need to raise your views even faster?==
+Partners do. Every hour spent on the Most Viewed page can mean thousands of dollars to them, they want to make the most of the 48hrs that a video gets on the Most Viewed page. Google Analytics stops them from getting paid for spammed-views, only the real views generated by their undeserved position on the Most Viewed page count.
+
+===So how do they do it?===
+Here are a few suggestions, but the possibilities are endless if you are prepared to trick random people on the internet into autoplaying your video.
+
+*Embed [[50 Hitler Post|up to 60 copies of the above autoplaying <object> code]] into a MySpace page. This can be your own page that you trick people into visiting or a popular MySpace page on which the owner has not disabled html comments. This also applies to the comment sections of popular MySpace artists Photo Albums. If your video is silent, no one will ever know it (or 50 of it) is even there.
+
+*Internet Advertising agencies sell interstitial adverts that can redirect to a MySpace page for 1 cent per redirect. For $200 you can buy 20,000 video views gained from a single autoplaying video on MySpace. This will guarantee your video gets onto YouTube's Most Viewed pages and is a small price to pay for an advertising company that may have spent several thousand dollars creating a so-called "viral" advertisement.
+
+*Team up with a few friends and view-spam each other's videos. It is just like doing [[Drug|lines]] at school: Doing 1,000 lines is hard, but getting 10 friends to do 100 each is easy...Unless you are Paul Fetch.
+
+==Detecting it==
+
+[[Image:Mass comments.png|thumb|300px|Comment flooding with many accounts is now being committed. The video in the picture is promoting a [[spyware]] [[program]] with thousands of positive comments from [[sockpuppet]] accounts. <strike>[http://www.youtube.com/watch?v=qy9pTN6CrrM link to video]</strike> (deleted after 1,000 YouTube users got infected).]]
+
+Detecting it is quite simple, as some spammers don't bother spamming the comments too, so they stick out like a black person in a pro-KKK rally.
+
+*'''Views / Comments = VPC''' (views per comments)
+
+VPC is the most accurate way to determine if anyone gives a shit. A high VPC usually means view fraud has been committed, a low VPC usually means there's no view fraud and people give a [[fuck]] about said video. [http://userscripts.org/scripts/show/31106 This] userscript will add the VPC to the title of the video. Spammers with the correct tools will also spam the comments using multiple accounts so they aren't caught, to check if they have done this, randomly click the first 10 usernames that left comments and compare their user profiles. Usually they will all have been registered about the same time and their location will be in the same place, and they very rarely have any uploaded videos (as this takes long).
+
+Also none of the spammed comments will be unique, they are all copied off other similar videos. Same with the usernames, depending on the username generator used, you can see they are all very similar.
+
+; Example
+
+Here is an obvious example, we will be comparing a [http://youtube.com/patcondell Patcondell] video (a guy that people actually find [[funny]]) and a [http://youtube.com/Hotforwords Hotforwords] video. (some [[whore]] that [[facepalm|nobody gives shit about]])
+
+{| class="wikitable"
+|-
+! User
+! Video
+! View count
+! Comments
+! VPC
+|-
+| [http://youtube.com/patcondell Patcondell]
+| [http://youtube.com/watch?v=LEt20PgKmcU Unholy Scripture]
+| 174,886
+| 4,538
+| 38.5
+|-
+| [http://youtube.com/Hotforwords Hotforwords]
+| [http://youtube.com/watch?v=yrZKK7fOGmw Wedgie]
+| 3,842,816
+| 2,736
+| 1404.5
+|}
+
+Sometimes this method doesn't always work, as the users have already spammed their way up to Most Viewed list [[over 9000]] times, so they gradually build a userbase of [[teenage]] [[nerds]] and [[retards]]. Other things they do is use fake thumbnails of boobs/exposed flesh/ass and attractive video names such as "Faggot", "Gay", "Noob", "Sex" etc to get unaware people to click on them.
+
+For users that have committed view fraud early on and have gathered a userbase of [[faggotry]], just work out the VPC of their old videos when nobody gave a shit and their VPC will be [[over 9000]].
+
+; Find some yourself!:
+#go to [http://youtube.com/browse?s=mp Most viewed] and look at the top 5 videos
+#then go to [http://youtube.com/browse?s=md Most discussed] and see which of those top 5 videos aren't in the top 5 most commented.
+#Then compare views to comments and you will see quite easily who probably committed view fraud
+#Work out the VPC
+
+;'''More examples'''
+{| class="wikitable"
+|-
+! User
+! Video
+! View count
+! Comments
+! VPC
+|-
+| [http://youtube.com/CapnOAwesome CapnOAwesome]
+| [http://www.youtube.com/watch?v=3SMFTjNHVC0 The Biggest Lie Ever Told]
+| 8,153
+| 515
+| 15.8
+|-
+| [http://youtube.com/Sxephil Sxephil]
+| [http://www.youtube.com/watch?v=s7fMXw3tM-o Marina is SuperBad at stealing my thunder!]
+| 182,744
+| 532
+| 343.5
+|}
+:Even though Sxephil's video has 174,591 or 22 times more views, they basically have the same amount of comments.
+
+===More advanced formulas?===
+
+[[Image:Yt stats.png|thumb|300px|If you are a [[math]] [[nerd]], you can use other data too.]]
+
+If you want to be a little more accurate, you can use other data from the video to do sums! Such as the amount of Video Responses, how many times the video has been Rated, the Upload Date, the Subscriber Count of the uploader and the amount of times it has been favourited. The "Also Watching Now" box. All of those can also be inflated, but not many people bother doing that as it won't effect if they get on the Most Viewed page or not.
+
+==How do I not get caught?==
+
+If you are a Partner you do not have to worry about getting caught. No one can flag your video and even if you get suspended, YouTube will reinstate your account the same day.
+
+For everyone else, you simply have to give the impression that you are gaming YouTube in some way other than by cheating.
+
+Good covers include:
+*Boob-shot center icon (but may get flagged)
+*Cute kitten center icon
+*Contest
+*Charity
+*A video asking for comments, ratings or video responses
+*Pretending that the channel or video is somehow linked to a popular external site.
+
+==What happens to people who do commit view fraud?==
+
+[[Image:Jimmytuts.png|thumb|200px|View spamming companies always offer to view spam partners for money, as [http://www.youtube.com/user/jimmyrcom jimmyrcom] admits here. (A guy who actually uploads useful shit)]]
+
+* The [http://www.youtube.com/profile?user=esmeedenters esmeedenters] and [[smosh]] team of cheats have both been made YouTube Partners and have both made thousands of dollars from view fraud.
+* [[Smpfilms|SMPfilms]] (who admits to view-spamming since he has 'videos watched 420,172' on his profile) was made a Partner and still spams his own videos.
+* [[MysteryGuitarMan]] (videos watched: 263,773), was made into a YouTube Partner. He only spams his views these days if it will help him win [[Mysteryguitarman#MysteryGuitarMan.27s_scams | srs money]].
+* [[Sxephil]], possibly the worst cheat on the site, was made a YouTube Partner. He uses view-spamming and rating-spamming. His rating-spamming accounts were all closed along with his sxephilsucks account in mid Sept 2007, but he made new ones.
+* [http://www.youtube.com/profile?user=HotForWords HotForwords], an ex-model called Marina, whose tech-monkey was taught to view-spam by Sxephil in exchange for providing him with a Marina video clip that Phil could use as a [[boob]]-shot in his videos. Every one of her videos ends up on the Most Viewed page, and they always have done, even back when she had just 3000 subscribers. She has been made a YouTube Partner and appeared for two consecutive weeks in the new YouTube Spotlight section at the top of all the "Most Whatever" pages. 
+* [http://www.youtube.com/profile?user=neverhidefilms NeverHideFilms] [[NeverHideFilms]] bought views using autoplaying adverts and had the cheated video featured by [[YouTube_Staff#Joe_Smith|BigJoeSmith]]
+* [[WHATTHEBUCKSHOW]] aka [http://www.youtube.com/profile?user=peron75 peron75] uses view spamming and rating spamming (he is always at the top of the Top Rated page with 1000 more rating than any equivalent video has). He was made a YouTube Partner.
+* [[Miaarose]] has a 'superfan' who runs the MySpace-embedded-object cheat for her (and with her knowledge). She is actively promoted by [[Damien Estreich]], a YouTube employee with a history of corruption.
+* [http://www.youtube.com/hoomandottv HoomanDotTv] is a regular abuser of view spamming. Hooman often boasts on his radio [http://www.radioalice.com/pages/1689009.php show] that his videos are number one on YouTube and that he has a crack viral marketing team. (don't we all?) So good in fact that before he mentioned a posted video on the air, it was the #1 video that day with a few hundred thousand views with his description and video tags only listing his channel name (he had less than 1,600 subscribers at the time). Now that's a crack viral marketing team! Often his videos are very low rated, negative comments removed, '''Links:''' display ''off'' and the content is just plain [http://www.youtube.com/watch?v=XhThAwfa1gE crap]. At least a few of the others here are offering content worthy of view spamming. Also note: Hooman is a subscriber stuffer, there are [http://www.youtube.com/profile_subscribers?user=hoomandottv&page=33 many pages of subscribers] that don't even list a single video as being viewed.
+
+'''The above don't need to commit view fraud now they have enough subscribers''' - '''<BIG>WRONG!</BIG>''' Many still commit view fraud to make their video stay on top of the Most Viewed list the longest. The Most Viewed videos are only there for 24 hours, so committing view fraud sends their video straight to the top, as soon as it is uploaded. Many subscribers are bots and users that only subscribed for the sake of it and don't bother watching their videos, this is only applies to shitty videos which [[nobody cares]] about.
+
+:More time on Most Viewed = More Legit Views = More Subscribers.
+
+==Why does YouTube support it?==
+*It makes YouTube seem more popular than it actually is, so "viral" factor is very high
+*It encourages media attention which equals more popularity
+*More Page Views = More Expensive Advertising = More Money For YouTube
+
+So you can't really blame YouTube for supporting it; who else would stop themselves from becoming richer?
+
+==Why do these people cheat when they have already got so many subscribers?==
+[[Image:Lisa nova fail.png|thumb|400px|[[LisaNova]], spammer extraordinaire, notice the two videos uploaded over a week ago only have about 10% view count of her entire subscriber count. Why? Because they weren't promoted outside of the channel, their thumbnails/titles are not very deceptive, unlike all the other videos. Conclusion: 90% of her subscribers don't care about her anymore.<br><br>
+
+Channels which have gained subscribers via cheap methods always suffer from this problem, because the spammers stop getting paid, there are no new subscribers still watching their shit to keep the view count high.]]
+
+The subscribers that they pick up on the Most Viewed pages don't hang around on YouTube, most accounts are dormant after a couple of months. Anyone with a half-decent video can pick up subscribers on the Most Viewed page, they just have to ask the otherwise indifferent viewers to subscribe. Dormant accounts don't help YouTube Partners get on the Most Viewed pages, so they have to cheat just like everyone else.
+
+Any old accounts subscribe to about 50+ different channels so thet just stop clicking on their videos, because they know they are going to suck. Which is why they still use deceptive thumbnails/titles to try and stand out from the rest of the fail.
+
+Popularity on YouTube is all based on hype and fraud. If [[You | someone]] cheats, people will think that they are popular and they will watch them to find out why. The more people that watch the cheat, the easier their cheating is to disguise and the faster they will get onto the Most Viewed page each time. This process, if repeated often enough, causes cheats to spiral to the top of YouTube.  The top YouTube cheats are said to have gone "'''spiral'''".
+
+== See also ==
+*[[charlestrippy]]
+*[[Shaycarl]]
+*[[smpfilms]]
+*[[sxephil]]
+*[[YouTube Staff]]
+*[[YouTube]]
+*[[YTwatchdog]], a guy who likes to expose YouTube bullshit
+*[[DMOZ]]
+
+== Discussion ==
+
+Lulzy random results of view-spamming and information about the subject will be added to this article's [[Talk:YouTube_View_Fraud | discussion page]] to help stop the article becoming [[TL;DR]].
+
+== Behold, the top viewed videos! ==
+According to YT's [[shit|view system]], by viewing the <s>[http://www.youtube.com/results?search_query=%2A&search_sort=video_view_count uncensored most viewed list]</s> (no longer works because YouTube wants to hide the fact that view spammed videos and videos that have thumbnails that make them look like porn fill the most viewed list) the following was the forth most viewed video of all time in August 2008.
+<youtube>bFytHZHFXhA</youtube>
+What an amazing fucking video, no wonder it's in the top twenty most viewed videos ever! Over '''98 million''' views and nearly 6,000 comments (most of them pointing out the ridiculous view count), 6,500 ratings and a 37% approval percentage. [http://www.youtube.com/watch?v=bFytHZHFXhA# Link to this glorious thing.]
+
+(Moar: It only went from 97 million in August 2008 to a little over 98.4 million in July 2010. GEE I WONDER WHY THE VIEWS DROPPED OFF SO FAST!)
+
+<s>[http://www.youtube.com/watch?v=cQ25-glGRzI Avril Lavigne - Girlfriend] video is now #1, as her fans are view spamming in numbers. Even the media noticed it, see [[YouTube_View_Fraud#News_articles]] for links to news articles. The view spam war continues!</s> Deleted by user. Wut?
+
+== Conclusion ==
+[[Image:Bristol Stool Chart.png|thumb|300px|Which type is YouTube's view system?]]
+
+The conclusion is that measuring a videos popularity by the amount of views it has is [[retarded|pointless]], and the entire 'views' system of YouTube is really just a competition of who can spam the most views. Working out the [[YouTube_View_Fraud#Detecting_it|VPC]] can work, but people will probably start making comment-spamming bots too.
+
+== News articles ==
+The media regularly catches on to the trend of YouTube View Fraud but underestimates its use.
+
+If you don't fully believe everything on this page, pretty much everything is backed up by the following news articles:
+*[http://www.nytimes.com/2006/05/18/arts/music/18sann.html?_r=1&oref=slogin How 'Groundhog Day' Became an Overnight YouTube Sensation]
+*[http://www.cmrtimes.com/entertainment/2008/06/27/lavigne-fans-cheat-for-youtube-views/ How Avril Lavigne fans used an auto-refresh page to get her video to #1 most viewed] [http://blog.wired.com/underwire/2008/06/avril-lavigne-f.html wired article] [http://www.fashion.ie/aggregator/gossip/91504-avril-cheats-and-youtube-supports-it how YouTube don't care about it] [http://www.theglobeandmail.com/servlet/story/RTGAM.20080623.WBmingram20080623143124/WBStory/WBmingram another article on Avrils' fans view spamming]
+*[http://newteevee.com/2008/07/23/youtube-says-autoplays-dont-count/ how the embed code can be changed to autoplay to be spammed on MySpace profiles]
+*[http://newteevee.com/2008/07/24/imaginary-bitches-recipient-of-imaginary-views/ how something shit got so many views by being spammed across MySpace profiles]
+*[http://www.techcrunch.com/2007/11/22/the-secret-strategies-behind-many-viral-videos/ GREAT article from an insider of a company which view spams for clients and how they just spam videos across the internets]
+*[http://news.google.com/news?&q=youtube+views find moar]!
+
+{{quote|So far, we’ve worked on 80-90 videos and we’ve seen overwhelming success. In the past 3 months, we’ve achieved over 20 million views for our clients, with videos ranging from 100,000 views to upwards of 1.5 million views each. In other words, not all videos go viral organically – there is a method to the madness.|From a company spokesman}}
+
+{{clear}}
+
+{{YoutubeSeries}}
+{{Web 2.0}}
+{{Timeline|Featured article August 3, [[2008]]|[[Censorship]]|[[{{PAGENAME}}]]|[[Chris-chan]]}}
+
+[[Category:Sites]]

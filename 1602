@@ -1,0 +1,108 @@
+Citadel Family Tree
+  _________               (Cynbe ru Taren) 
+ |         |                Citadel 2.00 
+ | Citadel |                     | 
+ | Family  |              (David Mitchell) 
+ | Tree    |                Citadel 2.??
+ |_________|                     | 
+                        (Bruce King/T'an T'u) 
+                            Citadel 2.10 
+       _________________________/|\________________________________ 
+      /          /               |               |                 \
+      |     (Kerry Kyes)    (Caren Park)    (Maher Maso)      (Gary Meadows)
+      |     Citadel 2.28    Citadel 2.25    Citadel 2.11        SacCit-80
+      |          \______________ | _____________/ \_____            |
+      |                         \|/                     \       @Asgard-80
+      |                          |                      |       
+      |                          |                (Bob Perigo)   
+      |               __________/ \___               BabeCit    
+      |              /                \                 |
+  (Hue Jr.)    (David Bonn)    (ProtoSoft, Inc.)   (John Luce)
+ *Citadel-86    StoneHenge         Ideatree        *CopperCit     
+      |             |                                          
+      |        ____/ \_________________________________       
+      |       /             |             |            \ 
+      |  (Grey Mouser)  (Scott S.)  (Major Chaos) (Kalen Bonn) 
+      |    Commons       NeoLith      IronHenge    StoneHenge 
+      | 
+      \__________________________________________________ 
+                 |                    |        |         \ 
+          (David Parsons)             |    (Stallion)    |--(Robert Nelson) 
+               STadel                 |  (Tony Preston)  |   Citadel-86/TI 
+      ___________|__________          |   *Citadel-68K   | 
+     /           |          \         |        |         |--(Michele & Sifu) 
+   (b0b)         |     (Eric Griff)   |    (Timelord,)   |      Macadel 
+  b0badel        |      STadel-Ami    |    (Cap'N Dave)  | 
+         _______/|                    |      AmiDel      |--(Vince Quaresima)
+        /        |\------(Elim,)      |                  |    *Citadel:K2NE
+   (Ganelius)    |    (Mr. Neutron)   |  (farokh irani)--|         
+  Inner Sanctum  |    @<fnord>adel    |   *Citadel-86e   |--(Gary Meadows)   
+        |        |                    |                  |    *Asgard-86    
+      (???)      |              (The Gremlin)            |
+  *InterSanctum  |               Citadel 1.xx     (Brent Barrett)
+                 |                    |             @Novucivitas            
+       (Christopher Camacho)          |          _______/ \______
+            Fortress-PC      ________/|         /                \
+          ______/           /         |   (Jeff Waltzer)     (Jim Earl)
+         /                  |         |     @OverCit           *Cit++
+  (Draiden Bansted)         |         |
+    Fortress-ST       (The Dragon)    |\____________________________ 
+                         DragCit      \____________________         \
+        ___________________/|\_________________________    \         |
+       /         /          |       \         \        \    |    (Turtle!) 
+    (Ray)     (Z'ton)       |        \      (Maven)     \   |     M.O.D.E. 
+   TurboCit   TwitCit       |         \    *MavenCit     \  |        |  
+      |             _______/|          \                  \ | (Mistress Mouse)
+    (Fred)         /        |    (The Gremlin)             ||   Citadel II  
+   @FredCit   (Zen Master)  |   DragCit 3.11/MSC           ||  
+      |         *FrogCit    |           |                  ||  
+  (Centauri)       | ______/   (Richard Goldfinder)        ||  
+    CenCit         |/                 ACit                 ||  
+      |           (JJ)                    \______________  ||  
+   (Dargos)    *Co-Op Cit                                \ ||
+   HoloCit                                                ||| 
+                                                      (The Gremlin) 
+                                                    GremCit 3.20/xxx 
+                                                           |
+                                                (Anticlimactic Teleservices)
+                                                       *Citadel+
+                                              
+    * == Active (still developed, updated or supported)
+    @ == Status unsure 
+   ____________________________________________________________________  
+  /                     Other Known Variants.....                      \ 
+  | Name            , Platform   , Lang   , Author(s)                  | 
+  |                                                                    |
+  |@Acropolis       , 80x86 (DOS), Pascal , Robert Bequette            | 
+  | AT-Keep         , Atari 800XL, BASICXE, Brent Barrett              | 
+  | Babel           , UNIX       , C      , T'an T'u                   |   
+  | Citamad/Lumadel , Apple II   , BASIC  , Lum the Mad                |
+  | Citadel Plus    , CP/M       , C      , Corvair                    |   
+  |*Citadel/UX      , UNIX       , C      , Art Cancro                 |
+  | Citadel-64      , C-64       , BASIC  , Vince Quaresima            |
+  | Citadel-128     , C-128      , BASIC  , Vince Quaresima            |
+  | CitSim          , WICAT      , ??     , ??                         |    
+  | dars            , Z80 (CP/M) , BASIC  , err head                   | 
+  | Digital Dungeon , 8088       , C, Asm , Jerry Ash                  |   
+  |*D.T.J. BBS      , C64        , BASIC  , Andrew Bernhardt           |   
+  |@ElfBBS          , 80x86 (DOS), Pascal , Dino Nardini               | 
+  | FUBARC          , ??         , ??     , ??                         |   
+  | MacCitadel      , Macintosh  , C ??   , Glen Heinz                 |   
+  |@Metropolis      , 80x86 (DOS), ??     , ??                         |
+  | MiniBin         , TRS-80     , BASIC  , Glenn Gorman               | 
+  | NeoCitadel      , 80x86 (DOS), Pascal , Hue, Sr.                   | 
+  |*NYTI            , 80x86 (DOS), C      , Ford II                    |   
+  | Pseudodel       , Apple II   , BASIC  , Shadow Warrior             | 
+  | squiggle        , 80x86 (DOS), Asm    , Brent Bottles              | 
+  | ST-Keep         , Atari ST   , BASIC  , Andrew Studer              |
+  | Titan           , Atari 800  , BASICXE, The Dragon                 |
+  | Titanic         , Atari 800XL, BASICXE, Richard Goldfinder         |
+  | Unidel          , UNIX       , C      , Ken MacLeod                |
+  \____________________________________________________________________/
+
+
+See also: [[Citadel]]
+
+[[Category: Fandom Stuff]]
+[[Category: In Jokes]]
+[[Category: Softwarez]]

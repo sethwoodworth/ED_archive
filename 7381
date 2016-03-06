@@ -1,0 +1,32 @@
+Serial adder
+[[Image:Adder.png|thumb|A serial adder.]]
+[[Image:Adder.jpg|thumb|A serious Adder.]]
+In 1967 Digital Equipment Corporation (DEC) introduced the [http://computermuseum.informatik.uni-stuttgart.de/dev_en/pdp8s/ pdp8/s] mini-computer. To make this computer affordable it contained only a 1-bit adder and it had to compute the addition of two 12 bit words in series, one bit at a time. With respect to a [http://www.google.com/search?num=50&hl=en&safe=off&client=firefox-a&rls=org.mozilla%3Aen-US%3Aofficial&hs=G8I&q=%22straight+pdp8%22+OR+%28%22straight-8%22+AND+%28pdp+OR+pdp8%29%29&btnG=Search "straight"] [http://en.wikipedia.org/wiki/Pdp8 pdp8] with a parallel adder, the performance of the pdp-8/s with its '''serial adder''' was quite lame or gay.<sup>1</sup>
+
+In early 2004 a new [[Internet phenomenon]] reached [[LiveJournal]], that of the '''serial adder''', widely believed to have begun with LJ user [http://www.livejournal.com/users/dave_the_great dave_the_great], who was bored and wanted to stir up trouble. He went about this by adding as many random people to his [[friends list]] as [[LJ]] would allow (current maximum being 750 users.) This led to dozens of people commenting and asking "who the hell are you and why did you add me?"
+
+[[Image:Cereal_snake.jpg|thumb|left|Actually a [http://news.bbc.co.uk/cbbcnews/hi/newsid_4510000/newsid_4513500/4513541.stm corn snake].]]
+The situation was found so ridiculously amusing that it was repeated many times, with different gimmicks. Dave had no overriding gimmick, save for a hatred of [[pro-ana]]. Others relied on offensive usernames or ideologies, while some were more creative in annoying others. [[1justin]] was the mastermind behind many of the more well crafted serial adders.
+
+This eventually led to a change in LJ's code base, causing users who were banned from a journal to no longer appear in the "friend of" section of the userinfo page.
+
+Most of the comments on a serial adder's journal are "Please remove me from your friends list", because people are humorless [[retard]]s and really give a shit about who adds them, plus their [[OCD]] makes sure that their Friends and Friend-of lists are the exact same length. 
+
+==[[:Category:Pranks|Pranks]]==
+As a [[:Category:Pranks|prank]] for [[April Fools' Day]] in 2004, [[bradfitz]] himself created a specialized serial adder account [http://www.livejournal.com/users/lj_serialadder lj_serialadder] who added the entirety of LJ's user base to its friends list. He also tweaked the ban code to instead add lj_serialadder to the users' friends lists if they attempted to ban the account. This led to thousands upon thousands of angry and confused comments and anger about LJ not being [[serious business|professional enough.]]
+== Footnotes ==
+[1] Actually the pdp8/s contained a serial ALU (or "serial Arithmetic Logical Unit") that beyond serial addition also implemented 16 different logical functions such as serial subtraction or serial ORing. However none other of these other serial actions YET appear to have been elevated to social group actions by the new millennium's gay agenda.
+
+==See Also==
+*[[facebook]]
+*[[MySpace]]
+*[[tha_w3rm]]
+*[[iwrotetherules]]
+*[http://imaserialadder.livejournal.com imaserialadder]
+*[http://get_therapy.livejournal.com get_therapy]
+*[http://omgsayhi2trolls.livejournal.com omgsayhi2trolls]
+*[http://alittleharsh.livejournal.com alittleharsh]
+*[http://spacexghost.livejournal.com spacexghost]
+*[http://serialadderinfo.livejournal.com serialadderinfo]
+{{LJ}}
+[[Category:Internets Phenomena]]

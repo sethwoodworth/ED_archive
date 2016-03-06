@@ -1,0 +1,32 @@
+Kelly Martin/somnambulation-i-am-exceptionally
+{{boring}}
+
+<!-- Ghetto-copied from http://nonbovine-ruminations.blogspot.com/2006/10/somnambulation-i-am-exceptionally.html -->
+
+==Nonbovine Ruminations==
+
+Random ruminations from the non-cow on Wikipedia, Wikimedia, and whatever else crosses her path
+
+Wednesday, October 04, 2006
+
+Somnambulation
+
+I am exceptionally tired too night, too tired to code. I was hoping to finish off Database.java, but I don't think I'll make it. Rewriting it to use JDBC instead of PHP's mysql support has been more of a challenge than I expected, precisely because JDBC is a lot smarter than PHP's mysql support. MySQL, as we all know, does not support parameters or prepared statements, and so neither does PHP. MediaWiki gets around this by a half-assed implementation of the same in its database module. JDBC, on the other hand, does support parameters in the MySQL driver. So I can chop all that code out and replace it with the JDBC native support. That, and there's a lot of PHPisms in this code that are more than a little challenging to deal with, including arrays that contain both associative and nonassociative elements (ugh!). A pox on the use of arrays as ad hoc structured types! PHP has a class system; use it!
+[[Image:CLUELESSXOR_Culexor.JPG|thumb|A pox on those arrays!]]
+I am utterly perplexed at the number of people who will blithely stand by and defend a libeler. The lies that are being uttered about me in the arbitration process are so blatant and so transparent (even to the point today of an accusation that I filed the request for arbitration myself; a claim which appears to rest on the plainly outrageous belief that InkSplotch is my sockpuppet) that there is no way that any reasonable amount of "good faith" can be mustered by a reasonable person. I have, at this point, given up much hope that the English Wikipedia's community will be redeemable at any time in the near future. I hold forth hope that I may be able to patch up matters with some (although certainly not all) of the people whose ire I have raised in recent months, but I suspect that there is no way in which I will be able to interact with the English Wikipedia community in any way that does not introduce excessive toxins into my life in the near future. At this point, I have a list of people whose reformation (or departure) will be required before I will consider returning. I won't bother to publish it; anyone familiar with the situation will know who they are.
+
+I am even more bothered by the fact that calling these people on their lies is somehow wrong. That someone of purportedly high standing can use his standing as a pulpit to spread scurrilous falsehoods, refuse to provide evidence to support his false accusations (as presenting evidence is somehow a task too base for his great luminousness), and have his minions then shout down anyone who questions his good faith, is evidence of a great sickness that must needs be purged before it kills the community entirely. Then again, killing the community might be for the best; as I have observed many times before, the community doesn't write the encyclopedia. Losing them would be inconvenient, but a new community would form and take over. The problem is going to be in arranging the transfer of power. I don't believe that can happen from within, and the few entities with the power to effect it from without are not, in my estimation, likely to do so.
+
+<center>[[Image:WOWIRETARDED.jpg|box|Kill the community!]]</center>
+==More boring shit==
+But enough about the decline and fall of Wikipedia civilization. I still hold some hope that I might find a home at Commons (and it is hard to resist the siren calls of someone as mindbogglingly irresistable as Bastique, after all). But I fear that the vile nastiness from the English Wikipedia will simply follow me there and soon enough ruin Commons as a place where I might contribute. So I am more likely to simply lay low for a time, working instead on software projects and on statistical studies of the Wikimedia projects (which I find utterly fascinating). Perhaps something interesting will eventually come of all this.
+==More [[tl;dr]]==
+But, on to the real reason I left the English Wikipedia. My main reason for leaving is that I did not wish to bring the toxicity from there into my house. We are going to have another child, in May 2007, and that means that we are going to be even more busy than usual with prenatal visits. We found this out some time ago, but I have refrained from any public statement because, well, you don't announce these things until you see the heartbeat on the ultrasound (which we saw today). Lee's last pregnancy was hard on her, and I simply don't need the added stress of dealing with the idiots in Wikipedia in my--or her--life right now. Maybe once young Evan (or perhaps Morgan, or David) is six months old or so things will have calmed down enough that I'll once again have time and energy to brave the insanity. So expect me to be gone at least a year, at least from community activities (I may edit articles from time to time, but if that brings down ugliness I will quit that too; it may be necessary for me to use a sockpuppet simply to avoid the vindictive). The health and well-being of my family is simply too important, and I certainly do not wish to spoil the joy that this new child will bring with any form of ugliness at all, and I believe that, at this point, Wikipedia has nothing to offer me but ugliness.
+
+So, Wikipedia is now my last project; there is nothing more useful to be accomplished there by me. I now have two new ones, one big and one not so big, and I'm sure they'll occupy my time quite handily for the next six months to twenty years.
+
+Finally, to the person who asked: I need help in gluing SVN into Apache2. I have both installed on one of my webservers, but I have yet to figure out how to tie one into the other. Any suggestions -- even a pointer to a howto -- would be useful.
+
+posted by Kelly Martin at 7:50 PM
+
+[[Category:Wikis Suck]]

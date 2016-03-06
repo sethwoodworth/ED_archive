@@ -1,0 +1,44 @@
+Robert Morris
+'''Robert Tappan Morris, Jr.''' was the man who [[You win the prize|killed the internet]] all the way back in [[At least 100 years ago|1988]]. [[I did it for the lulz|Knowingly]] or [[Stupid|unknowingly]], he created the first major worm ever, supposedly to research the size of the internet. This made him the most hated person in the computer community, a title now owned by [[Alex Wuori]].
+
+==The Experiment==
+[[Image:Robert_Tappan_Morris.jpg|thumb|right|[[Trollface|Problem, Internets?]]]]
+In 1988, Robert Morris was a graduate student at Cornell University. As part of a [[Computer Science III]] project, he decided to make a program to check the [[Cock|size and growth]] of the budding internet. The result of his tinkering was a beautiful example of a program designed to kill everything it came in contact with. It utilized three basic functions to tear apart the [[BSD]] and Sun systems that made up much of the early internet:
+*'''Sendmail''' - An exploit in the debugging mode of '''sendmail''' that allowed the header of sent mail messages to run code in the body. Sendmail had been full of holes since its original inception as "delivermail" on the [[Lemonparty|ARPANET]], but its flexibility made up for its flaws. Besides, who gave a shit about security in 1988? [[Nobody]], that's who.
+*'''Finger''' - An evolution of the old '''who''' system, '''finger''' and its associate '''name''' are used to find out information about the system/system administrators of the network you're on. Morris's program performed the 1988 version of a "[[Crapflood]]" by [[Fucking|fingering]] the system so many times it's [[Cum|buffer would overrun]] and the system would respond by [[Slut|pretty much allowing the intruder to do whatever it wanted]].
+*'''Remote Shell''', or '''RSH''' - RSH was a method that [[Mod|administrators]] used to execute shell commands on systems across the network without having to be at the specific terminal. While this made being a system operator that much easier, it was probably [[Obvious|not a great idea in the long run]] thanks to its [[Oh exploitable|exploitability]].
+
+Also built in was a failsafe to keep the program from going totally insane: a screen that would pop up on the infected terminal asking if it had been infected already. This would prevent systems from being infected multiple times and would keep the count of computers with the virus accurate for Morris.
+
+Morris's invention was the first non-theoretical/practical application of a worm. While there might have been worms before then, Morris's was the first to truly [[Salt the earth|wreak havoc upon]] the [[internet]] and is thus usually recognized as the first true one.
+
+==[[Raid|GOGOGO]]==
+[[Image:Rainpressbuttonrecieverape.png|thumb|right|A contemporary illustration of the basic function of the Morris Worm, inspired by [[Trancy.Mick]]]]
+There are a few reasons to doubt Morris's story about his release of the worm as a research project.
+#Morris released the worm at MIT despite going to school at Cornell to cover up the origin of the program.
+#Morris's dad worked for the NSA, and the worm might have been a derivative of something young Morris stole from him.
+#Morris put a security workaround in the failsafe screen: the virus would replicate regardless of whether or not you pressed "yes" for "my system was infected" to avoid administrators from removing the worm in one easy step. 14% of the time "Yes" was chosen, the worm would replicate instead of quitting.
+
+Morris released the worm at 6:00 PM EST. By midnight it had spread across the internet and was systematically choking out networks like an [[Chris Benoit|enraged Canadian]]. The normal methods of communication between administrators was totally cut off as the worm shut down networks and spread across mailing lists. Morris by this time was either [[shit bricks|shitting a brick]] or [[ROFL|laughing his ass off]].
+
+==The Aftermath==
+After a day of frenzied research users had found ways to stem the tide. The worm had infected several thousand computers: estimates run to 6,000 systems, or about 10% of the internet at the time. Millions of dollars of damage were done and inflation of the figures by embarrassed [[Security Faggots|security wonks]] helped increase damage estimates.
+
+Morris was [[Dramouted|outed]] by several sources, including [[Kevin Mitnick|famed anti-hacker newspaper]] <i>The New York Times</i>. Eventually [[the man]] caught up with Morris and prosecuted him under the new Computer Fraud and Abuse Act (incidentally now a part of the [[Patriot Act]]). Morris caught a light sentence of three years of probation, 400 hours of community service, and a fine of [[Over 9000|$10,050]].
+
+Later, Morris would become [[unlimited disposable income|rich]] by selling [[Yahoo]] the infrastructure for their [[Crap|Yahoo! Stores]] feature for about $50M US - a feature he developed with Paul Graham of Viaweb. He holds a degree from [[Harvard]] and now teaches at [[Smart|MIT]], which is [[irony|where he released his worm to the internet]]. [[Irony|He was also the network administrator]] for the [http://www.improb.com/ig/ Ig Nobel Awards].
+
+==Links==
+*[http://www.rotten.com/library/bio/hackers/robert-morris/ Rotten Library's take on Robert Morris]
+*[http://www.mit.edu/~eichin/virus/main.html The epic text on The Worm]
+
+==See Also==
+*[[Hacker]]
+*[[Virus]]
+
+{{SecurityFaggots}}
+
+{{oldweb}}
+[[Category:Trolls]]
+[[Category:People|Morris, Robert]]
+[[Category:Softwarez]]

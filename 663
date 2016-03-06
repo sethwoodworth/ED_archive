@@ -1,0 +1,137 @@
+Assembly
+{{programming}}
+
+=Introduction=
+
+Assembly is <s>probably</s> definitely one of the most [[boring|tedious]] languages out there. [[bullshit|It's not that it's hard]], but while the average language ([[C]], C++, [[Java]], etc.) takes around a month or two to learn, Assembly will probably take you [[at least 100|more than a year]] to use proficiently. This is because unlike most languages which have a syntax similar to written English (for, if, etc.), Assembly is a low level language in which you write the instructions telling the processor what to do. The abstraction used in [[over 9000|high level]] languages hides the complexity of the processor.
+
+==Who uses Assembly?==
+*Fat nerds who think the more obtuse a programming language is, the better it must be.
+*Jackasses who like to pretend they are "going old school".
+*Those who ''really'' enjoy reinventing the wheel.
+*People optimizing compilers, but because they die like flies and the public is used to feature-stale software not running faster even after 10 years (see [[Microsoft Office]]), the industry rather buys faster hardware.
+*[[Cracker]]groups who circumvent copy protection of uncreative american games for money to enable eastern street dealers to sell them (instead of bread). 
+*Not even [[your mom]].
+
+==Example==
+'''PROTIP: These examples apply ONLY to x86 (and in some cases amd64) assembly programming.'''
+
+This is "Hello, World!" example for MASM (note the includes, this is specific to MASM and Win32):
+<pre>
+ .386
+
+ .model flat, stdcall 
+ option casemap :none 
+
+ include \MASM32\INCLUDE\windows.inc
+ include \MASM32\INCLUDE\masm32.inc
+ include \MASM32\INCLUDE\user32.inc
+ includelib \MASM32\LIB\user32.lib
+
+ .data
+ message db "i herd u liek mudkipz?",0
+ mestitle db "lol, win32!",0
+
+ .code
+ start:
+ invoke MessageBox,0,ADDR message,ADDR mestitle,MB_OK
+ ret
+ end start
+</pre>
+
+If you're using FASM and you think invoke is for pussies:
+<pre>
+ format PE GUI 4.0
+ include 'win32a.inc'
+ entry start
+ 
+ section '.c0de' code data readable writeable executable
+ 
+ data import
+   library user32,"user32.dll"
+   import user32,MessageBox,"MessageBoxA"
+ end data
+ 
+ message db 'i herd u liek mudkipz?',0
+ title db 'lol, win32!',0
+ 
+ align 0x10
+ 
+ start:
+   pop edx
+   push 0
+   push title
+   push message
+   push 0
+   push edx
+   jmp [MessageBox]
+
+ data fixups
+ end data
+</pre>
+
+Or, if you prefer penguins (GAS)...:
+<pre>
+.section .data
+output:
+    .ascii "Goodbye, cruel world!"
+.section .text
+.globl _main
+_main:
+    movl $output, %ecx
+    movl $4, %eax
+    movl $1, %ebx
+    movl $21, %edx
+    int $0x80
+    movl $1, %eax
+    movl $0, %ebx
+    int $0x80
+</pre>
+Simple, right?
+
+==Inline Assembly==
+
+Because assembly usually operates faster than high level code (C, BASIC, etc.) a lot of compilers for high level languages have support for inline assembly which is basically putting assembly code in your high level code.
+
+This has the advantages of:
+* Optimizing speed critical algorithms
+* <s>Direct hardware access</s> Unless you're writing your own OS anyway, this is a myth.
+
+But a big disadvantage is that the inline assembly may not work on other architectures.
+
+[http://anonym.to/http://www.codeproject.com/KB/cpp/edujini_inline_asm.aspx Here] is a tutorial for inline assembly with the gcc compiler.
+
+===Optimizing Programs ===
+Here's a short thing about some of the things that you can optimize by using assembly in your programs along with some things you cannot.
+
+Firstly, you can greatly optimize all of the operations inside of your DO and DO..WHILE loops these are very easy to replace in assembly, although you should note that if these calculations aren't very big then obviously interfacing it will cause your program to go slower. This is because every time the program calls this separate assembly module, it needs to save certain registers in the stack and then restore them. Which is OK for some programs but it could in theory be a pain in the ass for big programs that call the function several times, but that is again if the calculations aren't very big.
+
+IF.. Else's on the other hand aren't very easy to optimize, not that you can't optimize them, but really all of the optimizations you can do to them are very minor and kerxish.
+
+Basic math operations are very easy to optimize in assembly especially chunks of code that are repeated a lot. Regular integer stuff is easy to put into assembly but floating point operations are different, although this is not to imply that they are very much more difficult. They are different because all floating point operations are handled by the FPU registers, all of which commands have the letter F added to the front of them, I will elaborate more eventually on FPU.
+
+SIMD, which stands for Single Instruction, Multiple Data can be used to optimize vectors. SIMD can be used to optimize multimedia, bullshit like games, etc. The two extensions I know about are MMX and SSE (also I just googled for it, but since I learned assembly there is now SSE2, SSSE3, and an SSSSE4? lol so I'd suggest you look into them instead). It gets even worse if you include 3DNow!.
+
+==="Optimizing Programs" ===
+Assembly is the only language you have to work with when cracking programs. Imagine the pain groups like Razor1911 have to go through.
+==Assemblers==
+To turn your assembly code into binary you need to assemble it (compile), here's a list of a few of the most popular ones.
+
+* [http://anonym.to/http://www.nasm.us/ NASM (The Netwide Assembler)] - Cross platform and released under the LGPL.
+* [http://anonym.to/http://www.tortall.net/projects/yasm/ Yasm] - Complete rewrite of NASM.
+* [http://anonym.to/http://www.masm32.com/ MASM32] - 32 bit Microsoft assembler (what the code above is).
+* [http://anonym.to/http://www.gnu.org/software/binutils/ GAS (GNU Assembler)] - Cross platform released by the GNU under the GPL.
+* [http://anonym.to/http://webster.cs.ucr.edu/AsmTools/index.html HLA (High Level Assembler)] - Assembler for High Level Assembly.
+* [http://anonym.to/http://flatassembler.net/ FASM (Flat Assembler)]
+
+==See Also==
+* [[C]]
+* [[Java]]
+
+==External Links==
+
+* [http://anonym.to/http://courses.ece.illinois.edu/ece390/books/artofasm/ArtofAsm.html Art Of Assembly] - Assembly tutorial. 
+* [http://anonmy.to/http://faydoc.tripod.com/cpu/ x86 CPU Instructions] - Reference for Intel x86 Assembly Instructions.
+
+{{Softwarez}}
+[[Category:Softwarez]]

@@ -1,0 +1,53 @@
+JavaScript
+{{haxor}}
+{{FactCat|'''[[Lie|JavaScript is not Java.]] If you were looking for [[Java]], you might want to look [[Java|here]], [[you]] [[stupid|ignorant]] [[fuck]].'''}}<br>
+
+JavaScript is a scripting language developed by <strike>Brendan Eich</strike> [[Netscape]] in 1995. Instead of just calling it ECMAScript as it is now [[Unwarranted Self-Importance|officially known]], Eich decided to [[troll|confuse]] the shit out of everyone and call it JavaScript, riding on the coattails of [[Java]] which was already so [[Slow|popular]] at the time.
+
+Like all languages without strong typing or the need to declare your variables (such as [[Perl]]), JavaScript attracts bad programmers. JavaScript is built into all browsers, even [[iPhone|cell phones]]. JavaScript, while meant to improve webpages, is used by bad web designers to ruin them. The worse you are at JavaScript, the more likely you are to be hired by a big company to design their webpage. If you make simple links so they won't work unless JavaScript is enabled, then you [[fail]] at web design and if you can make sure those links that only work in JavaScript go to mostly broken links then you're guaranteed to be the web designer for a large corporation's website. JavaScript code can also be saved as a .js file and run not in your browser (see [[4chan.js]]).
+
+===Examples of JavaScript [[hacking]] your computer===
+* JavaScript controlling your right mouse button saying "Don't steal my images," when you really just wanted to open a link in a new tab. Those sites deserve all their images stolen. ([[PROTIP]]: Use [https://addons.mozilla.org/en-US/firefox/addon/722/ noscript] dumbass; [[Anarchists]] - 1, JavaScript - 0).
+* The same for JavaScript that controls your keyboard (like control, alt, etc. keys).
+* Pop-up windows, especially [[LastMeasure|javabombs]]
+* Sites that require JavaScript for use. They're only doing it so they can hack you.
+
+=== [[Typical]] JavaScript code ===
+<pre>
+document.body.style.background='#000000';
+document.body.style.color='#FF0000';
+
+window.setInterval(function(){
+    document.body.innerHTML+='PENIS ';
+},1);
+</pre>
+
+If you use [[Firefox]] ([http://encyclopediadramatica.com/index.php?title=JavaScript&diff=prev&oldid=1998650918 or SeaMonkey lol]) you can have fun with JavaScript too by pasting this into your location bar and pressing enter.
+<pre>
+javascript:var x="var y=document.createElement('script');y.innerHTML=x;document.getElementsByTagName('head')[0].appendChild(y);eval(x);";eval(x);
+</pre>
+[[DO IT FAGGOT]]
+
+=== [[Nothing|JavaScript's use in games]] ===
+JavaScript is just recently starting to catch on in the online gaming market as [[Apple]] is attempting to replace [[Flash]]. This shouldn't, and hopefully will never happen, but in the meantime technologies are being produced like crazy to rival Flash's capabilities. [[Google|Chrome]]'s JavaScript engine is very fast and [[Lie|doesn't lag or hiccup]], [[Bullshit|Apple developed <canvas>]], and there are [[Shit nobody cares about|all the fancy CSS things that come out every day]]. 
+
+[[Some argue]] that one should provide their content as Flash and have pure JavaScript fallback. Instead it's not uncommon to see a system that uses BOTH.
+
+=== Use on conventional web pages ===
+Because JavaScript is so much fun, every web site in the world depends on it to do the simplest things like opening a webpage and positioning content. If you don't have JavaScript enabled, you're screwed! Thankfully, JavaScript is common in almost every web browser and is not going away, so you don't have to worry about this unless you're living in 1947. Some examples of websites using JavaScript are:
+
+* Every site owned by [[Google]]
+* Every site owned by [[Microsoft]]
+* Every site owned by [[Apple]]
+* [[Newgrounds]]
+* [[YTMND]]
+* [[LastMeasure]]
+
+=== Greasemonkey ===
+Because most web designers suck or they want to present their webpage in a [[Ads|different way than you'd like it]], you can use Greasemonkey to inject your own JavaScript into web pages so it can improve them. If you're having trouble [[spamming]] your favorite new [[forced meme]] on [[Reddit]], fear not. Greasemonkey can do all the voting for you so you can spend your precious time signing up new accounts and looking for more [[proxies]].
+[http://userscripts.org/scripts/review/16699 here] is a script to downvote [[Ron Paul]] spam. If you're not a total [[retard]] then you can adapt it to [[Ruin|do]] whatever you want.
+
+{{web2.0}}
+{{Softwarez}}
+[[Category:Softwarez]]
+[[Category:Crap]]

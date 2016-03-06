@@ -1,0 +1,154 @@
+LaTeX
+{{crap}}
+[[Image:Holding-condom.jpg|thumb|175px|No, not <i>[[condom|that]]</i> kind of latex.]]
+
+While it may first appear as possibly illicit and fun, '''[[condom|LaTeX]]''' is actually a formatting system for typesetting. Basically it's a highly-evolved version of [[Microsoft]] Word. Sometimes referred to as the [[leet]]speak that mathematicians use. It also a shiny material used by [[fags]].
+
+==How to break LaTeX and make mathematicians angry==
+Mathematicians are inherently angry and frustrated people, and provoking them takes little to no effort.  Essentially any interaction is likely to provoke rage, but if you want to incite full and complete [[aspie]] meltdown, erasing their chalkboard is the quickest method.
+
+Breaking LaTeX is quite an achievement, and probably not something that you are smart enough to do.  In fact, this is so difficult that Donald Knuth (author of [[Computer Science III]]) will [http://en.wikipedia.org/wiki/Knuth_reward_check mail you a check] if you can pull it off.
+
+On the other hand, if you would like to mislead physics students who are unable to do their own homework, and under the ill-conceived impression that the internet can do it for them, subtle edits to [[TOW]] are the correct method of attack.
+
+Actual mathematicians don't read, nor do they (constructively) edit [[TOW]], because it is full of shit and they distrust technology; instead they prefer the antiquated (yet effective) "book" format for purposes of education and reference.  As such, the people editing and watching a typical math article on [[TOW]] are even fuller of shit than usual, making these articles a prime choice for vandalism.
+
+Suggestions follow.
+
+Go into the source, it will look something like this:
+
+[; \mathbb{I}=\mathbb{T}\cup\left(\underset{n\in\mathbb{N}}{\bigcup}\overline{\mathbb{Q}}_{n}\right) ;]
+
+Now, make the following replacements:
+
+Replace every instance of \frac with either \atop or \choose. For super lulz, use \nicefrac instead of \frac
+
+Replace every instance of \in with \subset.
+
+Replace every instance of \subset with \in.
+
+Replace every \mathbb with \mathcal.
+
+Replace every \mathcal with \mathfrak.
+
+Replace every \mathfrak with \mathbb.
+
+Wherever you see \xxxxx, where xxxxx is some greek letter spelled out, capitalize the first letter \Xxxxx.
+
+Wherever you see \Xxxxx, where Xxxx is some greek letter spelled out with the first letter capitalized, change it to \xxxxx.
+
+Change every \exists to \nexists.
+
+Change every = sign to \neq.
+
+Change every \cup to \cap and vice-versa.
+
+Change every \bigcup to \bigcap and vice-versa.
+
+Replace \aleph with \pi.
+
+Replace \int with \sum.
+
+Replace \sum with \int.
+
+Search for derivatives \frac{d}{d x} and change them into partial derivatives \frac{\partial}{\partial x}.
+
+Replace \left( with \left] and \right) with \left[. Also replace \left[ with \left) and \right[ with \right(. This will REALLY cause headaches.
+
+In articles with lots of \sum and \prod, switch \sum and \prod.
+
+????
+
+Profit!
+
+Read up on more 'esoteric' symbols, like \geqq and \leqq and throw them in in places where it's completely inappropriate.
+
+===Mathspeak (Replace one term with another from each group)===
+
+====Parts of Math====
+*Analysis
+*Algebra
+*Arithmetic
+*Number Theory
+
+====Things...====
+*Group
+*Field
+*Ring
+*Set
+*Groupoid
+*Algebra
+*Calculus
+*Quaternation
+
+====Types of Numbers====
+*Ordinal
+*Cardinal
+*Real
+*Imaginary
+*Gaussian
+
+==List of things that do not have LaTeX installed on them==
+* [[Encyclopedia Dramatica]] (see [[Talk:Good_Joke:Word_Count_Ratio]] for [[proof]])
+* [[Wikipedia]]
+* [[You]]
+
+==List of things that DO have LaTeX installed on them==
+* [[TOW]]
+* MathWorld
+
+==LaTeX usage==
+===Good usage of LaTeX===
+[[Image:Good LaTeX.jpg]]
+[[Image:BDSMLATEX.jpg]]
+
+===Bad usage of LaTeX===
+[[Image:Bad LaTeX.jpg]]
+[[Image:Bad LaTeX.jpg]]
+
+==Gallery==
+
+{{cg|Gallery of Latex|latex gallery|center|
+<gallery>
+Image:Latex_lesbians.jpg
+Image:BDSMLATEX.jpg
+Image:Good LaTeX.jpg
+Image:Latex11.jpg
+</gallery>|<gallery>
+Image:Theoriginalmosh2.jpg|[[Lie|Originality]]
+Image:Latinateen-gigispice.jpg|[[Dat Ass|DAT ASS]]
+Image:Rihannaa.jpg|[[Rihanna]] [[Slut|doing what she does best.]]
+Image:LG2.jpg|[[Lie|HOT]]
+Image:Physicists.jpg|[[Fag|Mathematicians]] [[buttsex|at work]]
+Image:AskingforIT.jpg|[[Asking for it]]
+Image:Nurse-uniform2.jpg
+Image:Late2.jpg|[[34|No exceptions.]]
+File:Girlsaloudlatexbigja5.jpg|Girls aloud, British pop music's attempt at sexy.
+File:Cool10.jpg
+File:TarotHalloween05.jpg|Cartoon [[34]]
+File:Sin007 006.jpg
+File:Bentova.jpg
+File:Funstuff.jpg
+File:7337Ass.jpg
+File:DSalcoda
+File:Rubber-land.jpg
+File:LTX.jpg|That is one nice oven.
+File:Ltx007.jpg
+File:Ltx9.jpg
+File:Bad LaTeX.jpg|[[DO NOT WANT|DO]]
+File:Bad LaTeX.jpg|[[DO NOT WANT|NOT]]
+File:Bad LaTeX.jpg|[[DO NOT WANT|WANT]]
+File:Bad LaTeX.jpg|[[DO NOT WANT|!]]
+</gallery>}}
+
+==See Also==
+
+*[[BDSM]]
+*[[Sex]]
+*[[Leet]]
+*[[Microsoft]]
+*[[Sex]]
+*[[Rubberfur]]
+
+[[category: softwarez]]
+[[Category: Sex]]

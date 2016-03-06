@@ -1,0 +1,31 @@
+Buffering
+<center>{{navimage|Buffering.png|Realplayer|513px|16px}}</center><br />
+
+Many [[idiots|people]] wonder why [[YouTube]] is more successful than other video sharing sites despite the screaming [[fail|failure]] on YouTube.
+
+YouTube is the only video site that lets you buffer the entire video before watching it.  With other sites, they buffer 5 seconds, play 5 seconds, stop to buffer 5 more seconds, play five more seconds. If you try to buffer the whole thing or even just rewind to watch a part of the video again, it loses everything that was buffered. YouTube also lets you maximize the video so that 100x100px video can be seen without a magnifying glass as browser re-size functions <strike>don't work on</strike> now work pretty well on [[Flash]], depending on the content and your browser. Google [[Chrome]] doesn't, but pretty much every other browser works, particularly [[Opera]] and to a slightly lesser extent [[IE]].
+
+Watching a YouTube video requires:
+# Pause video.
+# Play video when it's done downloading and you can maximize to to full screen with one click.
+
+Watching a video on any other site requires:
+# Clear browser cache so you can find the video file in your cache.
+# Play video.
+# Turn sound off so it's not spoiled.
+# When done, fish for the largest file in your browser cache, copy it to desktop, and then rename it .flv.
+# Download a separate FLV player to play the video.
+# (sometimes these extra steps happen) Realize that the site didn't save the file to your cache
+# Analyze the HTML source code and see that the embed code is obfuscated behind [[javascript]]
+# Try several stream down-loaders that [[fail]]
+# Search for the same video on Youtube and see it's not there [[Internet lawsuit|thanks to Viacom]] ''(if you don't know who [[Viacom]] is: whenever a good show you like gets canceled and replaced with crap... they were the ones who made the call)''
+# Get a [[Computer Science III|packet monitoring tool]].
+# Find that the .FLV file is hidden behind [[7 proxies|a chain]] of [[at least 100|20]] redirecting .swf files.
+# Download and play.
+
+[[Google Video]] originally was like Youtube in this way, but after Google bought Youtube, Google felt its video site was extraneous so they made their site buffer the worst of all. Google Video buffers only 5 seconds of video, plays 5 seconds of video, and then just times out and quits loading the rest. Ever notice how nobody uses Google Video anymore?
+==See Also==
+*[[K-LULZ]]
+{{boring}}
+[[Category:Internets Phenomena]] 
+[[Category:Drama-generating techniques]]

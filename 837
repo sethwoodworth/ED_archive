@@ -1,0 +1,184 @@
+Bandwidth Raep
+{{FactAlert|This is serious shit and has been known to cause drama and IRL [[Banhammer|Ban Hammers]]. Actually doing this might get you [[Partyvan|v&]]. The information on page is provided for educational purposes only.}}
+{{haxor}}
+
+[[Image:Robot_jacking_on.jpg|thumb|100px|left|A robot caught in the act of bandwidth raep, a.k.a. "jacking on"]]
+
+'''Bandwidth raep''' is what happens when robots get lonely and decide to "jack on". 
+
+[[You|People]] can bandwidth [[buttsecks|raep]] too, but they need a computer to [[sex|do it]]. In essence, it entails [[clusterfuck|large numbers of individuals]] downloading files from a website over and over, draining the website's bandwidth [[lie|faster than a whore can drain a room full of cocks]], exhausting the site's quota so that it goes [[an hero|offline]].
+
+== Protips ==
+
+{{FactCat|Some people confuse Bandwidth Raep with a [[Denial of Service]] attack. A DoS attack is raeping the server with ping requests until it overloads, affecting all websites on the server or network. However, Bandwidth Raep only downloads images, making bandwidth run out, hence the name "Bandwidth Raep". Both methods cause a website to be inaccessible to viewers.}}
+* As the quota is usually reset at the beginning of every month, it is generally recommended among those who use bandwidth raep to start right after this reset, to maximize the downtime incurred. However, some start at different times, so knowing when their cycle begins can be a challenge for some would be raepers.
+* If 100 people continuously download/request a 10kb file simultaneously for 12 hours, this would raep approximately 40 gigabytes of the site's bandwidth. Assuming that the target site only has 40G of bandwidth per month, it would go offline 12 hours later when the bandwidth threshold is exceeded. The website will remain off-line until the following month, when the bandwidth quota will be reset. 
+* This technique is generally more successful against smaller sites with lower bandwidth caps that aren't being actively watched by an IT team. You're not going to take down a large corporate website like CNN.com with this method no matter how many bots you throw at it, but you can shut down some [[deviantART|Tartlet's]] [[Freewebs]] page in a heartbeat.
+* Even if your target has an ungodly huge or scaling bandwidth, they still have to pay the usual data transfer rates, so this will whittle down their bank accounts over time.
+
+__TOC__ 
+
+== Tools for Bandwidth Raep ==
+
+=== Black Widow ===
+
+Black Widow is a website crawler which lets you scan a site's structure (like a directory) and then download folders at a time if you choose. This is useful for finding [[Bandwidth Raep]] images, as the scanner will list file sizes, allowing you to pick the fattest pix. This also allow you to have an overview of files which aren't obviously linked to, useful for sites with shitty layouts.
+
+==== Download ====
+
+[http://anonym.to/http://anonym.to/http://www.megaupload.com/?d=6HDGY2T6 Megaupload link]
+
+
+=== BWRaeper.NET === 
+
+{| align="right"
+|
+[[File:BWR.png|right|thumb|300px|BWRaeper.NET]]
+|}
+'''BWRaeper.NET''' is a [[Bandwidth Raep]] tool that uses a basic and simple URL list system to Raep targets. 
+
+====Download====
+
+* http://anonym.to/?http://rapidshare.com/files/286319878/bwr.net.rar '''Pass = anon'''
+* http://www.muph1n.com/anonshare/4247811c5ca83b61329b59305ee4a94b '''Pass = anon'''
+
+'''Protip:''' Best used in conjunction with Black Widow.
+
+====Instructions from the creator====
+
+'''EXPLANATION'''
+----
+This BWRaeper works the same as the vampire script.<br>
+It continuously downloads the specified files/URLs and gives<br>
+the target an Xbox hueg bandwidth bill.<br>
+Use moar URLs to increase download speed.<br>
+
+'''HOW-TO'''
+----
+#Enter URLs, 1 PER LINE!
+#Configure Proxy if you have to
+#If a URL fails it will automatically stop that thread.
+#Click Raep.
+#???
+#PROFIT!
+
+=== JMeter ===
+
+[[Image:Jmeter.jpg|thumb|right|300px|Jakarta JMeter]]
+
+==== Downloads ====
+# If you don't have Java, get it [http://anonym.to/http://anonym.to/https://cds.sun.com/is-bin/INTERSHOP.enfinity/WFS/CDS-CDS_Developer-Site/en_US/-/USD/ViewProductDetail-Start?ProductRef=jre-6u4-b-oth-JPR@CDS-CDS_Developer here]
+# Get '''JMeter''' from one of the links below (Doesn't matter which)
+## [http://anonym.to/http://apache.dataphone.se/jakarta/jmeter/binaries/jakarta-jmeter-2.3.1.zip jakarta-jmeter-2.3.1.zip] 404
+## [http://anonym.to/http://www.smudge-it.co.uk/pub/apache/jakarta/jmeter/binaries/jakarta-jmeter-2.3.1.zip jakarta-jmeter-2.3.1.zip] 404
+## [http://anonym.to/http://archive.apache.org/dist/jakarta/jmeter/binaries/jakarta-jmeter-2.3.4.zip jakarta-jmeter-2.3.4.zip]
+## [http://anonym.to/http://archive.apache.org/dist/jakarta/jmeter/binaries/jakarta-jmeter-2.3.4.tgz jakarta-jmeter-2.3.4.tgz]
+## [http://anonym.to/http://archive.apache.org/dist/jakarta/jmeter/binaries/jakarta-jmeter-2.3.1.zip jakarta-jmeter-2.3.1.zip]
+# Unzip it
+# Unzip it
+# Get [http://anonym.to/http://rapidshare.de/files/38417667/scientology.jmx.html link] [http://anonym.to/http://www.mediafire.com/?5taq9vvn33z Mirror]
+# Go into the 'bin' folder and run 'jmeter.bat' (.sh for linux/macfags)
+# Go to File -&gt; Open, and select the scientology.JMX file
+# Go to Run -&gt; Start
+# Raep!
+# Watch results on the 'Aggregate Report' screen if you want.
+# ???
+# PROFIT!!!
+
+tl;dr: It's designed to "stress test" a server. When a [[skiddie]] uses JMeter they'll use a pre-prepared "test plan" file. [http://anonym.to/http://jakarta.apache.org/site/downloads/downloads_jmeter.cgi Download here!]
+
+====OMG IT'S NOT ANON SOFTWARE, WILL NOT RUN====
+
+JMeter is a freely available, open-source application written and maintained by the Apache Software Foundation. These people are also the maintainers of the Apache web server, as used by 70% of webservers, including /b/. This shit is legit, clean and free of spyware. If you're paranoid, build your own sources.
+
+Running and using JMeter is not a crime and the software/usage is entirely legit. Effects (Denial of Service) may not be if misused (say, by anon).
+
+====  Performance  ====
+
+If you have more memory than 512 MB you can increase the heap size JMeter uses to increase performance.
+
+Open the jmeter.bat (Windows users) or jmeter file (NOT the JAR- Linux users), and find the line that looks like this:
+
+* set HEAP=-Xms256m -Xmx256m (Windows Users)
+* HEAP="-Xms256m -Xmx256m" (Linux Users)
+
+Now, just edit where it says '256' to whatever you want it to be- say, 512, or 768 (1024 if you've got 2 gigs of RAM and not much else open). Restart JMeter if it's running already using your new startup file and off it goes.
+
+====  Tutorials  ====
+
+[[Image:Large Lady on a Moderately Sized Buggy.jpg|thumb|right|150px|A larger target.]]
+
+Along with the other resource raep tools in the [[skiddie|skiddie's]] arsenal, this is highly valued to put stress on any [[Man The Harpoons|larger targets]] who need extra raep to take down.
+
+To use any JMX (Test Plan) files, you need JMeter itself. It's Java-based and therefore works on all platforms.
+
+* [http://anonym.to/http://jakarta.apache.org/site/downloads/downloads_jmeter.cgi Download, includes manual- you want the '2.3.1.zip' file (Binary)]
+
+Skiddies see creating their own test plans, when done well, as the best way to go about attacking, or alternatively they use an already existing test plan file.
+
+Start up JMeter using the jmeter.sh or jmeter.bat script and navigate to the 'test plan' element in the treeview. This treeview displays the layout of the plan, which is hierarchal.
+
+A basic rape script will use a '''Thread Group''' to control the number of system processes running a set of '''Samplers''', and these will report to a '''Monitor'''.
+
+=====  Thread Groups  =====
+
+Right click on the test plan and add a Thread Group to the plan.
+
+A thread group has three parameters you need to worry about. Number of Threads controls how many users you'll be emulating once the plan is running at full capacity. On most computers, 250 is a good maximum, though higher spec machines with faster connections can run up to 1000. OS limitations may also apply. Ramp-Up Period is just how fast you get to the number above. 30 seconds is usually good, but if you're going for, say, 1000, spend 5 minutes ramping up. Loop Count- check the 'forever' checkbox.
+
+=====  HTTP and TCP Samplers  =====
+
+You now need to identify a target and add samplers to suit. Right click the Thread Group and add either a HTTP or TCP sampler.
+
+=====  HTTP Sampler  =====
+
+HTTP samplers need a web server IP or address/hostname, port number (80) and a HTTP request.
+
+You can ignore the GET/POST request setting unless you want to spam, say, a search form.
+
+The 'Optional Tasks' panel includes an option to Retrieve All Embedded Resources from HTML Files. If you're selecting a webpage with images on it and you want to get everything, images and all, check this. If not, leave it- it'll slow things up a bit.
+
+Disable the 'Redirect Automatically' field so it'll ignore any 302 redirect instructions from the server, which is sometimes used for stopping bandwidth-based attacks.
+
+Disable the 'Use KeepAlive' option to do more opening and closing of requests, unless you're going for BW rape rather than connect/disconnect SYN/ACK rape.
+
+=====  TCP Sampler  =====
+
+Insert server name and IP, throw a port in, disable the 'Re-Use Connection' option, and check 'Set NoDelay'. Send some Text. Use a low, low timeout.
+
+====  Monitoring  ====
+
+Add a 'Summary Report' pane to the plan, underneath the thread group, below the sampler.
+
+====  Running  ====
+
+Press Run -&gt; Start in the menus and watch the top right corner for startup info.
+
+====  Distributed Testing  ====
+
+JMeter supports distributed testing systems, and if you have a network of high-bandwidth or even smaller machines you want to combine with a singular control interface you can use this method. Pretty much just follow the docs on the JMeter website for setting this up and then use a normal testplan.
+
+=== Pygetraep ===
+
+[[Image:Pygetraep.png|right|thumb|200px|Pygetraep]]
+Pygetraep is a CLI based program, used to raep bandwidth. It is very similar to PyRAEP, but differs on a few things. One, it is CLI only. This means that in the long run, it is probably more efficient. Second, it uses system() calls that are reletive to the OS. This means that it won't work on every system with python, just those [[Unix]]-like [[OS]] like [[Mac]], [[Lunix]], etc. This, however, gives it the added benefit of closing down faster than pyraep (which uses built in python to close threads rather than kill command). <div>
+
+====Download====
+* [http://anonym.to/http://www.mediafire.com/?9ym1tsj4wtx Mediafire]
+* [http://www.muph1n.com/anonshare/11447da314c75f590fad8613ecf3e174 AnonShare]
+* [http://anonym.to/http://rapidshare.com/files/98615765/pygetraep.tar.gz Rapidshare]
+* [[Dangerous Kitten]]
+
+=== PyRAEP (Bandwidth) ===
+
+[[File:Pyreapbw.png|300px|thumb|PyRAEP]]
+This is a bandwidth abuse tool written back in January/February of 2007, for the [[Hal Turner]] raids, part of the Hal Raep Pack. It was recently re-written, so as to suck less. One note: If the program doesn't shut down after a minute, go ahead and close it down. It was made to shut down 'gracefully' (many BWRaep apps don't), but this can be a problem sometimes. You should be fine to just close it. Also, for those looking for a CLI version, use Pygetraep.
+
+==== Download ====
+
+* [http://anonym.to/http://rapidshare.com/files/232112732/PyRAEP.Bandwidth.rar Download (Rapidshare)]
+* [http://www.muph1n.com/anonshare/df2d550a3dce078387bdfd3ff9c6fd65 Download (AnonShare)]
+* [http://anonym.to/http://www.mediafire.com/?d4fd5zyyjyz Download (Mediafire)]
+* [http://anonym.to/http://www.python.org/download/ Python] (Obvious dependency. You're going to need this.)
+
+{{trolls}}

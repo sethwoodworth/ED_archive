@@ -1,0 +1,19 @@
+TGP Porn Sites
+[[Image:Torphichenmotivator.jpg|thumb|right|[[Typical]] [[advert]] in a TGP Porn Site.]]
+{{work|famous TGP Porn Sites, lulzworthy TGPs, any possible drama they create}}
+TGP (Thumbnail Gallery Post) sites consist of a page of thumbnails, each thumbnail ostensibly taking the surfer to a different gallery of hardcore voyeuristic love. In reality, each thumbnail leads the surfer to another TGP site much like the one they just left and equally as full of fake links to other pages. TGP sites are one of the leading causes of [[porn cycle|porn cycles]] and will often push the surfing nerd pervert (at this point already only one playground short of a [[rape]] charge) over the edge into a frenzy of joyless masturbation and self-accusatory shouting fits.
+
+One way to defeat the TGP redirecting site, and make your way to the porn, is to use the following code in the bookmark toolbar. Put in the location field it will remove all the redirects from the page. Only usable in Firefox, because IE sucks balls.
+
+<pre>
+javascript:(function(){var k,x,t,i,j,p; for(k=0;x=document.links[k];k++){t=x.href.replace(/[%]3A/ig,':').replace(/[%]2f/ig,'/');i=t.lastIndexOf('http');if(i>0){ t=t.substring(i); j=t.indexOf('&'); if(j>0)t=t.substring(0,j); p=/https?\:\/\/[^\s]*[^.,;'%22>\s\)\]]/.exec(unescape(t)); if(p) x.href=p[0]; } else if (x.onmouseover&&x.onmouseout){x.onmouseover(); if (window.status && window.status.indexOf('://')!=-1)x.href=window.status; x.onmouseout(); } x.onmouseover=null; x.onmouseout=null; }})();
+</pre>
+
+==Only for Newfags==
+TGP sites are only for [[newfag]]s who don't know how to get all the [[porn]] on the internet for free. You can get pretty much all the porn you want for the price of a premium [[rapidshare]] account by searching [http://www.forumophilia.com/viewforum.php?f=20 these] [http://www.planetsuzy.org/f4-explicit-material.html sorts] of [[forum]]s, or by using a [[torrent]], or by finding [[amateur porn]] with no [[copyright]]. In short, TGPs are for [[mundane]]s who feel guilty about even accessing them, creating [[lulz]] as a by-product of their desire to [[fap|masturbate]] when they get [[butthurt]] about having [[immoral|sinned]].
+
+{{sex}}
+
+{{stub}}
+
+[[Category:Sex]]

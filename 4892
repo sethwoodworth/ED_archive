@@ -1,0 +1,42 @@
+Lithursday
+[[Lithursday]] is the main source of [[lulz]] for [[ /b/ | /b/tards]] on a Thursday. Unlike [[Caturday]], posting anything on Lithursday wont turn you into a [[Furry | Furfag]], but it will reduce your standing to that of a [[Basement-dweller]]. 
+
+[[Image:Mein_Kampfy_Chair.jpg|thumb|An example of an extremely popular book]] 
+ 
+[[Lithursday]] consists of posting pictures of [[books]] that people have found [[ Shotacon | interesting]] or [[ A cat is fine too | useful]]. However it always degenerates into either [[ Rozen Maiden | manga]] discussions or becomes [[Troll | heavily trolled ]] by [[ /b/ | /b/tards]]. Fight Club is posted every thread without [[fail]].
+
+
+Some times people post [[unfunny]] or [[ Adobe® Photoshop® | shooped]] pictures on [[Lithursday]]. Doing so is strictly forbidden, as Lithursday is [[The Internet is serious business | serious business]]
+
+[[Some argue]] that Lithursday should be replaced with [[Tay Zonday|ZonDay]], after the Lulzy Events of 7/26.
+
+
+== History ==
+
+Lithursday was created [[At least 100 years ago]], on the 4chan [[/b/]] board. Due to the age of the board, many [[Old meme]]s can often be found, including but not limited to [[Cockmongler]] [[Image:Cockmongler_113.jpg |thumb|Cockmongler's Autobiography]], [[Computer Science III]] [[Image:Computer_Science_3_book.jpg |thumb|The ultimate guide to 1337 HAX0RZ]] and [[Mudkip|mudkipz]]. 
+
+Since those early days, Lithursay has become a day to be remembered for great information on [[Buttsecks | Anal Techniques]].
+[[IMAGE:The_Ultimate_Guide_to_Anal_Sex_For_Men.gif | thumb | How to please your [[Fag | Man ]] ]]
+
+
+== Current situation ==
+
+Books used to be uploaded as jpg-rars (rars hidden in jpg-files), but due to mootfaggotry this is no longer possible. <strike>In an attempt to circumvent this rage-invoking change, anon made a [[pFBind|file binder]] specifically for 4chan usage. Long live lithursday.</strike> lol blocked
+
+As in the case of [[4chan.js]], moot's jpg-rar filter is easy to circumvent, since he isn't scanning the whole file, only the first and last 64 KB.  All you generally need to do to get around it is add padding after the image (using several copies of the image will do) to push the beginning of the RAR file past the 64 KB threshold.  See instructions in the image below.
+
+[[Image:Evading_the_4chan_Lithursday_Filter.png|thumb|The modern technique for posting embedded archives on 4chan, working as of April 16, 2009.]]
+
+If or when moot fixes his filter, a number of fallbacks are available:
+
+* Alter the magic number in the RAR file, for example by replacing "Rar!" with "Bar!".  Use a hex editor to do this so you don't make other unintentional changes to the file.
+
+* Concatenate the image and file without compressing the file.  Since the file isn't an archive, it most likely won't be blocked.  Upon receiving such an image, it's possible to extract the original file using a hex editor.  Alternatively, those of you not versed in Computer Science III may want to try [http://userscripts.org/scripts/show/40343 this] Greasemonkey script, which can detect the added data in images on 4chan and split the image back up into its original pieces.  Also useful for telling fake jpeg-rar books from real ones.  Do '''not''' use this technique to upload source code or HTML files as this may trigger the anti-[[4chan.js]] filter and get you banned.
+
+* The [http://goldaccount.byethost4.com/ 4chan Gold File Embedder] offers similar functionality to the now-blocked [[pFBind]], but will be harder for moot to block because it uses an LSB-based steganography scheme to attach files, rather than appending them after the end of the image.  Also includes a web interface designed for 4chan which you can use by connecting to a proxy on localhost.  The original source code of the program is included; you can examine it by downloading the file and either renaming it to .zip or opening it in your favorite archiver.  Requires Java 5.0.
+
+* [[Google]] will find you all sorts of other steganography utilities, some of them much harder to block.  One of the better ones is [http://steghide.sourceforge.net/ steghide].  The downside is that the hardest-to-block steganography tools typically require you to use a cover image at least 5-20 times the size of the hidden file.  This can run you up against 4chan's file size limit.
+
+{{memes}}
+
+[[Category:Chans]]

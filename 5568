@@ -1,0 +1,87 @@
+MySpace/Layout
+A [[gay|fancy]] layout for your [[MySpace]] page, you'll love it... trust me?
+
+<pre><nowiki>
+  <style>
+ body {
+	background-color: rgb(192, 192, 192);
+ 
+	background-image: url("http://www.lemonparty.org/lemonparty.jpg");
+ 	
+	background-position: top left;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	}
+ table, tr, td {
+	background-color: transparent;
+	border: 2px;
+	}
+ 
+ table table {
+	border: 2px;
+	}
+ table table table table{
+	border: 2px;
+	}
+ table table table {
+	border-width: 2px;
+	border-color: rgb(0,0,0);
+	border-style: solid;
+	background-color: transparent;
+	}
+ 
+	table table table { background-image:url("http://fireuzer.com/fire/goat/goatse.jpg"); }
+	table table table table { background-image:none; background-color:transparent;}
+	
+ .contactTable {width:700px !important; height:628px !important; padding:0px !important;background-image:url("http://www.hai2u.com/HotBlowjob.jpg");background-attachment:scroll; background-position:center center;background-repeat:no-repeat; background-color:transparent;}
+ .contactTable table, table.contactTable td { padding:0px !important;border:0px; background-color:transparent; background-image:none;} 
+ .contactTable a { display: block; height: 125px; }
+ .contactTable a img {visibility:hidden; border:0px !important;}
+ .contactTable .text {font-size:0px !important; letter-spacing:-0.5px;}
+ .contactTable .text, .contactTable a, .contactTable img {filter:none !important;}
+ .contactTable .whitetext12 {display:none;}
+ 
+ table table table td.text div img {visibility:hidden;} 
+ table table table td.text div { background-image:url("http://www.freshstation.org/gallery/main.php?g2_view=core.DownloadItem&g2_itemId=252&g2_serialNumber=1"); background-repeat:no-repeat;} 
+ table table table td.text table table div img {visibility:visible;} 
+ table table table td.text table table div { background-image:none;}
+ 
+ body { cursor: url("http://halflife2.zoy.org/images/tubgirl.jpg"); }
+ 
+ table table table td {
+	vertical-align:top ! important;
+	}
+ span.blacktext12 {
+	visibility:visible !important;
+	background-color:transparent;
+	background-image:url("http://www.kinkybondagesquirrels.com/permanent/goatse/goatse_12.jpg");
+	background-repeat:no-repeat;
+	background-position:center center;
+	font-size:0px; letter-spacing:-0.5px;
+	width:383px; height:356px;
+	display:block !important;
+	}
+ span.blacktext12 img {display:none;}
+ 
+ table, tr, td, li, p, div { font-family:Verdana; color:rgb(0,0,0); font-size:12px;  font-style:normal; font-weight:normal;   } 
+ .btext { font-family:Verdana; color:rgb(0,0,0); font-size:12px;  font-style:normal; font-weight:normal;   } 
+ .blacktext10 { font-family:Verdana; color:rgb(255, 105, 0); font-size:12px;  font-style:normal; font-weight:bold; text-decoration:none;  } 
+ .lightbluetext8 { font-family:Verdana; color:rgb(255, 105, 0); font-size:12px;  font-style:normal; font-weight:bold; text-decoration:none;  } 
+ .orangetext15 { font-family:Verdana; color:rgb(255, 105, 0); font-size:12px;  font-style:normal; font-weight:bold; text-decoration:none;  } 
+ .redtext { font-family:Verdana; color:rgb(204, 0, 0); font-size:12px; font-weight:bold; font-style:normal; text-decoration:none;    } 
+ .redbtext { font-family:Verdana; color:rgb(204, 0, 0); font-size:12px; font-weight:bold; font-style:normal; text-decoration:none;    } 
+ .text { font-family:Verdana; color:rgb(0,0,0); font-size:12px; font-weight:normal;    } 
+ .whitetext12 { font-family:Verdana; color:rgb(255, 105, 0); font-size:12px; font-weight:bold; font-style:normal; text-decoration:none;  } 
+ a:active, a:visited, a:link { font-family:Verdana; color:rgb(0, 51, 153); font-size:12px; font-weight:bold;   text-decoration:none; } 
+ a:hover { font-family:Verdana; color:rgb(204, 0, 0); font-size:12px; text-decoration:underline; } 
+ a.navbar:active, a.navbar:visited, a.navbar:link { font-family:Verdana; color:rgb(0, 51, 153); font-size:12px; font-weight:bold;    } 
+ a.navbar:hover { font-family:Verdana; color:rgb(204, 0, 0); font-size:12px; text-decoration:underline; } 
+ a.redlink:active, a.redlink:visited, a.redlink:link { font-family:Verdana; color:rgb(0, 51, 153); font-size:12px; text-decoration:none; } 
+ a.redlink:hover { font-family:Verdana; color:rgb(204, 0, 0); font-size:12px; text-decoration:underline; } 
+ .nametext { font-family:Verdana; color:rgb(0,0,0); font-size:14px; font-weight:bold;   text-decoration:none;   font-style:normal; } 
+ 
+ </style>
+ <a style="text-decoration: none;" href="http://www.msplinks.com/MDFodHRwOi8vd3d3Lnhvb3NwYWNlLmNvbS8=" target="_blank"><img src="http://www.xoospace.com/images/mytag.gif" alt="MySpace Layouts" style="position:absolute; left:0px; top: 0px;" border="0" /></a>
+</nowiki></pre>
+
+[[category:myspace]]

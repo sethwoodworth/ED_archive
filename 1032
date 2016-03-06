@@ -1,0 +1,62 @@
+Blink
+:''This is an article about the [[HTML]] tag. To read about the human function, please see [[*blinks*]]. To read about rainbow blinkies, please see [[Rainbow blinkies]].''
+<div style="text-decoration:blink">
+'''Blink''' is a wonderul [[HTML]] tag that pisses people off.
+
+This one works <s>sometimes</s> in firefox only:
+ <nowiki><blink>text here</blink></nowiki>
+
+This one works <s>always</s> in firefox:
+ <nowiki><span style="text-decoration:blink">text here</span></nowiki>
+
+Why not combine the two?
+ <nowiki><blink style="text-decoration:blink;">BLINK BLINK BLINK</blink></nowiki>
+
+Better yet, put this in your header and all your blink tags will work (maybe not in [[Apple|webkit]]):
+ <nowiki><script type="text/javascript">
+
+<!--
+
+if(document.all){
+
+	window.setInterval(function(){
+
+		var _b=document.all.tags('blink');
+
+		for(x=0;x<_b.length;x++){
+
+			if(_b[x].style.visibility=='hidden'){
+
+				_b[x].style.visibility='visible';
+
+			}else{
+
+				_b[x].style.visibility='hidden';
+
+			}
+
+		}
+
+	},500);
+
+}
+
+//-->
+
+</script>
+
+<style type="text/css"><!--blink{text-decoration:blink;}--></style></nowiki>
+
+== Examples ==
+
+* [[User:WKD|WKD]]'s userpage (every word is true)
+* [[User:Jacknstock|Jacknstock]] art copyrighted by [[User:Riboflavin|Riboflavin]].
+* [[Rainbow blinkies]]
+
+== Combine With ==
+
+* [[Fifty Hitler Post]]
+* [[Marquee]]
+</div>
+{{Language}}
+[[Category: Netspeak]]

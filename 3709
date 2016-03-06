@@ -1,0 +1,354 @@
+High Score
+{{quote|Maybe I should have killed four or five hundred people. Then I would have felt better. Then I would have felt like I really offered society something.|[[Charles Manson]]}}
+
+== FPS, Single Player ==
+{| border="0" cellspacing="0" cellpadding="3" align="center" style="text-align:center;padding:3px;border:4px solid black;-moz-border-radius:5px;-webkit-border-radius:5px"
+|- style="background:#003399;color:#FFFFFF" 
+! RANK
+! W-RANK*
+! E-RANK**
+! 
+! PLAYER
+! KILLS
+! INJURED
+! AN HERO
+! YEAR
+|- style="background:#43ff00"
+| 1
+| 2 (68.7)
+| 8 (62%)
+| [[Image:MiniflagSKorea.gif]]
+| [[Police|Woo Bum-kon]]
+| 57
+| 35
+| Y
+| 1982
+|- style="background:#65ff00"
+| 2
+| 3 (42)
+| 6 (62.5%)
+| [[Image:MiniflagAustralia.gif]]
+| Martin Bryant
+| 35
+| 21
+| N
+| 1996
+|- style="background:#81ff00"
+| 3
+| 4 (40.3)
+| 9 (56.1%)
+| [[Image:MiniflagUSA.gif]]
+| [[Cho Seung-Hui]]
+| 32
+| 25
+| Y
+| 2007
+|- style="background:#98ff00"
+| 4
+| 6 (31)
+| 1 (91%)
+| [[Image:MiniflagJapan.gif]]
+| Mutsuo Toi
+| 30
+| 3
+| Y
+| 1938
+|- style="background:#aeff00"
+| 5
+| 1 (70.7)
+| 20 (18.8%)
+| [[Image:MiniflagIsrael.gif]]
+| Jew
+| 29
+| 125
+| N
+| 1994
+|- style="background:#c1ff00"
+| 6
+| 5 (36.3)
+| 16 (36.5%)
+| [[Image:MiniflagChina.gif]]
+| Tian Mingjian
+| 23
+| 40+
+| N
+| 1994
+|- style="background:#d3ff00"
+| 7
+| 7 (29.7)
+| 10 (53.5%)
+| [[Image:MiniflagUSA.gif]]
+| George Hennard
+| 23
+| 20
+| Y
+| 1991
+|- style="background:#e3ff00"
+| 8
+| 8 (27.3)
+| 11 (52.5%)
+| [[Image:MiniflagUSA.gif]]
+| James Huberty
+| 21
+| 19
+| N
+| 1984
+|- style="background:#f2ff00"
+| 9
+| 9 (27.3)
+| 17 (35.4%)
+| [[Image:MiniflagUSA.gif]]
+| Charles Whitman
+| 17
+| 31
+| N
+| 1966
+|- style="background:#fbfb00"
+| 10
+| 11 (22)
+| 13 (51.1%)
+| [[Image:MiniflagUK.gif]]
+| Thomas Hamilton
+| 17
+| 15
+| Y
+| 1996
+|- style="background:#fff200"
+| 11
+| 12 (21)
+| 12 (51.6%)
+| [[Image:MiniflagUK.gif]]
+| Michael Ryan
+| 16
+| 15
+| Y
+| 1987
+|- style="background:#ffe300"
+| 12
+| 15 (18.3)
+| 5 (69.6%)
+| [[Image:MiniflagGermany.gif]]
+| Robert Steinhäuser
+| 16
+| 7
+| Y
+| 2002
+|- style="background:#ffd300"
+| 13
+| 16 (18)
+| 7 (62.5%)
+| [[Image:MiniflagGermany.gif]]
+| [[Tim Kretschmer]]
+| 15
+| 9
+| Y
+| 2009
+|- style="background:#ffc200"
+| 14
+| 14 (18.7)
+| 14 (50%)
+| [[Image:MiniflagCanada.gif]]
+| Marc Lépine
+| 14
+| 14
+| Y
+| 1989
+|- style="background:#ffaf00"
+| 15
+| 17 (16)
+| 4 (70%)
+| [[Image:MiniflagUSA.gif]]
+| Patrick Sherrill
+| 14
+| 6
+| Y
+| 1986
+|- style="background:#ff9900"
+| 16
+| 10 (23)
+| 19 (30.2%)
+| [[Image:MiniflagUSA.gif]]
+| [[Fort Hood|Nidal Malik Hasan]]
+| 13
+| 30
+| N
+| 2009
+|- style="background:#ff8200"
+| 17
+| 19 (14.3)
+| 3 (76.5%)
+| [[Image:MiniflagUSA.gif]]
+| [[Jiverly Wong]]
+| 13
+| 4
+| Y
+| 2009
+|- style="background:#ff7700"
+| 18
+| 20 (14)
+| 2 (81.3%)
+| [[Image:MiniflagAustralia.gif]]
+| David Gray
+| 13
+| 3
+| N
+| 1990
+|- style="background:#ff6600"
+| 19
+| 13 (20.3)
+| 18 (32.4%)
+| [[Image:MiniflagUK.gif]]
+| Derrick Bird
+| 12
+| 25
+| Y
+| 2010
+|- style="background:#ff4400"
+| 20
+| 18 (16.3)
+| 15 (48%)
+| [[Image:MiniflagUSA.gif]]
+| Mark Barton
+| 12
+| 13
+| Y
+| 1999
+|}
+{| width=100% cellpadding=15 cellspacing=0
+| width=50% style="text-align:center" |
+<nowiki>*</nowiki>weighted rank (1 kill = 3 injuries = 1 point)<br>
+<nowiki>**</nowiki>efficiency rank ( (kills / (kills+injuries) ) * 100 )
+|}
+
+== FPS, Co-Op Mode ==
+{| border="0" cellspacing="0" cellpadding="3" align="center" style="text-align:center;padding:3px;border:4px solid black;-moz-border-radius:5px;-webkit-border-radius:5px"
+|- style="background:#003399;color:#FFFFFF"
+! RANK
+!
+! PLAYERS
+! KILLS
+! INJURED
+! AVG KILLS
+! AN HERO
+! YEAR
+|- style="background:#43ff00"
+| 1
+| [[Image:MiniflagUSA.gif]]
+| [[Eric Harris]], [[Dylan Klebold]]
+| 13
+| 24
+| 6.5
+| Y,Y
+| 1999
+|- style="background:#65ff00"
+| 2
+| [[Image:MiniflagUSA.gif]]
+| Mitchell Johnson, Andrew Golden
+| 5
+| 10
+| 2.5
+| N,N
+| 1998
+|- style="background:#81ff00"
+| 3
+| [[Image:MiniflagUSA.gif]]
+| Jason Harless, Jason McCoy
+| 2
+| 0
+| 1
+| N,N
+| 1988
+|}
+
+== Bomberman ==
+{| border="0" cellspacing="0" cellpadding="3" align="center" style="text-align:center;padding:3px;border:4px solid black;-moz-border-radius:5px;-webkit-border-radius:5px"
+|- style="background:#003399;color:#FFFFFF" 
+! RANK
+!
+! PLAYER
+! KILLS
+! INJURED
+! AN HERO
+! YEAR
+|- style="background:#43ff00"
+| 1
+| [[Image:MiniflagUSA.gif]]
+| [[Timothy McVeigh]]
+| 168
+| 680+
+| N
+| 1995
+|- style="background:#65ff00"
+| 2
+| [[Image:MiniflagUSA.gif]]
+| [[User:Tomoe/Andrew_Kehoe|Andrew Kehoe]]
+| 44
+| 58
+| Y
+| 1927
+|- style="background:#81ff00"
+| 3
+| [[Image:MiniflagUSA.gif]]
+| [[Unabomber]]
+| 3
+| 23
+| N
+| 1978-1995
+|}
+ 
+== Microsoft Flight Simulator ==
+{| border="0" cellspacing="0" cellpadding="3" align="center" style="text-align:center;padding:3px;border:4px solid black;-moz-border-radius:5px;-webkit-border-radius:5px"
+|- style="background:#003399;color:#FFFFFF" 
+! RANK
+! 
+! PLAYERS
+! KILLS
+! INJURED
+! YEAR
+|- style="background:#43ff00"
+| 1
+| [[Image:MiniflagAlQaeda.png]]
+| [[9/11|Team 9/11]]
+| ~3,000
+| 6,000+
+| 2001
+|- style="background:#65ff00"
+| 2
+| [[Image:MiniflagUSA.gif]]
+| [[Joe Stack]]
+| 1
+| 13
+| 2010
+|- style="background:#81ff00"
+| 3
+| [[Image:MiniflagUSA.gif]]
+| [[Charles Bishop]]
+| [[Fail|0]]
+| [[Fail|0]]
+| 2002
+|}
+
+== How to High Score ==
+* Be from somewhere where murder isn't an everyday occurrence and people actually care when you go on a shooting rampage. If you speak English and are white, you probably have this covered.
+* Play video games and listen to metal. They will train you to kill better.
+* Leave behind lulzy statements and media so that you will be remembered. Nobody cares about a vanilla killer.
+* Kill people who have absolutely nothing to do with your problem. They still deserve it.
+* Offing yourself does not count as a kill, but it does make you [[an hero]].
+
+== Notable Losers ==
+* [[Mr. Saari]], 10 kills / 1 injured
+* [[Jeff Weise]], 9 kills / 5 injured
+* [[Satan Claus]], 9 kills / 3 injured
+* [[Pekka-Eric Auvinen]], 8 kills / 12 injured
+* [[Robert Hawkins]], 8 kills / 4 injured
+* [[Jared Lee Loughner]], 6 killed / 14 injured
+* [[Steven Kazmierczak]], 5 kills / 23 injured
+* [[Nghtmrchld26]], 4 kills / 5 injured
+* [[George Sodini]], 3 kills / 9 injured
+* Brenda-Ann Spencer, 2 kills / 9 injured, and was immortalized in the song "I Don't Like Mondays" by the Boomtown Rats.
+* [[Jason Rodriguez]], 1 kill / 5 injured, follow up of the [[Fort Hood]] Shooting.
+* [[Raoul Moat]], 1 kill / 2 injured, now worshipped by [[Chavs]] across the [[Britain|country]]
+* [[Robert Butler jr]], 1 kill / 1 injured
+* [[Asa Coon]], 0 kills / 4 injured
+
+[[Category:People]]

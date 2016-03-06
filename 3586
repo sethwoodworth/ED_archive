@@ -1,0 +1,79 @@
+Halbreich.exe
+[[Image:AEpin.png|right]]
+==Purpose==
+
+[[Image:Halbreich interface.jpg|thumb]]Halbreich.exe is a PC-only tool to speed up the laborious task of adding wiki-tags to articles. It was originally created for the Image Halbreich team to deal with the large numbers of uncategorized images, but can be easily customized to add wiki-tags of any kind.
+
+==Installation==
+
+====Minimal====
+
+Unzip just these two files into the same folder
+
+* halbreich\halbreich.exe	- the program itself
+* halbreich\categories.lst	- the category list (you can edit this in notepad)
+* halbreich\templates.lst	- the templates list (you can edit this in notepad)
+
+===Full===
+
+Unzip all files into the same folder.
+
+* halbreich\readme.txt		- Documentation
+
+* halbreich\halbreich.exe	- the program itself
+* halbreich\categories.lst	- the category list (you can edit this in notepad)
+* halbreich\templates.lst	- the templates list (you can edit this in notepad)
+
+* halbreich\src\halbreich.ahk	- Halbreich Autohotkey source code
+* halbreich\src\halbreich.ico	- icon for use with the AHK2EXE compiler
+
+==Basic Workflow==
+
+* '''IF YOU DON'T KNOW WHAT EXPERT MODE IS, LEAVE IT OFF, NOOB!!!!'''
+
+# Open wiki page for editing with the internal browser editor
+# Select tags from the list (see below)
+# Move the text cursor to where you want the tags inserted into the wiki page.
+# Press CTRL+SHIFT+V to paste the tags.
+
+==Selecting Tags==
+
+* You can toggle the checkboxes beside a tag to select it.
+* To search for a tag, type a portion of the tag's name in the bottom text field of Halbreich's interface. Pressing ENTER will toggle the last tag found that includes that text.
+* Deselect tags with the ESC key (Halbreich must be the foreground app)
+*'''note:''' Tags that begin with a backslash "\" will not be inserted during a tag-paste. This is intentional.
+
+==Rapid Tagging==
+
+* Once again, it must be stressed that '''IF YOU DON'T KNOW WHAT EXPERT MODE IS, LEAVE IT OFF, NOOB!!!!'''
+* Rapid tagging is accomplished by turning on the '''EXPERT''' checkbox or hitting ALT+X while Halbreich is the foreground app.
+* When you hit CTRL+SHIFT+V to paste tags, it will paste the tags, then auto-TAB you to the Summary field, auto-paste the tags into that summary field, and hit ENTER to submit the changes automatically.
+* If your text cursor isn't carefully placed when you perform an expert paste, it will probably fuck things up. Because YOU fucked it up. Idiot.
+* It's there for people who have to categorize and tag shitloads of docs and images who know what they're doing. Use with caution!
+
+==Tag Files==
+
+* On startup, Halbreich will search the directory for *.lst taglists
+* tag lists can be edited in notepad. One tag per line.
+* tag lists show up in the topmost dropdown gadget
+* you can create a '''default.lst''' file to be selected on Halbreich's startup.
+
+==To Do==
+
+* Allow for text or highlight insertion
+* <s>Modifiable Template Support</s> v1.12+
+* <s>Fix Template bugs</s> v1.12+
+* <s>Allow for multiple tag files </s> Done for v1.11+
+* <s>Make Expert Mode turn on Minor Edit</s> Done for v1.10+
+
+==Download==
+
+* [http://images.encyclopediadramatica.com/images/b/b1/HalbreichV1_12.zip Download v1.12 from ED]
+* [http://images.encyclopediadramatica.com/images/4/4d/HalbreichV1_11.zip Download v1.11 from ED]
+
+==See Also==
+*[[Encyclopedia_Dramatica:Template_Czar#Image_Czars|Image czar]]
+*[[Special:Uncategorizedimages|Uncategorized images]]
+*[[Special:Whatlinkshere/Template:descplz|Images needing description]]
+
+[[Category:Communicae]][[Category:Softwarez]][[Category:Wikis Suck]]

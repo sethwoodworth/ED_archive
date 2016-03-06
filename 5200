@@ -1,0 +1,63 @@
+Marquee
+A '''marquee''' is a useful tool [[troll]]s use to [[flood]] or otherwise annoy other people. Several marquee wars took place between some of the original [[LJDrama]] staff in 2002 and 2003, primarily between [[jameth]], [[quasidan]] and [[mediacrat]] (when he was still [[selfsufficience]]). Others such as [[Jackola]] were also involved.
+
+Marquees became a great source of [[lulz]] in the [[liberal]] [[community]] when people began posting comments and pictures as a marquee scroll.  Albeit an [[old meme]], the marquee is still a great [[lulz]]ortunity whenever [[azad_slide]] posts anything anywhere.
+
+'''Note''': marquees (besides the simple marquee, see below) often do not display properly in [[Failfox]].
+
+== Simple Marquee ==
+
+A simple marquee is charming yet easy to create. <pre><marquee>marquee text</marquee></pre> Due to its simplicity, simple marquees are often looked down upon by experienced trolls.
+
+== Marquee Properties==
+
+Experienced marqueeers (aka mar[[fag]]s) use these to create beautiful marquees.
+* width
+* height
+* direction - RIGHT/LEFT/UP/DOWN
+* loop
+* bgcolor
+* behavior - SCROLL/SLIDE/ALTERNATE.
+* scrollamount
+* scrolldelay 
+
+Advanced example:
+ <marquee height=100 direction=down bgcolor=red behavior=alternate scrolldelay=10>
+  FAG
+ </marquee>
+
+<marquee height=100 direction=down bgcolor=red behavior=alternate scrolldelay=10>
+ FAG
+</marquee>
+
+== Nested Marquee ==
+
+You can have a [[Pimp My Ride|marquee within a marquee]] to make it go diagonal.
+
+Super advanced example: <pre><marquee direction=left behavior=scroll scrollamount=50 scrolldelay=250>
+  <marquee direction=up behavior=alternate scrollamount=5 scrolldelay=100>
+      <img src="homo.png" />
+  </marquee>
+</marquee></pre>
+
+<marquee direction=left behavior=scroll scrollamount=50 scrolldelay=250>
+  <marquee direction=up behavior=alternate scrollamount=5 scrolldelay=100>
+      <img src="homo.png" />
+  </marquee>
+</marquee>
+
+==For Lazy People==
+
+You can use the [http://faculty.fmcc.suny.edu/tutorials/Marquee.htm marquee creator]
+
+== Examples ==
+
+*[http://www.livejournal.com/users/anh/707464.html?thread=965512#t965512 Apologies from the management]
+
+== See Also ==
+
+* [[Blink]]
+
+{{Language}}
+[[Category: In Jokes]]
+[[Category: Drama-generating techniques]]

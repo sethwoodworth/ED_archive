@@ -1,0 +1,190 @@
+Windows XP Performance
+[[File:Ostan_xp_pro.jpg|thumb|right|If operating systems were [[women]], this guide would be like helping yours [[In the kitchen|become a better cook]].]]
+
+This article covers how to improve your [[Windows]] performance, as well as how to remove some of the obnoxious services that only serve make your [[OS-tan|OS look less pretty]]. If the advice available in this article isn't enough to get your computer running as good as new, or if you're looking for a safer fix than tweaking with your system settings, you can always download [[Windows Optimizer]] and let it work it's magic.
+
+==General Maintenance==
+===Check your disk for errors===
+
+   1. Go to Start, Run, type "cmd", OK, type "chkdsk C: /r /x"
+   2. Select yes and let it run on the next restart
+   3. This can take many hours so don't restart until you go to bed
+
+===Cookies and net stuff===
+
+Delete your internet cookies and junk if you haven't done it in awhile, you should do this at least once a week.
+
+    * In Internet Explorer, Tools->options->general tab for browsing history, change the settings to  <br>     something good and then do a delete
+    * In Firefox, choose the Tools->options->privacy tab, change the settings and then clear the data
+
+===Delete extra temp files===
+
+Anon way:
+Make sure can see hidden files
+
+   1. Open windows explorer, Firefox, etc.
+   2. Tools-> folder options -> view
+   3. Enable "show hidden files and folder" and uncheck "hide protected operating system files" 
+
+Now tiem to delete stuff
+
+   1. Start - Run - %temp% (temporary files in user folder)
+   2. You can delete all those files: edit->selectall->then delete
+   3. Start - Run - temp (temporary files in %windir%)
+   4. You can delete all those files: edit->selectall->then delete
+   5. Start - Run - %windir%\prefetch
+   6. You can delete all those files: edit->selectall->then delete 
+
+Find any extra temp files
+
+   1. Start menu - search - files and folders
+   2. Choose "all files and folders," may take some time
+   3. Search: *.tm?
+   4. Delete all the ones you can, some may be currently in use by programs running on the comp 
+
+Pro way:
+
+   1. Go to http://anonym.to/http://www.ccleaner.com/download and download CCleaner
+   2. Install and run CCleaner
+   3. You're done.
+
+===Check for spy ware and virii===
+
+The following programs remove all kinds of shit.
+
+   1. Spyware - [http://www.lavasoft.com/products/ad_aware_free.php Adaware] and/or [http://www.safer-networking.org/en/spybotsd/index.html Spybot]
+   2. Anti-virus - [http://free.avg.com/download-avg-anti-virus-free-edition AVG] or [http://www.free-av.com/en/products/1/avira_antivir_personal__free_antivirus.html Avira] [http://www.avast.com/eng/avast_4_home.html AntiVirAvast]. AntiViravast has boot level scanning and automatic updates.
+   3. ESET- First: Click [http://anonym.to/http://nod321.com/ here] and copy down a serial. <br>           Second: Choose either [http://anonym.to/http://download.eset.com/download/win/eav/eav_nt32_enu.msi ESET NOD32] or [http://anonym.to/http://download.eset.com/download/win/ess/ess_nt32_enu.msi ESET Smart Security](includes a firewall) and <br>              enter the serial you copied down for the user/pass.
+   4. Malwarebytes' Anti-Malware - Download [http://anonym.to/http://www.malwarebytes.org/mbam-download.php  this] and do a full scan.
+
+Make sure scheduled scans and updates are enabled at least once a week.
+
+==Now make comp faster time==
+===Desktop===
+
+   1. Right click on desktop->properties->themes tab
+   2. Change theme to Windows Classic
+   3. Screensaver tab
+   4. Make it so no screensaver and apply
+   5. User power saving if you want the screen to turn off 
+
+===Turning stuff off that's useless to gain back POWAH===
+====Last access====
+
+   1. start menu->run, type in cmd, press enter
+   2. "fsutil behavior set disablelastaccess 1" into the cmd and press enter, no quotes 
+
+====Disable short filenames====
+
+   1. In the same command prompt enter"fsutil behavior set disable8dot3 1" without quotes 
+
+====Fonts====
+
+   1. Start menu-> control panel -> fonts
+   2. Delete fonts that you never use/won't use
+   3. If you wanna save them just in case, you can, just make a different folder and zip them up<br>     so the comp won't delete them
+
+====Programs====
+
+   1. Start menu->control panel -> add/remove programs
+   2. Take off any you don't use and won't be using 
+
+====Indexing====
+
+   1. my computer->right click on hard drive
+   2. click box to make indexing off and apply, let it run, will take awhile
+
+===TCP/IP===
+
+====Removing Connections Restriction====
+
+Since the dawn of Windows XP Service Pack 2, Windows XP users have been restricted to the number of connections that they can make from their computer per second. Although your [[LOIC|ION cannon]] is showing thousands of connections per second, the truth is that Windows is allowing only a limited ammount of those connections to pass through to the internet. 
+
+This affects your Torrents, file sharing, web browsing. A good example of this connection limiting comes from trying to browse other sites while using the ION cannon. Its not latency being generated that causes you to have a failed connection to the web servers, but your operating system itself. 
+
+Microsoft put this measurement in place to slow down viruses that could be using your computer to spam e-mails or spread itself. This is a horribly ineffective method of stopping the spread of viruses. If you do the math, a virus could still spread rather quickly.
+
+Use [http://deepxw.blogspot.com/ TCP-Z] which patches xp/vista/win7, and can do a permanent patch or memory patch. Source code for some of this guy's shit is available too.
+
+==Starting up faster and staying a little faster cause shit wont be going always==
+===msconfig===
+
+   1. Startmenu->run, type msconfig press enter
+   2. Go over to the Startup tab, click disable all, and enable what you only really need at startup, <br>     virus and firewall stuffs mainly, on laptops can be moar wireless and button stuffs as well
+   3. Go to the services tab now
+   4. check the box to hide all Microsoft services, we don't wanna disable Microsoft things we need <br>     to run comp
+   5. Now set things you don't use to manual startup
+   6. Apply and done
+
+==Useless services go away==
+
+    * Large copypasta of information regarding services(http://anonym.to/http://pastebin.ca/649452)
+
+==Defrag==
+===With default Windows Defragmenter===
+
+   1. My Computer->Right click on drive to defrag->Properties->Tools, Defragment
+   2. Click "defragment"
+   3. Have it do it about 2 or 3 times so it'll be all done, each time it'll go faster 
+
+===With specialized software===
+
+    * Microsoft Bootvis, defragments files that can't be defragmented while Windows is running<br>     (like boot files)
+    * O&O Defrag, more defrag options than default defragger
+    * Raxco PerfectDisk, also more options and statistics
+    * UniBlue Registry Booster, Does what you thought Windows Optimizer was supposed to do, except<br>     IRL. Microsoft Certified so no system32 worries.
+    * Defraggler, allows you to search and defrag specific files and clusters - useful for speeding<br>     up the process without you having to sit with your thumb up your ass all day.
+
+==Further performance tweek==
+===Desktop graphics performance===
+
+   1. Now go over to the advanced tab and then click on performance settings
+   2. Adjust for best performance
+   3. Update video drivers to latest version (if possible, also, get the ones off of the manufacturer website, not the microsoft website, as those are usually outdated.)
+
+===Pagefile===
+
+   1. Start menu->right click on My Computer->properties->general tab.
+   2. Near the bottom of it, it says how much RAM you have, remember that.
+   3. Go to "Advanced" tab under performance options.
+   4. Go to "virtual memory" and click "change".
+   5. If you have more than one hard drive, move the paging file to whichever one has the least amount<br>     of data access and is the fastest; don't have the pagefile on the OS/Applications drive unless<br>     it's your only one.
+   6. Remember how much RAM you have? Set the paging file to be custom size and your initial size as<br>     2 times the size of your RAM and the max size as 2 times the size of your RAM.
+   7. Click "set" and "okay" and apply it all.
+
+===Caching===
+
+   1. Open regedit
+   2. Find hkey_local_machine\system\currentcontrolset\control\session manager\memory management\
+   3. Dwords LargeSystemCache and DisablePagingExecutive both set to 1
+   4. Please note that changing LargeSystemCache to 1 does not change performance according to this<br>     source.
+
+== Disabling annoying bullshit ==
+
+=== The yellow bubbles ===
+These just impart stupid pieces of information and do nothing else but get in the way. So why not turn them off?
+
+   1. Go to http://anonym.to/http://support.microsoft.com/kb/307729
+   2. Download and run the patch
+   3. ????
+   4. PROFIT
+
+=== Yellow bars in Start Menu ===
+These point out the newly installed programs, and just makes the start menu look untidy.
+
+   1. Right click on Start Menu and click Properties
+   2. Click Customize at the bottom of this dialogue box
+   3. Click on the Advanced tab and untick "highlight newly installed programs"
+
+=== Error Reporting ===
+Since there's no chance of ever getting a reply from Microsoft if a program closes unexpectedly, turn it off.
+
+   1. Press Windows Key + Pause to get to System Properties
+   2. Go to the Advanced tab and click the Error Reporting button at the bottom
+   3. Click "Disable Error Reporting"
+
+==Further Tweaks==
+Another program which allows you to tweak an XP install is [http://filehippo.com/download_tweakui/ Tweak UI 2.1]. It carries a host of options ranging from what appears when you right click to altering which system default icons are allowed or not allowed on the desktop and many, many more. Don't want your recycle bin on the desktop? Turn that shit off. Hate the long list of invasive programs which come up when you right click and create new? Turn that shit off.
+
+{{Template:Lern}}
+[[Category:Softwarez]]

@@ -1,0 +1,50 @@
+DNS Comic
+{{rainbow|LOLDONGS}}[[Image:Dns-juli.jpg|thumb|The illustration that started it all]]Written by [[flata]], turned into a comic by [[patty]] and with guest illustration by [[baka]], it tells the story of the DNS protocol using a non-fictional protagonist, [[tmbg37]], of [[EFnet]]'s #tmbg, who had a habit of asking a lot of technical questions.  [[flata]] got sick of this and did a write-up explaining DNS to him.  [[patty]] and [[baka]] then took it too far.  Initially available at patty's website, it has been mirrored around the world.  Many people today, particularly in the [[San Francisco Bay Area]] have taken it and made it their own, including [http://shop.encyclopediadramatica.com/products/classic-loldongs-tshirt t-shirts] with illustrations from the comic.  It was even [http://www.jerkcity.com/jerkcity1698.html alluded to] in [[jerkcity]].  There seems to be a growing fan movement [[loldongs]] with their own [http://www.loldongs.com fan site]. 
+
+== Precursors ==
+The original story behind it all was written and posted to the [[internets]] on May 22, 2003.  Its contents were as follows:
+
+<pre>TMBG37 GOES TO THE MARKET
+        -or-
+DNS for fucking idiots.
+(NONE LIKE IT HOT!)
+
+1. TMBG37 tries to go to www.dildomall.com with his browsar.
+        a. His local machine checks if he's been there recently
+           and if it remembers the IP address.
+        b. Let's assume (big assumption people), that TMBG37
+           hasn't been buying any rubbery cocks of late (ha!),
+           his computar connects to its local nameserver.
+                --> HELO MISTAR NAMESERVAR
+                <-- Oh fuck it's you :(
+                --> WHERE DO I BUY DILDOES?
+                <-- Shit kid I don't even want involved with that.
+                --> GIVE ME ADDRESS FOR www.dildomall.com!!!!!
+                <-- Fuck you.  But fine, its nameserver is
+                    ns1.bunghole.org, which is 69.69.69.69.
+                --> THANK YOU SIR
+        c. His computer goes on to pester ns1.bunghole.org, via
+           its IP address, which it got from the local nameserver.
+                --> OMG R U ns1.bunghole.org?
+                <-- Oh christ, I've heard about you :(
+                --> OMG PLZ WHAT IS www.dildomall.com !!!!?
+                <-- Leave me alone.
+                --> PLXX?????
+                <-- It's 37.37.37.37
+                --> OMG HHLUAHGLAUHGALUHGUH *SUCKING DICK*
+2. TMBG37 goes on to happily penetrate his anus with a dildo
+   bought from www.dildomall.com, with the IP address 37.37.37.37.
+   There are HTTP/1.1 issues involved here if it is using virtual
+   hosting, but that's NEITHER HERE NOR THERE.
+</pre>
+
+==External Links==
+*[http://www.networkxxiii.de/fun/DNS-How2/index.html DNS Comic at networkxxiii.de] (archived [[DNS Comic/Original|here]])
+*[http://loldongs.eu Another DNS Comic mirror]
+
+
+{{webcomics}}
+{{Timeline|Featured article September 14, [[2005]]|[[Not4chan]]|[[{{PAGENAME}}]]|[[Nouglybabies]]}}
+{{Timeline|Featured article March 20, [[2007]]|[[Fail]]|[[{{PAGENAME}}]]|[[Poeticirony]]}}
+
+[[Category:Memes]]

@@ -1,0 +1,38 @@
+Rape.sh
+'''rape.sh''' is a bash script that automates simple tasks, such as dumping a hentai manga. The script runs on *nix or cygwin, and requires cURL to function.
+
+==Development==
+
+The development of rape.sh has been revived by some other codefag. It now supports an easy way to sage-bomb spammer's threads, better handling of files, and all-over cleanliness.
+
+==Logo==
+                                                  _
+                                                 | |
+                        _ __ __ _ _ __  ___   ___| |_
+                       | '_ / _´ | '_ \/ _ \ / __| , `. 
+                       | | | (_| | |_)   __/_\__ \ || | 
+                       |_|  \__,_| ,__/\___(_)___/_||_| 
+                                 |_| 
+
+==Features==
+*Multiple directory dumping (new threads or replies)
+*Same file posting (new threads or replies)
+*Random thread posting.
+*Sagebombing
+*Doesn't need a shitty [[Java]] Environment to run.
+
+
+==Don't spam, for fucks sake==
+<b>The script can easily be used to spam shit. Don't do it. All you're going to do is piss off people, and they will try hard to ban this simple open-source script. Spamming will only hurt yourself.</b>
+
+==See Also==
+*[[XChan Directory Dumper]]
+*[[4cGet]]
+*[[Mi-Chan]]
+
+==External links==
+*[http://harry.lu/chan/rfp.txt rape.sh - New and updated, v9.1]
+*[http://paste2.org/p/723073 Mirror of v9.1]
+*[http://omploader.org/vM2VqdQ rimjob.sh - different version of rape.sh]
+[[Category: Softwarez]] [[Category: Chans]]
+{{lowercase}}

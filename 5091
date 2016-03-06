@@ -1,0 +1,32 @@
+MZMcBride/Going Rogue
+''For the main article, see [[MZMcBride]]''
+
+So, you've got your hands on an admin account through password sniffing or [[sockpuppets]] or whatever, and now you're ready to do [[lulz|some serious harm]]. Here are some of your possible options.
+
+== Delete the [[Wikipedia:Main Page|Main Page]] ==
+The English Wikipedia's Main Page has some special types of protection on it that make it more difficult, but not impossible to delete it. The first protection is that the page has no "delete" tab (its hidden with CSS), so you'll have to manually create the URL. The second protection is that there is a PHP hack in place that makes whichever page is defined in [[Wikipedia:MediaWiki:Mainpage|MediaWiki:Mainpage]]. So you'll need to change that page first. Once [[Wikipedia:MediaWiki:Mainpage|MediaWiki:Mainpage]] is changed, you should be able to delete the Main Page. If something like <tt>bigdelete</tt> stops you (that checks for pages over 5,000 revisions), try moving the page first and then deleting it. That usually works.
+
+== Exploit the MediaWiki namespace ==
+One of the easier exploits involves a MediaWiki vulnerability. Namely that some MediaWiki messages still allow injection of raw HTML. [[Wikipedia:MediaWiki:Copyright|MediaWiki:Copyright]] is used on almost every page and (still) allows for raw HTML injection. It also has the advantage of not being cached (as heavily) as the site-wide JS and CSS pages. And its not as well watched. There are likely other MediaWiki pages that can be exploited similarly, but they're probably not used as much as the copyright notice is.
+
+== Exploit user scripts / gadgets ==
+Generally very popular gadgets and user scripts will not be watched nearly as much as the site-wide JS and CSS pages. You'll be hit by caching, but it may not matter depending how many people use the gadget, how often the browser purges local cache, and how long the change goes unnoticed. Also, if you're sufficiently proficient at JavaScript, you'll be able to obfuscate the code enough that even most people with the page watchlisted will be clueless. Protip: sometimes the pages don't even end in .js, so you may not even need an admin account to exploit this.
+
+== Merge page histories ==
+This one is good because it causes a royal mess that very few people can clean up properly. Find two pages with less than 2500 revisions (A and B) and one page with thousands and thousands of revisions (C). Delete page A and move page B to As old location. Delete page B and then move page C to Bs (and As) old location. Restore the edits and suddenly you've merged three pages history into one. And there's nothing easy to do to reverse it. You've also stopped anyone from deleting the page because the really large page will hit <tt>bigdelete</tt>.
+
+== Exploit [[Wikipedia:MediaWiki:Signature|MediaWiki:Signature]] ==
+Wait until a peak time of the day when lots of people are commenting. Make a nasty template with lots of garbage. If you can make one that outputs randomized content, even better (will be harder to track). Edit [[Wikipedia:MediaWiki:Signature|MediaWiki:Signature]] and add the code "<tt><nowiki>{{<includeonly>subst:</includeonly>TemplateName}}</nowiki></tt>". Save the page and wait for dozens of people to sign their name and insert lots of lots and garbage into the page. It wont be fun to clean up, especially on talk pages. If the content in the template is large enough and nasty enough, you'll wind up locking browsers when users try to edit the page to fix it.
+
+== Exploit [[Wikipedia:MediaWiki:Titleblacklist|MediaWiki:Titleblacklist]] ==
+This is good if you want to cause small-scale minor disruption. Add "<tt>.* <noedit></tt>" to the blacklist to prevent all pages from being editable by anyone other than admins. This will likely be caught quickly enough (especially because of the descriptive default error messages), but it will certainly annoy people. Protip: you can customize the error message using "<noedit|errmsg=PageTitle>".
+
+== Cause a database lock ==
+This used to be easier, but with the addition of the <tt>bigdelete</tt> right, its more difficult nowadays. Because the revision counter is such a hack, there are comments that say that moving a page and then immediately trying to delete it will work. The goal here is to overload the system by deleting a page with a lot of revisions. If the page history is large enough and you are able to get MediaWiki to delete it, you can cause a database lock of up to an hour if no sysadmin is around to fix the problem.
+
+Similarly, if you're a capable script writer, you can write a script that deletes pages with about 5,000 revisions each. Protip: use the [http://en.wikipedia.org/w/api.php API]. If you do this quickly enough, you'll cause a database lock.
+
+== Block active admins ==
+This generally doesn't work as well on a large project like the English Wikipedia, but using a script, you can block active admins while concurrently causing mayhem (deleting lots of pages, inserting malicious JS, etc.). The trick here is to study activity levels. You need to triage. Don't block admins who haven't edited in six months first. And don't block admins who never edit during the time of your attack. Block admins who legitimately pose a threat to your plans. (Protip: If using the API, list=recentchanges&rctype=log can help to find currently active admins) And, write an unblock mechanism into your code (as self-unblocks are still possible).
+
+[[Category: Drama-generating techniques]]

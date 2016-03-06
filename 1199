@@ -1,0 +1,49 @@
+Brute Forcing
+{{FactAlert|This is serious shit and has been known to cause drama and IRL [[Banhammer|Ban Hammers]]. Actually doing this might get you [[Partyvan|v&]]. The information on page is provided for educational purposes only.}}
+{{haxor}}
+
+[[Image:Brute_Force.jpg|left|250px|thumb|Needs moar Brute Force]]
+
+'''Brute Forcing''' is a method of cracking passwords that involves rotating through [[over 9000]] randomized strings until the correct one is discovered.  There are two forms of brute force attacks: one is dictionary style, where many pre-made strings are tried, while the other creates random strings from numbers and/or integers.  The former is faster, but does not always work, while the latter is [[Slowpoke]] but will eventually get it.
+
+Note: All brute force attacks are logged and can get you v&/b&, so if you are going to brute, be sure that:
+
+* The admins never check logs.
+* The server is on some poorly managed shitty shared host.
+* You do it during a time of the day when traffic is high (for high traffic addresses.)
+* You do it during a DDoS attack (when admins won't be able to tell what the fuck is happening.)
+
+==Wordlists/Dictionaries==
+A file that contains a large number of words. Used for brute forcing passwords. Normally in a .txt format or some other easily readable and editable format.
+
+* http://anonym.to/http://anonym.to/ftp://ftp.ox.ac.uk/pub/wordlists/
+* http://anonym.to/http://anonym.to/ftp://ftp.cerias.purdue.edu/pub/dict/wordlists
+* http://anonym.to/http://anonym.to/http://www.outpost9.com/files/WordLists.html
+* http://anonym.to/http://anonym.to/http://packetstormsecurity.org/Crackers/wordlists/
+<br />
+
+This RAR file contains another RAR, which contains 43 text files.  Each one contains [[over 9000|100,000,000 lines of words; that's 4,300,000,000 (4.3 billion) combinations]].
+* http://anonym.to/http://anonym.to/http://rapidshare.com/files/235770526/wordlist.rar
+
+<br />
+I included a merge script for those who are disabled and can't [[cat]]. Just go to the /mergeLinks/ directory and ./merge.sh<br />
+It will also delete the original (un-merged) files.
+<b>[[Self pwn|DO NOT OPEN THE TEXT FILE WHEN MERGED.]]</b>
+
+You will need approximately 30 gigabytes of free space to extract this.
+
+==Programs==
+* [http://anonym.to/http://anonym.to/http://www.oxid.it/cain.html Cain & Abel]
+** [http://anonym.to/http://anonym.to/http://www.oxid.it/ca_um/ C&A Tutorial]
+*[http://anonym.to/http://anonym.to/http://www.killwebs.com/downloads/Brutus.rar Brutus]
+*[http://anonym.to/http://anonym.to/http://rapidshare.com/files/236000406/brutus-aet2.rar Brutus (Rapidshit)]
+**[http://anonym.to/http://giblee.googlepages.com/brutus.txt Brutus Tutorial]
+* [http://anonym.to/http://anonym.to/http://www.openwall.com/john/ John the Ripper]
+
+==See Also==
+*[[Proxies]]
+*[[Sniffing]]
+
+{{trolls}}
+{{SecurityFaggots}}
+[[Category:Softwarez]]

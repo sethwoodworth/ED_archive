@@ -1,0 +1,35 @@
+Prolexic
+Prolexic is an ISP specializing in defending its customers against DDoS attacks. 
+
+==Scientology==
+The [[Church of Scientology]]'s website is hosted with Prolexic. The following text, '''[[DDoS]] Do's and Don'ts''', appeared [http://www.prolexic.com/news/20080211-scientology.php here]. The brief summary, for those who think it is [[TLDR]], is:
+
+'''These people are assholes who are totally asking for it and ought to at least provide us with a warning the next time they're going to pull an asshole move like the ones they have in the past.'''
+
+{| border=1 cellpadding=5 cellspacing=0
+|DDoS Do's and Don'ts
+February 11, 2008
+
+In January 2008, the Church of Scientology International endured a DoS (denial of service) attack on its Web site that, at its peak, saw a top assault rate of 20,000 PPS (packets per second) and an average attack size of 15,000 PPS. On Jan. 19, the onslaught's pinnacle, the Web site was struck by 488 attacks, each lasting up to 1.8 hours.
+
+Although the onslaught made worldwide headlines thanks, in large part, to its high-profile target the DoS techniques used against the Web site weren't unusual. In fact, in several ways, the Church of Scientology's travails serve as an example of how other organizations can help their Web sites withstand and recover from a DoS attack.
+
+
+Here are the top lessons learned from the Church of Scientology's DoS attack.
+
+Lesson 1: Invest in a DoS detection tool. An IDS (Intrusion Detection System) can help an organization identify the start of a DoS attack. By spotting telltale deviations in traffic flow, an IDS can warn the network administrator in advance and give him or her time to take actions, such as switching to an emergency block of IP addresses with a separate route for critical servers.
+
+Lesson 2: Invest in a DoS response tool. Adding an IPS (Intrusion Prevention System) can help deflect some of a DoS attacks impact. An IPS is designed to take swift action such as blocking specific IP addresses whenever a traffic-flow anomaly arises. The technology prevents servers from becoming quickly overwhelmed, giving the network administrator time to move to a backup strategy.
+
+Lesson 3: Use a DoS mitigation service. After the assault began, the Church of Scientology moved its Web site to Prolexic Technologies Inc., a company that specializes in protecting sites from DoS attacks. Like other companies in the field, Prolexic Technologies places its own servers in front of the attacked machines, filtering out bad packets and passing genuine traffic to the organization's servers.
+
+Lesson 4: Don't tick off your enemies. The Church of Scientology DoS assault was apparently triggered when the organization moved to delete a promotional video featuring actor and church member Tom Cruise from YouTube. This alleged action inflamed some church critics, and the attack began soon thereafter.
+
+All organizations have detractors, and controversial actions are sometimes avoidable, so what happened to the Church of Scientology can happen to any enterprise. The Church of Scientology attack shows, however, that organizations need to prepare their Web sites for possible retaliation after a controversial event occurs by stepping up monitoring and planning-remediation efforts.
+
+Lesson 5: Manage the public-relations aspect. A DoS attack on a public-facing Web site marks a time when IT leadership must work together with top management and the company's public-relations representatives to address questions posed by users, the media and the general public. Any organization affected by a DoS event needs to assure the world that it is taking all of the steps available to soften the attacks blow and to restore its Web site to a fully operational state as soon as possible.
+
+Lesson 6: Let sleeping dogs lie. Once the attack concludes, stop talking about the event and resume normal activities as quickly and as quietly as possible. Don't issue warnings or threats to the attackers via the media; this will only keep the issue alive, raise tempers and greatly enhance the possibility of another assault. Most DoS attackers seek publicity, so don't hand it to them on a silver platter.
+|}
+
+[[Category:Internets Phenomena]]

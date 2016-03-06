@@ -1,0 +1,61 @@
+WikiWikiWeb
+<!--Topic is boring and hard but think we need an article on the first wiki.-->
+[[Image:WikiWikiBus.jpg|thumb|300 px|left|Blame the airport bus]]
+The [[wiki:WikiWikiWeb|'''WikiWikiWeb''']], also known as '''HowiesWiki''', was founded in Feb. 1995 by [[Howard Stern|Howard]] "Howie" Cunningham and has operated since then in between years of [[Windows|down time]]. Howie's wiki was the first site to use ''[[wiki]]'' as the name for a collection of pages people were able to edit. It looks exactly like a big collection of [[BBS]] pages or a set of [[tl;dr]] wiki discussion pages, but is really a wiki because people can write over each other's words, even though they don't, and because it has [[Categories|categories]] and CGI scripts to handle things like "recent changes". 
+
+Developers are supposed to acknowledge it, so [[Lulz|lulz]]ers on ED occasionally find it when they try using <nowiki>[[wiki:...]]</nowiki> to make an interwiki link to [[TOW]]. Leads to great [[How do I shot web?|puzzlement]].
+
+Howie adopted [[Cameltoe|CamelLips]] (named for [[Perl]] but originating in [[SmallTalk]]) as the way to make page names. This means you make links by ramming words with initial capitals together like this: YouFuckingBastard, instead of like this: <nowiki>[[You Fucking Bastard]]</nowiki>. Howie only grants eight other wikis (three [[dead|defunct]]) the title of '''real goddamn man's wiki'''. All feature [[Cameltoe|CamelLips]] page names.
+
+==How the WikiWikiWeb Started==
+[[Image:WikiWikiBusStop.jpg|thumb|250 px|right|Airport bus stop where Howie got the name]]
+Originally the "[http://c2.com/ppr/Portland Pattern Repository]" ([[wiki:PortlandPatternRepository| here is the category]]), the WikiWikiWeb is the simple child of a hypercard system. Howard Cunningham (his friends call him Howie) set up hypercards to run as a kind of [[BBS]], added categories, and added CGI scripts to search the cards.
+
+==What the WikiWikiWeb Has==
+===Patterns===
+The core and point of the original WikiWikiWeb was the collection of "patterns", supposed to be a kind of programming theory that also applies to just about everything else. When they don't model everything in the universe, the patterns are ways to handle data flows and function calls in object-based systems. The whole idea is now totally out of fashion. [[Some argue|Those who argue]] that the patterns have wider application might be right if you count slavery at work. If you are an EDiot in CS301 or EE3xx or EE4xx, you '''might''' find good ideas for handling flow and data or signals here (WARNING: besides having no code, the descriptions are badly written, meandering, and vague).
+
+====Why the pattern collection sucks==== 
+The only real code examples that are easy to find are [[wiki:WhatIsNull| in an article about handling null or logical "No" in different languages]] (and the article fails [[Computer science|CS101]] by not correctly differentiating between the two). Just about no examples of pseudo-code are given, let alone code, so most of the contributors must have been [[stupid|clueless]] managers moving up from being administrators of word processors and spreadsheet programs then trying to say "I '''FUCKING''' know something too, gonna teach those programmers".
+
+===For the curious===
+Seeing the differences between WikiWikiWeb and its bastard [[Mediawiki]] offspring, on which [[ED|this very site]] runs, would probably interest the smarter EDiot in general. The WikiWikiWeb has a totally flat file structure and everything but the flat file system runs on a CGI script (the only exception is "categories", one step above the pages). This reminds the viewer about things like how sub-pages in wikis aren't hierarchically sub-pages at all. 
+
+Mediawiki is still pretty much WikiWikiWeb plus a shitload of space-name conventions as metadata, cacheing of things from the named spaces, and desperately avoiding display of the underscore they use to stay away from using the dreaded [[Cameltoe|CamelLips]]. 
+
+===History of wikis===
+The [[wiki:WikiHistory|history article]] only covers Howie's wiki. He also recognizes eight (none connected with [[Wikimedia]]) that follow his original principles. Two or three were his, and only five of the eight are still up.
+
+===Drivel===
+The site has over 30,000 articles and most are the same kind of drivel as most of the articles on [[MeatballWiki]], albeit with a little less of the [[serious business|po-faced pseud crap]] .
+
+==Drama==
+Howie refers to [[spam]] problems in earlier days and [[vandal]]ism from 2005. Otherwise, the main drama seems to be some in the [[WMF]] hating him for being able to program, having a good idea, and so being the main originator of their technological base.
+
+===[[Wikipedo]]es Hate the WikiWikiWeb===
+[[Image:Tow on wikiwikiweb.png|thumb|left|350 px|Wikipedoes confuse TOW and the WikiWikiWeb]]
+Never folk to give credit where credit's due, the few [[My Little Pony|showpony]] [[Wikipedo]]es of today who have heard of the WikiWikiWeb hate the thing and try to diminish the contribution of Howie Chamberlain. 
+
+This is a corollary to the [[Sanger]] syndrome, where TOW jerks regularly dis the true creator of their site as a way of crawling up [[Jimbo]]'s [[arsehole]] and to the way the [[Bureaucratic Fucks|admins]] dis their own slave developers while going along with small fortunes (enough to buy a house in a new nice place every year) for their stupid "executives", who aren't literate in [[ENGLISH MOTHERFUCKER DO YOU SPEAK IT|their own language]], let alone programming. 
+
+Fact is, even Sanger got "his idea" by looking at the WikiWikiWeb.
+  
+Howie is a major league [[attention whore|self-promoter]], so [[Hate|hate]] from TOW doesn't worry him and he's happy to make the occasional appearance at Wikimania and collect the speaker's fees for that.
+
+===Howard, Ward, or Howie?===
+Howard liked to call himself Ward (though his intimates knew him as Howie), but this led to minor drama on TOW when someone found out that his name really is Howard, even though [http://en.wikipedia.org/w/index.php?title=Talk%3AWikiWikiWeb&diff=39089072&oldid=35958676 wikipedoes claiming to be his intimates said that they had never heard of him being called Howard.] Everybody just calls him Howie now.
+
+===Spam and vandalism===
+There is no huge history to trawl through because '''real [[wiki]]s''' dump that junk in a week or two, so examples of the spam and vandalism Howie mentions are not available (unless there are some on the Internet Archive). You could try to make one to help this article, but Howie claims to run (or ran) a delay of a day or so for moderation. Even vandalism of [[Wikipedia:WikiWikiWeb|the TOW page]] is boring, for example [http://en.wikipedia.org/w/index.php?title=WikiWikiWeb&diff=268026272&oldid=265939176], [http://en.wikipedia.org/w/index.php?title=WikiWikiWeb&diff=231681637&oldid=230919194], [http://en.wikipedia.org/w/index.php?title=WikiWikiWeb&diff=230918330&oldid=230717964], and [http://en.wikipedia.org/w/index.php?title=WikiWikiWeb&diff=131124736&oldid=130511409].
+
+==Links==
+===The site===
+*[[wiki:WikiWikiWeb| Howie's wiki]]
+
+===Related===
+*[[MeatballWiki]]
+
+[[Category:Wikis Suck]]
+[[Category:Sites]]
+
+{{wikis}}

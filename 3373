@@ -1,0 +1,75 @@
+GodTube
+[[Image:Godtube lol.jpg|thumb|right|'''SUP /i/'''?!]]
+'''[http://godtube.com/ GodTube]''' <s>is</s> was a free video sharing website that was [[asking for it]]. GodTube.com was basically the trollers' gift that kept on giving. Much like [[JewTube]], but which specialized in Christian-themed videos which [[Blu Aardvark]] is "so down for". In particular, GodTube has been compared to [[Conservapedia]], a Christian conservative encyclopedia opposed to [[Wikipedia]], and '''[[MyChurch]]''' (LOL), a Christian version of [[MySpace]].
+
+GodTube was founded by some god-fearing [[cunt]], Chris Wyatt, who is currently a student at Dallas Theological Seminary. Word on the street is Chris Wyatt was formerly a TV producer for CBS show Kid Nation. GodTube was privately funded by investors, and dumbfucks who think evolution shouldn't be taught in schools.
+
+==Controversy==
+[[Image:Godtubes.jpg|thumb|right|win a free trip to [[Israel]]?! FUCK YEAH!]]
+Christian Russ Seehafer posted a video criticizing the site as founded on hubris and theological arrogance saying that "It is beyond me how anyone can claim to be so down with our maker that they are able to slap his approval on anything they deem 'christian'." The video appeared on the front page of the site and was subsequently removed. It was then reinstated with a comment from GodTube's CEO.
+
+It is also notable that supposedly [[VioletKitty|VK411]] was hiding out somewhere on the site.
+
+
+A question that some of these god fearing fucks will never answer is, where is your Jesus while your priests are raping little boys? 'Jesus saves'? Tell that to the little boys who were [[ass]][[raped]] in Church. But hey, as long as it's in the name of the [[God]], It's [[awwright]]!
+
+== Godtastic Videos From The GodTube ==
+* [http://www.godtube.com/view_video.php?viewkey=c5280214e0486b273a5f Atheism is shown to be without merit in 65 oddly arousing seconds (He has an accent, it must be true!)]
+* [http://www.godtube.com/view_video.php?viewkey=e5c06d564f594bf6384d Anti-Abortion gatherings? Prayer Warriors? Chalk? Sounds like fun!]
+* [http://www.godtube.com/view_video.php?viewkey=53195d221030324127a0 Summer Camp, that battlefront for young impressionable souls.]
+* [http://www.godtube.com/view_video.php?viewkey=a8aedf265edf533a6d9a Beat off the pornographers who have entered into your frineds and family.]
+* [http://www.godtube.com/view_video.php?viewkey=b5714a0bc8a897ed32e9 Harrowing new movie trailor about the rising tide of homosinsuality.]
+* [http://www.godtube.com/view_video.php?viewkey=543e974747a2549b3107 Thank God I have the uncoerced choice of choosing my master. Now I can have adventures with Jesus!]
+
+==Broadcast Him Invasion==
+Various [[Anonymous]] groups (such as 420niggertits) were alerted  to the existence of GodTube, and finally someone dropped [[LSD]] here [http://www.not420chan.com/i/res/90890.html#i90890].
+
+===The Invasion Begins===
+<pre>
+GodTube's site search, which could be used to find videos, groups,
+and users, did not correctly sanitize its input. The problem however 
+is using normal ASCII characters inside of any quote (single, or double)
+would cause the page to output a script error, which would keep the 
+vulnerability's payload from executing. In this example I converted:
+
+'location.href="http://www.awesomeandrew.net/"'
+into its decimal equivalent 
+for each character in the string, and then had it evaluated inside of 
+the String.fromCharCode function to help it execute. Therefore when 
+using this example in vulnerable URL you'll force an instant redirection 
+to a new location.
+
+A similar vulnerability was found within the login page, which 
+was accessible whether the user is logged out, or currently 
+logged in. The above example simply alerts the user with their 
+cookie data (if the cookie exists), but could obviously be used 
+for much greater, or malicious purposes such as phishing, stealing
+cookie data, altering user information, installing third-party 
+malware, or just about anything else that's possible using a computer.
+The input goes unsanitized again, but using quotes with ASCII characters
+inside will cause a script error again so String.fromCharCode must
+be used when quotes are required.
+
+Another vulnerability, just like the other reflective cross-site 
+scripting holes I've already found, but inside the user signup page.
+In this instance however I forego the String.fromCharCode, and use 
+the eval function to evaluate statements made after the URL's fragment
+identifier (the hash symbol, or "#"). Using the script placed within 
+the vulnerable area an evaluation is made on the data following the URL,
+which is then executed as the payload. As with an cross-site scripting 
+vulnerability this can be used for an array of purposes.
+</pre>
+[http://awesomeandrew.net/index2.php?content=fd/godtube]
+
+==Related Articles==
+*[[Christianhillbilly]]
+*[[MyChurch]]
+*[[God]]
+
+==Resources==
+*[http://godtube.com/ GodTube.com]
+{{Web 2.0}}
+[[Category: Fandom Stuff]]
+[[Category: Epithets]] 
+[[Category: Subcultures]]
+[[Category:Sites]]

@@ -1,0 +1,9 @@
+Linode
+Linode is a hosting company which does virtual hosting. In layman's terms, one can buy a node and host their webcontent there, thus enabling them to have [[root]] on a server, but still have resources allocated to other users doing the same thing. It takes an entire server and splits it up into several mini-servers for use by many people. This gives the ability to use [[root]] without paying the price of a dedicated server. 
+
+The [[encyclopediadramatica]], [[jameth|jameth.us]], [[ljdrama]] and many other websites dedicated to the [[lulz]] were housed at linode for about a month. After a few weeks, traffic became so incredibly high that the load could not be sustained and the linode repeatedly crashed, taking the entire server with it. The linode management were none too pleased and asked the administrators to purchase dedicated hosting. 
+
+As linode were so difficult to deal with, the above administrators recommend [[dreamhost]] as the hosting company of choice. [[Dreamhost]] was made famous by [[amalea]]'s whiny complaining and childish [http://discussion.dreamhost.com/showflat.pl?Cat=&Board=curious&Number=16185&page=1&view=collapsed&sb=5&o=14&part= behavior on their forums].
+
+[[category:sites]]
+[[category: netspeak]]

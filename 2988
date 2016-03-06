@@ -1,0 +1,151 @@
+Flash
+[[Image:RanchiRush.jpg|thumb|Shockwave Employees Enjoy Playing Lolicon Games in Their Spare Time]]
+[[Image:B b.jpg|thumb|Behold the power of flash!]]
+[[Image:DohohoBateman.JPG|thumb|250px|[[Scott Bateman|Be warned: using flash with graphics and humor this advanced will destroy your computer.]]]]
+[[Image:Flash.gif|thumb|Flash would go on to be [[dramouted]] as [[hacker]] software by internet god, [[T. Reginald Gibbons]].]]
+Flash is a trojan horse computer virus designed to prevent people under 25 from ever procreating.  While flash poses as that thing you need to make [[YouTube]] work, Flash is named after its ulterior motive.  Flash's real goal is to make laptops run so incredibly hot that the heat generated will "flash" the users [[balls|nuts]] with enough heat to render them sterile.
+[[Image:Flash_Crashed.jpg|thumb|250px|[[Oh_noes|oh noes]]! [[Nerd_Rage|Flash Crashed!!!]]]]
+
+ 
+<video type="youtube" id="AeFn65KauIc" width="400" height="300" desc=" Yes, people pay for music videos like this." frame="true" position="right"/>
+
+==History==
+
+In the late 90's, flash somehow got [[Fap|into the hands]] of some sweaty, fat-assed, [[you|nerds]] who decided to use it to make hentai and poorly created stick figure animations, [[porn|sex kitten games]] and [[The Sims|sim dates]]. These "cartoons" and [[rape|"interactive games"]] became popular when people realized the Internet could do a lot cooler things than showing images of dancing hamsters. Flash "artists" immediately set to work creating flash files of dancing hamsters. These were then uploaded to [[Newgrounds]] (moar like Newbgrounds, [[amirite]]?).
+
+Small businesses began to catch on to the cartooning craze, and began asking [[13 year old boy|13 year old]]s to develop tedious flash intros for their shitty companies. 
+
+A few cutting edge big businesses began incorporating flash, but they were quickly bankrupted by the huge cost of doing business with 13 year olds:
+
+:"Here is your update. I made the red button again but I still do not understand when you say the red is different because of your paradigm. Can you provide the hex codes for your color instead of Pantene colors? This update is free but the last one will cost $10. I hope that is ok. Also, how long does it take to get a cheque, I have not received the first one yet ($40). I am not sure if Flash can control your Router and Oracles, I will get back to you on that. Thank you very much for your services, signed CEO of BounceGrafix 2000 Design." 
+
+and also by lawsuits filed by the Java Programmer Old Man's Union.
+
+==<s>Purchasing</s> Pirating==
+
+Flash <s>is somewhat expensive</s> costs [[over 9000]] dollars, so it is often pirated. Newer versions incorporate copy-protection measures which are <s>more difficult to crack</s> even easier to break.
+
+==How to draw a square using <s>Flash</s> <s>Studio</s> <s>CS3</s> <s>CS4</s> <s>ActionScript 3.0</s> Flex==
+
+:<s>1. Click the square tool</s>
+:<s>2. Draw a square on the screen</s>
+:<s>3. Select it and click Transform > Align To Center</s>
+
+<pre>package{
+import flash.display.Sprite; 
+public class simple_shape extends Sprite{ 
+var square:Sprite; 
+public function simple_shape(){
+square = new Sprite();
+addChild(square);
+square.graphics.lineStyle(3,0x00ff00);
+square.graphics.beginFill(0x0000FF);
+square.graphics.drawRect(0,0,100,100);
+square.graphics.endFill();
+square.x = stage.stageWidth/2-square.width/2;
+square.y = stage.stageHeight/2-square.height/2;
+}}
+}</pre>
+
+==How to be hired by a big company as a Flash Developer==
+*Buy templates from the 3rd world and say you made them
+*Use the [[copypasta]] method of programming.
+
+==How to be hired by a big company as a Flash Cartoonist==
+*Work for free
+*Love cock
+<br><br>
+
+==How to steal RTMP videos found on the internets==
+If you are too [[new]] to [[torrent]] videos off the interwebs, or to hide your [[furry|porn]], it is likely that you stream videos over the web. On occasion, you may wish to download these videos. More often than not, things are are [[not gay|straightforward]] and all you need to do to get the video is use live [http://livehttpheaders.mozdev.org/ HTTP Headers] to find the HTTP URL of the video and download it that way. However, some sites use the flash RTMP protocol to transfer the video in real time, instead of a standard buffer/download over HTTP. This is done for a number of reasons: (i) to troll, (ii) to prevent [[copypasta|copying]] of videos and (iii) to ensure that only 10 seconds of video is ever buffered after the exact point of the video you are currently viewing to save bandwidth [[Jew gold|costs]]. The latter is annoying because if you have a [[Australia|slow]] internet connection that not even deleting [[system 32]] can speed up, the video keeps stopping and starting when you try to watch it and there is [[lolitrolu|nothing you can do about it]].
+
+
+So...how do I [[shot web|downloaded video]]?
+
+'''Instructions:'''
+''Warning: There is a prerequisite of [[Computer Science III]] for this course.''
+<ul>
+<li>Install [[gentoo|Linux]] and learn how to [[sex|do]] [[computer]] with it.</li>
+<li>Download the RTMPDump [[warez|software]] and compile it for use on the Linux kernal. This can be done using the following [[code]] in the [[cancer|terminal]]:
+<pre>
+cd /path/to/where/you/want/to/install/the/warez/
+svn checkout svn://svn.mplayerhq.hu/rtmpdump/trunk rtmpdump
+cd rtmpdump
+make linux
+</pre>
+</li>
+<li>The software is installed and you can [[Josef Fritzl|use it again and again]], just run <code> CD /path/to/where/you/installed/it**/rtmpdump/**</code>. to invoke the script.<br><br>
+
+We now need to get the [[porn|video]]'s location so we can download it. We do this by scanning the port on your computer that [[virus|flash player]] streams videos through. To do this we need to redirect traffic from that port to the [[warez]] we just installed using the following code: <pre>sudo "iptables -t nat -A OUTPUT -p tcp --dport 1935 -m owner \! --uid-owner proxy -j REDIRECT; su -c ./rtmpsrv proxy"</pre> We then navigate to the web page with the video on and press play (or reload the page if it has already [[puberty|begun]] playing). The terminal will spot the video trying to stream through the port and output something like: 
+<pre>./rtmpdump -r "rtmpe://cp9950.edgefcs.net:1935/ondemand?ovpfv=1.1" -a "ondemand?ovpfv=1.1"
+ -f "LNX 10,0,42,34" -W "http://media.mtvnservices.com/player/release/?v=4.2.2-8" 
+ -p "http://www.colbertnation.com/full-episodes/thu-january-14-2010-kathleen-sebelius" -C Z:
+ -y "mp4:mtvnorigin/gsp.comedystor/com/colbert/season_06/episode_008/cr_06008_act1_768x432_1720.mp4"
+ -o cr_06008_act1_768x432_1720.mp4</pre>
+It will then invoke the rtmpdump command with those parameters and download the video to the file specified by the -o option.
+
+[[:Image:You win the prize.jpg|ALL DONE!!!!]] Enter 'q' to quit the rtmpsrv command. If rtmpsrv didn't work then try running rtmpsuck instead.
+
+* This is why you have to press those annoying human verification buttons when you try to stream videos. That and additional ad revenue. 
+
+/Owning Adobe and its [[shit|shitty]] copy protection [http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol encrypted streaming mechanism].
+
+==Ripoffs==
+===Easy Toon===
+Easy Toon is the black person [[Flash]]. All it can do is make colorless animations that come out looking like drawings done in [[MS Paint]]. Easy Toon is mainly used by [[noobs]] that are too retarded to at least get the demo version of [[Flash]].
+
+====The interface====
+[[Image:EZ_toon_icon.JPG|thumb|The amazing design of the Easy Toon's logo]]
+Easy Toon has no interface, which could explain why it is only used by [[retards]]. But if you look past the lack of style, you will see that it's really a [[Shit|great program]].
+
+====Animation====
+If [[MS Paint]] could animate, it would be Easy Toon... Except without the colors. No matter how bad it sounds, you can still make [[shit nobody cares about|cool animations]] with it. Just look at all of the talent in these
+
+{{fv|0||font-weight: bold;|<youtube>yHt5XwGytmk</youtube>|<youtube>-QC5SPnerdc</youtube>|<youtube>QBFk2ipsUAs</youtube>|<youtube>zISyXisbMvU</youtube> <center> Okay, this one actually took some talent. Pity it wasn't used on [[Flash]].</center>}}
+
+Basically, every Easy Toon animation is the same because they all are [[Masturbation|stickmen beating the shit out of walls]].
+[[Image:EZ_toon_interface.JPG|thumb|Oh boy I wish I had some colors]]
+
+==Shitty flash toons and flash "artists"==
+*90% of [[Adult Swim]] ''(they use After Effects [[fgt]])''
+*[[Alvin-Earthworm]]
+*[[Animutation]]s
+*[[Badger Badger Badger]]
+*[[Clock Crew]]
+*[[Dave Kelly]] (of [[Something Awful]]s "[[tubgirl|flash tub]]")
+*[[David Firth]] (of salad fingers)
+*[[Dogster]]
+*[[Evilzug]]
+*[[Foamy]]
+*[[Happy Tree Friends]]
+*[[Homestar Runner]]
+*[[Jaggers]]
+*[[Joe cartoon]]
+*[[Livecorpse]] <font color=red>'''(DEAD)'''</font> A newgrounds flash animator who became [[an hero]].
+*[[Randy Solem]] (of 100000000 mario vs sonic sprite animations)
+*[[Retarded Animal Babies]] (NOT a rip-off of Happy Tree Friends!)
+*[[Stickdeath]]
+*[[Teruchan]]
+*[[USI|The great comedian]] [[Scott Bateman]]
+*[[Warbears|Ioji, Shitty Flash Game Artist]]
+*[[WRYYYYYYYYYYYYYYYYYYYY]]
+
+
+===Flash as a [[prank]]===
+*[[Screamer]]s
+
+===Alternatives to Flash===
+* [[Hyperstudio]]
+* [[GIF]]
+* MS [[paint]]
+
+==External Links==
+*[http://phi.zshare.net/download/7e482ab624440dc71b9e5202652a5b9c/1221444968/18792769/billy.swf/ A milestone in Flash animation.]
+*[http://swfchan.com/ swfchan] - save your /r/ (USE IT)
+*[http://www.newgrounds.com/ Jewgrounds]
+*[http://www.albinoblacksheep.com/flash/ ABS]
+*[http://www.ponged.com/ Ponged]
+*[http://www.theinquirer.net/inquirer/news/1592730/jobs-damns-flash Steve Jobs hæt Flash]
+*[http://www.superfundungeonrun.com/easytoon/ Easy Toon, a craptacular alternative]
+*[http://boards.4chan.org/f/ 4chan's flash board=EPIC]
+[[Category: Softwarez]][[Category:Fandom Stuff]]

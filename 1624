@@ -1,0 +1,351 @@
+Climategate/Leaked Emails
+{{Subpage|Climategate}}
+
+__TOC__
+==Shifted Means==
+<pre>From: Tim Osborn <t.osborn@xxxxxxxxx.xxx>
+To: mann@xxxxxxxxx.xxx,imacadam@xxxxxxxxx.xxx
+Subject: Briffa et al. series for IPCC figure
+Date: Tue, 05 Oct 1999 16:18:29 +0100
+Cc: k.briffa@uea,p.jones@uea
+
+Dear Mike and Ian
+
+Keith has asked me to send you a timeseries for the IPCC multi-proxy
+reconstruction figure, to replace the one you currently have. The data are
+attached to this e-mail. They go from 1402 to 1995, although we usually
+stop the series in 1960 because of the recent non-temperature signal that
+is superimposed on the tree-ring data that we use. I haven't put a 40-yr
+smoothing through them - I thought it best if you were to do this to ensure
+the same filter was used for all curves.
+
+The raw data are the same as used in Briffa et al. (1998), the Nature paper
+that I think you have the reference for already. They are analysed in a
+different way, to retain the low-frequency variations. In this sense, it
+is one-step removed from Briffa et al. (1998). It is not two-steps removed
+from Briffa et al. (1998), since the new series is simply a *replacement*
+for the one that you have been using, rather than being one-step further.
+
+A new manuscript is in preparation describing this alternative analysis
+method, the calibration of the resulting series, and their comparison with
+other reconstructions. We are consdering submitting this manuscript to J.
+Geophys. Res. when it is ready, but for now it is best cited as:
+Briffa KR, Osborn TJ, Schweingruber FH, Harris IC and Jones PD (1999)
+Extracting low-frequency temperature variations from a northern tree-ring
+density network. In preparation.
+Keith will be sending you a copy of the manuscript when it is nearer to
+completion.
+
+I have also attached a PS file showing the original Briffa et al. (1998)
+curve, with annotation of cold years associated with known volcanic
+eruptions. Overlain on this, you will see a green curve. This is the new
+series with a 40-yr filter through it. This is just so that you can see
+what it should look like (***ignore the temperature scale on this
+figure***, since the baseline is non-standard).
+
+With regard to the baseline, the data I've sent are calibrated over the
+period 1881-1960 against the instrumental Apr-Sep tempratures averaged over
+all land grid boxes with observed data that are north of 20N. As such, the
+mean of our reconstruction over 1881-1960 matches the mean of the observed
+target series over the same period. Since the observed series consists of
+degrees C anomalies wrt to 1961-90, we say that the reconstructed series
+also represents degrees C anomalies wrt to 1961-90. One could, of course,
+shift the mean of our reconstruction so that it matched the observed series
+over a different period - say 1931-60 - but I don't see that this improves
+things. Indeed, if the non-temperature signal that causes the decline in
+tree-ring density begins before 1960, then a short 1931-60 period might
+yield a more biased result than using a longer 1881-1960 period.
+
+If you have any queries regarding this replacement data, then please e-mail
+me and/or Keith.
+
+Best regards
+
+Tim</pre>
+
+==Fudging Data==
+<pre>From: Phil Jones <p.jones@xxxxxxxxx.xxx>
+To: ray bradley <rbradley@xxxxxxxxx.xxx>,mann@xxxxxxxxx.xxx, mhughes@xxxxxxxxx.xxx
+Subject: Diagram for WMO Statement
+Date: Tue, 16 Nov 1999 13:31:15 +0000
+Cc: k.briffa@xxxxxxxxx.xxx,t.osborn@xxxxxxxxx.xxx
+
+
+Dear Ray, Mike and Malcolm,
+Once Tim's got a diagram here we'll send that either later today or
+first thing tomorrow.
+I've just completed Mike's Nature trick of adding in the real temps
+to each series for the last 20 years (ie from 1981 onwards) amd from
+1961 for Keith's to hide the decline. Mike's series got the annual
+land and marine values while the other two got April-Sept for NH land
+N of 20N. The latter two are real for 1999, while the estimate for 1999
+for NH combined is +0.44C wrt 61-90. The Global estimate for 1999 with
+data through Oct is +0.35C cf. 0.57 for 1998.
+Thanks for the comments, Ray.
+
+Cheers
+Phil
+
+
+
+Prof. Phil Jones
+Climatic Research Unit Telephone +44 (0) 1603 592090
+School of Environmental Sciences Fax +44 (0) 1603 507784
+University of East Anglia
+Norwich Email p.jones@xxxxxxxxx.xxx
+NR4 7TJ
+UK</pre>
+
+==Ocean Blip==
+<pre>From: Tom Wigley <wigley@xxxxxxxxx.xxx>
+To: Phil Jones <p.jones@xxxxxxxxx.xxx>
+Subject: 1940s
+Date: Sun, 27 Sep 2009 23:25:38 -0600
+Cc: Ben Santer <santer1@xxxxxxxxx.xxx>
+
+<x-flowed>
+Phil,
+
+Here are some speculations on correcting SSTs to partly
+explain the 1940s warming blip.
+
+If you look at the attached plot you will see that the
+land also shows the 1940s blip (as I'm sure you know).
+
+So, if we could reduce the ocean blip by, say, 0.15 degC,
+then this would be significant for the global mean -- but
+we'd still have to explain the land blip.
+
+I've chosen 0.15 here deliberately. This still leaves an
+ocean blip, and i think one needs to have some form of
+ocean blip to explain the land blip (via either some common
+forcing, or ocean forcing land, or vice versa, or all of
+these). When you look at other blips, the land blips are
+1.5 to 2 times (roughly) the ocean blips -- higher sensitivity
+plus thermal inertia effects. My 0.15 adjustment leaves things
+consistent with this, so you can see where I am coming from.
+
+Removing ENSO does not affect this.
+
+It would be good to remove at least part of the 1940s blip,
+but we are still left with "why the blip".
+
+Let me go further. If you look at NH vs SH and the aerosol
+effect (qualitatively or with MAGICC) then with a reduced
+ocean blip we get continuous warming in the SH, and a cooling
+in the NH -- just as one would expect with mainly NH aerosols.
+
+The other interesting thing is (as Foukal et al. note -- from
+MAGICC) that the 1910-40 warming cannot be solar. The Sun can
+get at most 10% of this with Wang et al solar, less with Foukal
+solar. So this may well be NADW, as Sarah and I noted in 1987
+(and also Schlesinger later). A reduced SST blip in the 1940s
+makes the 1910-40 warming larger than the SH (which it
+currently is not) -- but not really enough.
+
+So ... why was the SH so cold around 1910? Another SST problem?
+(SH/NH data also attached.)
+
+This stuff is in a report I am writing for EPRI, so I'd
+appreciate any comments you (and Ben) might have.
+
+Tom.</pre>
+
+==Destroying Evidence==
+<pre>From: "Michael E. Mann" <mann@xxxxxxxxx.xxx>
+To: Phil Jones <p.jones@xxxxxxxxx.xxx>,rbradley@xxxxxxxxx.xxx, mhughes@xxxxxxxxx.xxx,srutherford@xxxxxxxxx.xxx,tcrowley@xxxxxxxxx.xxx
+Subject: Re: Fwd: Soon & Baliunas
+Date: Tue, 11 Mar 2003 08:14:49 -0500
+Cc: k.briffa@xxxxxxxxx.xxx,jto@u.arizona.edu,drdendro@xxxxxxxxx.xxx, keith.alverson@xxxxxxxxx.xxx,mmaccrac@xxxxxxxxx.xxx,jto@u.arizona.edu, mann@xxxxxxxxx.xxx
+
+Thanks Phil,
+(Tom: Congrats again!)
+The Soon & Baliunas paper couldn't have cleared a 'legitimate' peer review process
+anywhere. That leaves only one possibility--that the peer-review process at Climate
+Research has been hijacked by a few skeptics on the editorial board. And it isn't just De
+Frietas, unfortunately I think this group also includes a member of my own department...
+The skeptics appear to have staged a 'coup' at "Climate Research" (it was a mediocre
+journal to begin with, but now its a mediocre journal with a definite 'purpose').
+Folks might want to check out the editors and review editors:
+[1]http://www.int-res.com/journals/cr/crEditors.html
+In fact, Mike McCracken first pointed out this article to me, and he and I have discussed
+this a bit. I've cc'd Mike in on this as well, and I've included Peck too. I told Mike that
+I believed our only choice was to ignore this paper. They've already achieved what they
+wanted--the claim of a peer-reviewed paper. There is nothing we can do about that now, but
+the last thing we want to do is bring attention to this paper, which will be ignored by the
+community on the whole...
+It is pretty clear that thee skeptics here have staged a bit of a coup, even in the
+presence of a number of reasonable folks on the editorial board (Whetton, Goodess, ...). My
+guess is that Von Storch is actually with them (frankly, he's an odd individual, and I'm
+not sure he isn't himself somewhat of a skeptic himself), and without Von Storch on their
+side, they would have a very forceful personality promoting their new vision.
+There have been several papers by Pat Michaels, as well as the Soon & Baliunas paper, that
+couldn't get published in a reputable journal.
+This was the danger of always criticising the skeptics for not publishing in the
+"peer-reviewed literature". Obviously, they found a solution to that--take over a journal!
+So what do we do about this? I think we have to stop considering "Climate Research" as a
+legitimate peer-reviewed journal. Perhaps we should encourage our colleagues in the climate
+research community to no longer submit to, or cite papers in, this journal. We would also
+need to consider what we tell or request of our more reasonable colleagues who currently
+sit on the editorial board...
+What do others think?
+mike
+At 08:49 AM 3/11/2003 +0000, Phil Jones wrote:
+
+Dear All,
+Apologies for sending this again. I was expecting a stack of emails this morning
+in
+response, but I inadvertently left Mike off (mistake in pasting) and picked up Tom's
+old
+address. Tom is busy though with another offspring !
+I looked briefly at the paper last night and it is appalling - worst word I can
+think of today
+without the mood pepper appearing on the email ! I'll have time to read more at the
+weekend
+as I'm coming to the US for the DoE CCPP meeting at Charleston. Added Ed, Peck and
+Keith A.
+onto this list as well. I would like to have time to rise to the bait, but I have so
+much else on at
+the moment. As a few of us will be at the EGS/AGU meet in Nice, we should consider what
+to do there.
+The phrasing of the questions at the start of the paper determine the answer they
+get. They
+have no idea what multiproxy averaging does. By their logic, I could argue 1998 wasn't
+the
+warmest year globally, because it wasn't the warmest everywhere. With their LIA being
+1300-
+1900 and their MWP 800-1300, there appears (at my quick first reading) no discussion of
+synchroneity of the cool/warm periods. Even with the instrumental record, the early and
+late
+20th century warming periods are only significant locally at between 10-20% of grid
+boxes.
+Writing this I am becoming more convinced we should do something - even if this is
+just
+to state once and for all what we mean by the LIA and MWP. I think the skeptics will
+use
+this paper to their own ends and it will set paleo back a number of years if it goes
+unchallenged.
+I will be emailing the journal to tell them I'm having nothing more to do with it
+until they
+rid themselves of this troublesome editor. A CRU person is on the editorial board, but
+papers
+get dealt with by the editor assigned by Hans von Storch.
+Cheers
+Phil
+Dear all,
+Tim Osborn has just come across this. Best to ignore probably, so don't let it
+spoil your
+day. I've not looked at it yet. It results from this journal having a number of
+editors. The
+responsible one for this is a well-known skeptic in NZ. He has let a few papers
+through by
+Michaels and Gray in the past. I've had words with Hans von Storch about this, but got
+nowhere.
+Another thing to discuss in Nice !
+Cheers
+Phil
+
+X-Sender: f055@xxxxxxxxx.xxx
+X-Mailer: QUALCOMM Windows Eudora Version 5.1
+Date: Mon, 10 Mar 2003 14:32:14 +0000
+To: p.jones@uea
+From: Tim Osborn <t.osborn@xxxxxxxxx.xxx>
+Subject: Soon & Baliunas
+Dr Timothy J Osborn | phone: +44 1603 592089
+Senior Research Associate | fax: +44 1603 507784
+Climatic Research Unit | e-mail: t.osborn@xxxxxxxxx.xxx
+School of Environmental Sciences | web-site:
+University of East Anglia __________| [2]http://www.cru.uea.ac.uk/~timo/
+Norwich NR4 7TJ | sunclock:
+UK | [3]http://www.cru.uea.ac.uk/~timo/sunclock.htm
+
+Prof. Phil Jones
+Climatic Research Unit Telephone +44 (0) 1603 592090
+School of Environmental Sciences Fax +44 (0) 1603 507784
+University of East Anglia
+Norwich Email p.jones@xxxxxxxxx.xxx
+NR4 7TJ
+UK
+----------------------------------------------------------------------------
+
+______________________________________________________________
+Professor Michael E. Mann
+Department of Environmental Sciences, Clark Hall
+University of Virginia
+Charlottesville, VA 22903
+_______________________________________________________________________
+e-mail: mann@xxxxxxxxx.xxx Phone: (434) 924-7770 FAX: (434) 982-2137
+[4]http://www.evsc.virginia.edu/faculty/people/mann.shtml
+
+References
+
+1. http://www.int-res.com/journals/cr/crEditors.html
+2. http://www.cru.uea.ac.uk/~timo/
+3. http://www.cru.uea.ac.uk/~timo/sunclock.htm
+4. http://www.evsc.virginia.edu/faculty/people/mann.shtml</pre>
+
+==DELETE FUCKING EVERYTHING==
+<pre>From: Michael Mann <mann@xxxxxxxxx.xxx>
+To: Phil Jones <p.jones@xxxxxxxxx.xxx>
+Subject: Re: IPCC & FOI
+Date: Thu, 29 May 2008 08:12:02 -0400
+Reply-to: mann@xxxxxxxxx.xxx
+
+<x-flowed>
+Hi Phil,
+
+laughable that CA would claim to have discovered the problem. They would
+have run off to the Wall Street Journal for an exclusive were that to
+have been true.
+
+I'll contact Gene about this ASAP. His new email is: generwahl@xxxxxxxxx.xxx
+
+talk to you later,
+
+mike
+
+Phil Jones wrote:
+>
+>> Mike,
+> Can you delete any emails you may have had with Keith re AR4?
+> Keith will do likewise. He's not in at the moment - minor family crisis.
+>
+> Can you also email Gene and get him to do the same? I don't
+> have his new email address.
+>
+> We will be getting Caspar to do likewise.
+>
+> I see that CA claim they discovered the 1945 problem in the Nature
+> paper!!
+>
+> Cheers
+> Phil
+>
+>
+>
+>>
+>
+> Prof. Phil Jones
+> Climatic Research Unit Telephone +44 (0) 1603 592090
+> School of Environmental Sciences Fax +44 (0) 1603 507784
+> University of East Anglia
+> Norwich Email p.jones@xxxxxxxxx.xxx
+> NR4 7TJ
+> UK
+> ----------------------------------------------------------------------------
+>
+
+
+-- 
+Michael E. Mann
+Associate Professor
+Director, Earth System Science Center (ESSC)
+
+Department of Meteorology Phone: (814) 863-4075
+503 Walker Building FAX: (814) 865-3663
+The Pennsylvania State University email: mann@xxxxxxxxx.xxx
+University Park, PA 16802-5013
+
+http://www.met.psu.edu/dept/faculty/mann.htm</pre>
+
+[[Category:Transcripts]]

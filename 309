@@ -1,0 +1,30 @@
+Ajax (JavaScript)
+Ajax is a series of web technologies developed by [[Windows|Micro$oft]] in [[Y2K|1999]]. Basically, it's just all of the non-standard, half-working [[JavaScript]] functions in a [[hugbox]]. Take any successful [[Newgrounds|Flash portal]] and you'll find Ajax pouring [[Canada|maple syrup]] in the gas tank.
+
+==History==
+[[Over 9000]] years ago, the internet gods' servers were overloaded with so much furry porn that they needed to [[rape|borrow]] some bandwidth from their customers. So, they created [[shit|JavaScript]], a funtastic scripting language for the web browser. But that wasn't enough. JavaScript was limited in what it could do, so Microsoft decided to unleash upon the world ActiveX, and Macromedia Flash, and XML, and Java, and CSS, and all of the things that cause browser incompatibilities today. Later, all of these web technologies were called Ajax, after the shitty cleaning product.
+
+some boring facts:
+
+#there are loads of frameworks-libraries to handle tl;dr ajax codes
+#you will be demotivated beofre writing ajax codes
+#its hard to handle errors using ajax, thats why ajax sites often return "something happened we are fixing #t" errors. its a  lie, they arent really informed about which part of the code failed.
+#you cant just click "back"
+#its incompatible with platforms.
+#using ajax framework makes you dependent to the framework
+
+
+==List of Ajax==
+Ajaxes come in many forms, such as:
+
+* [[W3C|XML]]HttpRequest
+* [[Flash|ExternalInterface]]
+* [[Cleverbot]]
+* [[RuneScape|RunEscape]]
+* [[Your mom]]
+
+{{softwarez}}
+{{web2.0}}
+
+[[Category:Softwarez]]
+[[Category:Stub]]

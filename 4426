@@ -1,0 +1,30 @@
+Journalspace
+Journalspace <STRIKE>is</STRIKE> was an alternative to [[livejournal|livejournal]], for those who do not want, or can not have, [[friends]].  Journalspace was chillin' out, maxin' an' relaxin all cool and posting emo rants about every other day after school, until a couple of guys, they were up to no good, [[DELETE FUCKING EVERYTHING|deleted fucking everything]] in the neighborhood. Journalspace was hacked and rm'd one fine day by an industrious asshole wishing to cause bloggers pain. Journalspace, being ''fucking retards'', did not have any external backups as if RAID controllers and filesystems never have been known to have errors. Immediately after getting hacked and rm'd via OS X 0day, Journalspace posted a screamo whining rant where they first blamed Apple software and then their colocation facilities (real professional there dudes) and never the lack of following sysadmin 101 for the problems they suffered:<blockquote>Journalspace is no more.
+
+DriveSavers called today to inform me that the data was unrecoverable.
+
+Here is what happened: the server which held the journalspace data had two large drives in a RAID configuration. As data is written (such as saving an item to the database), it's automatically copied to both drives, as a backup mechanism.
+
+The value of such a setup is that if one drive fails, the server keeps running, using the remaining drive. Since the remaining drive has a copy of the data on the other drive, the data is intact. The administrator simply replaces the drive that's gone bad, and the server is back to operating with two redundant drives.
+
+But that's not what happened here. There was no hardware failure. Both drives are operating fine; DriveSavers had no problem in making images of the drives. The data was simply gone. Overwritten.
+
+The data server had only one purpose: maintaining the journalspace database. There were no other web sites or processes running on the server, and it would be impossible for a software bug in journalspace to overwrite the drives, sector by sector.<br><br>
+
+The list of potential causes for this disaster is a short one. It includes a catastrophic failure by the operating system (OS X Server, in case you're interested), or a deliberate effort. A disgruntled member of the Lagomorphics team sabotaged some key servers several months ago after he was caught stealing from the company; as awful as the thought is, we can't rule out the possibility of additional sabotage.<br><br>
+
+We're considering releasing the journalspace source code to the open source community. We may also sell the journalspace domain and trademarks.</blockquote>Nobody asked them to release their codes because the scalability and security of a codebase written by people who don't understand things like, well, you know, '''backups''', is probably questionable. Journalspace proceeded to make further posts attempting to pawn off their worthless domain names, but nobody bit so the codebase was reinstalled and relaunched. Natch, the userbase hasn't returned and probably never will.
+
+
+
+<center><youtube>fIMNZOU46Uc</youtube></center>
+
+==See also==
+*[http://www.howtoforge.com/mysql_database_replication Howtoforge: Setting up MySQL database replication]
+*[http://www.google.com/search?q=mysqldump&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a Jewgle for mysqldump]
+*[http://www.maatkit.org/doc/mk-parallel-dump.html Maatkit's mk-parallel-dump table archival utility]
+*[http://samba.anu.edu.au/rsync/documentation.html rsync documentation]
+
+
+{{crapstub}}
+[[Category: LiveJournal]]

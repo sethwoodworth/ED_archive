@@ -1,0 +1,113 @@
+MAC address
+[[Image:Conchar_McAddress.jpg|thumb|right|240px|Mr.McAddress]]
+[[Image:College apple marketshare.jpg|thumb|right|420px|So solly, faggots.]]
+[[Some argue|Contrary]] to [[popular belief]] among [[macfags]], a "MAC address" has nothing to do with the shiny white plastic bricks that you see everywhere nowadays.  It stands for "'''M'''edia '''A'''ccess '''C'''ontrol address" and is a unique identifier associated with a [[network]] adapter.  More importantly, it can be spoofed for [[theft|convenience]], [[porn|fun]] and [[profit]].
+
+The IEEE 802 MAC address was originally created by a Scotchman, named Conchar McAddress. He implemented it in the original Xerox Ethernet addressing scheme. Because of him, this 48-bit address space contains potentially 2^48 or 281,474,976,710,656 possible MAC addresses.
+
+There are different types of MAC addresses. One for LAN, and one for WAN. (Remember, your ISP's router has a MAC address, too)
+
+Here is an example of it being used on a LAN: 
+* Host 1 (192.168.1.1): Yo everyone on the LAN (FF:FF:FF:FF:FF:FF), who has the IP 192.168.1.2? My MAC is DE:AD:BE:EF:CA:FE so you can respond back to me.
+* Host 2 (192.168.1.2): Hello DE:AD:BE:EF:CA:FE, I have IP 192.168.1.2 and my MAC address is 12:34:56:78:90:12 so you can send your IP packets to me.
+
+===How to see your LAN's MAC address'===
+
+MAC address' are stored in a table called the address resolution table (ARP). 
+
+To see the table (The MAC address will be in the format **:**:**:**:**:**):
+
+Windows:
+* Type {windows key} + r
+* Type "arp -a"
+* Hit enter.
+
+Linux:
+* Open terminal.
+* Enter command "arp"
+* Hit enter.
+
+==Spoofing==
+
+On-campus networks (i.e. residence halls/dorms or shared units in [[college]]) and some other private networks, track [[bandwidth]] usage not by [[IP address]], but by MAC address.  On campuses, these limits are [[typically]] between 1gb and 6gb a day (for off-campus traffic, [[Upload|U]]/D combined).  By spoofing your MAC address, it resets your bandwidth total and you gain instant [[respect]] within the [[hacker|haxoring]] community, the equivalent of taking [[CS III]] (and passing with a [[Geek|C++]] or better).  
+
+With MAC Address Spoofing you can also:
+
+*Locally lock/freeze/DoS the network
+*Impersonate another user on the network. This has many advantages.
+*Avoid FBI (Read: Paranoia) security logs by changing it.
+
+=== How to Change Your LAN's MAC Address ===
+
+If you have a [[PC]] and you're too afraid of the terrifying [[DOS|black screen with white text]] or just too fucking [[American|lazy]] to take 10 minutes to learn how to use it, grab one of the MAC spoofers at the bottom.  If you have actually taken CSIII on the other hand, follow these simple step-by-step instructions.
+
+==== Windows ====
+* Go to Start -> Run, type "regedt32" to start registry editor. Do not use "Regedit".
+ 
+* Go to "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\ Control\Class\{4D36E972-E325-11CE-BFC1-08002BE10318}". 
+* Double click on it to expand the tree. The subkeys are 4-digit numbers, which represent particular network adapters. 
+* You should see it starts with 0000, then 0001, 0002, 0003 and so on.
+ 
+* Find the interface you want by searching for the proper "DriverDesc" key.
+ 
+* Edit, or add, the string key "NetworkAddress" (has the data type "REG_SZ") to contain the new MAC address.
+ 
+* Disable then re-enable the network interface that you changed (or reboot the system).
+
+==== Linux ====
+
+If you have [[Linux]]: <code>ifconfig <interface> hw <class> <address></code>.
+
+OR
+
+* ifconfig eth0 down hw ether xx:xx:xx:xx:xx:xx
+* ifconfig eth0 up
+ 
+* Note: Change (xx:xx:xx:xx:xx:xx to what you desire.  Must be hexadecimal in value)
+
+* MAC addresses use hexadecimal values.  Characters 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, and f are acceptable.
+* Protip:  DEADBEEFCAFE is a valid MAC
+
+=== Uses ===
+
+====Impersonation====
+
+* Use your operating systems appropriate command to display the ARP table.
+ e.g., Windows: arp -a
+* Select one that is not you (use ipconfig /all to get your local IP)
+* Change your MAC to theirs.
+* WIN!
+
+All this does is cause network breakdown, but it also allows you to send and receive data that goes to both computers. although hard and ineffective, you can gain access to information on their computer as it is transmitted.
+
+====Free Hotel Internet====
+
+A lot of hotels use MAC address filtering in their "pay to surf" schemes, so impersonating a user via MAC address spoofing will allow you to surf while the victim pays.
+
+====Local Denial of Service====
+
+Many WiFi routers will lock up if a client tries to connect with the same MAC as the router's BSSID.
+Idea:  Do this at a public access point with many users.
+
+=== '''[[PROTIP]]''' ===
+
+If you spoof [[retard|too often]] you '''will''' eventually catch the attention of your [[school]]'s [[Nazis|IT staff]].  If the techfags send you a formal email about bandwidth abuse, they know exactly what you're doing, although they will rarely state it outright.  School's usually have the policy of never directly accusing a student of stealing bandwidth, so they will probably ask you something innocent like [[LOL|why you have 6-7 computers in the same room]].  Don't fuck it up by spoofing more than 3 times a day, dipshit, or you could end up losing your [[internets]] or even [[self-pwn|booted from res]].  
+
+== See Also ==
+
+* [[Bandwidth]]
+* [[IP address]]
+* [[Theft]]
+* [[Torrent]]s
+
+== External Links ==
+
+* [http://www.technitium.com/tmac/index.html Technitium Mac changer]
+* [http://thepiratebay.org/torrent/4190636/SMAC_Professional_v.2.0.5_-_MAC_Address_Changer.rar SMAC 2.0] - The easiest way to spoof MAC addy's (hit '''Random''', then '''Update MAC''', done) - [[Vista]]fags will need to restart. 
+* [http://devices.natetrue.com/macshift/ Another spoofer] - PC only
+* [http://www.alobbs.com/macchanger/ Yet another spoofer] - A [[GNU]] solution for a [[Lunix|GNU/Linux]] system.
+* [http://macaddyspoof.on.nimp.org/ Holy shit! A spoofer for Macfags?!] - [[ZOMG]] click nao!
+* [http://devices.natetrue.com/macshift/ Mac Shift]
+
+[[Category:Netspeak]]
+[[Category:Softwarez]]

@@ -1,0 +1,11 @@
+Tailing logs
+{{boring}}
+[[Image:Low Orbit Ion Cannon.png|thumb|300px|Great tool used for fixing problems with tailing logs]]
+Something that uber [[nerd]]s do when they run super hot websites on the [[internets]]. Tailing logs on a server allows the administrator to watch traffic coming in to the machine in real time. This means having the ability to see who is accessing which exact data at that very moment. This comes from the [[*nix]] command "tail" which displays the last lines written to a file. A good [[:Category:Sites|site]] administrator can watch as a user goes from page to page of a site as the user is actually doing it. A [[bradfitz|bad site administrator]] cannot do this.
+
+All users on websites should expect the reasonable possibility that they are being watched at that moment. For instance, I just saw you come to this page and see that you are still reading it. 
+
+==See also==
+[[IP ban]]
+
+[[Category:Netspeak]]

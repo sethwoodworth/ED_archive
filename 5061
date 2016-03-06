@@ -1,0 +1,60 @@
+MKV
+{{facts}}
+[[Image:MKV-MP4 Comparison.jpg|thumb|right|450px|Streams placed in this container magically become smaller.]]
+'''MKV''', or ''Matroska'' (as it is known to the chimps that developed it), is a Media Container which is used to share movies online by incompetent fools. Unlike the superior MPEG4 container MKV Specifications do not list which codecs can be used which prevents manufactures of hardware based players from providing support. 
+
+Even if a device “supports “ MKV there is no guarantee that any particular file will playback . Despite not even being recognized as a media file on the latest versions of [[Windows]] and [[OSX]] MKV still enjoys the support of [[pirate]]s due to a number of myths .
+
+The .mkv format is seen by the community as being "[[cool|cool]]" and a mark of a clued up user. This is mostly because it is less widely supported, and can be harder to use than mainstream container formats. In communities like the movie/episode piracy community, technical merit is only one of two requirements for a technology - the other is community perception. 
+
+== Playback ==
+[[Image:VLC player.jpg|thumb|right|150px|A traffic cone and a media player have so much in common.]]
+Unlike other containers MKV files dont playback out of the box on Windows or OSX , Their playback requires the installation of the [http://www.cccp-project.net/ Crap Crap Crap Pack] or [[VLC Media Player|a media player that's stuck in 1995]].
+
+== MKV Myths ==
+
+===MKV Files are smaller and have the best quality===
+
+The most persistent myth thanks to uploaders who create rubbish 350 MB rips. It is of course nonsense because MKV is a container, The file size is determined by the video and audio bitrate. The same h.264 streams can be muxed to any container with the exact same file size.
+
+===MKV can hold an unlimited number of streams, other containers like MP4 don't===
+
+The ISO spec does not and for a good reason, these limitations are put in place for manufactures of hardware based players and are of no concern to the user , In the rare case that you need more than 1MB of streams you can simply ignore the ISO spec and have an unlimited number of streams.
+
+===MKV supports any codec, other containers like MP4 don't===
+
+[[No]] the ISO standard does not (Ogg) But there is nothing stopping me or anyone else muxing said formats in. This nonsense is contently thrown around as a feature, It's not its actually an anti-feature because it completely abandons hardware support by updating the "standard" continuously instead of revisions.
+
+===MKV is better because the tools are free===
+
+Nothing special there , free tools exist for other containers .
+
+===MP4 doesn't support embedded subtitles===
+
+Or, as a [[butthurt]] [[faggot]] put it...
+
+{{quote|The bitch who wrote all the above is obviously a monolingual [[Amerifag]] who doesn't even know what subtitles are for. He also fails to understand the term "open standard". Therefore, he could never acknowledge the convenience of the MKV format. Please ignore this page.|'''[http://encyclopediadramatica.com/User:Yoshinatsu Yoshinatsu]''' - ''being an utter twat}}
+
+Actually, MP4 supports embedded subtitles, known as [http://en.wikipedia.org/wiki/MPEG-4_Part_17 MPEG4 Timed Text] in the standard.
+
+== Quotes from MKV Pirates ==
+<gallery>
+Image:MKV_Moron_1.jpeg|Nothing to do with the container genius.
+Image:MKV_Moron_2.jpeg|Muxing doesn't reduce quality.
+Image:MKV_Moron_3.jpeg|Moron.
+Image:MKV_Moron_4.jpeg|Bigger moron.
+Image:MKV_Moron_5.jpeg|Moron gets owned.
+Image:MKV_Moron_6.jpeg|Typical MKV uploader.
+Image:MKV_Moron_7.jpeg|Another jackass.
+Image:MKV_Moron_8.jpeg|A typical idiot.
+Image:MKV_Moron_9.jpeg|Another moron gets owned.
+</gallery>
+
+== Please god [[Kill it with fire|make it die]] ==
+
+Unfortunately at the present time there is no way to ram this information into the skulls of the chimps that upload these files. However, MKV can be converted into a universally playable MPG/MP4 file in seconds using the appropriate software. Both [http://www.mkv2vob.com/ MKV2Vob] and [http://yamb.unite-video.com/download.html Yamb] are perfectly capable of doing this.
+
+Let's face it - DRM protected files have more hardware support than MKV, and while it's completely unintentional, MKV is to movies as DRM is to music.
+
+{{digital media}}
+[[Category:Softwarez]]

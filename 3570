@@ -1,0 +1,90 @@
+Hack This Site
+__NOTOC__[[Image:HTS_logo.jpg|center]]
+
+'''[http://hackthissite.org HackThisSite.org]''', the training arena for the [[Anonymous|underground hacker elite]], is a place where [[h4x0r]] [[skiddies|gurus]] can [[buttsecks|meet-up]] and totally [[pwn]] [[you|j00]] with [[1337]] [[Computer Science III]] [[skillz]]!
+
+The founder, Jeremy Hammond, served a 2 year sentence for haxing [[Protest Warrior]]'s website.
+
+== L33t Facts ==
+[[Image:HTS_training.jpg|right]]
+* HTS is only full of wannabe [[h4x0r|h4x0rs]], [[Script kiddies]] and [[fucktards]].
+* Nearly all of the l33t haxor "Challenges" can be beat by anyone with [[down syndrome|a room temperature IQ]] .
+* For those too retarded to solve the challenges, one can be a cheety cheetah by googling a walkthrough.
+* Many users are pedo's trying to break into [[loli]] myspaces.
+* [[PROTIP]] to people trolling HTS: ''Pretend to be a [[16 year old girl]], since all their users will die [[virgins]] they are always looking for [[jailbait]] to lure and trap over the internetz.''
+{{clear}}
+
+== Typical HTS Activity ==
+
+{{quote|<MrBear> dude at 11:59pm on may 27th i deleted my child porn collection| Average [[pedobear]] on HTS. }}
+
+{{quote|[01:14] <lochis> guys how do you use exploits? [01:14] <lochis> i mean lets say you have an exploit [01:14] <lochis> were the hell do you coppy paste it?| [[Winnar]] on HTS. }}
+
+{{quote|<HTSUser31746> listen i know with experince, if people think you can hack they will give you alot of respect and girls will like u| Will die a [[Virgin]]  }}
+
+{{quote|We managed to fix Postfix, which has been giving us issues for some time now.|HTS [[blog|site news]]; postfix befuddles even the most black of hats}}
+
+== Constant Drama ==
+Staff on HTS are arranged in a democratic but highly [[Anarchy|anarchical fashion]]. This structure appears to [[fail]] most times, [[drama|disputes]] arise, loyalties become very confusing, everybody goes [[batshit crazy]] and attempts to hax each other. Subsequently, HTS has a long history of mods, ops, and devs turning [[Evil|darkside]] and severely haxing or completely [[pwning]] the site. In one of the most lulzy incidents and the last major attack to occur, several blackhat dissidents gained root-level access to the website and proceeded to [[own|"rm -rf"]] the entire site. This led to HTS being down for months. ([[Sarcasm|Because its never randomly down]])
+
+It makes one wonder if HTS is worth [[trolling]]. Since like [[4chan]], it effectively trolls itself and would be similar to pissing into an ocean of piss.
+
+== Current Status ==
+The current admin of HTS is black person. Kage's continued efforts to better HTS have greatly improved the site, with frequent news posts (the last one being in March 2010) and cool new ideas for the site, such as using [[Fail|LDAP]] and creating bots that can [[Lolwut|pass the Turing test]]. He is most active on the IRC, so if you ever join, be sure to give him a nice shout out.
+
+== HTS IRC ==
+Many of the [[retards|users]] from HTS often go on their [[IRC]] programs to get sekkrit [[warez]] and sploits to e-stalk [[MySpace]], swap [[cp]], complain about their [[Shit nobody cares about|lives]] or compare how big their [[e-penis|e-peens]] are. 
+
+* [[PROTIP]]: ''For lulz join their IRC chat info is irc.hackthissite.org on port +7000, epic moves are to ask how to haek [[runescape|run3scap3]] or to ask how to break into my girlfriends/female classmates/12 year old girl next door's myspace or facebook''
+
+
+{{clear}}
+
+== Hacking Tips ==
+[[Image:HTS_login.png|frame|If you chose either one of these you have already [[the game|lost]]]]
+*[[Lurk moar]]
+*[[????]]
+*[[Profit!]]
+*[[Kill yourself]]
+
+<pre width="50%">
+http://hackthissite.org
+FreeBSD 5.2.1 (SPARC)
+
+PORT
+21	closed
+22	open (protocol 2.0)
+25	open Postfix
+53	closed
+
+80	open
+Apache 2.2.4
+mod_ssl/2.2.4
+OpenSSL/0.9.8e
+DAV/2
+PHP/5.2.3 with Suhosin-Patch
+mod_perl/2.0.3
+Perl/v5.8.8
+ 
+113	closed
+5060	closed
+31337	closed Elite   <--- lol
+44334	closed
+
+SF-Port22-TCP:V=4.20%I=7%D=4/16%Time=4805E5C4%P=i486-pc-linux-gnu%r(NULL,3
+SF:8,"SSH-2\.0-OpenSSH_4\.6p1\x20FreeBSD-openssh-portable-4\.6\.p1,1\n");
+</pre>
+
+{{clear}}
+
+== See Also ==
+*[[Is Your Son a Computer Hacker]]
+*[[Hackers on Steroids]]
+*[[Pacifico]] (After kicked out of HTS Staff, became an EPIC FAILURE)
+*[[WTFchan]] (Fail site created by ex-HTS members)
+
+== External Links ==
+* http://www.hackthissite.org/
+
+
+[[Category:Sites]][[Category:Internets Phenomena]]

@@ -1,0 +1,80 @@
+How to Sock
+[[File:MZMcBride.jpg|thumb|200px|Make sure you cover your arse.]]
+''This guide was originally posted by [[MZMcBride]] on TOW but was censored. It is reproduced here for your pleasure.''
+
+So you want to [[sock]] and not get caught? Well, it's not exactly easy, but there are definitely some things that can make it easier. The following are some tips for socking well.
+
+== Give up your romantic and social life ==
+Seriously, if you have a girlfriend or even IRL friends, then you won't have time to spend all your days socking.  Plus, only the sexually frustrated truly have the motivation to piss all their time away socking.
+
+== Become familiar with the tracking tools ==
+Since you'll likely be socking on a MediaWiki wiki, all of the documentation and source code of the extensions used by the software is publicly available. Read the page about the [[CheckUser|CheckUser extension]] and browse its source code if you know PHP decently.
+
+Also, it's important to understand Wikimedia's configuration of the extension. The data available to CheckUser is only stored for 90 days. After that, it gets deleted.
+
+== Use different browsers ==
+This is one of the easiest ways to sock. The greater the chance you can reduce human error, the better. Instead of having to remember to log in and log out, each browser stores your separate session. Protip: you can tint backgrounds of edit textareas to distinguish them (slight reddish color for alt account, slight blueish color for master account, e.g.).
+
+== Use a shell account ==
+Using [[SSH]] or a VPN, use a shell account to proxy. This masks your actual IP address and instead assigns you whichever IP you're proxying through.
+
+Shell accounts can be purchased (from a web hosting provider) or most schools and offices have publicly available VPNs.
+
+However, be warned that some proxies retain XFF headers (see below for more) and others don't. You'll likely need to spoof your headers to be safe.
+
+== Alter your headers ==
+When a CheckUser checks your account, they can get header information that looks something like this:
+<blockquote>
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_4_2; en-us) AppleWebKit/525.27.1 (KHTML, like Gecko) Version/3.2.1 Safari/525.27.1
+</blockquote>
+You need to spoof this info if you'll be using the same computer or browser to sock.
+
+=== XFF ===
+[[Wikipedia:X-Forwarded-For|XFF]] headers reveal information about your originating IP address. As mentioned above, your proxy may strip the XFF headers, however this isn't guaranteed. Generally speaking, spoofing XFF headers is pointless.
+
+=== User agent ===
+[[User agent]] headers are easily spoofed. These reveal the browser you're using. If you're using two separate browsers as suggested above, it's probably still a good idea to spoof the user agent string as it always includes operating system information.
+
+=== Check your headers ===
+If you want to easily check all your HTTP headers, various websites [http://randomplaza.com/tools/whoami.php let you view your HTTP headers.] This link is particularly low bandwidth and uses no [[Javascript]], perfect for if you're using a slow proxy.
+
+Also, if your proxy only goes to port 80, beware of some link to an HTTPS version of Wikipedia that could bypass it.
+
+== Alter your behavior ==
+This is one of the most important steps to not get caught socking.
+
+=== Time zones ===
+It's trivial to map someone's contributions throughout the data. And sock trackers regularly use this tactic to spot patterns between accounts. Edit at different time zones with different accounts. Direct overlap between two accounts ''always'' looks suspicious.
+
+=== Content areas ===
+This is rather trivial to understand, yet many people get caught this way. To effectively sock, you have to edit in different areas than your master account. If your master account is involved in every bot discussion, your sock ''should not'' be. While it may be helpful to comment occasionally on bot discussions using your sock account to throw people off, you should avoid similar content areas.
+
+It's equally important to avoid similar types of edits. If you're the master of fixing references, make your sock the master of writing content or the master of typo fixes. Don't have your two accounts making the same type of edits.
+
+=== Edit summaries ===
+This is another easy way to get caught. If you ''always'' edit using edit summaries, make sure your alt account does not. Also, make sure you use different types of edit summaries. For example, for a standard reply, many users use "+reply", "re", "r", or "reply". Some even copy and paste part of the message in the edit summary box. Whichever way you choose, be sure to not do the same thing on your alt account.
+
+=== Writing style ===
+This is very important if you make a lot of 'public' comments (comments on various noticeboards and talk pages). One obscure word used by both accounts and people could start to ask questions. If you're a poor speller, have one of your accounts use Firefox's spelling checker. If you always spell you as 'u,' well, you shouldn't do that for any reason. But if you do anyway, make sure your other account doesn't do the same thing. Writing style can quickly give away a user's true identity.
+
+== Talk with yourself ==
+This is an incredibly tricky tactic that can easily backfire, but if done effectively, it can make it seem very, very implausible that the two accounts are connected. This should be done rarely, if at all. The occasional talk page comment to your alt account or point something out to them. Do not give them awards or constantly praise their work. That quickly raises suspicions, especially after a recent incident on the English Wikipedia where [[Gary Weiss]] talked to himself incessantly with socks.
+
+== Avoid double voting in major elections ==
+Every user who votes for Board officials or for stewards is CheckUsered. Don't double vote in major elections unless you're sure that your IP information and XFF headers won't reveal a direct similarity.
+
+== Act your age ==
+New accounts don't know about noticeboards. They don't usually even know about namespaces. Remember that when someone is examining your contributions history, a normal account always shows a predictable evolution. Be sure to keep this in mind when using your alt account. Sure, you can try to excuse your behavior with claims that you edited anonymously for years or whatever, but it's a whole lot easier to simply edit linearly (using edit summaries more often as time passes, exploring other namespaces, getting involved with the administrative side of things, etc.).
+
+This is ironic since nearly all Wikipedia accounts created since about 2007 or 2008 have been socks and rarely do new users show up anymore.  And many Wikipedians routinely abandon their accounts to start new ones, since all their contributions leave a trail for stalkers.  Though usually people that do this aren't into the MMORPG aspect of Wikipedia and would not be trying so hard to sock.  Despite this reality of the lack of newbies, the illusion mentioned here is what [[Scientology|people on Wikipedia actually believe]].
+
+However, as a caveat, do not try to act like a completely new user. Blatant mistakes and downright stupidity will just get more attention focused on you. Play it cool and you'll have no issues.
+
+[[Category:Wikis Suck]]
+[[Category:Faggotry]]
+
+
+
+== If you still don't get it, moron ==
+* [http://rationalwiki.com/wiki/Essay:The_Information_Warrior%27s_Handbook#Sock_puppetry A handy article to Sockpuppetry]
+*[http://www.freethought-forum.com/forum/showthread.php?t=11591 Successful Sockpuppetry: A Practical Guide]

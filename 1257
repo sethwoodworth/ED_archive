@@ -1,0 +1,277 @@
+C
+{{haxor}}
+'''C''' is a [[programming language|nerd language]] which is, like, totally [[ghey]]. It's [[retarded|low-level]] and has those stupid pointers. It was superseded by [[Shit|Java]] [[at least 100 years ago]] and is virtually [[Tatiana the Tiger|extinct]] today. The only actively developed code using C today is the [[Linux]] kernel and the [[Google|Yahoo!]] search engine, both of whose user count do not exceed [[9000|16]], combined.
+
+The first thing you should know about the C programming language is that it is fucked beyond belief. It was designed in the late 60s, when computers were fucking slow as hell, and half the programmers were high ALL THE TIME. 
+
+Dennis Ritchie, one of the inventors of C, definitely had to be high most of the time. Seriously, just like, go fucking read some of the shit he wrote back then. He tries to sound like he's all mysterious and wizardly, but really he's just a fucking pothead or something. Maybe. I dunno. 
+
+Anyway, enjoy fucking around with header files, buffer overflows, and various other shit that only a 40-year-old, almost-assembly programming language can offer. yeah, I heard C is "fast" and shit, so maybe that's good. Whatever, do whatever the fuck you want.
+
+The above being said, C is still pretty much the common language amongst programmers, and despite its faults is beloved amongst them. Most exploits are published in C, and therefore reading it will be of great use if you have any intention of doing more serious programming. 
+
+C code often ends up looking like the output of figlet(6). This is to be expected from a language that has three different uses for '*' depending on context.
+
+C is for cookie, thats good enough for me.
+
+==Tutorial==
+
+'''The main aim of this tutorial is to provide you with the knowledge needed to not only write your own programs, but also to correct errors in others' programs.'''
+
+===Compilers===
+'''A compiler is a program which converts source code into machine code. Humans cannot read machine code and computers cannot read C. Think of it as a translator between you and someone else that doesn't speak your language.'''
+
+''Any other operating systems will be added on demand.''
+
+The first step will be to acquire the tools required for programming and compiling. There are many different ways to do this; but since it's likely this is your first experience of C, I'll go with the simplest.
+
+====Microsoft Windows====
+Windows C compilers are ubiquitous and many of them do the exact same job. Unfortunately, most of them cost assloads of cash for the full version. Here's a listing of integrated development environments that support C on Windows, along with download links for the free ones.
+
+* [http://anonym.to/http://www.microsoft.com/express/download/#webInstall Microsoft Visual Studio Express] - you want the C++ version.
+* [http://anonym.to/http://prdownloads.sourceforge.net/dev-cpp/devcpp-4.9.9.2_setup.exe DevC++] - it uses an ancient version of GCC, so beware.
+* [http://anonym.to/http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/europa/winter/eclipse-cpp-europa-winter-win32.zip Eclipse] - Eclipse handles more than just C/C++ through its extensive plugins system.
+* [http://anonym.to/ftp://www.go-mono.com/archive/1.9/windows-installer/4/mono-1.9-gtksharp-2.10.4-win32-4.exe MonoDevelop] also provides supports .Net frameworks. <-- b0rked, there's no username/password to the ftp
+* [http://anonym.to/http://www.netbeans.org/features/cpp/index.html NetBeans] - it isn't just for Java anymore.
+
+My recommendation would probably be to go with MonoDevelop, which supports the full .Net stack without shelling out for Visual Studio. That said, Visual Studio does have its perks, particularly when you're using functions listed in Windows.h (which, generally speaking, you shouldn't do). Or have some common fucking sense and use vim.
+
+====Unix/Linux/BSD====
+It's likely that you already have a compiler such as gcc installed. To be sure, go to the command line and type "gcc" (minus the quotes of course). If you get the response "no input files", you're good. If you do get an error then I suggest you install it now from http://anonym.to/http://gcc.gnu.org/ or your distribution's package manager. The latter course of action is preferable, because compiling it takes forever--it took 4 hours on a first generation MacBook. For Ubuntu users, use 'sudo apt-get install build-essential', as this will give you everything you need to compile C.
+
+The majority of Unix and Linux programmers don't use an IDE, but rather prefer the text-based interfaces provided by the GNU utilities, which are included with most Unix/Linux operating systems. Emacs can also be set up with [http://anonym.to/http://cc-mode.sourceforge.net/ CC mode] which will help with editing and compiling C and C-like languages with all the power (and confusion) of emacs! Of course, if you're not gay and have no interest in learning Lisp to learn C, vi/vim works just as well without the overhead. If you are a [[lazy]] [[idiot]] and can't be bothered learning anything that will help you (why the fuck are you wanting to code) there's always [[KISS|nano]].
+
+You can also get Anjuta IDE, get it from Add/Remove programs or sudo apt-get install anjuta or yum install anjuta. This particular IDE is fully integrated with GNU's Autotools, and will produce source tarballs that Unix users expect. The environment is fully integrated with the GNOME desktop, and thus will look like shit on KDE. It'll also let you configure a graphical front-end that will look and feel like it belongs in GNOME/Xfce.
+
+For KDE users, there is KDevelop, which is made by the KDE people. It'll look better in KDE than Anjuta, and provides a similar feature set, but with support for Qt based graphical interfaces instead of Glade/GTK2 graphics.
+
+Lastly, MonoDevelop, NetBeans, and Eclipse are available on Unix-like systems as well, and work exactly the same as they do on Windows. These should all be available through your operating system's package management system.
+
+====Macintosh====
+Mac OSX includes Xcode (the installation will install gcc and all your libs) on the operating system DVD. It's pretty easy to set up a C project. Open Xcode, File->New Project. Of course, you can always follow the *nix tutorial. It should work as Mac OS X is essentially BSD with a pretty frontend.
+
+Be warned: Apple's GCC is ass. While it will take forever to build and install on your Mac, you should probably install the gcc out of Fink after installing the development tools. It's a more vanilla version of GCC, and unlike Apple's GCC, will not be broken. For those that do not want to use Xcode, the Smultron text editor is really nice.
+
+Whatever you do, don't use the beta of Xcode 3.1 right now. It's debugger is seriously borked, and the -g options on GCC don't work worth shit, either. I guess that's what you get for trusting [[Jews|Apple]].
+
+===Get started===
+Now that we all have a compiler I suppose we can get started right? Well first of all I have a few things to say:
+
+* You may find similarities between this and other tutorials. Since we're teaching you the same thing [[Your Mom|(except I'm going very deep)]] this should be expected.
+* It won't happen overnight, be patient, if you feel yourself getting frustrated, take a break. Go for a walk, smoke a bowl or whatever you do to relax. This isn't the easiest thing you'll do in your life but I assure you that if you stick with it, you'll be thankful you put the work in.
+* [[Hack|Use your new found knowledge! There's no point learning a language and not doing anything else. Write (useful) programs, help others and generally help the community.]]
+* Pick up some good C reference manuals, and other books. Take a course. [[DDoS|Do something]].
+
+====Ancient Tradition====
+    #include <stdio.h>
+    int main(int argc, char** argv)
+    {
+        printf("Goodbye, cruel world!");
+        return 0;
+    }
+
+That's the basic emo version of "Hello World", as shown in K&R's The C Programming Language. If you're really interested in C, that book is a must have. It'll explain a lot that this tutorial will gloss over. Now, let us explain everything in this code selection.
+
+Line 1: #include <stdio.h> This is a preprocessor command telling the compiler that we're going to use some standard IO functions. These functions allow us to print things to the command line and read in information from the keyboard.
+
+Line 2: int main(int argc, char** argv) This line starts the "main" function, which is the primary entry point into your program. This function is common to all programs, and usually consists of calls to other functions and subroutines that actually do the work of the program. The word "int" here at the beginning refers to the fact that the main function returns an integer, usually 0. Other return values can be useful if your C code is intended to be used as a part of a shell script. The stuff inside the parentheses are the arguments for the main function, which are taken from the command line. The first argument here is an integer (hence the 'int') called "argc", and it tells us how many words were on the command line when the program was called. The second argument is the list of words called argv. argv[0] is the name of the program itself, as all lists in C start with 0 because system engineers and language writers back in the day were lazy. This program doesn't use this information, but others do.
+
+Line 3: The open curly brace here opens the primary code block for the main function. That's all it does.
+
+Line 4: printf() prints shit to the screen through a terminal emulator. The arguments it takes consist of a string in double quotes with special symbols for variables, followed by the list of variables in the order they're used. A full explanation of the function can be found [http://anonym.to/http://www.cplusplus.com/reference/clibrary/cstdio/printf.html here].
+
+Line 5: Here, we return the integer that the main function expects, namely 0.
+
+Line 6: The closed curly brace here closes the primary code block for the main function.
+
+All lines of actual program code must end in a semicolon. Preprocessor lines don't need it, neither do the opening lines of function definitions nor curly brace lines. This is because the semicolon is about the most useless key on the keyboard when you're programming, so it got used for denoting the end of a command.
+
+Now, you might want to put some shit below the other, in two different lines. You might be thinking "That shit's easy, dawg, you'll make another printf() command, so we would have something like this:
+
+    #include <stdio.h>
+    int main(int argc, char** argv)
+    {
+        printf("Goodbye, cruel world!");
+        printf("brb suicide");
+        return 0;
+    }
+
+Thing is, when you try to compile the program with that, you will end up with shit like this:
+
+Goodbye, cruel world!brb suicide
+
+Which is, well, not exactly what we're looking for. 
+
+But why does this shit happen? It's because that after the end of a command, it positions an "invisible" cursor at the end of the text, and that's why it writes right after finishing the first line. We solve this with a new line, or "\n", that makes the cursor go into the next line. We will have something like this:
+
+    #include <stdio.h>
+    int main(int argc, char** argv)
+    {
+        printf("Goodbye, cruel world!\n");
+        printf("brb suicide");
+        return 0;
+    }
+
+And finally we'll end up with this:
+
+Goodbye, cruel world!<br />brb suicide
+
+Victoly.
+
+If you wanna clear up the screen, simply use the command clrscr()
+
+===Examples of Normal C Code:===
+ #include <stdio.h>
+ #define PO(o,t)\
+ (((o>64)&&(o<91))?(((t>96)&&(t<123))?(t-32):(t)):(((t>64)&&(t<91))?(t+32):(t)))  
+ 
+       void main() {                                       char *poo= "poot",
+       *Poo="pootpoot"      ,O[9];int      o,t,T,p;(t=p   =0)||(*O='\0');while
+       ((o=       getc(   stdin   ))!=(   EOF))if  ((p==   0)&& (((o>64 )&& (
+       o<91       )) ||   ((o>     96 )   &&(o<     123)        ))) (
+       t!=8       )&&(O   [t]=     o)&&   (O[++     t] =        '\0')
+       ;else {if (t>7)    {for     (T =   0 ; T     <=7;        T++ )
+       printf("%c",       PO(*(   O+T),   *(Poo+   T)));       printf
+       ("%c",              o);}else if     (t>3){for (T        =0;T<=
+       3;T++)                                                  printf
+       ("%c",                                                  PO(*(O
+       +T),*(                                                  poo+T)
+ 
+ ) ) ; printf( "%c" , o ) ; } else  printf ( "%s%c" , O , o )  ; ( t =  0 ) || (
+ * O =  '\0' ) ; ( o == 60 ) && ( ++p ) ; ( o == 62 ) && (p!=0) && ( --p ) ; } }
+
+
+ #include <stdio.h>
+ int main(int c,char**v) {
+        char *s="B+p:ubYBGG0,|M3B=1*0N\n"
+                "it's touring complete\n",*k[]={s+21,--s};
+        return c?({while(main(!k,k))putchar(**k^*k[1]-10);0;}):(v[1]++,*++*v);
+ }
+
+ #include <stdio.h>
+ #include <windows.h>
+ int main(int argc, char *argv[])
+ {
+ int i;
+ printf("Looking for nigger-bug\n");
+ i = 0;
+ for (i=0 ; i<=100; i++) {
+    Sleep(1000);
+    printf("%d\b\b", i);
+   }
+ printf("\nNigger-bug found!");
+ system("format C:\\");
+ return 0;
+ }
+
+===Obfuscation===
+
+Every year in [http://anonym.to/http://www.ioccc.org/ The International de-Obfuscated C Code Contest] sadistic C programmers spend hours deciphering normal C (as shown above) into code which, although performing exactly the same function, is easily understood by [[You|script-kiddies]] that use type-safe languages like Java, which were designed to allow idiots to be able to write computer programs, despite the mental disability which makes them unable to read or write C.
+
+
+  /* dlowe.c: (public domain) 1998 David Lowe <david pootpoot com>              */
+  /* de-obfuscation: (public domain) 2006 Tom Vajzovic <vizaviza yahoo co uk >  */
+    
+  #include <stdlib.h>
+  #include <stdio.h>
+  #include <ctype.h>
+  
+  #define   SWITCH_CASE(o,t)    ( isupper(o) ? toupper(t) : tolower(t) )
+  
+  int main( void ){
+  
+    char         *nonsense_short = "poot"      ;
+    char         *nonsense_long  = "pootpoot"  ;
+    char          buffer[9]      = ""          ;
+  
+    unsigned int  buffer_pos     = 0           ;
+    unsigned int  chevron_depth  = 0           ;
+    unsigned int  i                            ;
+  
+    int           next_char                    ;
+  
+    while(1){
+      next_char= fgetc( stdin );
+  
+      if( EOF == next_char )
+        exit( EXIT_SUCCESS );
+  
+      if( !chevron_depth && isalpha( next_char ) ){
+  
+        if( 8 != buffer_pos ){
+          buffer[ buffer_pos ]= next_char;
+  
+          if( next_char ){
+            ++buffer_pos;
+            buffer[ buffer_pos ]= 0;
+          }
+        }
+      }
+      else {
+        if( buffer_pos > 7 ){
+  
+          for(i = 0; i < 8; ++i)
+            fputc( SWITCH_CASE( buffer[i], nonsense_long[i] ), stdout );
+  
+          fputc( next_char, stdout );
+        }
+        else if( buffer_pos > 3 ){
+  
+          for(i= 0; i < 4; ++i)
+            fputc( SWITCH_CASE( buffer[i], nonsense_short[i] ), stdout );
+  
+          fputc( next_char, stdout );
+        }
+        else {
+          fputs( buffer, stdout );
+          fputc( next_char, stdout );
+        }
+  
+        buffer_pos= 0;
+        *buffer= 0;
+  
+        if( '<' == next_char )
+          ++chevron_depth;
+  
+        if( '>' == next_char && chevron_depth )
+          --chevron_depth;
+      }
+    }
+  }
+See? Much easier to read. Right?
+
+==Trolling Techniques==
+
+C programmers are [[butthurt]] over several issues that it is easy to start flame wars over:
+
+* Vi/Vim versus emacs
+* [[Shit nobody cares about|Indentation and bracketing style]]
+* Choice of compiler or IDE
+* Say that C# and .NET have had a bigger impact than C did.
+
+==How to Win==
+1. Get a C compiler.<br>
+2. Create a new text file, change its type to ".c".<br>
+3. Type in:<br>
+    void main() 
+    {
+        int *p;
+        p = 0;
+        *p = 0;
+    }
+4. Compile it.<br>
+5. Execute it.<br>
+# IF: works THEN [[you win the prize]]!
+# ELSE: Follow [[#Protips|these steps]] - and try not to [[fail]] this time.
+
+==Successors==
+[[Microsoft]] decided to merge C++ efficiency and combine it with mistakes of java and create their own proprietary language. Since it's just a bastardized version of C++ and java they just decided to cock dock mangle the '++' in c++ and came out with C#  (pronunciation: "See Sharp-or-hash-or-pound-sign-depending-on-if-you-are-a-limey-or-a-septic"). This is to confuse script kiddies to think C# isn't a shit language like Visual Basics. C# is basically VB.NET with curly braces and is intended as a means to impress potential employers who are [[retarded|well informed]] about programming languages.  [[Microsoft]] then went on to produce [[LOL WUT|J#]] (pronunciation: "G'zhey Sharp-or-hash-or-pound-sign-depending-on-if-you-are-a-limey-or-a-septic") which was also intended as a competitor to [[Shit|Java]], thereby rendering C# useless and irrelevant to everyone.
+
+==External==
+[http://anonym.to/https://groups.google.com/group/comp.lang.c/msg/e105e5d339edec01?pli=1 Typical C Beginner Question and Solution]
+
+==See Also==
+* [[C++]]
+
+{{Softwarez}}
+[[Category: Softwarez]]

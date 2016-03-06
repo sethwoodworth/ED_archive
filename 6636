@@ -1,0 +1,102 @@
+Project Reality Roleplay
+[[Image:PRRP.png|500px|LOL PR:RP.|left]]
+
+
+{{infobox Company|company_name=Project Reality Roleplay|company_logo=[[Image:PRRP.png|200px]]|company_type=Roleplay community|foundation=2007|location=[[Mexico]]|key_people=Mr187 (Jacob) FreshKilla - Mexicans|motto="Thanks for the free MySQL"|industry=SA:MP|products=Scamming Mexicans|homepage=[http://pr-rp.org PR:RP]}}
+
+== Project Reality Roleplay ==
+
+'''Project Reality Roleplay''' is a San Andreas Roleplay community, owned by idiots. The owners are Mr187 and FreshKilla, both idiotic coders, who are completely clueless about most of the stuff they do.
+
+== Script Leakage ==
+
+'''Project Reality Roleplay's''' script was leaked by [http://www.andreas-market.com/forums/index.php?action=profile;u=753 Carlton / CarltonTheGG]. The script was released missing files, and so-on, but later Carlton released those too. The download link is [http://forums.themavesite.com/index.php?topic=7138.0 Here.] The download includes PR:RP 9.5, and his version of 9.6 (Working MySQL).
+
+
+== Carlton ==
+
+[http://www.andreas-market.com/forums/index.php?action=profile;u=753 Carlton / CarltonTheGG] met Mr187 on the [http://www.andreas-market.com San Andreas Market] Mr187 was looking for a scripter who can add MySQL to the script. Mr187 and Carlton has their little chit chat, and a deal was a deal. After several weeks, Carlton was still a admin on the server. The administrators has problems with him because they claimed he had gotten admin for no reason.
+
+Later Carlton has finished the MySQL, and it tested and worked properly, '''not''' SQL injectable, and perfect query coding. After the test, the server stopped responding after 10 players for some reason. FreshKilla blamed it on Carlton. But Carlton didn't know, later Carlton requested the latest version of the script, but FreshKilla gave him a unnecessary insult, and Carlton requested to be paid, as he's unable to work with FreshKilla anymore. 
+
+Carlton was assigned to do the MySQL for PR:RP nothing else, but he did it for the community. '''Mr187 refused to pay Carlton even though he did his job!''' Carlton was repeatedly requesting a pay, but then Mr187 said:
+
+{{quote|Thanks for the free MySQL}}
+
+Then Carlton was blocked from MSN, Carlton was scammed, so he released PR:RP. 
+
+== Lies from PR:RP ==
+
+Mr187 claimed Carlton put a memory leak in the script with the MySQL, when '''MySQL can't have a memory leak!''' Therefore making PR:RP's owners look more stupid!
+
+
+== Server Crashing ==
+
+There's a problem in the 9.6 script, that FreshKilla made when creating the enumeration for the accounts. If you use s0biet, and edit the weaponid retrieval in s0biet, and hack the weapon, you can fuck up the arrays, and probably set yourself a administrator and fuck other user's account by giving weapons to others.
+
+== How to create PR:RP 9.6 without MySQL. ==
+
+'''1''' Download the Godfather. 
+
+----
+
+'''2''' Copy functions from it.
+----
+
+'''3''' Change the colors, spawn, and text
+----
+
+'''4''' Use high array sizes for no reasons (256 / 516 is fine)
+----
+
+'''5''' Start your server.
+
+
+== CHC ==
+
+Quote from CHC
+
+I became the scripter for pr-rp because i said i was going to make a converting script for them as he said "it was all he needed", then they revealed it wasn't all they needed so i said i'd take a shot at editing the script for them and after a few hours of them trying to not send me the script they eventually did and so they asked me to become a scripter for them
+
+
+in the end the script was created, worked fine on my test server(with 20+ people), but on the actual server it crapped out after 1, there was nothing channged except the database details so i explained it must be something else but he refused to allow me to investigate
+so that was where it ended, so then i just made misc fixes/features that needed to exist, but because i was often told to send my updates immidently i didn't have time to test things( for example paying your impound find charged id 0 with the price)
+
+so whenever crap like that would happen, rather then informing me of it they would flame me over /o and the forums calling me a dumbass and other rude things that weren't needed, eventually i got annoyed with this and quit
+
+also they would say i was doing things i was told not to do, even though i was specifically asked to do it and there just happend to have been a bug
+
+they continued to say shit about me, saying i threatened to release their crappy script(which i didn't threaten) so that annoyed me and i released it, 
+and went on and exploited money bugs and wiretransfered it all to them to annoy them.
+
+
+some other things:
+
+they said i sold their script, which i didn't i simply gave it away for free for anyone to have
+there was no agreement to pay me it was voluntary
+i wasn't kicked i quit(already stated)
+
+== FreshKilla must be a dumbass ==
+
+Only if he knew his script, oh wait, it was a PENLS edit, but features from LA:RP were stolen and put inside the script. He couldn't even code half of the shit on the [http://pastebin.com/4Hsdje5a PR:RP 9.6 List]
+
+== Mr187 on the '''Wall of Shame''' ==
+
+[http://www.andreas-market.com/forums/index.php?topic=1279.0 Wall of Shame Link]
+
+== U R SO GANGSTA! ==
+
+<center>
+''I Removed the pictures, that's a bit, "Low Blow"''</center>
+
+<center>Grr, I lost a picture of FreshKilla, but whatever.</center>
+
+== Lolumadd ==
+
+Another scripter Mr187 fucked over. Lolumadd, made the server's script MySQL but Mr187 threw it away. The MySQL worked, perfectly, but Mr187 "assumed" without even checking himself that the script had a security issue.  I don't know why Lolumadd is still on the server as a helper when Mr187 fucked him over.
+
+== PR:RP Information ==
+
+'''Server''': 109.73.163.11:7777 | '''Ventrilo''': 78.129.193.22:6260 | Bring your hacks :}
+
+{{gaming}}

@@ -1,0 +1,92 @@
+XChan Directory Dumper
+[[Image:Xchanddv3.jpg|thumb|right|Screenshot of the new style (v3) program]]
+
+The '''xChan Directory Dumper''' is a nifty piece of C++ witchcraft that makes it easy for you, [[Anonymous]], to dump (hence the name) an entire directory of your [[porn]] or other images into a thread on most [[7chan]]-style imageboards. The software runs on [[Windows]] and older versions required the [[Java]] runtime to function.
+
+'''EXPERT PROGRAMMERS''' will use curl on jewnix, and can run something like this:
+
+<code>
+<nowiki>
+#!/bin/sh
+</nowiki>
+
+if [ "$#" -ne "6" ]
+
+then
+
+	echo "Incorect syntx, $0 [directory] [board name(eg sci, b, h, s)] [thread no.] [username] [message] [wait time to post another image in seconds]"
+
+	exit 1
+
+fi
+
+for i in "$1"*jpg; do curl http://sys.4chan.org/$2/imgboard.php -F upfile="@$i" -F resto=$3 -F name="$4" -F com="$5" -F submit=Submit -F mode=regist -A "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.6) Gecko/20060728 Firefox/1.5.0.2"; echo "$i"; sleep $6; done
+</code>
+
+Run like so: <code>./massivedump.sh "directory location" b 202722548 "Username #tripcode" "Your message" 60</code>
+
+[[Image:Xchandirectorydumper.png|thumb|right|Screenshot of the old style (v1/2) program]]
+
+[[Image:Xchandirectorydumpercli.png|thumb|right|In v1/v2, this console log window appears once you start the dumping process (the Java class doing its work).]]
+
+[[Image:Gurodumping.jpg|thumb|right|xChan Directory Dumper is used for [[guro|good]] purposes only.]] 
+
+==v2a==
+
+A hack of the second official version has been recently released. The hack allows you to dump directories of images on other chans once more. 
+
+See bottom external links for working download.
+
+==v3==
+v3 was released November 2008 on /b/, almost a year and a half since the last official version, v2, was released. Included were new features such as
+*New advanced "file-by-file" posting method (along with the original method from v1/v2), with the ability to enable and disable the upload of a file on the fly (note the checkboxes).
+*No more Java files
+*Some type of C++-based scripting language. That may allow '''EXPERT PROGRAMMERS''' to expand the functionality of the program, or create their own programs based off the [[XD|XDD]] library.
+
+==v3.1==
+Released September 2009 with some minor (but notable) fixes:
+*Alphabetical file ordering fixed
+*Improved Cancel button & new Pause button
+
+==Faggotry==
+The original version of the software had a built-in 30 image limit. This limit was (from a technical standpoint) completely uneccesary and it was suspected that it was built in [[for the lulz]] to piss off [[Anonymous]] when he tried to post something of epic proportions. However, a [[h4x|h4x3d]] version of v1 was published by 7chan's [[Programmer|/pro/]] board. 
+
+The original programmer denies these allegations, saying that he wanted to prove to [[Moderator|mods]] that the program was "not for spamming" and he wanted to make sure that xChan Directory Dumper wouldn't be permabanned by them. The limit was removed in the official version for v2.
+
+However, upon the removal of the limit, the program became so popular that people began using it for unscrupulous purposes. In response, [[4chan]] decided to silently block the program. The original programmer, faced with the loss of his biggest customer base and unable negotiate a compromise with the 4chan mods (the OP prefered not to circumvent the 4chan limit), decided not to continue work on the program. However, a recent screenshot surfaced on /b/ claiming to be of v3, implying that the OP has decided to get back to work and finish what he started (see more above).
+
+XChanDD appears unable to upload images over about 2mb, even to boards (such as /hr/) which have a much higher image limit.
+
+==Malware Faggotry==
+The download links are sometimes edited by [[Fags|1337 H4x0rs]] and lead to [[Keylogging|malware infested]] XChan dumpers. 
+Check the downloaded file, if you got the real McCoy with the following hashes:
+
+
+MD5: 	6fcfa3cccd44a330262701abeb63decd
+
+SHA1: 	787fbbee6bc8bdda1be119d1cf153f33734e7a60
+
+These are for the current xChan Directory Dumper v3.1
+
+
+==See Also==
+*[[Bwatch]]
+*[[rape.sh]]
+*[[Mi-Chan]]
+*[[4cGet|Chanmongler]]
+*[[4olderDump]]
+*[[AuroraFurries#Useful_Programs_that_Came_Out_of_this_Group|The dumper that beats this one at the bottom]]
+
+==External Links==
+*[http://www.mediafire.com/?nq72cuyulz4y2l8 xChan Directory Dumper v3.1] 
+
+'''OLD links'''
+*[http://www.mediafire.com/?m1oyd2m2zzg xChan Directory Dumper v3 (revision 3)]
+*[http://www.mediafire.com/file/vjtgdfzym4m/xchanddv2a.rar version 2 h4x3d xChan Directory Dumper, xChanv2a]
+*[http://www.mediafire.com/?0zumzymjzoj Original Unh4x3d 30-image limit version] 
+*[http://www.mediafire.com/?gnt3j5mm411 H4x3d no-limit version (v1)]
+
+
+[[Category: Softwarez]] 
+[[Category:Chans]]
+{{lowercase}}

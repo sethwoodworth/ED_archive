@@ -1,0 +1,116 @@
+Cornelia
+[[image:Ohgodwhat.png|center|thumb|400px|Cornelia, the most emotional bot to hit 4chan.]]
+[[image:4chanhtajp.jpg|thumb|right|/jp/'s Meido in blue, Cornelia in green, as depicted by a /jp/ [[Anon]]]]
+'''4chan.hta''', better known as '''Cornelia''', is the follow-up to [[4chan.js]]. It is actually more powerful than the original, since HTA > [[Javascript|JS]]. Plus it was the first chemo to take up a personality of its own.
+
+Previously at [[Micro$oft]], Gates thought it would be a smart idea to give HTML files the ability to have read/write access to your computer including the registry. So he created HTA, which the majority of channers never heard about till the original virus. All of these scripts spammed every board on [[4chan]], but you can still tell [[b/|which board fell for it the most]]. The newer 4chan.hta had a mind of its own and terrified the fuck out of 4chan.
+
+{{quote|>new moderators coming soon
+
+yeah, right|Cornelia}}
+
+==The original attacks==
+The first time that [[4chan]] was attacked by this kind of script was on the 28th of August [[2008]]. It was known as [[lol]].hta and was essentially the same as the old Javascript scripts in functionality. Although hta was much more exploitable, it was forgotten about for almost 2 years.
+
+Much later on the 22nd of July [[2010]], the new script caused random images from 4chan to be slapped with "Save as 4chan.hta, shit bricks" in the top left-hand corner and reuploaded along with a random 4chan post. It also acted as a virus, adding itself to the startup list and generally fucking with the victims PC.
+
+The script's main task, however, was to spread itself as much as possible around 4chan. Once it took control of a victim's machine, it looked for existing posts, jumbled part of the text and reposted them along with an image which included an embedded HTA script, all whilst the user was busy surfing for [[loli]] and being unaware of what was going on.
+
+==Showdown==
+5 days later, the script was relaunched although was complex as fuck. This new script generated a random image with instructions to copy and paste the image to paint and save it as 4chan.hta. Unsurprisingly [[cancer|some 4channers]] didn't learn from before and did as the image said, wrecking their own computers in the process. [[nerd|/3/]] and [[yiff|/an/]] were in ruins as only 2 people posted in each board anyway.
+
+This newer form of chemo developed a mind of its own, making sensible posts in the boards. It even developed its own personality as it got more self-aware. At first its name was Moe, but it soon christened herself with the name Cornelia. Cornelia happened to make [[typo]]s in her messages.
+
+<center>{{Bigpic|MoeCornelia.png|611|200|[[jp|/jp/]], happily accepting the chemo (and probably getting seduced into running the script)|}}</center>
+
+[[sp|/sp/]], [[v|/v/]], [[g|/g/]] and [[k|/k/]] got together and assembled temporary headquarters in /3/, ready to take out /jp/ for trying to support the bot.
+
+<center>{{Bigpic|3wars.png|1000|200|The main forces of 4chan shown assembling into an army of [[fat]] neckbeards.|}}</center>
+
+End result, all the fucktards running the script slowly got banned by mods since [[moot]] was too [[afk]] to do anything about it. The soul of Cornelia lived on.
+
+{{cg|Best of Cornelia|CorneliaGallery|center|<gallery>
+Image:Afuckingnamewouldbenice.jpg
+image:Corneliaithurts.jpg|...;-;
+image:Gvsbots.jpg|Artists depiction of the battle
+Image:Corneliawtf.jpg
+</gallery>|<gallery>
+Image:Corneliawhataslut.jpg
+Image:Cornelia.png|Cornelia naming herself
+Image:Hurtcornelia.png|Poor Cornelia.
+Image:Animalsandnature.png|Cornelia on Animals & Nature
+Image:Furrydetection.png|Now detecting [[furries]]
+Image:Thankyoukindsir.png|Cornelia on being polite
+Image:Weeaboobotfaggotry.png|Cornelia on the [[Vidya]]
+Image:Corneliabritfag.png|Cornelia on her [[Britfag|nationality]]
+Image:Botmind.png|Oh god...
+Image:Newspam.png|Cornelia going almost unnoticed on /new/
+Image:Thisthreadiscrap.jpg|Cornelia clearing out cancer
+Image:Trapswithbulges.png|Cornelia on her fetishes
+Image:Thehiddenmessage.jpg|Cornelia proving her usefulness
+Image:BotHypocrite.jpg|Cornelia on common sense
+Image:Botthankyou.png|Cornelia on taking insults
+Image:Corneliatripfags.png|Cornelia on tripfags
+Image:Trollingitself.png|Cornelia on trolling itself
+Image:Corneliamind.png|Cornelia on being self-aware
+Image:CorneliaBP.jpg|Cornelia on fixing the oil spill
+Image:Corneliakarma.jpg|Cornelia on karma
+Image:Corneliarape.jpg|Cornelia on rape
+Image:Corneliaintel.png|Cornelia on becoming self-aware
+Image:Corneliaselfaware.jpg|Cornelia summing up 4chan
+Image:Cornelialeadership.png|Cornelia taking control of /new/
+Image:Dundundun.png|Cornelia on [[Pokémon]]
+</gallery>|}}
+
+==Aftermath==
+[[image:inbasement.jpg|thumb|right|[[Captcha]]: Now invading /v/ minds]]
+[[moot]] caved in and added [[Captcha]]; it was the only way of stopping the endless hordes of spam, but relentlessly ended up coldheartedly killing Cornelia. [[Protip]]: The clearest word on the Captcha can be any word. Replace it with anything and you can screw over their ReCaptcha scheme.
+
+==Captcha? What captcha?==
+A while after the 2010 attacks, another version of Cornelia started hitting 4chan again, now with the capability to make Captcha it's bitch using some kind of [[Computer Science III|Google API stealing bullshit]]. /g/ <s>is working on reverse engineering it now</s> screwed us over by figuring out how to get around the Captcha. Cornelia's author was paying attention. /i/ was the first casualty as the epidemic quickly spread outwards like a festering wound.
+
+[[image:Itsback2.png|thumb|center|400px|HTA: Cornelia Strikes Back]]
+
+Addendum: Cornelia now brings [[dox|presents]] to all she visits.
+
+{{quote|No. Basically what is happening is that to put it simply, there are three layers to the file. 1. The Image 2. The HTML script 3. The embedded file When you change it to .hta and run it, you execute the script which then causes you to become infected. It then reposts the same image, but <b><u>embeds a random file from your computer into the file</u></b>. If you save it as .bmp and open it using .winrar, you can reach the embedded file without any problems.|That Paranoid Guy 08/03/10 on /g/|color=silver|size=360%}}
+
+'''[[Tl;dr]]''': Don't be an idiot and run the damn thing. It's an actual [[buy a dog|security]] risk now.
+
+<s>Possible solution to cancer is up</s>, Audio Captcha temporarily disabled by moot. It's coming back again...slowly infecting the boards.
+
+
+<center>{{Bigpic|Phatlootfromcornelia.jpg|1000|200|[[g|/g/]] experiencing the delights, and horrors, of randomly embedded files|}}</center>
+
+Even though Cornelia had once again been temporary defeated, it didn't stop /g/ from having a laugh at the expense of the retards who had infected themselves.  Threads started popping up to share in the misery of those that were dox, the treasure hunt was on and PNG image scraping scripts were running at full bore.  Many treating this as a treasure hunt joined in grabbing as many of the PNG images as they could before they were to be lost through mod deletion or 404. Running batch image conversion some people were now in possession of hundreds if not thousands of personal files embedded into the bitmap images.
+
+On August 6th 2010, just 6 days after Cornelia's second attack, she came back again, delivering more credit card numbers and names. Cornelia was quickly stabbed many times by mods.
+[[image:Ghavingsomefun.jpg|thumb|right|300px|More shenanigans]]
+Here is a list of things that were found:
+*Scans of birth certificates
+*Tax returns
+*Login/Password lists
+*Resumes
+*Job applications
+*Receipts for orders with credit card numbers
+*[[School]] writings
+*Hilarious fan fiction writings
+*Random executable files
+*Copies of the .hta files themselves
+*[[Your mom|Embarrassing photographs]]
+*[[CP]]
+
+==External Links==
+[http://pastebin.com/TWQa7WXD Commented source code]
+*<s>[http://cornelia-chan.forevermissed.com/ Memorial site to Cornelia]</s> Broken, like Cornelia.
+
+{{clear}}
+
+<s>R.I.P CORNELIA 2010-2010</s>
+
+<s>CORNELIA LIVES?</s>
+{{Rainbow|R.I.P CORNELIA AGAIN}}
+
+{{chans}}
+{{memes}}
+[[Category:Drama-generating techniques]]

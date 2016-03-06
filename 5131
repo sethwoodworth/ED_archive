@@ -1,0 +1,127 @@
+Main Page
+<table style="width: 95%; margin-left: 5px; margin-bottom: 5px; background-color: #cedff2; border: 5px solid #0479C0; -moz-border-radius: 5px; -webkit-border-radius: 5px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width: 20%; padding: 10px;">[[Image:Light-blue-with-white.png|150px]]</td>
+<td style="width: 60%;">
+<div style="margin: 5px;">{{Main Page/titlebar}}</div>
+</td>
+<td style="width: 20%;">
+<div style="padding: 10px; text-align: center;">[[Image:{{threatlevel/current}}|150px|center]]<div style="font-size: 12pt; line-height: 20px;">'''[[Encyclopedia_Dramatica:Threat|<font color=black>Current Threat</font>]]'''</div></div>
+</td>
+</tr>
+</table>
+<table style="width: 95%; margin-left: 5px;background-color: #0479C0; -moz-border-radius: 5px; -webkit-border-radius: 5px;" border="0" cellpadding="0" cellspacing="0">
+<tr style="vertical-align: top;">
+<td style="width: 67%;">
+<div style="background-color: #439BD0; margin: 5px; padding: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">
+<div style="margin-bottom: 5px; padding-bottom: 10px; background-color: #cedff2; text-align: center; -moz-border-radius: 5px; -webkit-border-radius: 5px;">{{Encyclopedia Dramatica:Today's featured article/{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}}}<table style="background-color: white; width: 98%; margin-left: auto; margin-right: auto; margin-top: 5px; border: 1px solid black;" cellpadding="2" cellspacing="0"><tr><td style="width: 25%; font-size: large; font-weight: bold; text-align: center;" rowspan="2">What Have<br />I Missed?</td><td style="width: 25%;">[[{{:Main Page/fa1}}]]</td><td style="width: 25%;">[[{{:Main Page/fa2}}]]</td><td style="width: 25%;">[[{{:Main Page/fa3}}]]</td></tr><tr style="font-size: 8pt; font-weight: bold; text-align: center;"><td>2 Days Ago</td><td>4 Days Ago</td><td>6 Days Ago</td></tr></table></div>
+
+<div style="margin-bottom: 5px; background-color: #cedff2; text-align: center; -moz-border-radius: 5px; -webkit-border-radius: 5px;">{{:Main Page/fp}}</div>
+
+<div style="margin-bottom: 5px; background-color: #cedff2; text-align: left; padding: 10px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">[[Image:Main_Page_DYK.png‎|center|link=ED:MYK]]
+{{did you know}}
+<br style="clear: both;" />
+</div>
+
+<!-- Video of the Now -->
+<div style="background-color: #cedff2; text-align: center; margin-bottom: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">[[Image:Main_Page_VOTN2.png|center|link=ED:VOTN]]
+
+<span class="nodlyoutube">{{Encyclopedia Dramatica:Today's featured video/{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}}}</span>
+<div style="font-size: 8pt;">[[ED:Suggestions|Suggest a Featured Video]] &bull; [[ED:VOTN|View the VOTN Archives]]</div>
+</div>
+
+<!-- ED Blog -->
+<div style="background-color: #cedff2; text-align: center; -moz-border-radius: 5px; -webkit-border-radius: 5px;">[[Image:Main_Page_EDBL.png‎|center]]
+<div class="plainlinks" style="margin-left: 10px; margin-right: 10px; margin-top: 5px; padding-bottom: 10px; text-align: left;">{{:Main Page/blog}}</div>
+</div>
+
+</div>
+</td>
+<td style="width: 33%;">
+<div style="background-color: #439BD0; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; padding: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">
+
+<!-- Picture of the Now -->
+<div style="margin-bottom: 5px; background-color: #cedff2; text-align: center; padding-bottom: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">[[Image:Main_Page_POTN2.png‎|center|link=ED:POTN]]
+[[Image:{{Encyclopedia Dramatica:Today's featured picture/{{{date|{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}}}}}}|center|250px]]
+
+<div style="width: 90%; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 5px;">{{Encyclopedia Dramatica:Today's featured caption/{{{date|{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}}}}}}</div>
+
+<span style="font-size: 8pt;">[[ED:Suggestions|Suggest a Featured Picture]] &bull; [[ED:POTN|View the POTN Archives]]</span>
+</div>
+
+<!-- Quote of the Now -->
+<div style="margin-bottom: 5px; background-color: #cedff2; text-align: center; padding-bottom: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">[[Image:Main_Page_QOTN2.png‎|center|link=ED:QOTN]]
+
+<div style="width: 95%; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 5px;">{{Encyclopedia Dramatica:Today's featured quotation/{{{date|{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}}}}}}</div>
+
+<span style="font-size: 8pt;">[[ED:Suggestions|Suggest a Featured Quote]] &bull; [[ED:QOTN|View the QOTN Archives]]</span>
+</div>
+
+<!-- GNA/BNA -->
+<div style="margin-bottom: 5px; background-color: #cedff2; text-align: center;  padding-bottom: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">
+[[Image:Main_Page_GNA2.png|center|link=ED:GNA]]
+<div style="width: 250px; margin-left: auto; margin-right: auto; text-align: left;">{{:ED:GNA}}</div>
+[[Image:Main_Page_ATNH.png‎|center|link=Portal:BNA]]
+<div style="width: 250px; margin-left: auto; margin-right: auto; text-align: left;">{{:ED:BNA}}</div>
+<div style="margin: 5px; font-size: 8pt;">Visit the [[Portal:BNA|Bad New Articles Portal]] to help out!</div>
+</div>
+
+<!--idk news-->
+<div style="margin-bottom: 5px;background-color: #cedff2; text-align: center; padding-bottom: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">[[File:idknews.png|center|link=Easter_egg]]
+
+<div style="width: 250px; margin-left: auto; margin-right: auto; text-align: left;"><span class="nodlyoutube">{{:Main Page/GV}}</span></div>
+
+</div>
+
+<!--My BFF ED-->
+<div style="background-color: #cedff2; text-align: center; padding: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">[[Image:Main_Page_Social2.png‎|center]]
+
+<!-- Mailing List -->
+<div style="width: 250px; margin-left: auto; margin-right: auto;">
+<div style="float: left;">[[Image:Transparent email icon.png|20px]]</div><div class="layout plainlinks" style="float: left; margin-left: 5px; line-height: 20px; font-size: 14px;">[http://list.encyclopediadramatica.com/listinfo.cgi/users-encyclopediadramatica.com ED Users Mailing List]</div>
+<br style="clear: both;" />
+</div>
+
+<!-- IRC -->
+<div style="width: 250px; margin-left: auto; margin-right: auto;">
+<div style="float: left; margin-top: 5px;">[[Image:ED IRC.JPG|20px]]</div><div style="float: left; margin-left: 5px; line-height: 20px; font-size: 14px;">[[ED IRC|Official ED IRC]]</div>
+<br style="clear: both;" />
+</div>
+
+<!-- Blog -->
+<div style="width: 250px; margin-left: auto; margin-right: auto;">
+<div style="float: left;">[[Image:Transparent rss icon.png|20px]]</div><div class="layout plainlinks" style="float: left; margin-left: 5px; line-height: 20px; font-size: 14px;">[http://blog.encyclopediadramatica.com/ Official ED Blog]</div>
+<br style="clear: both;" />
+</div>
+
+<!-- Facebook -->
+<div style="width: 250px; margin-left: auto; margin-right: auto;">
+<div style="float: left;">[[Image:Transparent facebook icon.png|20px]]</div><div class="layout plainlinks" style="float: left; margin-left: 5px; line-height: 20px; font-size: 14px;">[http://www.facebook.com/pages/Encyclopedia-Dramatica/33612823503 Official ED Facebook]</div>
+<br style="clear: both;" />
+</div>
+
+<!-- MySpace -->
+<div style="width: 250px; margin-left: auto; margin-right: auto;">
+<div style="float: left;">[[Image:Transparent myspace icon.png|20px]]</div><div class="layout plainlinks" style="float: left; margin-left: 5px; line-height: 20px; font-size: 14px;">[http://myspace.com/encyclopediadramatica Official ED MySpace Page]</div>
+<br style="clear: both;" />
+</div>
+
+<!-- Twitter -->
+<div style="width: 250px; margin-left: auto; margin-right: auto;">
+<div style="float: left;">[[Image:Transparent twitter icon.png|20px]]</div><div class="layout plainlinks" style="float: left; margin-left: 5px; line-height: 20px; font-size: 14px;">[http://twitter.com/ED_Official Official ED Twitter Page]</div>
+<br style="clear: both;" />
+</div>
+
+<!-- Bebo -->
+<div style="width: 250px; margin-left: auto; margin-right: auto;">
+<div style="float: left;">[[Image:Transparent bebo icon.png|20px]]</div><div class="layout plainlinks" style="float: left; margin-left: 5px; line-height: 20px; font-size: 14px;">[http://bebo.com/edofficial Official ED Bebo Page]</div>
+<br style="clear: both;" />
+</div>
+</div>
+
+</div>
+</td>
+</tr>
+</table>
+
+[[Category:Site News]]

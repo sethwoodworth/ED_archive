@@ -1,0 +1,78 @@
+Darknet
+{{needsmoar|article}}
+[[image:darknetdiagram.png|320px|thumb|This is a diagram of the ''Internet''.  The Darknet is there, too, but you can't see it because it's ... <nowiki>[*duhh*]</nowiki> ... dark!]]
+
+'''Darknets''' are the back alleys of the [[internets]], moving data around with varying levels of security and speed. Kazaa is a good example of a fast darknet, while at the opposite end, Freenet is slow as balls but secure enough to have become the haven for all sufficiently paranoid whistleblowers publishing journals, thieves fencing stolen items, child pornographers trading collections, crackers in organized crimes dealing computer exploits, and terrorists instructing manuals.
+
+At its most basic level, a darknet is any network that the authorities are monitoring around the clock and around the world. Short of outright banning all darknet traffic and seizing all nodes of the network at the exact time in every countries, there is no way for any authorities to nail any single user for breaking any [[law]] in any country. Since most western democracies has safe harbor laws to protect network providers, a constant source of lulz is when [[police]] seize darknet nodes in criminal investigations only to return them without being able to charge anyone.
+
+The #darknet channel is also a famous source of lulz and drama on the EFnet [[IRC]] network. It is currently the primary place for [[skript kiddie]]s to trade [[0-day]] exploits.
+
+==Entropy==
+==Freenet==
+[[File:freenet-routing.jpg|400px|thumb|right|Freenet Routing]]
+Freenet is a decentralized, censorship-resistant distributed data store originally designed by Ian Clarke. Freenet aims to provide freedom of speech through a peer-to-peer network with strong protection of anonymity. Freenet works by pooling the contributed bandwidth and storage space of member computers to allow users to anonymously publish or retrieve various kinds of information. From a user's perspective, it can be thought of as simply a large storage device.
+
+tl;dr Anonymous, Encrypted, Distributed. 
+
+Official Site: http://freenetproject.org/
+
+
+===Freesites===
+Freesites are webpages on Freenet, great for posting Dox because it can't get removed, and there is little risk of getting v&
+
+*To Do: create an imageboard or wiki system for freesites
+
+===Message Systems===
+
+====Frost====
+[http://anonym.to/http://jtcfrost.sourceforge.net/ http://jtcfrost.sourceforge.net/]<br />
+Frost is a message board system for Freenet.  You can create private or public boards, upload/download files, and send encrypted messages.
+
+Boards:
+*/b/
+*anonymous - This is a private board, you will need the keys to access it
+
+How to run:
+either run the frost.bar or frost.sh (bat for windows, sh for *nix)
+or just run the jar via java:
+
+    java -jar frost.jar
+
+
+====FMS====
+FMS stands for "Freenet Messenger System".  It is basically Usenet, encryption, and anonymous routing combined. <br />
+
+*1) Download and install FMS from freenet.
+: <nowiki>http://localhost:8888/USK@0npnMrqZNKRCRoGojZV93UNHCMN-6UU3rRSAmP6jNLE,~BG-edFtdCC1cSH4O3BWdeIYa8Sw5DfyrSV-TKdO5ec,AQACAAE/fms/103/ </nowiki>
+
+*2) Get announced (this is done by solving ~30 captchas and waiting 24hours, also if you know someone on FMS you can get them to manually add your identity).
+
+*3) Subscribe to the board "anonymous".
+
+*4) Post shit.
+
+*5) ????
+
+*6) PROFIT
+
+===PROTIPS===
+
+*store in an encrypted filesystem (see [http://www.FreeOTFE.org/ FreeOTFE])
+*Use Special firefox profile that deletes all cache/history when closed and blocks all scripts ie runs [https://addons.mozilla.org/en-US/firefox/addon/722 noscript addon] (same as if you where using tor)
+
+==GNUnet==
+==I2P==
+Another Darknet that uses an Onion routing variant (Garlic routing). While Tor focuses on proxing to the public Internet, I2P's main focus is on allowing services that can hide inside of the I2P network (much like Tor hidden services, but a great deal faster). The most common type of service is the eepSite, basically a web server who's true Internet identity is hidden by the mixnet structure of I2P. I2P directory system is also distributed, to help avoid a single point of failure. I2P mostly consists of Crypto weenies, pedos and political dissidents, in that order. 
+==OFF System==
+The pirates created OFF specifically to rape the MIAA MPAA. OFF is fast compared to the rest, but it rape bandwidth by consuming three times the size of the data.
+==TOR==
+:''Developed by Navy, Tested by Anarchists, Approved by Pedobear'' -- TOR's Slogan
+The United States Navy created TOR to generate drama in [[Tibet]] for China. Much lulz was created in the brutal crackdown in Tibet. The anarchists at EFF then adapted it to promote free speech. Much lulz was created when music and movie pirates settled down on TOR. Eventually, Pedobear got hold of TOR. Much lulz was caused in Germany as authorities try to seize all TOR nodes to catch Pedobear.
+
+==[[Wikileaks]]==
+[http://gaddbiwdftapglkq.tor2web.com/ Wikileaks], a [[Sweden|Swedish]]-based news agency, can be found on TOR. If the [http://wikileaks.org/ main site] is being censored by your local government try the [http://gaddbiwdftapglkq.onion site on TOR]. They reported the URLs in Australia's Internet blacklist. The blacklist contains gambling sites, fascist sites, CP sites, a medical doctor's business site mistaken for CP site, a US-based anti-abortion site with pictures of dead fetuses mistaken for CP site, and even Encyclopedia Dramatica. Drama ensued as every Pedobear in the world tried to reach Wikileaks and download the Australian blacklist effectively DoSing the site.
+<br>
+{{stub}}
+
+[[Category:Internets Phenomena]]

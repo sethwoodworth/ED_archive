@@ -1,0 +1,88 @@
+Ruby on Rails
+{{Haxor}}
+'''Ruby''' is a programming language invented by a [[Japanese]] [[Mormon]] to make web design more difficult.  Many consider it to be similar to [[Perl]] since it is a scripting language.  Unlike Perl however, no one worthwhile cares and it's used primarily by language wonks and other posturing e-faggots.
+
+Ruby is also the preferred stone for expensive jewel encrusted [[butt plug]]s..
+
+Ruby is the language of choice for [[Web 2.0]] retards and bearded programming consultants like Martin Fowler, mainly because of [[Ruby on Rails]]. This is its own little community of faggots, full of superstars like David Heinemeier Hansson, some weirdo who only goes by the moniker Why the Lucky Stiff, and so on.
+
+== Ruby on Rails ==
+[[Image:Ruby.gif|left]]
+
+[[Image:Rails.jpg|right]]
+
+[[Image:Railsconf.jpg|thumb|300px|RailsConf attendees show their love for Ruby on Rails.]]
+
+[[Image:Akihabara Rail Mechanophilia.jpg|thumb|300px|Ruby LOVES teh rails.]]
+
+If you think Ruby was useless, wait until some swedge decided to build a framework with it. If you thought it was impossible to segfault just by viewing a page on a web server, well, RoR will definitely change your perspective.  This is definitely one of those times where we can say, even the [[fanboy]]s at [[neowin]] could do it better.
+
+RoR is Japanese for LOL.
+
+The architecture of RoR is MVC (Model-View-Controller)
+
+It is widely held as responsible for gaying up the [[internet]].
+
+'''Model''' is a bunch of shit which includes code which queries the database. '''Controller''' is how you interact through your model to retrieve the desired result from your model setting. '''View''' is a [[Feltcho|classic piece of shit]] of a template system. It'd be easier to just fucking use a regular SQL query and echo it, but no, RAILS MAKES IT EASIER: all you have to do is go out of your way to learn their conventions.  Then the project dies, you go broke, and [[suicide|kill yourself]].
+
+CODE IS POETRY, SEE FOR YOURSELF:
+<pre>  def show
+    @account = Account.find(params[:dongs])
+  end</pre>
+should look up a row in the "accounts" table by the amount of dongs they own.  [[You]] probably have [[1337]].
+
+== Performance and implementation issues ==
+
+Although there are multiple emerging Ruby implementations (raising the possibility of the fragmentation seen in Lisp and Scheme), the most popular by far is the original interpreter from Yukihiro Matsumoto, a.k.a. "Matz", which is known as Matz's Ruby Interpreter (MRI). MRI is a '''motherfucking pile of donkey shit'''. It's an abstract syntax-tree walking interpreter, similar to the kind of interpreters college students write as semester projects. Every other major high-level dynamic language (Perl, Python, Tcl, Lua, etc.) has '''some''' kind of virtual machine.
+
+Ruby, actually, is about 200 times slower than C. It is about an order of magnitude slower than Python or Perl. It is a fuckface piece of shit.
+
+So if your application needs to do '''anything''' performance-sensitive, guess what: you're fucked! Have fun coding in another language and creating an HTTP interface or else dropping down to motherfucking C, which is what 37Signals did when their piece of shit chat application '''Campfire''' was developed. Congratulations, you're creating a web application in a language built for '''dinosaur mainframes with 32 KB of fucking RAM'''.
+
+The woes do not end there. Ruby gets concurrency, Unicode, and pretty much every other major topic in language implementation amazingly fucking wrong. The Japanese core language team lets critical security patches rot on the vine for months at a time because they're too fucking stupid to learn [[English]].
+
+== Rails' implementation ==
+
+The Rails core team, a bunch of pouty faggots, mistake Ruby's ability to apply ''eval'' over strings for ''metaprogramming'', a notion normally reserved for a situation where one can programmatically manipulate source code as it is seen by the language itself: as an abstract syntax tree-like structure. The difference between manipulating strings and a rich data structure such as a tree or graph is tremendous. This is lost on the art-fag platoon.
+
+Rails' reckless abuse of ''eval'' causes (or at least caused in the past) immense memory usage, making Rails highly unfriendly to shared web hosting. Have fun adminning your own box on a VPS, whether you want to or not, you fucking cunt! You're riding the Railsssss!
+
+== Rails is a ghetto for pretentious retards ==
+
+All that remains to be said is adequately summed up by Zed Shaw in his epic [[troll]], [http://www.zedshaw.com/rants/rails_is_a_ghetto.html Rails is a ghetto]:
+
+<blockquote>
+After revitalizing myself, getting out of the Rails business (or trying), distancing myself from Mongrel, disconnecting from the Ruby community, and focusing on my business skills, I finally felt ready to figure out why the hell the Rails community is so completely and totally useless, stupid, and arrogant.
+
+I believe, if I could point at one thing it’s the following statement on 2007-01-20 to me by David H. creator of Rails:<br/>
+
+<pre>    (15:11:12) DHH: before fastthread we had _400 restarts/day
+    (15:11:22) DHH: now we have perhaps 10
+    (15:11:29) Zed S.: oh nice
+    (15:11:33) Zed S.: and that's still fastcgi right?
+</pre>
+
+Notice how it took me a few seconds to reply. This one single statement basically means that we all got duped. The main Rails application that DHH created required restarting _400 times/day. That’s a production application that can’t stay up for more than 4 minutes on average.
+</blockquote>
+
+That's right, for the first part of Rails' life, [http://redhanded.hobix.com/images/dhh-jams.jpg Faggot McFauxhawk] couldn't keep his useless piece of shit web application up for more than ''four fucking minutes''.
+
+== Conclusion ==
+
+Go fuck yourselves, you MacBook Pro-using, art film school glasses-wearing, indie rock-listening '''[[faggots]]'''.
+
+== People who use RoR ==
+* Ajt
+* [[Wattage]]
+That's all. No one else uses it.
+
+== See also ==
+
+*[[Willy on Wheels]]
+
+== External Links ==
+* [http://www.rubyonrails.org Ruby on Fails] - Official homepage, brought to you in [[PHP]].
+* [http://web.archive.org/web/20080103072111/http://www.zedshaw.com/rants/rails_is_a_ghetto.html Rails is a Ghetto], but don't tell that to [http://www.rubyinside.com/zed-shaw-goes-nuclear-on-our-community-683.html Ruby on Fails fans]
+
+{{Web 2.0}}
+[[Category: Softwarez]]

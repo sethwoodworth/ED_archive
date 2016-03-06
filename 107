@@ -1,0 +1,41 @@
+4scrape
+__NOTOC__
+'''4scrape''' was a website that collected, or "scraped", [[wallpaper]]s and other big-ass pictures from [[4chan]] and presented them in a searchable archive.  Created in June [[2008|'08]] and taken down on July 27 [[2009|'09]] because [[Wapanese|Hark]] was bored with it all. The creator was known as '''Taro''' (or '''[[Wapanese|Hark]]''', whatever).
+
+__TOC__
+
+===The Site===
+
+[[Image:4scrape error message.png|thumb|right|What 4scrape used to look like]]
+Simplistically designed with a dark gray background, a search bar, and a couple buttons, 4scrape allowed [[you]] to search through the many [[awesome]] wallpapers posted to 4chan.  So naturally, it contained roughly 80[[%]] [[hentai]] and other various sorts of [[porn]].  The other 20% was comprised of [[old memes]] and other overused [[image macros]], [[anime]], and [[video games]].  You used to be held at the mercy of the channers when searching for specific wallpapers.  Since 4scrape simply used to gather data from 4chan, your search would of had to coincide with the filenames given to the images when originally uploaded to 4chan or the text contained in the original post attached to it, leaving you to hope that the degenerate [[retard]]s who uploaded the pictures are organized enough to give the images proper filenames. Good luck with that.<i>OH THE IRONY!</i>
+
+Originally written in [[Python]], Taro decided he could write it in an even more useless language, so he rewrote the entire thing in Haskell, the world's leading uselessly functional toy language. On the off chance that the site was actually functional, you are treated to 4scrape's image layout, in which all of the wallpapers are laid out in rows of thumbnails on a single page.  While this makes navigation easy, it also means that the page loads slower than a [[Slowpoke|three-legged turtle]] due to dumb [[Web 2.0|AJAX]] shit.  So be prepared to scroll for half an hour, then wait another half hour for all of the images to load, only to find that the one wallpaper that isn't [[shit]] was actually taken from a desktop thread and comes complete with a taskbar, icons, and various desktop widgets, forcing you to go to 4chan and ask for [[sauce]] anyway.
+ 
+4scrape also used to have a comments section, which like its image pages, contains only one page to hold all [[9000]]+ comments, most of which were [[spam]] anyway.
+
+===Desudesudesu===
+[[Image:4scrape advanced search.png|thumb|right|The advanced search contained advanced features]]
+4scrape itself is not a separate domain, and is instead just a sub-site of the domain [[Desu|desudesudesu.org]], a chan-inspired chat club for comics and anime (as if 4chan wasn't enough for any nerd to quench his thirst to have a discussion over whether [[DBZ|Goku]] could beat [[Superman]] in a fight).  The chat site is not very [[popular]], though, and has an impressively pathetic [[No more than 99|84]] registered users.  Additionally, as you may have guessed, the site's creator is obviously involved in chan culture, and this is evident by the numerous [[meme]]s that are sprinkled about both the chat site (CAINE) and the wallpaper archive (4scrape).  The creator also appears to be a [[Rozen Maiden]]-fag with with a particular [[fetish]] for the character Suigintou, as it seems to be the name of the server 4scrape runs on. Seriously, you know you will be a [[virgin]] forever when you start naming your computers after dolls.
+
+{{quote|The obvious benefit is that it allows you to skip over the retardation, racism, sexism, abuse, degeneracy, neo-Nazism, and spam that populates those types of boards. All you want to see are the images, and that’s exactly what 4scrape gives you.|[http://quaedam.wordpress.com/2009/01/02/4scrapes-new-gimmick-is-visual-cocaine/ Lol fag]}}
+
+
+
+===External Links===
+*[https://suigintou.desudesudesu.org/4scrape/index <s>4scrape</s> 404]
+*[http://suigintou.desudesudesu.org/4scrape/about <s>All the boring technical shit about the site</s> 404]
+*[http://blog.desudesudesu.org/ Taro's blog where he ranted about even more boring overengineered technical shit, now filled with ramblings of burglars]
+*[http://desudesudesu.org/ CAINE UVa Comics and Anime Club]
+*[http://wallbase.net/ /wg/, /w/ and /hr/ scraper]
+*[http://4walled.org/ /wg/ and /w/ scraper (slower site)]
+*[http://fuguri.org /wg/ /w/ and another]
+*[http://nik.bot.nu/browse.fu another clone]
+*[http://pornodl.com/ <s>/s/ scraper</s>] dead : (
+*[http://cal.freeshell.org/2009/12/4chan-image-downloader/ Working python based clone]
+
+===Related===
+[[4chan_image_downloader]]
+
+
+[[Category:Sites]]
+[[Category:Chans]]

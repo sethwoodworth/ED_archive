@@ -1,0 +1,14 @@
+BitKeeper
+[[Image:Cryptkeeper.jpg|thumb|right|The interface for the BitKeeper software is unintuitive.]] 
+
+'''BitKeeper''', as a simple piece of software, is boring.  All it does is make exchanging code between developers much easier.  However, in this day and age, software is never merely software -- and BitKeeper, in particular, has become the focus of much politics especially in the [[FOSS]] world.
+
+Three years ago, BitMover, the company that develops BitKeeper, asked [[Linus Torvalds]] if he and his crew wanted to use their product for free.  Linus accepted, but not before upsetting the [[GPL]] zealots who helped hack the kernel.  Consequently, an attempt was tried at reverse engineering BitKeeper, with the intent that this alternate product would be GPLed.
+
+Then a plague of paranoia was unleashed.  On February 2, 2005, Larry McVoy, CEO of BitMover, started making encrypted threats on the Linux mailing list.  Everybody laughed at first, never expecting anything to happen.  Two weeks later, he visited the [[OSDL]] labs, and opened fire -- killing one secretary and two chemists.  He was arrested, but charges were dropped when it was discovered that he had a mandate to enforce his software licenses.
+
+Linus Torvalds, or course, blamed the GPL zealots -- stating that what they did was immoral.  [[Richard Stallman]] then published an article in which he spoke about the ethical strength of the GPL in the face of Larry McVoy's rampage.  And later, Torvalds developed Git, a half-assed attempt at doing what BitKeeper was once able to do.
+
+Consequently, the GPL now contains a martyr clause.
+
+[[category:softwarez]]

@@ -1,0 +1,107 @@
+LOIC
+{{FactAlert|This is serious shit and has been known to cause drama and IRL [[Banhammer|Ban Hammers]]. Actually using this might get you [[Partyvan|v&]]. The information on page is provided for entertainment purposes only.}}
+<br>
+[[Image:Low Orbit Ion Cannon.png|thumb|right|300px|The Low Orbit Ion Cannon.]]
+'''LOIC''' ('''Low Orbit Ion Cannon''') is an [[h4x|app]], written in C# and developed by [[CSIII|praetox]] that was exploited during [[Project Chanology]] to attack teh [[Scientology|$cifags]]'s many web sites.  It attempts to [[DoS]] the target site by bandwidth raeping, sending TCP, UDP, or HTTP requests to the site until its ass looks like [[goatse]]. It is also in the [[Dangerous Kitten]] tools pack.
+
+'''WARNING:''' this will cause srs [[nerd rage]] and make [[asspies]] have meltdowns, which will result in episodes of [[baw]]wing. [[divide by zero|Use at your own risk.]]
+
+===Instructions===
+[[Image:Ion_shoop.jpg|thumb|right|300px|LOIC in action.]]
+To use:
+*Get it from [http://sourceforge.net/projects/loic/ Sourceforge Faggots!]
+*[[Winrar|Unzip]]
+*Run (You need to logged in as admin)
+*In the "[[IP]]" box type in "127.0.0.1" (Yes, the TP3 self protocol)
+*Click the obnoxiously huge [[Laser|IMMA CHARGIN MAH LAZOR]] button.	
+*[[????]]
+*[[Profit!]]
+
+This works by having many people spamming at the server at once. The more people who run LOIC the bigger the damage will be.<br> 
+<b>Protip:</b> If LOIC gets stuck and doesn't send anymore requests in HTTP/TCP mode, restart flood. Also, higher number of threads means bigger kick but at the expense of your CPU/bandwidth.
+
+=====Protip for Microshaft XP and Vista users=====
+If you have Windows XP with SP 2 or higher or Vista you can't run LOIC right away as Microshaft's lameass restrictions won't let it really work. To break past the restrictions, you can do one of two things (moar info in Other Links section):
+# get Windows TCP/IP patch and run it first
+# Get Ubuntu Linux and Dual Boot like a badass motherfucker!
+
+Protip: Use JS LOIC, see below, runs on all systems.
+
+====Windows 7 users====
+
+After you've applied the TCP-Z patch, run the original LOIC (WIN), packaged with [[Dangerous Kitten]]. If you use IRCLOIC you are moar than likely gonna surprise rape your Internet Hate Machine's capability to browse HTTP websites with your browser. Only other applications that require the internet will work, unless you reset your router or modem, which is a constant pain in the arse. 
+
+== Epic Fail Cannon, Gay Pride Cannon and /War/rior's Battle Cannon ==
+[[It's a trap]]. Only use either the original LOIC or IRC-LOIC. Delete EFC, GPC or WBC if you already have them, then run a scan. For more information check out this newpost: http://www.anonnewswire.org/entry/2009/07/31/efc-has-a-backdoor/
+[[File:Ion Cannon Strike 1995.jpg|thumb|right|200px|The result of your handiwork]]
+
+== Info pl0x ==
+The original LOIC requires [[Windows]] and the [[Microsoft|.NET]] Framework to run it.
+
+A New Java-based LOIC is also available on Sourceforge that will run all all systems including [[Linux]] and [[Mac]] without needing faggy [[Microsoft|Microshaft's]] .NET framework!
+
+This is a group-effort sort of program. One person running LOIC alone will not do much, but when multiple people run it at the same time the damage builds up fast. Help the cause: run LOIC today!
+
+==Strategies==
+
+{{Quote|If you want to get an idea of how slow a website is, fire at it with HTTP mode. If some connect, then it's still not bad - [[noone]]'s gonna get anything out of the website|Praetox on IRC}}
+
+{{Quote|I think TCP is the best method, then HTTP comes second|Praetox on IRC}}
+[[File:IRC-LOIC_manual.png|thumb|right|120px|Example of proper usage.]]
+
+==IRC-LOIC==
+Newfag and NewEraCracker updated LOIC for the [[Operation Payback]] to fix bugs and stuff.
+
+This version has a [[hivemind]] feature which allows you to let someone else control the program to fire the lazor and choose targets via [[IRC]].
+
+This updated version works on [[Windows XP]] or later, and requires Microsoft .NET Framework 3.5 Service Pack 1. It also works on Linux with Mono or Wine with .NET Framework 2.0.
+
+You can also start as hidden.
+
+'''READ THE README.TXT WHICH IS INCLUDED''', newfags.
+
+==Java LOIC==
+
+Works the same as normal LOIC, just doesn't require the .NET framework to run. 
+
+ [[Image:Using_JavaLoic_with_embedded_file.png|left|thumb| Open this file with 7-Zip for Java LOIC]]
+
+Also contains a [[hivemind]] feature that is controlled via a [[Twitter]] account of your choosing.
+
+==LOIQ==
+[[File:Loiq-weeaboo.png|thumb|left|120px|Loiq can be adjusted to fit the needs of handicapped, e.g. of a [[weaboo]].]]
+LOIQ is a clone of LOIC written in C++/Qt4 for the [[Linux]] users' own perverted pleasure, although it should probably compile and run on other systems including [[Windows|the most obscure ones]]. Can be found [http://sourceforge.net/projects/loiq/ here on sourceforge].
+
+==JS LOIC==
+One most recent variant of LOIC is a new proof of concept that is floating around called JS LOIC. The “JS” in the title stands for JavaScript. JS LOIC is web based it can be run without needing to download or install anything. JS LOIC is more secure rather than requiring a user download program to run, someone can just visit a web page with a single HTML file and press a button to carry out their part of an attack.
+
+==Sauce==
+
+Get the motherfucking sauce from [http://sourceforge.net/projects/loic/files/ sourceforge], that's what it's there for. Sauce for the new IRC-LOIC is included in the download packages on [http://github.com/NewEraCracker/LOIC/downloads Github].
+
+==Newfags FAQs==
+
+'''How do I use a proxy with LOIC?'''
+*You don't. If you do you will simply be DDoSing the proxy instead. Think of it as trying to shoot a RPG at your neighbor's house behind your own fence. You will just end up destroying your own fence.
+
+'''What if I get caught and [[V&]]d?'''
+*DDoS'ing used to be safe. You used to be able to excuse yourself by saying ''"My computer was incorporated into a botnet, [[And then John was a zombie|and then my computer was a zombie]],"'' but now the veil afforded by anonymity and working in groups is no more, and you can blame the overreaction to Operation Payback for it. As ''The Register'' puts it: ''[http://www.theregister.co.uk/2011/01/27/anon_hacking_suspects_uk_arrest/ "The LOIC does a poor job of preserving users' anonymity, hence the risk for anyone using it that they may come to the attention of local law enforcement agencies."]'' Please take this time to pray for your imprisoned brothers-in-arms.
+
+==See Also==
+* [[Denial of Service]] - Similar tools on this page.
+* [[Dangerous kitten]] - You can find it in this package.
+* [[Windows_XP_Performance#TCP.2FIP|Windows TCP/IP Patch]] - Remove the connection restriction on Windows XP SP2 and above.
+
+==External Links==
+* [http://www.ubuntu.com/ FREE Ubuntu Linux] and [http://support.microsoft.com/kb/306559 How to Dual Boot]. 
+
+==Download==
+
+* [http://sourceforge.net/projects/loic/ Original LOIC]
+* <s>[http://sourceforge.net/projects/javaloic/ Java LOIC]</s> <s>BALEETED</s> [http://www.mediafire.com/?9rfblvej3ycd8dt Oh hey, lookit that, new mirror]
+* [http://github.com/NewEraCracker/LOIC/downloads IRC-LOIC]
+* [http://www.megaupload.com/?d=87WPZMUN LOIC for Android]
+
+{{trolls}}
+<br>
+[[Category:Softwarez]]

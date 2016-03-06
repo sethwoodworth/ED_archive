@@ -1,0 +1,121 @@
+QuoteBucket.org
+{{chatlogs}}
+
+
+[[Image:Qbblueprint.jpg|thumb|Quotebucket Blueprint]]
+
+== Introduction ==
+[http://quotebucket.org/ QuoteBucket], --''Also known as "QB"''-- is an online user-driven database which contains extracts of logs from [[IRC]] channels
+and other forms of online messaging (including [[AIM]], Windows Live Messenger, [[ICQ]], [[MySpace|MySpaceIM]] and [[Yahoo|Yahoo! Messenger]]) so they can be viewed,
+searched and rated by the public. It is similar to the famous [[Bash.org]].
+
+Quotes that are often submitted are kept in a "queue" where they can be reviewed by moderators/or administrators where they will be accepted or denied
+within 24 hours.
+
+== History ==
+QB launched in the month of September, 2008 (Exact day unknown) using the subdomain "quotebucket.info.tm" made available from FreeDNS,
+and then in May 2009, quotebucket.org was registered. In its lifespan it has had 3 different designs, a "brown" ugly one,
+quotebucket-1.0[http://quotebucket.org/themes/preview/quotebucket-1.0/], and finally the current one (including a "Bash" view).
+
+With quote databases such as [[Bash.org]], it was obvious quotes weren't being reviewed fast enough. with over 7000 pending quotes causing a major backlog and clogging up the quote queue, this could never really be fixed unless someone reviewed a massive load of quotes in their spare time. Thus the EScriptIRC[http://escriptirc.com/] network decided to launch QB; reviewing quotes within 24 hours of their submissions (as well as accepting mostly everything in the queue, denying only spam).
+
+== Software ==
+The website uses 100% Open Source software, and is currently running Ubuntu 8.04.1 (Linux) [http://quotebucket.org/system/index.php?disp=dynamic],
+Apache2, MySQL, and PHP5 (backend). It also uses QdbS[http://qdbs.org/] as the frontend with a few modifications.
+
+== Design ==
+[[Image:Quotebucketorg.png|thumb|Quotebucket web interface]]
+The QB design is unique which is a gray style/duct tape method.
+There is also Bashview[http://quotebucket.org] where you can have the joy of bash.org and fast reviews all in one.
+They were asked: "What's the story behind the design?", Reply:
+:Long story short, Eck decided it would be good to have a "duct-tape" design,,
+:It symbolizes "Shut the fuck up and read".
+:It's not a common design and it makes us stand out a little. It's something that makes us unique.
+
+== Example quotes ==
+
+Quote 1068: [http://quotebucket.org/1068]
+ <peer> how do you mix C with jew?
+ <peer> lal
+ <@Xires> c nazi, c jew run, run jew run
+
+Quote 1065: [http://quotebucket.org/1065]
+ <~connection> raged: You better keep your jew on a leesh or I'll fucking throw him in my oven next to the pizza.
+
+Quote 869: [http://quotebucket.org/1065]
+ <+JNSamuel> i bet novells tutorials are proprietary too
+ <+JNSamuel> :O
+ <+Azzkikr> novell's stuff is so proprietary, even the developers may not look into their own source code
+
+Quote 160: [http://quotebucket.org/160]
+ <+Amzo> Aids are cool
+ <+Amzo> Facebook offers them free
+ <+Amzo> "click here for more aids."
+ <+Amzo> Oh wait...
+ <+Amzo> It's ads
+ <+Amzo> :(
+
+== External links ==
+<div style="-moz-column-count:3; column-count:3;">
+* [http://quotebucket.org/ QB: Main site]
+* [http://quotebucket.org/faq QB: FAQ]
+* [http://quotebucket.org/latest QB: Latest]
+* [http://quotebucket.org/browse QB: Browse]
+* [http://quotebucket.org/search QB: Search]
+* [https://addons.mozilla.org/en-US/firefox/addon/11989 Firefox OpenSearch for Quotebucket]
+* [http://escriptirc.com/ EScriptIRC]
+</div>
+
+== Invented memes ==
+
+The thriller curse: http://blog.quotebucket.org/2009/06/26/the-thriller-curse/
+
+== Interview ==
+This is an interview from IRCReport.
+
+ <strong>Q. What in your words, is the best way to describe QuoteBucket?</strong>
+ QuoteBucket enables you to browse through a collection of user submitted quotes from IRC and other IM
+ services around the Internet, Similar to that of [http://bash.org/ bash.org] and [http://qdb.us/ qdb.us].
+
+ <strong>Q. Is QuoteBucket new? And why and when did it start?</strong>
+ We're fairly new, we started in September 2008, However, we used a sub domain from FreeDNS. This was
+ quotebucket.info.tm, which is still active. In May 2009, quotebucket.org was registered. We started
+ QuoteBucket because (no disrespect intended) one of the oldest Quote databases, Bash, was getting
+ clogged, spammed, and well. ruined. We also aimed for a "sleeker" design which would bring us out of
+ our shell even more.
+
+ <strong>Q. What, in your 100% honesty, makes QuoteBucket stand out?</strong> 
+ In all honesty, I'm hoping it's because of our unique design, fast reviews on all submitted quotes,
+ and respect for all of our users. There is unlimited support available and we're never short of management
+ to control the reviews.
+
+ <strong>Q. Don't you think the design is a bit too much?</strong>
+ Not at all, It's been verified as a Web 2.0 website, and it still doesn't need alot of bandwidth for the user
+ browsing it. Because the only image it has is in the header, And even that is under 5.0 kilo bytes.
+ There are no tables what-so-ever thus it works on all browsers we've tested it on. (Internet Explorer,
+ Mozilla Firefox, Opera, Google Chrome [...], and even terminal based browsers such as Lynx). The design
+ was started from scratch and thought through carefully, There are [http://www.flickr.com/photos/eckstasy/3729145035/ "blueprints"] to prove it.
+
+ <strong>Q. Has QuoteBucket grown?</strong>
+ I would think so, Our Google rank is 3 and our Alexa rank is 1,843,799 (As of 2/Aug/2009)
+
+ <strong>Q. There is a lot of social networking involved, Why?</strong>
+ Well, That is the whole point in it. It's a quote database, not just for IRC but for other IM services too.
+ But, I suppose there is Digg, AddThis and Twitter involved. On quotes you'll notice two small links
+ next to the ratings. (QDigg and QShare). Clicking on QDigg submits the quote to Digg, and clicking
+ on QShare opens up the [http://addthis.com/ AddThis] box, where you can browse through a list of other social bookmarking sites
+ and submit the quote to.. We have two Twitter accounts. [http://twitter.com/QuoteBucket QuoteBucket] and [http://twitter.com/qbRSS qbRSS],
+ The QuoteBucket account is used for updates etc, and the qbRSS is an automatic account used for the RSS feed
+ for latest quotes...
+ <strong>Us</strong>: <em>Wow steady on, this is turning out to be an essay.</em>
+
+ <strong>Q. We're almost at the end, Is there anything else you would like to say?</strong>
+ Yes, Firstly. I would like to thank you for asking me to do an Interview, I would also like to thank QB's users
+ for keeping it stable and running, I would like to thank all of our Twitter followers, and I would also like
+ to thank Jobe for keeping the development of QdbS running smoothly..
+
+ Remember, if you have any comments, questions or suggestions. just email us (find our email on the site)
+ or follow us on Twitter.
+
+{{ircseries}}
+[[category:sites]]

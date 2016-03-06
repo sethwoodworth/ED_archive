@@ -1,0 +1,22 @@
+Drunken boxer
+'''Drunken Boxer''' is a painless [[BPL]]-licensed encryption solution for [[LiveJournal]].
+
+Allows all HTML tags (even Flash embeds and javascript), all Unicode characters, and anything else your freakishly hypertrophied heart might desire to be encrypted. Even if you don't need encryption you may want to use this just so you can put a shockwave game inside an LJ entry.
+
+After encryption occurs, the user can add things like line breaks and images to the ciphertext to no ill effect. It will only serve as a façade for the true entry.
+
+As an added security measure, all encrypted links are routed through a redirect script to mask the referrer, allowing you to coördinate [[LJ pizza party|pizza-party]] style attacks without LJAbuse knowing from where people are being told the target to attack.
+
+As far as I've tested, your browser shouldn't need support for East Asian languages for this to work correctly. I'd recommend installing Chinese support anyway just for cosmetic effect.
+
+== Instructions for installation ==
+# Install the Greasemonkey extension  for [[Firefox]] by [http://ftp.mozilla.org/pub/mozilla.org/extensions/greasemonkey/greasemonkey-0.6.4-fx.xpi clicking on this link]. This is something you should have anyway, so you can bask in the glory of the thousands of Greasemonkey scripts on [http://userscripts.org Userscripts.org]. An [[IE]] version of Drunkenboxer may be in the works, but no guarantees.
+# Restart Firefox to activate Greasemonkey, then [http://drunkenboxer.taizong.org/drunkenboxerencryption.user.js right click here] and select "Install User Script...". If you don't trust it, you can left click on it and view the source code for your damn self.
+# When you first install the script it will, as soon as you access a journal entry or an "Update journal" form, prompt you to define your passphrase. This is an agreed-upon key used within your group/guerilla junta/knitting circle, so that if this script falls into the enemy's hands it'll still be useless. The passphrase can be changed by clicking "Tools -> User Script Commands -> Change Drunken Boxer passphrase" from the Firefox menubar.
+# The encrypt/decrypt buttons will pop up automatically by detecting [[LJ]] entries and LJ update forms, and it even knows not to add a Decrypt button if the entry isn't encrypted. If you don't want the buttons to pop up temporarily, you can click the monkey icon in the corner to deactivate scripts.
+# Anything you type outside the font tag it generates will be retained in the decrypted version. Anything you put inside, as mentioned before, will be stripped out to no ill effect.
+
+== External Links ==
+[http://userscripts.org/scripts/show/4936 Official download area for Drunken Boxer]
+
+[[Category:Softwarez]]

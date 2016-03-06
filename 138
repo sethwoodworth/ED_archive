@@ -1,0 +1,25 @@
+ADA
+{{programming}}
+
+
+Ada is a structured, [[tl;dr|statically typed]], imperative, and [[Magic|object-oriented high-level]] computer programming language, extended from Pascal and other languages. Since it's only used to advance the causes and defend the rights of the [[retard|disabled]], you'll never need to learn it. [[Stupid|Not that you would anyway]]. 
+
+[[shit no one cares about|It was originally designed by a team led by Jean Ichbiah of CII Honeywell Bull under contract to the United States through the Americans for Disabilities Act (ADA) from 1977 to 1983 to supersede the hundreds of programming languages then used to catalogue how many ways people can be cripples and retards.]]
+
+Ada is [[tl;dr|strongly typed]] and compilers are validated for reliability in mission-critical applications, such as [[Hoveround|those motorized wheelchairs you see old people riding on]]. Ada is an international standard; the current version (known as Ada 2005) is defined by joint ISO/ANSI standard (ISO-8652:1995), combined with major Amendment ISO/IEC 8652:1995/Amd 1:2007.
+
+
+
+
+== Hello World in ADA! ==
+
+
+ with Ada.Text_IO;
+ procedure Hello is
+ begin
+  Ada.Text_IO.Put_Line("Hello, world!");
+ end Hello;
+
+{{stub}}
+{{Softwarez}}
+[[Category:Softwarez]]

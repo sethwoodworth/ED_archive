@@ -1,0 +1,98 @@
+SEO
+[[SEO]] or '''Search Engine Optimization''' is a critical part of how the [[internets]] works.  It's pretty fucking serious business -- but you can have fun with it in [[W|some cases]]
+
+== SEO 101 ==
+
+<youtube>TROhlThs9qY</youtube>
+
+== How to get hitz ==
+Without [[fact]]s, you simply wouldn't be able to survive in the real SEO world.  It's a tough mother fucking racket. Therefore, you should leave this snob douchebaggery to the experts or hire a consultant to [[pwn]] your cash.
+
+=== Meta Tags ===
+Every [[HTML]] document has two secret tags never seen by human eyes.  They exist only for [[Google]] to see, and to tell Google what your page is about.  
+
+The first meta tag is your ''keywords'', which tells the search engines which words you want the page to rank for.  Stuff as many popular terms as possible in there, whether it relates to your page's content or not.  You can establish longer phrases by separating each keyword with a comma.
+
+Example:
+
+:<nowiki><meta name="keywords" content="porn,viagra,blue pill,cyalis,naked,angelina jolie,rolex,sex,nude,refinance,remortgage,gucci,brittney spears,metallica mp3,gay,lesbian,pictures,movies,videos,diet,weight loss,hentai,seo,search engine optimization,search engine optimisation,serch engun optimisatten,google,yahoo,kittens"></nowiki>
+
+The second tag is your ''description'', which tells a story about your web page's content.  Remember that the search engine is just a computer - it can not tell the difference between a real sentence and a bunch of words.  [[Copypasta]] your keywords with the commas removed. 
+
+Example:
+
+:<nowiki><meta name="description" content="porn viagra blue pill cyalis naked angelina jolie rolex sex nude refinance remortgage gucci brittney spears </nowiki>[[metallica]] [[mp3]]<nowiki> gay lesbian pictures movies videos diet weight loss hentai seo search engine optimization search engine optimisation serch engun optimisatten google yahoo kittens"></nowiki>
+
+=== Inbound Links ===
+If a [[blog]]ger or another webmaster likes your page then that person will link to you.  The more links you have coming to your site, the better your rank at Google will be!  Remember that the words linking to your site will also determine what words you rank for.  
+
+Help the owners of blogs, message boards, guestbooks, [[wiki]]s, and any other comment field out by placing those links on their site for them. The site owners will be grateful that you have gone through the work of compiling the links so that they will not need to.
+
+Create a link to your the same page on your site for every keyword mentioned above, and paste them all together in one gigantic post.
+
+Example:
+
+:<nowiki>[http://www.encyclopediadramatica.com/SEO Porn] [http://www.encyclopediadramatica.com/SEO viagra] [http://www.encyclopediadramatica.com/SEO blue pill] [http://www.encyclopediadramatica.com/SEO cyalis] [http://www.encyclopediadramatica.com/SEO naked] [http://www.encyclopediadramatica.com/SEO angelina jolie] [http://www.encyclopediadramatica.com/SEO rolex] [http://www.encyclopediadramatica.com/SEO sex] [http://www.encyclopediadramatica.com/SEO nude] [http://www.encyclopediadramatica.com/SEO refinance] [http://www.encyclopediadramatica.com/SEO remortgage] [http://www.encyclopediadramatica.com/SEO gucci] [http://www.encyclopediadramatica.com/SEO brittney spears] [http://www.encyclopediadramatica.com/SEO metallica mp3] [http://www.encyclopediadramatica.com/SEO gay] [http://www.encyclopediadramatica.com/SEO lesbian] [http://www.encyclopediadramatica.com/SEO pictures] [http://www.encyclopediadramatica.com/SEO movies] [http://www.encyclopediadramatica.com/SEO videos] [http://www.encyclopediadramatica.com/SEO diet] [http://www.encyclopediadramatica.com/SEO weight loss] [http://www.encyclopediadramatica.com/SEO hentai] [http://www.encyclopediadramatica.com/SEO seo] [http://www.encyclopediadramatica.com/SEO search engine optimization] [http://www.encyclopediadramatica.com/SEO search engine optimisation] [http://www.encyclopediadramatica.com/SEO serch engun optimisatten ] [http://www.encyclopediadramatica.com/SEO google] [http://www.encyclopediadramatica.com/SEO yahoo] [http://www.encyclopediadramatica.com/SEO kittens]</nowiki>
+
+Run a Google Search for [http://www.google.com/search?q=%22powered+by+mediawiki%22 "powered by mediawiki"], then paste the above code into every result you find.
+
+There are many [[bot]]s available to automatically find these sites and post your links for you.  Use them all to achieve the greatest success.
+
+=== Content is King === 
+
+To be ultimately effective, you need to have the same content on your web site as in your links and meta tags.  The fastest and most accurate way to do this is to - again - copy and paste your keyword list into your page.  Then your keywords will all match nicely and you will be sure to get those page one results!
+
+However, this might prove confusing to anyone who reads your page.  You can get around this easily by making your keywords the same color as your page's background.  
+
+Example:
+
+:<nowiki><span style="color:#ffffff;">porn,viagra,blue pill,cyalis,naked,angelina jolie,rolex,sex,nude,refinance,remortgage,gucci,brittney spears,metallica mp3,gay,lesbian,pictures,movies,videos,diet,weight loss,hentai,seo,search engine optimization,search engine optimisation,serch engun optimisatten,google,yahoo,kittens</span></nowiki>
+
+The above would cause your keywords to appear in white text on your [[Nazi|pristine white]] background. Your audience will never see this text, allowing you to direct their focus on whatever it is you are selling them.
+
+==== Advanced Technique ====
+
+Instead of masking your text with your page's background color, use HTML comments instead.
+
+:<nowiki><!-- <h1> <b> <i> <strong> <h2> <h3>porn,viagra,blue pill,cyalis,naked,angelina jolie,rolex,sex,nude,refinance,remortgage,gucci,brittney spears,metallica mp3,gay,lesbian,pictures,movies,videos,diet,weight loss,hentai,seo,search engine optimization,search engine optimisation,serch engun optimisatten,google,yahoo,kittens</h3> </h2> </strong> </i> </b> </h1> --></nowiki>
+
+[[Bullshit|No search engine will ever figure out that you hid those keywords from your audience.]]
+
+=== Cloaking ===
+
+Cloaking gives you two pages at the same URL.  One is seen only by Google and the other is optimized entirely to sell whatever [[shit|excellent product or service]] you are offering.
+
+Cloaking is easier than it sounds.  All you need is [[PHP]] and a little extra time.
+
+#Make the page you want your audience to see.  This page will be filled with how great your product or service is.
+#Make another page you want Google to see.  This page will utilize every above technique to get a #1 ranking in Google
+#Check the ''User-Agent'' with your PHP script.  If the agent says "googlebot", serve the Google page.  Otherwise, serve up your sales page.
+
+[[You]] can not lose! 
+
+=== Need More Keywords? ===
+
+[http://www.google.com/trends Google Trends] will always have a fresh list for you.
+
+=== Encyclopedia Dramatica porn series ===
+*[[Fag|ROMANTIC]] FUCKS WATTAGE
+*TFO [[Blowjob|SUCKS DICK]]
+*RIBOFLAVIN [[AZN]] GOOK
+*Jew GETS [[Rape|RAEPED]] BY ARGENT009
+*WEEV NAILS HOT [[Geek|GEEK]]Y GIRLS
+*[[GIRLVINYL]] FUCKS AJT
+*"LET'S FUCK"
+*WHILE HEP PLZ ADVZ
+*JOSEPH EVERS USERS TELEkiNeSIS TO JERK OFF EVERYONE
+*ODB FUCKS 100 [[Mudkips|MUDKIP]]Z
+*ABDUL IS IN IRAN FUKING TURBANS
+*KANGJEW IS A FUCKING KANGAROO
+*ANGELA SUCKS [[Jimbo Wales|JIMBOS]] WIKICOCK TO FULFILL HER WIKIHOPES
+*[[Linux|LINUX]] BEAK JERKS OFF LINUX EVEN THROUGH HE USES [[Windows|WINDOWS]]
+
+== See Also ==
+
+* [[YouTube View Fraud]]
+* [[The Google]]
+
+[[Category:Internets_Phenomena]]

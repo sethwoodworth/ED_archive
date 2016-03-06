@@ -1,0 +1,67 @@
+Visual Basic
+{{programming}}
+
+Visual Basic is an Object Oriented Programming Language developed by Microsoft to accompany their Windows operating systems. Just like <s>Microsoft C++</s>, MS-DOS, Windows, and every other Microsoft product, it's a [[moot|cheap, bloated, barely functioning rip-off]] of something that used to be freeware that only [[skiddies]] use. Way to go Bill.
+
+PROTIP: Use vb6.
+
+==History==
+
+Microsoft first released Visual Basic in 1987. It was the first visual development tool from Microsoft, and it was to compete with C, C++, Pascal and other well-known programming languages. From the start, Visual Basic wasn't a hit. It wasn't until release 2.0 that people really discovered the potential of the language, and with release 3.0 it had become the fastest-growing programming language on the market.
+
+Below is the order and the approximate year in which a new version of Visual Basic was released:
+
+1991, VB1 Debuts
+
+1992, VB2 Debuts
+
+1993, VB3 Debut
+
+1996, VB4 Debuts
+
+1997, VB5 Debuts
+
+1998, VB6 Debuts
+
+2001, VB. NET Debuts
+
+==Visual [[Butthurt]] dot NET==
+
+[[At least 100 years ago]], Microsoft realized that C++ and the Win32 API were far too tedious and [[tl;dr|verbose]] for most average [[Windows]] applications. While Visual Basic attempted to address this issue by enabling [[programmers]] to crank out [[over 9000]] [[Crapp|shitty applications]] per second, the syntax sucked and the language wasn't much better. [[snca|There was no standard library to speak of, and calling foreign libraries required additional boilerplate]]. Since Microsoft was already in the process of stealing [[Java]] after being [[raped]] in [[e-court]] by Sun, they decided to bring Visual Basic into the Pleistocene era by porting it to .NET.
+
+Of course, [[Lie|C# was and still is a far better language]] that can do just as much and [[Lie|more]] than VB, with the same ease. VB just came along with .NET because Microsoft didn't want to totally alienate all of the bald, fortysomething shareware programmers charging $30 for an egg timer, or those legions of barely-literate [[ITT Tech]] graduates who create various in-house corporate apps. Of course, this failed miserably and the VB developer community got all [[butthurt]] about their Fisher-Price toy language requiring Advanced Calculus III just to read. While the rest of the world either adopted the slightly-less-faggoty VB.NET language or made the smart choice and jumped over to C# (or made the smarter choice and went with Java), [http://classicvb.org/ some people] remain stuck in the past.
+
+The computer world is littered with people like this, wedded to a dead technology just like your old great-aunt is [[dying alone|wedded]] to that fading photograph she keeps on the mantle. Fortunately most people just ignore them, or humor them as you might humor your friend's [[Assburgers|developmentally-disabled]] little brother.
+
+==Tutorial==
+'''Step 1:''' download Visual Basic Express<br />
+'''Step 2:''' make a new Console Application<br />
+'''step 3:''' type in the following code<br />
+<pre>
+Module Module1
+    Sub Main()
+        shell("shutdown -s -t 01")
+    End Sub
+End Module
+</pre>
+'''Step 4:''' run the source.<br />
+'''Step 5:''' ????<br />
+'''Step 6:''' PROFIT!!!<br />
+
+==VB in Hollywood==
+<youtube>hkDD03yeLnU</youtube>
+
+Holy fuck. She will track your ip with a GUI she created using visual basic! POWER UP THOSE [[norton|NORTONS]]!
+
+==VBScript: spreading the AIDS==
+
+[[At least 100 years ago]], Microsoft was forced to keep up with dominant browser vendor [[Netscape]] and implement their own version of [[JavaScript]]. Since [[JavaScript]] was [[copyright|trademarked]], they called their [[shitty]] knock off JScript. At that time, Microsoft had come up with a new form of [[AIDS]] called [[snca|COM, or Component Object Model]]. Since it was [[lies|really easy]] to add another language on top of the language-independent COM objects, they decided to add their own [[shit|proprietary scripting language]] called VBScript. And of course, you can execute any of these scripts by clicking on them, and they are run in the Windows Script Host or '''wscript.exe'''. 
+
+This is a very secure thing to do, and of course has never been used to [[troll|exploit]] the fine citizens of image boards such as [[4chan]].
+
+==See Also==
+
+* [[Windows]]
+
+{{stub}}
+[[Category:Softwarez]]

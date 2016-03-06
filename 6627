@@ -1,0 +1,745 @@
+Project Chanology/Anonymous Directory
+{{subpage|PROJECT CHANOLOGY}}
+
+{{chanology}}
+
+=Synopsis=
+
+The Anonymous Directory Project offers redundancy of information by maintaining a single page of copypastable contact information, websites, and IRC channels for all local Anonymous chapters, available on about 20 wikis. 
+
+'''STOP!''' Before you make any edits to this page, lurk moar and understand how the Anonymous Directory works. Any updates should be done at the [http://www.encyclopediadramatica.com/Project_Chanology/Anonymous_Directory Primary Update Source]. Other wikis will be updated subsequently from that Primary Update Source.
+
+==Decentralization==
+
+Decentralization is the name of the game. 
+
+Each local Anon chapter needs to have its own:
+
+* Website
+* [irc://irc.anonnet.org/whyweprotest AnonNET] channel
+* Email contact(s)
+* Fallback IRC channel on EFnet, Freenode, or some other IRC network
+
+==Updates==
+
+* Primary and alternate wikis will be designated as sources for updates.
+* If you want to update your local chapter's info, do it at the '''Primary Update Source.'''
+* If the Primary Update Source is down for any reason, use the '''Secondary Update Source''' instead.
+* Whenever you make an update, also update the '''version''' info.
+* Someone at each wiki will have to monitor the Primary Update Source regularly and watch for any updates (Ctrl + C, Ctrl + V).
+
+==Version==
+
+''The current version of this page was updated by [[User:62wong|62wong]] 00:30, 1 March 2010 (UTC)
+:*updated --[[User:Pdxanoninfo|Pdxanoninfo]] 03:11, 4 May 2008 (EDT)
+:*updated --[[User:Transientox|Transientox]] 04:20, 4 May 2008 (EDT)
+:*updated with the correct irc network --[[User:Anonymousasdfghjkl|Anonymousasdfghjkl]] 05:26, 4 May 2008 (CDT)
+:*check discussion page(at [http://www.encyclopediadramatica.com/Project_Chanology/Anonymous_Directory Main Page Source]) for versioning --[[User:Pdxanoninfo|Pdxanoninfo]] 10:59, 4 May 2008 (CDT)
+:*designated Partyvan as Secondary Source, Portland as Tertiary --[[User:Transientox|Transientox]] 14:29, 4 May 2008 (CDT)
+:*updated --[[User:Ballistic|Ballistic]] 11:43, 15 May 2008 (CDT)
+:*updated Ottawa details --[[User:BahamutXone|BahamutXone]] 20:02, 18 May 2008 (CDT)
+:*updated --[[User:V_for_Anonymous|V for Anonymous]] 2:30, 19 May 2008 (EST) - Toronto, Ontario contact info updated
+:*updated ----[[User:Pdxanoninfo|Pdxanoninfo]] 02:18, 21 May 2008 (CDT)
+:*updated Seattle details --[[User:omginternets|omginternets]] 4:02, 27 May 2008 (PDT)
+:*updated London details --[[User:Anonymousasdfghjkl|Anonymousasdfghjkl]] 20:07, 8 June 2008
+:*removed a defunct Toronto e-mail address (which the Torontofags should have done here instead of just on their copy of the page) --[[User:BahamutXone|BahamutXone]] 22:56, 9 June 2008 (CDT)
+:*updated Honolulu contact info. --[[User:Tyrian|Tyrian]] 21:16, 5 July 2008 (CDT)
+:*added Western Norway--[[User:Winboat|Winboat]] 10:53, 15 August 2008 (CDT)
+;*updated  revision detail -- --[[User:Pdxanoninfo|Pdxanoninfo]] 18:20, 23 September 2008 (CDT)
+:*added more central sites, updated Japan and Norway. --[[User:VirFromNorway|VirFromNorway]] 09:52, 7 October 2008 (CDT)
+:*updated Vancouver, BC details --[[User:Forgott3n|Forgott3n]] 22:28, 17 October 2008 (PST)
+:*added Vancouver, BC local node --[[User:Forgott3n|Forgott3n]] 22:31, 21 October 2008 (PST)
+:*updated Oslo, Norway --[[User:Jaha|Jaha]] 20:13, 6 January 2009 (CST)
+:*updated by --[[User:Jaha|Jaha]] 20:13, 6 January 2009 (CST)
+:*updated Quebec, Montreal, Ottawa (Canada) info --[[User:V for Anonymous|V for Anonymous]] 01:31, 22 February 2009 (UTC)
+:*corrected Portland info --[[User:Unperfekt|Unperfekt]] 14:41, 20 April 2009 (UTC)
+:*corrected Ottawa info --[[User:BahamutXoneA|BahamutXoneA]] 19:54, 14 November 2009 (UTC)
+:*removed some dead central sites, updated Japan --[[User:62wong|62wong]] 00:30, 1 March 2010 (UTC)
+
+=Directory Network=
+
+==Central Nodes==
+*[http://forums.whyweprotest.net WhyWeProtest.net] (forum)
+*[http://888chan.org/ 888chan.org] (imageboard)
+*[http://www.marcab.org Marcab] Chanology Antisocial Networking and planning
+*[irc://irc.anonnet.org AnonNET] - Primary IRC Network for Chanology
+*[http://www.anonstillalive.com/activecells.html Anonymous Still Alive] updated list of local sites
+*[http://www.anonymousresources.com/local-anonymous-cells Anonymous Resources] an older list
+
+
+*[http://www.encyclopediadramatica.com/Project_Chanology/Anonymous_Directory Encyclopedia Dramatica] - '''Primary Update Source'''
+* [http://lurkmore.ru/Project_Chanology/Anonymous_Directory Lurkmore Russia] - '''Secondary Update Source'''
+
+==Local Nodes==
+'''This page is available at the following locations:'''
+
+*United States
+** [http://chanologypgh.wiki-site.com/index.php/Anonymous_Directory Pittsburg, PA]
+** [http://wiki.pdxanon.info/index.php?title=Anonymous_Directory Portland, OR] - '''Tertiary Update Source'''
+** [http://www.anonhouston.com/wiki/Anonymous_Directory Houston, TX]
+*Canada
+** [http://www.vanonymous.org/wiki/index.php?title=Anonymous_Directory Vancouver, British Columbia]
+*Europe
+** [http://www.edinburghlulz.com/index.php/Anonymous_Directory Edinburgh, Scotland]
+** [http://lurkmore.ru/Project_Chanology/Anonymous_Directory Russia]
+
+=IRC=
+
+==AnonNET==
+
+AnonNET is the main IRC network for Project Chanology.
+
+* http://www.anonnet.org
+
+===New Channels===
+Want to set up a new channel for your area? No problem! Just join the channel with '''/join ''#channelname''''', then register it with '''/msg ChanServ register #channelname ''password short description of the channel'''''. You can then add it to this list under your area using the wiki format as follows:<br />
+<code><nowiki>*IRC: [irc://irc.anonnet.org/channelname #channelname]</nowiki></code>.
+
+=Directory=
+
+The following is contact information for Local Anonymous chapters the world over.
+
+__TOC__
+
+
+==North America==
+
+===Canada===
+----
+*IRC: [irc://irc.anonnet.org/canada #canada]
+
+====Calgary, Alberta====
+*EMAIL: calgarycosraid(at)gmail(dot)com -- Desu A Nonimous
+
+====Edmonton, Alberta====
+
+*EMAIL: edmontoncosraid(at)gmail(dot)com
+*IRC: [irc://irc.anonnet.org/edmontomraid #edmontonraid]
+
+====Vancouver, British Columbia====
+*WEB: http://www.vanonymous.org
+*WEB: http://vanonymous.freeforums.org
+*IRC: [irc://irc.slacknet.org/vanonymous #vanonymous] on Slacknet IRC Network
+*EMAIL: admin(at)vanonymous(dot)org
+
+====Halifax, Nova Scotia====
+*EMAIL: Canuckster(at)gmail(dot)com
+
+====Winnipeg, Manitoba====
+*WEB: http://www.anonymoustoronto.org/index.php/Winnipeg#Location
+
+====Kitchener-Waterloo, Ontario====
+*WEB: http://www.thisismadness.org/ | http://kitchener.wikidot.com/
+*EMAIL: 693058(at)gmail(dot)com - Anonymous UW students	
+
+====Ottawa, Ontario====
+*WEB: http://ottawalulz.com - currently down (domain expired)
+*EMAIL: bahamutxone(at)ottawalulz(dot)com
+*IRC: [irc://irc.anonnet.org/ottawa #ottawa]
+
+====Sudbury, Ontario====
+*EMAIL: i.am.a.hacker.on.steroids(at)gmail(dot)com --- Alias "Leeroy Jenkins"
+
+====Toronto, Ontario====
+*WEB: http://www.anonymoustoronto.org/
+*WEB: http://anonymoustoronto.wiki-site.com/ - backup wiki if anonymoustoronto.org is down
+*IRC: [irc://irc.anonnet.org/toronto #toronto]
+*EMAIL: ChanologyToronto<at>gmail<.>com
+
+====Québec, Québec====
+*WEB: http://qcanon.ning.com/
+*EMAIL: anonymousqc(at)gmail(dot)com
+
+====Montreal, Québec====
+*WEB: http://montreal.roflforum.net/
+*WEB: http://anonymousmontreal.blogspot.com/
+*WEB: http://www.youtube.com/anonymousmontreal
+*EMAIL: xenumontreal(at)gmail(dot)com
+
+===Mexico===
+----
+*EMAIL: anonzrm(at)gmail(dot)com
+
+
+===United States===
+----
+
+====Anchorage, Alaska====
+
+*WEB: http://z15.invisionfree.com/Alaska_Anon_Alliance
+*EMAIL: actuate87(at)gmail(dot)com AkAnon907(at)gmail(dot)com
+
+====Tucson, Arizona====
+
+*WEB: http://yiitucson.com/tracker
+*IRC: *IRC: [irc://irc.anonnet.org/tucson #tucson]
+*EMAIL: anonymous.tucson(at)gmail(dot)com -- Anonymous
+
+====Phoenix, Arizona====
+
+*EMAIL: azraids(at)gmail(dot)com
+*WEB: http://www.myspace.com/phxanonymous
+
+====Los Angeles, California====
+
+*WEB: http://socalanon.com
+*WEB: http://myspace.com/socalanon
+*IRC: [irc://irc.anonnet.org/socal #socal]
+*EMAIL: hitsut@gmail.com
+*EMAIL: anonSC(at)gmail(dot)com -- Anon
+*EMAIL: osamudkips@gmail.com
+
+====Sacramento, California====
+
+*IRC: *IRC: [irc://irc.anonnet.org/sac #sac]
+*EMAIL: anon11337(at)gmail(dot)com -- use a disposable account
+
+====San Francisco, California====
+
+*WEB: http://anonsf.ning.com/
+*WEB: http://sfanonprotest.blogspot.com/
+*EMAIL deusexmechanicus(at)yahoo(dot)com -- Anonymus
+
+====San Jose, California====
+
+*EMAIL: kermittheanon(at)yahoo(dot)com
+
+====Santa Barbara, California====
+
+*EMAIL: TakeAnonMe(at)gmail(dot)com -- Don't use real names
+
+====Denver, Colorado====
+
+*WEB: http://www.coanon.org/
+
+====New Haven, Connecticut====
+
+*WEB: http://ctenturbulation.ning.com/
+*IRC: [irc://irc.anonnet.org/CT-anon #CT-anon]
+
+====Washington, DC====
+
+*WEB: http://www.anonymousdc.com/ | http://www.anonymousdc.com/forums
+*IRC: [irc://irc.anonnet.org/DCfags #DCfags]
+*EMAIL: mranonymous64(at)yahoo(dot)com --- Mr Anonymous
+
+====Bradenton, Florida====
+
+*EMAIL: ihearthubbard(at)gmail(dot)com -- anonymous
+
+====Clearwater, Florida====
+*WEB: http://bucketofacid.ning.com
+*IRC: [irc://irc.anonnet.org/bucketofacid #bucketofacid]
+*CHAT: http://chatroll.com/bucketofdarr
+
+====Daytona/Port Orange====
+
+*EMAIL: cheeseburgerss(at)gmail(dot)com -- Anonymous
+
+====Gainesville, Florida====
+
+*WEB: 352anon(at)gmail(dot)com -- anonymous
+
+====Miami, Florida====
+*WEB: http://thelongcatsociety.wikispaces.com/ | http://groups.myspace.com/thelongcatsociety
+*IRC: [irc://irc.anonnet.org/miami #miami]
+
+====Ocala, Florida====
+
+*WEB: http://bucketofacid.ning.com
+*CHAT: http://chatroll.com/bucketofdarr
+
+====Orlando, Florida====
+
+*WEB: http://www.religionisfree.org/wiki/index.php?title=Orlando%2C_Florida#Orlando.2C_FL:_Saturday.2C_March_15
+*IRC: [irc://irc.anonnet.org/orlando #orlando]
+
+====Sarasota, Florida====
+
+*EMAIL: SRQanon(at)anonymailpro(dot)com -- alias Faye D.
+
+====St. Petersburg, Florida====
+
+*EMAIL: shinymailbox(at)gmail(dot)com -- anonymous
+
+====Tallahassee, Florida====
+
+*EMAIL: 850anon(at)gmail(dot)com -- alias Bill Chamberlin
+
+====Tampa Bay, Florida====
+
+*WEB: http://bucketofacid.ning.com
+
+====Atlanta, Georgia====
+
+* EMAIL: ''Abandoned in March.'' ATLanons communicate in other ways.
+
+* IRC: '''irc.lulzhost.net''' [irc://irc.lulzhost.net], #georgia (Rarely used.)
+
+* WEB 1: '''Southern Anonymity''' [http://atlantaanon.goo-done.com/forum.htm] Primarily for discussion and chit-chat.
+
+* WEB 2: '''ATLanon Ning''' [http://atlanon.ning.com/] For discussion, photos, videos and protest head-counting.
+
+* WEB 3: '''Enturb.org''' [http://enturbulation.org]
+
+** 02/10/08: ''Lost due to website crash''
+** 03/15/08 Planning: ** [http://forums.enturbulation.org/36-usa-east-coast/atlanta-georgia-part-deux-southern-inhospitality-644/]
+** 03/15/08 Post-game: [http://forums.enturbulation.org/51-usa-east-coast/atlanta-ga-4267/]
+** 04/12/08 Planning: [[http://forums.enturbulation.org/63-usa-east-coast/atlanta-ga-4518/]
+** 04/12/08 Post-game: [http://forums.enturbulation.org/77-usa-east-coast/atlanta-ga-8627/]
+** 05/10/08 Planning: [http://forums.enturbulation.org/83-usa-east-coast/atlanta-ga-8843/]
+** 05/10/08 Post-game: [http://forums.enturbulation.org/103-usa-east-coast/atlanta-georgia-13226/]
+** 06/14/08 Planning: ''Sub-forum is broken''
+** 06/14/08 Post-game: [http://forums.enturbulation.org/125-usa-east-coast/atlanta-ga-18513/]
+** 07/12/08 Planning: [http://forums.enturbulation.org/140-usa-east-coast/atlanta-ga-july-12-a-18674/]
+** 07/12/08 Post-game: [http://forums.enturbulation.org/150-usa-east-coast/atlanta-ga-21916/]
+** 08/16/08 Planning: [http://forums.enturbulation.org/158-usa-east-coast/atlanta-georgia-21885/]
+** 08/16/08 Post-game: [http://forums.enturbulation.org/168-usa-east-coast/atlanta-georgia-08-16-2008-a-25980/]
+** 09/13/08 Planning: [http://forums.enturbulation.org/180-usa-east-coast/atlanta-georgia-09-13-2008-a-26269/]
+
+''Please visit '''Enturbulation.org''' to get information about local area mini-raids and mini-protests as well as information about global protest meet time and protest place. Atlanta has two Scihives, one on Shallowford Rd. (currently occupied and active) and one on Roswell Rd. (the currently empty Ideal Org). Protests are held at the Shallowford location.'' 
+
+====== EXTRA INFO ======
+
+* A/V CLUB (VIDEOS): ''Several ATLanons have channels on YouTube and Vimeo. Videos uploaded include information about global protests held in Atlanta, information about NarCONon (and recent NarCONon of Georgia victim, Patrick W. Desmond) and other Scientology front groups as well as the usual Anonly playful hijinx, parodies and LULZ.''
+** '''AnonyFerret''' [http://www.youtube.com/user/AnonyFerret]
+** '''ATLOLDGUARD''' [http://www.youtube.com/user/ATLOLDGUARD]
+** '''HotlantaAnon''' [http://www.youtube.com/user/HotlantaAnon]
+** '''chanologyASSIST''' [http://www.youtube.com/user/chanologyASSIST]
+
+* A/V CLUB (PHOTOS): ''Coming soon.''
+
+====Honolulu, Hawaii====
+
+*WEB: http://oahuraid.com/ | http://wiki.oahuraid.com/index.php
+*EMAIL: transient.ox@gmail.com - Tyrian
+
+====Champaign, IL====
+
+*WEB: http://cuanon.forumwww.com
+
+====Chicago, Illinois====
+
+*WEB: http://www.chicagosaysno.com
+*IRC: [irc://irc.anonnet.org/chifags #chifags]
+*EMAIL: lrhubbardanon(at)gmail(dot)com -- anonymouse
+
+====Des Moines, Iowa====
+
+*WEB: http://iowanon.board4u.biz/
+*EMAIL: applestoxenu(at)gmail(dot)com -- (fake email?)	
+
+====Indianapolis, Indiana====
+
+*WEB: http://www.indyfags.com | http://z15.invisionfree.com/indyanonymous/
+*EMAIL: jsperrin75(at)gmail(dot)com -- Mr. Blonde
+
+====Louisville, Kentucky====
+
+EMAIL: anonymousepiclulz(at)hotmail(dot)com
+*IRC: [irc://irc.anonnet.org/kyxenu #kyxenu]
+
+====Wichita, Kansas====
+
+*WEB: http://ksas.ipbfree.com/
+
+====Brunswick, Maine====
+
+*WEB: http://www.taurelilomea.com/
+*EMAIL: taurelilomea(at)gmail(dot)com -- John Burkhart (alias)
+
+====Boston, Massachusetts====
+*NETWORK: [http://www.wirah.com/network/3 Boston, MA | Wirah]
+*EVENTS: [http://www.wirah.com/network/3/events/upcoming Upcoming Events in Boston, MA | Wirah]
+*WEB: http://non.violentuprising.com/index.php/Main_Page
+*IRC: [irc://irc.supressivepersons.org/BostonRaid #BostonRaid]
+*EMAIL: Anon420lulz(at)gmail(dot)com - Anon420 | anonymous@whyweprotest.net - gregg | boston@wirah.com
+
+====Western Massachusetts====
+
+*EMAIL: valleyanon(at)gmail(dot)com -- Anonymous
+
+====Battle Creek, Michigan====
+
+*WEB: http://pastebin.com/m4a49a193
+*IRC: [irc://irc.anonnet.org/michevents #michevents]
+
+====Biloxi, Mississippi====
+
+*EMAIL: Southcosattack(at)gmail(dot)com
+
+====Kansas City, Missouri====
+
+*WEB: http://kcfags.ipbfree.com/
+*EMAIL: gooferspoofer(at)gmail(dot)com -- goofer
+
+====Minneapolis, Minnesota====
+
+*WEB: http://www.mnraid.org/
+*EMAIL: MythicalWhite(at)gmail(dot)com -- Lets pull this together
+
+====Albuquerque, New Mexico====
+
+*WEB: http://anonymous.motionforum.net/index.htm
+
+====Las Vegas, Nevada====
+
+*WEB: http://www.lasvegasanonymous.org
+
+====Albany, New York====
+
+*WEB: http://www.albanyanon.org/
+
+====Buffalo, New York====
+
+*EMAIL: victor.adept(at)gmail(dot)com -- Anonymous
+
+====New York City, New York====
+
+*WEB: http://nycanon.org/wiki/index.php5?title=Anonymous_of_NYC
+*IRC: [irc://irc.anonnet.org/nyc #nyc]
+*EMAIL: nycXenu(at)gmail(dot)com -- Mr.Xenu
+
+====Charlotte/Greensboro, North Carolina====
+
+*WEB: http://ncanon.ning.com
+*IRC: [irc://irc.anonnet.org/ncfags #ncfags]
+*CHAT: http://chatroll.com/ncanon
+
+====Cincinnati, Ohio====
+
+*WEB: http://cincyanon.wikidot.com | http://cincyanon.forumotion.com
+*IRC: [irc://irc.anonnet.org/cinci #cinci]
+
+====Cleveland, Ohio====
+*EMAIL: arcmage(at)gmail(dot)com -- EM3/SS, Anon of Martian Federation	
+
+====Columbus, Ohio====
+*EMAIL: stopxenu(at)gmail(dot)com
+
+====Dayton, Ohio====
+*EMAIL: jbxspartan(at)gmail(dot)com -- Anonymous
+
+====Xenia, Ohio====
+*EMAIL: Araseth(at)gmail(dot)com -- A Nownny Moose
+
+====Portland, Oregon====
+*WEB: http://www.pdxanon.info
+*FORUM http://www.dropthebomb.info/forum
+*IRC: [irc://irc.anonnet.org/pdx irc://irc.anonnet.org/pdx#pdx]
+*IRC: [irc://irc.pdxanon.info irc://irc.pdxanon.info#pdx] backup
+*EMAIL: pdxanon.info(at)gmail(dot)com
+
+====Philadelphia, Pennsylvania====
+
+*EMAIL: WeWillBeAnonymous(at)gmail(dot)com -- Philanonymous
+
+====Pittsburgh, Pennsylvania====
+
+*WEB: http://anonpgh.blogspot.com/
+*EMAIL: xenupgh(at)gmail(dot)com -- anonymous
+*EMAIL: lighthawk05(at)hotmail(dot)com -- BB
+*WEB FALLBACK/WIKI: http://chanologypgh.wiki-site.com/index.php/Main_Page
+
+====San Juan, Puerto Rico====
+*NETWORK: [http://www.wirah.com/network/8 Puerto Rico| Wirah]
+*EVENTS: [http://www.wirah.com/network/8/events/upcoming Upcoming Events in Puerto Rico | Wirah]
+*EMAIL: puertorico@wirah.com
+
+====Memphis, Tennessee====
+
+*WEB: http://midsouthanon.wordpress.com/
+
+====Nashville, Tennessee====
+
+*WEB: http://nashanon.livejournal.com
+*EMAIL: anon.nashville(at)gmail(dot)com -- Juche
+
+====Austin, Texas====
+
+*WEB: http://www.tabellae.com/forums/index.php
+*IRC: [irc://irc.anonnet.org/austin #austin]
+*EMAIL: admin(at)tabellae(dot)com -- IWishIWas
+
+====Dallas, Texas====
+
+*WEB: http://www.protests.texaschan.com/ | http://texaschan.org/dal/
+*IRC: [irc://irc.anonnet.org/dallasfags #dallasfags]
+
+====Houston, Texas====
+
+*WEB: http://www.anonhouston.com | http://www.ananonymousnow.blogspot.com/ | http://texaschan.org/hou/
+*IRC: [irc://irc.texaschan.org/houston #houston] on irc.texaschan.org
+*EMAIL: anon14148 at anonhouston.com
+
+====Killen, Texas====
+*WEB: http://chanology.pbwiki.com/
+*EMAIL: anonymousguyfalkes(at)gmail(dot)com -- Anonymous Guy Falkes
+
+====San Antonio, Texas====
+
+*WEB: http://sanantonioanon.wordpress.com/ | http://texaschan.org/san/
+
+====Salt Lake City, Utah====
+
+*EMAIL: xenuslc(at)hotmail(dot)com
+
+====Blacksburg, Virginia====
+
+*EMAIL: anon1035(at)gmail(dot)com -- Anonymous
+
+====Richmond, Virginia====
+
+*EMAIL: mudkipsrich(at)gmail(dot)com -- Anonymudkips
+
+====Bellingham, Washington====
+
+*WEB: http://lulznw.com/viewforum.php?f=13 | http://anon-bham.blogspot.com/ 
+*IRC: [irc://irc.anonnet.org/bellingham #bellingham]
+
+====Seattle, Washington====
+
+*WEB: http://www.lulznw.com/
+*IRC: [irc://irc.anonnet.org/seattle #seattle]
+
+====Lewisburg, West Virginia====
+*EMAIL: anony-nil@live.com -- Anonymous
+
+====Milwaukee, Wisconsin====
+*IRC: [irc://irc.anonnet.org/wixenu #wixenu] (xt0rt, bawman)
+*EMAIL: Anonymouspwntxenu111(at)yahoo(dot)com - Call me Kane. <-- ??? Enturb?
+
+==South America==
+
+===Brazil===
+
+====Sao Paulo====
+*WEB: [http://55chan.org/a/ Brazilian Insurgency Board /a/rrastão]
+*IRC: [irc://irc.anonnet.org/Brazil #Brazil]
+*3/15 Discussion: http://forums.enturbulation.org/showthread.php?t=4339
+
+==Europe==
+
+===Belgium===
+*WEB: http://www.anonymousbelgium.jottit.com
+*IRC: [irc://irc.anonnet.org/belgian #belgian]
+
+===Denmark===
+*WEB: http://xenu.nu / http://scientologyinfo.eu / http://scientologyinfo.dk (same site all 3)
+*IRC: [irc://irc.anonnet.org/denmark #denmark]
+
+====Copenhagen====
+*3/15 Discussion: http://forums.enturbulation.org/showthread.php?t=4280
+
+===Finland===
+
+====Lahti & Vantaa====
+
+*WEB: http://skientologia.loukku.org | http://hope.stc.cx/scifi/index.php | http://xenu.nu/wiki/
+*IRC: [irc://irc.anonnet.org/finland #finland]
+*IRC: [irc://irc.song.fi/skientologia #skientologia]
+*EMAIL: skientologia(at)hush(dot)com -- Webmaster, press contacts
+*EMAIL: xenu_setä(at)hotmail(dot)com -- Anonymous
+
+===France===
+*WEB: http://wiki.anonymous-live.com | http://forum.anonymous-fr.com | http://chanology.fr
+*IRC: [irc://irc.anonnet.org/france #france]
+
+===Germany===
+
+====Berlin====
+*WEB: http://www.diekartegefunden.com
+*IRC: [irc://irc.anonnet.org/berlin #berlin]
+
+====Duesseldorf====
+*3/15 Discussion: http://forums.enturbulation.org/showthread.php?t=4333
+
+====Hamburg====
+*WEB: http://anon-hh.ning.com/
+*WEB: http://hamburger-anon.blogspot.com/
+*IRC: [irc://irc.anonnet.org/hamburg/ #hamburg]
+*WEB: http://chanology.wordpress.com/ (no longer updated)
+
+====Munich====
+*WEB: http://anonmunich.ning.com/
+
+===Hungary===
+* http://megtalaltad.webclick.ultraweb.hu/ (NEED MOAR SUPPORT - OPTIONALLY MUDKIPS)
+
+===Italy===
+
+====Rome====
+*WEB: http://idesofmarch.altervista.org
+*IRC [irc://irc.azzurra.org/Anonymous #anonymous]
+
+===Ireland===
+*WEB: http://anoneire.ning.com | http://www.anonireland.org
+*IRC: [irc://irc.anonnet.org/ireland #ireland]
+
+===Netherlands===
+
+====Amsterdam====
+*WEB: http://www.sektevrij.nl (alt. domains http://www.sekte-vrij.nl http://www.taartenlollies.nl)
+*IRC: [irc://irc.anonnet.org/dutch #dutch]
+*EMAIL: Anon.Nederland(at)gmail(dot)com
+
+===Norway===
+
+====Oslo==== 
+*WEB: http://xenu.nu/wiki/index.php/Norway
+*WEB: http://bramseil.org (Sea Arrrgh oriented)
+*WEB: http://anonnorway.ning.com/
+*IRC: [irc://irc.anonnet.org/norway #norway]
+
+====Western Norway====
+*WEB: http://vestlandanon.atfreeforum.com/
+
+===Scandinavia===
+*WEB: http://xenu.nu/wiki
+*IRC: [irc://irc.anonnet.org/scandinavia #scandinavia] 
+
+===Slovenia===
+
+====Ljubljana====
+*FORUM: http://slofagsvscos.mojforum.si/slofagsvscos.html
+
+===Switzerland===
+
+*WEB: [http://swissanons.ning.com SwissAnons]
+
+===UK===
+
+*WEB: [http://www.britchan.org/i/ British Insurgency Board]
+
+====London====
+*NETWORK: [http://www.wirah.com/network/1 London | Wirah]
+*EVENTS: [http://www.wirah.com/network/1/events/upcoming Upcoming Events in London | Wirah]
+*WIKI: http://londonlulz.com
+*IRC: [irc://irc.londonlulz.com/london #london] (notice that #london is now located on irc.londonlulz.com)
+*EMAIL: anonemouse08(at)googlemail(dot)com | london(at)wirah.com
+
+====Manchester==== 
+*WEB: http://www.downwiththe.org
+
+====Plymouth====
+*NETWORK: [http://www.wirah.com/network/4 Plymouth | Wirah]
+*EVENTS: [http://www.wirah.com/network/4/events/upcoming Upcoming Events in Plymouth | Wirah]
+*WEB: http://plymuff.com
+*IRC: [irc://irc.anonnet.org/plymouth #plymouth]
+*EMAIL: plymouth@wirah.com
+
+====Sunderland==== 
+*WEB: http://z15.invisionfree.com/SunderlandChanology/
+*IRC: [irc://irc.anonnet.org/Sunderland #Sunderland]
+
+====York====
+*IRC: [irc://irc.anonnet.org/york #york] 
+*EMAIL: againstscientology(at)hotmail(dot)co(dot)uk
+*EMAIL: YorkRaid(at)googlemail(dot)com email
+
+====Birmingham====
+*WEB: http://www.brumanon.co.uk
+*IRC: [irc://irc.brumanon.co.uk #brumanon]
+
+====Belfast====
+*WEB: http://eire.calloftheday.com/index.php
+*IRC: [irc://irc.anonnet.org/xenubelf #xenubelf]
+
+====Edinburgh====
+*WEB: http://edinburghlulz.com/index.php/Main_Page
+*IRC: [irc://irc.anonnet.org/edinburgh #edinburgh]
+
+=====Message from Autonomist=====
+
+Hello Scottish Anonymous!
+
+This is Autonomist from Edinburgh. 
+
+There is a large [http://en.wikipedia.org/wiki/Anarchist anarchist] community in Edinburgh, and we would love to share skills and information with Scottish Anonymous.
+
+We are very well informed about Scottish law, and could give you all a legal briefing on your rights when protesting. Many of us have been involved in anti-road/anti-nuclear/anti-war activities, and we all hate organised religions like Scientology.
+
+We are very good at direct action IRL.
+
+Please let us know what you are up to in Edinburgh via [http://scotland.indymedia.org indymedia scotland]
+
+We plan to join your demonstration!
+
+Solidarity,
+
+Autonomist
+
+==Africa==
+
+===South Africa===
+
+==Asia==
+
+===Israel===
+
+====Tel Aviv====
+*WEB: http://theprotest.info
+*IRC: [irc://irc.suppressivepersons.org/israel #israel]
+
+===Japan===
+* All of Japan: http://network.marcab.org/group/japananon
+* In Moon Language: http://www.xenu.jp
+* Email: anonymous xenu jp
+
+===Russia===
+
+====Moscow====
+*WEB: http://lurkmoar.ru/Ru
+*IRC: [irc://irc.anonnet.org/russia #russia]
+*IRC: [irc://irc.anonnet.org/ru #ru]
+
+
+==Oceania==
+
+===Australia===
+*WEB: http://www.wtfau.com (viral)
+*WEB: http://wiki.auschanology.org
+*WEB: http://www.wtfaustralia.com
+
+====Brisbane====
+*WEB: http://www.brisanon.org
+
+====Canberra====
+*WEB: http://shit-a-thetan.livejournal.com/
+*WEB: http://wiki.auschanology.org/Protest_Planning#Canberra
+
+====Melbourne====
+*WEB: http://www.phobicmedia.com
+
+====Perth====
+*WEB: http://www.anonperth.com
+
+====South Australia/Adelaide====
+*WEB: http://www.anonsa.org
+*EMAIL: david@anonsa.org
+*FORUMS: www.anonsa.org/forum
+*IRC: [irc://irc.eskimo.net/AnonSA #AnonSA]
+*TWITTER: www.twitter.com/anonsa
+*ANONYPHONE: +61 432 812 922
+
+====Sydney====
+*WEB: http://www.asyd.org
+
+===New Zealand===
+
+*WEB: http://www.nzraid.info/forums
+*IRC: [irc://irc.anonnet.org/nzraid #nzraid]
+
+====Auckland====
+*5/10 Discussion: http://forums.enturbulation.org/88-asia-pacific/auckland-nz-8858/
+
+====Christchurch====
+*5/10 Discussion: http://forums.enturbulation.org/88-asia-pacific/christchurch-nz-8916/
+
+====Wellington====
+*5/10 Discussion: http://forums.enturbulation.org/88-asia-pacific/wellington-new-zealand-8981/
+
+{{Scientology}}
+
+[[Category:Chanology]]
+[[Category:Events]]

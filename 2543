@@ -1,0 +1,32 @@
+ED is slow
+[[Image:Sloscan.jpg|thumb|right|260px|ED Server HQ]]
+[[Image:ED is slow.png|thumb|260px|How you can tell when ED is slow.]]
+'''[[ED]] is slow''' (not to be confused with [[Special Ed|'Ed is slow']]) is a naturally occurring phenomenon related to the [[fail|inadequacy]] of current [[Internets]] technology vis-a-vis the inability to transmit [[X-box|vast quantities]] of [[lulz]] at high speeds to the masses.
+
+==Usage==
+:'''Prima:''' "ED is slow. Is it getting [[DDoS]]'d?"
+:'''Secunda:''' "ED is always slow." 
+
+==How does ED go down?==
+It is frequently assumed that ED is under a [[DDoS]] attack when these [[The Caturday Nap|are going around]], however it is frequently assumed [[RONG|wrong]], because ED is immune to DDoS attacks and is immune to [[CS3|ping and tracert]].
+
+Other times you get an error like [[Guru Meditation]] or an error like the one below.
+
+<div style="border:1px dotted #4682b4; padding:5px; background-color:#f0f8ff; width:50%; overflow:auto">
+Warning: require_once(extensions/youtube.php) [function.require-once]: failed to open stream: No such file or directory in /var/www/ed/wiki/LocalSettings.php on line 243
+
+Fatal error: require_once() [function.require]: Failed opening required 'extensions/youtube.php' (include_path='/var/www/ed/wiki:/var/www/ed/wiki/includes:/var/www/ed/wiki/languages:.:/usr/share/php:/usr/share/[[pear]]') in /var/www/ed/wiki/LocalSettings.php on line 243
+</div>
+
+<br/><br/>However, that is not the real cause.  From a purely technical standpoint, when an outage occurs, ED [[Chris-chan|goes down salty]].  Below is a technical diagram.
+
+<br/>[[Image:Cwc salty iced tea.jpg|300px]]
+
+==See Also==
+*[[Encyclopedia_Dramatica:Support_ED|Donations]] plox.
+
+{{notcrap}}
+
+[[Category:In Jokes]]
+[[Category:Internets Phenomena]]
+[[Category:Netspeak]]

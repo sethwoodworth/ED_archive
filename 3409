@@ -1,0 +1,19 @@
+Good Joke:Word Count Ratio
+{{Styleguide}} 
+Here in [[Encyclopedia Dramatica|ED]], we use the '''Good Joke:Word Count Ratio''' formula to judge whether articles are [[funny]] or [[unfunny]].  
+
+==How to calculate==
+#Copy and paste the article into your favorite word-processing software.
+#Do a word count
+#Read the article.
+##For every good joke, award 1 point.
+##For every [[lulz]], award 1 point.
+##Add the two scores.
+##For every verified [[fact]], subtract 1 point.
+#Simplify (good joke + lulz - fact) : (word count)
+#You have the ratio!
+
+==What to do if you find an article with a bad ratio==
+Give it [[:template:unfunny|<nowiki>{{unfunny}}</nowiki>]] (users) or [[:template:crap|<nowiki>{{crap}}</nowiki>]] (any article or user) as applicable.  If you turn an article into not-crap, please change the [[:template:crap|<nowiki>{{crap}}</nowiki>]] template to [[:template:notcrap|<nowiki>{{notcrap}}</nowiki>]].
+
+[[Category:Wikis Suck]]

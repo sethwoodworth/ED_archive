@@ -1,0 +1,52 @@
+PFBind
+[[Image:PFBind_v1,2.png|thumb|right|350px|Screenshot of pFBind v1.2 - contains a file for testing purposes]]
+
+pFBind is a file binder specifically made for 4chan. It allows you to bind any file to an image, creating fbinds.
+
+Although it was primarily made to resurrect [[Lithursday]], you can also use it to [[cp|exchange hidden messages]].
+
+Note that pFBind became a bit easier to use in v1.2. Give it another shot if you gave up earlier.
+
+If you want to test it, try to extract the file in the screenshot to the right.
+
+'''pFBind has been blocked from 4chan for ages.'''  For alternatives, see the article on [[Lithursday]].
+
+== Usage ==
+
+'''Extracting a file from an fbind (image)'''
+*1. Download pFBind and the image
+*2. Drag and drop the image onto the pFBind icon
+*3. Press Y-Enter-Enter
+*4. File appears in same folder as image
+
+'''Creating fbinds the simple way'''
+*1. Drag and drop the file onto the pFBind icon
+*2. Press P-Enter (default image based on filetype)
+*3. Enter a filename without any file extension
+*4. Your fbind appears in the same folder as the file.
+
+'''Embedding a file into a specific image'''
+*1. Place file (pdf/avi/rar/zip/whatever) and image in same folder
+*2. Select (highlight) both the file and the image
+*3. Drag and drop both files onto pFBind icon ''by dragging the image''
+*4. Enter fancy filename (again with no extension)
+*5. New image appears in same folder as image; upload that.
+If the created image doesn't work, you were [[doing it wrong]] in step 3.
+
+
+==Regarding backwards compatibility==
+
+pFBind v1.2 can extract fbinds made using older versions. However if you try to extract a v1.2 fbind using an older version of pFBind, it will not remove the CRC checksum at the end of the file. This usually doesn't hurt, but some files simply stop working properly.
+
+[[tl;dr]]: You should upgrade to v1.2
+
+
+==External Links==
+
+*[http://www.praetox.com/site/software/download.php?app=pFBind Download pFBind]
+
+
+{{4chan}}
+
+[[Category: Softwarez]] 
+[[Category:Chans]]

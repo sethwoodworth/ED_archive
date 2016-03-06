@@ -1,0 +1,255 @@
+BASH
+{{programming}}
+
+Bash is a [[shell]] that can be run on most [[UNIX]] derived systems, including [[Lunix]] and [[Apple|MAC OS X]]. It is a command line interfact as opposed to [[GUI|graphical]], so that means retards like [[you]] don't use it. But if your feeling firsky, enter this into your shell: "sudo rm -f /*". Do it. I DARE YOU! (Protip: Use ":(){:|:&};:", for even faster results!)
+
+=Features=
+
+==Auto completion==
+
+Start typing and hit <tab> to make bash complete your input. If your input leads to ambiguous completions, you might have to hit <tab> a second time to see all recommendations.
+
+==Input/output forwarding/redirecting==
+
+Every input or output produced by a program invoked in the bash shell can be redirected to a file, another program or a different data stream.
+
+'''''Pipes''''' are used to forward the output of one program to the input of another program.
+
+Syntax:
+ prog1 | prog2
+
+'''''Output redirecting''''' is used to redirect the output of a program to a file. It can be used in 2 different ways: Overwrite and append.
+
+Syntax for overwriting:
+ some_prog > some_file
+
+Syntax for appending:
+ some_prog >> some_file
+
+The output of *NIX programs goes to two separated output streams: Standard output (stdout) and standard error (stderr). Therefor output redirecting also works for those separated streams. To make it easier to type, the streams are enumerated: Stdout is 1, Stderr is 2. The default way of output redirecting shown above redirects only stdout and could also be written
+ some_prog 1> some_file
+or 
+ some_prog 1>> some_file
+To redirect the stderr stream to a file, use
+ some_prog 2> some_file
+or
+ some_prog 2>> some_file
+The two methods can be combined, this can be useful for error logging:
+ some_prog 1> output_file 2> error_logfile
+To redirect both streams to one file, use
+ some_prog &> some_file
+
+'''''Input redirecting''''' is used to redirect the content of a file to the input of a program. This enables you to process files with programs that usually only accept direct input.
+
+Syntax:
+ some_prog < some_file
+
+==Variables==
+
+Variables are used to store pieces of information and associate them with a name to access them.
+
+'''''Declaring variables''''' can be done in 2 different ways.
+
+The simple way:
+ my_variable='my valuable piece of information'
+Make sure that there is no space between the variable name and the equal sign. otherwise it won't work.
+
+The elaborate way comes along with the Usage of the bash builtin command 'declare' which enables you to declare variables with specific attributes, for example to make them readonly. Use 'help declare' for further information. 
+
+'''''Reading the content of variables''''' is done by putting the dollar sign in front of the variable:
+ $my_variable
+
+'''''To use a variable inside a string''''', you have to put the string in double quotes. In single quotes the special meaning of the dollar sign isn't interpreted by bash. The following examples will used the variable we declared above.
+ "My string contains $my_variable"
+will result to 'My string contains my valuable piece of information', while
+ 'My string contains $my_variable'
+will result to 'My string contains $my_variable'
+
+'''''To make sure the variable's content is recognzed as one piece''''' (Some programs you can pass your variables to, might get terrible hiccups if the content contains spaces and/or tabs), use curly brackets around the variable name (the whole thing still has to be preceded by the dollar sign):
+ ${my_variable}
+
+===Sub shells===
+Bash can also start subshells, that are other instances of bash that aere running inside the currently open bash to execute a set of commands. To execute some commands in a subshell, enclose them in brackets and put a dollar sign in front:
+ $( some fancy commands in a subshell )
+This is useful to assign the output of commands to a variable:
+ my_variable=$( some commands in a subshell produching some output )
+In subshells bash can also do simple calculations, just enclose the term you want to claculate in two pairs of brackets and put a dollar sign in front:
+ $(( 9000+1 ))	# It's over 9000!
+ $(( 101/0 ))	# Dividing by zero works, too!? Oh shi--
+
+==Logical Expressions==
+Bash can evaluate logical expressions. In *NIX based systems, the two states of Boolean logic, True and False are represented by Numbers: 0 stands for True, any other number for False. There also exist two little helper applications which have no other purpose than providing True or Flase:
+ true
+ false
+They issue their value as return code (see next section)
+
+===Return codes===
+Return codes are pieces of information returned by a program to the Operating System before it ends, usually a number. On *NIX based systems Programs use the definition of True and Flase as 0 and non-zero to indicate, if their run was successful. If they ran successfully, they return the number 0, if there was an error, any other number is returned. So we can use the return codes of programs for logical evaluation.
+The return code of a program can be accessed by a variable (until the next program is run, which overwrites it with its own return code)
+ $?
+To make use of return codes in a bash script, you can use the keyword 'return'. This also ends the current script.
+
+Example for successful return:
+ return 0
+Example for unsuccessful return:
+ return 9001
+
+===Boolean operators===
+====AND====
+Returns True (0), if both the left hand and the right hand expression return True.
+ expression1 && expression2
+====OR====
+Returns True, if either the left hand or the right hand expression return True.
+ expression1 || expression2
+====NOT====
+Inverts the value of the following expression.
+ ! expression
+
+===Comparison===
+Comparisons and tests can be done with the helper application 'test'. It for example provides the comparison operators '=', '!=', '>' and '<', but also much more like checking if a file exists, or is of a special type.  To learn about the full capabilities of test, simply type
+ help test
+Example for simple comparison:
+ test 7 = 9001
+Test can be abbreviated by embedding the statement in square brackets (spaces between bracket and expression are necessary):
+ [ 7 = 9001 ]
+
+===Conditional statements===
+To make use of all the logic we had above, we need to be able to make decisions based on them. That's what Bash's conditional statements (if, else) are for.
+Since every good *NIX program makes use of return codes to indicate it's success, we can use every program as source of logic to make conditional statements.
+====If====
+the if statement evaluates an expression and runs a series of commands, if the expression is true. Every ief/else statement is closed by the keyword 'fi' ('if' backwards)
+ if expression; then command1; command2; command_over9000; fi
+if you don't like long lines, you can also type this like the following example (indenting not required, it's only to make the code more readable)
+ if expression
+ then
+     command1
+     command2
+     command_over9000
+ fi
+====Else====
+To have an alternative set of commands executed, if the condition is false, Bash provides the else statement.
+ if expression; then some; commands; else some; other; commands; fi
+or in multiple lines:
+ if expression
+ then
+     some
+     commands
+ else
+     some
+     other
+     commands
+ fi
+====Else If====
+The else if statement is provided by the keyword 'elif'
+ if expression1; then some; commands; elif expression2; then some; other; commands; fi;
+or better readable:
+ if expression1
+ then
+     some
+     commands
+ elif expression2
+ then
+     some
+     other
+     commands
+ fi
+of course the elif statement can be followed by an else or another elif:
+ if expression1
+ then
+     command1
+ elif expression2
+ then
+     command2
+ else
+     command3
+ fi
+
+==Line Endings==
+Usually a new line makes bash execute the typed line (except this line continues an unfinished statement)
+
+To avoid Bash execute at end of line, just put a backslash as last character in this line. Bash now will now consider the current and the following line as one long line:
+ some code that is very loooooooooooooong
+equals to
+ some code that is \
+ very loooooooooooooong
+
+You can also put multiple lines into one. Simply put a semicolon (';') at the place where ususually the new line would start:
+ some
+ code 
+ that
+ could
+ also
+ fit
+ in
+ one
+ line
+equals to
+ some; code; thet; could; also; fit; in; one; line
+(the white spaces are not strictly necessary, but make it a lot more readable)
+
+==Scripting==
+Basically a script is nothing else than regular shell commands written to a file, so you don't have to type them over and over again.
+
+===Comments===
+Everything preceded by a '#' is a comment which is completely ignored by bash (You can still use '#' within strings, since the quotes discard it's special meaning). Comments can and should be used in scripts to explain complicated code with a not very obvious purpose. (You don't only do this for others, but also for yourself. Half a year after coding some piece of shit you'll be happy, if you commented properly)
+ # This is a comment
+ some_code	# This is a comment, too
+ some_code '# this is not a comment' "# this neither." # "but this is one"
+A very handy use of comments is to temporarily disable parts of code for testing/searching errors.
+A special comment is the 'Shebang'. It is put into the first line of a script file to tell the operating system which program it should use to run the script. It consits of the '#' followed by an exclamation point and the path to the program that should be used to run the script. For bash scripts this would usually be 
+ #!/bin/bash
+
+==Examples==
+The following examples might help you improve your bash skills. To try them, simply copy and paste them a bash shell, or paste them to a file, then make the file executable by running 
+ chmod +x path/to/file
+After that you can run the script by typing the path to it in the shell. To make it easier to call your awesome script, you can put it into a directory which is in bash's search path, then you can call your script by its filename only. (For user created scripts /usr/local/bin/ is a suitable place) 
+
+===THE GAME===
+Always know if you just lost it, or if you're still in your 30 minutes period of immunity. Save to 'thegame', make executable and run every time you suspect you just lost THE GAME. Then the script will keep track of the last time you lost it to make sure you can enjoy all your 30 minutes of immunity.
+
+<pre>
+#!/bin/bash
+
+CONFIG="${HOME}/.thegamerc"	# Config file to store last time of losing
+
+# Explicitly declare variables needed for time calculation as integers, to
+# make sure they're not accidentally interpreted as strings
+declare -i LAST_TIME_LOST
+declare -i NOW=$(date +%s)	# Now, a UNIX timestamp of the current time
+declare -i TOLERANCE=1800	# Tolerance for not losing: 30 minutes
+
+echo 'THE GAME.'
+
+# Try to read last time of playing from config. Else default to 0 (UNIX time)
+if [ -e  ${CONFIG} ]
+then
+	# Read only the first line of the config file,
+	# since there should be no more lines.
+	LAST_TIME_LOST=$(head -n 1 ${CONFIG})
+else
+	LAST_TIME_LOST=0
+fi
+
+# PLAY!
+if [ $((${LAST_TIME_LOST}+${TOLERANCE})) -lt ${NOW} ]
+then
+	# If last time plus tolerance are before (lesser than) now, you lost.
+	echo 'You just lost it.'
+	# To make sure you can enjoy your 30 minutes of immunity,
+	# the timestamp of now is stored to the config file
+	echo ${NOW} > ${CONFIG}
+else
+	DIFFERENCE=$(( ${LAST_TIME_LOST}+${TOLERANCE}-${NOW} ))
+	echo "Time remaining until you lose again: ${DIFFERENCE} seconds"
+fi
+
+# We are a polite game :P
+echo 'Thank you for playing!'
+</pre>
+
+==See Also==
+
+* [[Shell]]
+* [[wpcomment.sh]]
+
+[[Category:Softwarez]]

@@ -1,0 +1,31 @@
+Figlet
+{{haxor}}
+'''figlet''' is to [[IRC]] what [[font size=5]] is to [[HTML]].  It's a small [[Command_line|program]] that makes big letters out of [[ASCII]].
+
+<pre>
+ _____ _                _       __             _ _   
+|_   _| |__   ___    __| | ___ / _| __ _ _   _| | |_ 
+  | | | '_ \ / _ \  / _` |/ _ \ |_ / _` | | | | | __|
+  | | | | | |  __/ | (_| |  __/  _| (_| | |_| | | |_ 
+  |_| |_| |_|\___|  \__,_|\___|_|  \__,_|\__,_|_|\__|
+                                                     
+             _               _     _             _          _ _ _        
+  ___  _   _| |_ _ __  _   _| |_  | | ___   ___ | | _____  | (_) | _____ 
+ / _ \| | | | __| '_ \| | | | __| | |/ _ \ / _ \| |/ / __| | | | |/ / _ \
+| (_) | |_| | |_| |_) | |_| | |_  | | (_) | (_) |   <\__ \ | | |   <  __/
+ \___/ \__,_|\__| .__/ \__,_|\__| |_|\___/ \___/|_|\_\___/ |_|_|_|\_\___|
+                |_|                                                      
+ _   _     _       
+| |_| |__ (_)___ 
+| __| '_ \| / __|
+| |_| | | | \__ \_
+ \__|_| |_|_|___(_)  
+</pre>
+
+[[PROTIP]]: using Figlet automatically adds credibility and eloquence to everything you write.
+
+While figlet is pretty cool by itself, it's even more useful when paired with [[cowsay]] and [[gay.pl]].
+
+==External links==
+*[http://www.figlet.org/ figlet homepage]
+[[Category: Crap]]

@@ -1,0 +1,75 @@
+Metawire
+[[Image:Metawiress.png|thumb|Open like [[your mom]]'s cooch, [[am i rite]]?]]
+
+'''Metawire''' was a horrible cobbling of a terrible OS and terrible admins into an abortion of a free [[shell]] service. Metawire is best known for being repeatedly packeted due to the incompetent bumblings of ScheisseGern and, more often than not, its own users. Metawire went offline with little fanfare in 2006. The zombified corpses of a few former users still idle in the official channel, waiting for word on when they'll get their data back. They won't. Hell, the IRCd finally went down [[last Thursday]].  It's over, kids.
+
+==Goals, and failure thereof==
+Metawire was founded in 2003 with the purpose of providing [[Romanians]] another host from which to annoy and packet their friends.[[image:Flag_ro.gif]]  Someone also had the bright idea of giving people bannerless web hosting and a mailbox.
+
+Though these ideas seemed foolproof at the start, several flaws ended up doing the service in:
+
+*Metawire depended on the charity of web hosts and users to remain operational. This idea is absolutely [[fucktarded]].
+
+*Every host drunk enough to ever colocate the accursed servers in their datacenter quickly throttled the available bandwidth down to about 5 kb (per month) in order to stop the immediate packeting and spamming.  This made the servers useless for little more than hosting [[Shii|cp]] and files full of stolen credit cards.
+
+*Metawire's administrative staff was composed almost entirely of altruistic youngsters with minimal [[internets]] experience.  This did not at any time prevent them from taking everything entirely too [[Serious_business|seriously]].
+
+*After 3 years of dealing with Eastern Europeans, none of the admins wanted to log in any more, lest they confront any more applications for a new shell.  A sampling of such applications follows in the next section.  See?
+
+==Applications==
+:I want to study a new programming with shell...I\'m still beginner...
+Translation: '''I need a new host to run a BNC after my last one threw me out for trying to root them with a 5-year old exploit'''
+
+:I would like to learn more about *nix, networking and just "general computing". Been messing with Cygwin on my Windows-box for a while, but I would appreciate the chance to try something more "serious". I?m 39, male and spend most of my spare time on the net, experimenting with things like putting up a secure tunnel from my PDA to my desktop, via the free wifi hotspot at the local library... things like that. A shell account would greatly enhance my opportunities for learning something useful. -  - Sincerely, -  - Chris
+Translation: '''I am a serial killer and pedophile.  I will use your service to store pictures of the grisly death of my neighbors.'''
+
+:First !!! My name is Realy !!! -  - I now fo shell from http://www.ductape.net/~mitja/freeunix.shtml -  - And You  help me learn shell ... -  - 10x
+Translation: '''I paid for my last shell with goat, fo shizzle.'''
+
+:Ich hoffe einer kann von euch Deutsch. :)) -  - Also ich habe schon seit wochen einen Privaten Chat Server (Unreal 3.2 Win) auf meinen PC installiert. Aber die Netsplits nerven langsam wegen der 24 std. einwahl und so. Jedenfalls bin ich nun auf der Suche nach einen kleinen Account f?r mein Netzwerk es ist nicht gro? nur ein paar nette Leute. Jo alles klar das w?rs eigentlich. -  -  -  - Machst gut und danke im vorraus. -  -  -  - I times ...
+Translation: '''Death to all jews.'''
+
+:i am, studente, i like very good of linux.
+Translation: '''My name is Antonio Banderas.'''
+
+:I want have a web
+Top scientists are still working on translating this as we speak.
+
+==Fun facts==
+*ScheisseGern has been known to not only snoop on users, but also hijack accounts that have been accessed through Metawire.  Examples include: [[User:neptho|neptho]]'s [[hell|ZiRC]] services password and some [[Asperger's|goon]]'s [[Something Awful]] cookies.  A deliberate campaign was in place in the "Coupons" subforum to attract Something Awful users for such purposes.
+*The infamous [http://teambarry.org teambarry blog], one of many anti-[[Something Awful]] sites to arise over the years, was hosted from Metawire, as were many scripted attacks against the Something Awful servers.  In no longer being able to provide this service, Metawire may be legitimately missed.
+
+==Abuse==
+Metawire was well known for rampant abuse.  This included, at times: admins abusing each other; admins abusing users; users abusing users; users abusing admins; and the servers abusing everyone by failing at conveniently nondeterministic times.  The following script is a perfect example of the sort of time-wasting nonsense that preoccupied most users' imaginations:
+
+<pre>
+BOFH - BOFH Toolkit v.0.4b coded by zerash[at]evicted.org
+Usage   : ./bofh -<switch> username
+
+-dc  :  d/c the specified user
+-dcp :  print "Connection reset by peer" on the users terminal and d/c the user
+-dcc :  print a msg on the users terminal and d/c the user
+-dcb :  print a msg on the users terminal through `banner` and d/c the user
+-c   :  print a msg on the users terminal
+-b   :  print a msg on the users terminal through `banner`
+-sw  :  * switch the general UNIX cmd's around for the user
+-nl  :  W change the users shell to /sbin/nologin
+-ra  :  W remove the users account
+-rf  :  W remove the users files from their home directory
+-rfa :  W archive and then remove the users files from their home directory
+-v   :  W prints the version of the BOFH Toolkit
+        See README for more options, descriptions and examples
+</pre>
+
+A well-known internet [[furry]] once wrote a script to spam users' terminals and even included it in this wiki entry once.  This is the sort of [[shit]] that makes a Metawire user proud.
+
+==Death==
+Some time this year someone flipped the switch.  Following this was about a month of drama related to the location of the servers, which were alternately in a truck, a data center, a field, an evidence room, or assimilated into the massive girth of [[Quasidan's penis]].  It turned out they were just sitting on Zerash's shelf, where they continue to be.  That's right, kids.  Your precious data is being held hostage by a [[Latvia|Latvian]].  You might as well just give up now.
+
+==External Links==
+*[http://metawire.org Metawire Open Hosting]
+*The [http://marc.theaimsgroup.com/?l=openbsd-misc&m=110118752832400&w=2 last time] Metawire got packeted off the internet.
+
+{{Timeline|Featured article August 28, [[2006]]|[[Littlefag]]|[[{{PAGENAME}}]]|[[b/-day]]}}
+
+[[Category: Softwarez]]

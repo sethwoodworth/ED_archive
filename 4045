@@ -1,0 +1,38 @@
+Integer
+{{haxor}}
+[[Image:Pi_pie.jpg|thumb|left|Not an integer, but still tasty]]The '''integers''' [[tl;dr|(from the Latin integer, which means with untouched integrity, whole, entire) are the set of numbers consisting of the natural numbers including 0 (0, 1, 2, 3, ...)]].
+
+'''tl;dr:''' You can use Integers to save whole numbers. Inserting a float value like 0.5 will result in 0 when stored as an integer. Rounding and floor/ceiling instances will vary. Check with your local integer provider for [[moar]] options. 
+
+Integers can be [[over 9000]], but not bigger than 2^63. Using Integers the wrong way can result in [[lulz|bugs]] in software. Using MAX_INT can be used to fuck up bad websites.
+
+Note: Sometimes integers can be bad. For instance, trying to round pi to three could result in not a circle, but a tightly-wound spiral.
+
+== Examples of Float to Integer conversion: ==
+
+{| border=1 cellpadding=5 cellspacing=0 
+ |Number || Result || Comment 
+ |- 
+ |[[Over 9000]] || [[Over 9000]] || Great power level, but don't use as a power of a number bigger than 1.
+ |- 
+ |15.9 || 15 || [[pedo|But she was almost 16.]]
+ |- 
+ |15.9 || 16 || [[Crystal Shinkle|16 in the state of Florida for great justice]]
+ |- 
+ |13.0 || 49 || [[Chris Hansen|That's not a 13-year old you are chatting with]]
+ |- 
+ |17.9 || 17 || [[cp|childporn? But she was almost 18.]]
+ |- 
+ |17.9 || 18 || [[sweden|childporn? It looks like an adults vagina, so it's not CP]]
+ |- 
+ |1/2 || 0 || Dividing primes is a bad idea. 
+ |- 
+ |1/0 || [[Divide by zero|Oh shi-]] || You can't [[divide by zero]] you idiot.
+|}
+
+==See also==
+
+*[[Divide by zero]]
+
+{{Science}}
+{{stub}}

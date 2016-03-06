@@ -1,0 +1,327 @@
+IRC FAQ
+{{notice|Hello user! This is about the 30th FAQ I've written for this bloody website, so excuse me if I'm a bit ''brief'' with you. Read it, though. If you come and ask for help in a way that it is clear that you have not read this FAQ, you will be [[Serious Business|fucking]] [[gline]]d.}}
+{{quote|<Buttsex> so how does this thing work?<br/>
+<nowiki><p></nowiki> you type shit and then people call you a faggot|[[ED IRC]]}}
+
+[[ED IRC]]<sup>''[1]''</sup> is the best way to get fast (if not instantaneous) help on the wiki, as well as the easiest way to communicate with the Dramatica community. This '''IRC FAQ''' is designed to assist you in your usage of IRC, and to answer any questions you may have while on the ED IRC server. Please note that this guide is designed solely for ED IRC, and may or may not work for other IRC servers.
+
+==Full List of Channels==
+*''#arbchat'' - Arbitration
+*'''''#ed''''' - General IRC community
+*''#encyclopediadramatica'' - #ed rejects
+*'''''#forum''''' - [http://forums.encyclopediadramatica.com Forum]-focused Community
+*''#hammocks'' - Kewl Kidz only
+*''#ministryoflol'' - [[i dunno lol]]
+*''#mod'' - Discussion channel for the forums moderators
+*''#opers'' - Discussion channel for the IRC Operators
+*''#sysop'' - Discussion channel for the wiki [[SysOp]]s
+*'''''#wiki''''' - For assistance with the wiki/general wiki discussion
+*''#wp80'' - For assistance with our [[WhatPort80]], our sister site
+
+==Basics==
+{{quote|[00:41:00] <Jazeps> I didn't know that those under op status could gline}}
+===Register Your Nickname===
+If you want to be able to do just about anything, register your nick (nickname). Type the following command, replacing <password> and <e-mail> with your password and your email, respectively.
+
+ /msg nickserv register <password> <email>
+
+Then get the confirmation code from the email you provided and follow the simple instructions.
+
+===Identify Your Nickname===
+Now you need to remember to identify your nick when you connect. Your IRC client might have a "password" place you can put the password in, or a script to send it automatically on startup. The full command is:
+
+ /msg nickserv identify <password>
+
+===Channel Privileges===
+Registered and identified users can get channel privileges. These privileges are not handed out to just any new user on the server for the first time, however. Take some time getting to know your fellow chatters and become a trusted user of the IRC channels on the server. Once you have earned VOP, you will be added to the list by a channel operator who will do this at his or her own discretion by executing the following command:
+
+ /msg chanserv vop #channel add <your-nick>
+
+You won't immediately be voiced however. To voice yourself after being added, type this:
+
+ /msg chanserv voice #channel
+
+The same commands apply to HOP (Auto-HalfOp), AOP (Auto-Op), SOP (Auto-Protect), and QOP (Auto-Owner).
+
+ /msg chanserv hop #channel add <your-nick>
+ /msg chanserv halfop #channel
+
+ /msg chanserv aop #channel add <your-nick>
+ /msg chanserv op #channel
+
+ /msg chanserv sop #channel add <your-nick>
+ /msg chanserv protect #channel
+
+ /msg chanserv qop #channel add <your-nick>
+ /msg chanserv owner #channel
+
+
+====In-depth Privileges====
+Certain users will earn privileges automatically based on their wiki/forum contributions and/or privileges. Contact an IRC or channel Operator to administer privileges if you fall under any of these categories.
+
+*'''#ed'''
+**@ - ''Wiki SysOps, Kool Kids''
+**% - ''Senior EDitors''
+**+ - ''Registered Nicks''
+*'''#forum'''
+**@ - ''Forum Moderators''
+**% - ''Paid Users''
+**+ - ''Registered Nicks''
+*'''#wiki'''
+**@ - ''Wiki SysOps''
+**% - ''Image Experts''
+**+ - ''Registered Nicks''
+
+==Extras==
+===Hostmask===
+You can also get a custom hostmask, also known as a vHost (virtual host). This is the best way (Short of [[SSH]]) to hide your identity so [[FBI|people]] won't be able to see your [[docs|ISP and location]] information. A hostmask is the bit after your nickname, which appears in the following format: ''lol!d0ngs@lol.dongs.com'', where ''lol'' (the section before the !) is your nickname, "''d0ngs''" (the section between the ! and @) is your ident, and "''lol.dongs.com''" (the section after the @) is your hostmask. You can however request a hostmask (to either conceal your actual hostmask, or to be clever) and it can be just about anything so long as it has at least one period (.) in it. Request a hostmask with the following command:
+
+ /msg hostserv request example@host.mask
+
+This will save your request. You should then send a message to either Yiri or another IRC Op to ask to approve your request. Don't nag. Once the hostmask is approved, type "on" in a message to hostserv to activate it.
+
+ /msg hostserv on
+
+To turn off a hostmask, simply use the reverse. 
+
+ /msg hostserv off
+
+Note that abusing hostmask priviliges may result in hostmask removal/modification and or a [[g-line]].
+
+===SSL===
+ED IRC supports SSL on port 6697. It is best to sign on SSL as it is a secure connection. You can sign on SSL with mIRC and other clients with the following command.
+
+ /server irc.anonymuncule.com:+6697
+
+The colon defines that the value will be for the port and the plus sign defines that the connection will be SSL ([[SNCA|Secure Socket Layer]]). Some clients use  different syntax, if you run into problems just ask Google.
+
+===Nickname Grouping===
+In the event that you want to change your nickname, you can make your new username a part of the old username's group. This will keep your channel privileges and minimize irritation to IRC/Channel operators. Change your nickname to the desired one and execute this command:
+
+ /msg nickserv group <main_nickname> <password> 
+
+<password> is the password you registered your <main_nickname> with.
+
+===Ghosting===
+Sometimes your connection might break and you'll reconnect, only to see that you appear to still be on the server. This will mean you can't have your usual nick. Type the following command to disconnect ("kill") the lost session:
+
+ /msg nickserv ghost <nickname> <password>
+
+Never share your password with anyone. Other users will be able to disconnect you at will and/or steal your nick if your password is known.
+
+===Chanserv===
+{{quote|[22:01:17] <%Marukomuru> HalfOp is like Op without the keys to the front door.}}
+
+Anyone on a channel's AOP or SOP list is able to utilize Channel Services (chanserv) to their advantage. For example, if an op were to be (kick)banned by another op, the kicked op would be able to unban themselves through chanserv with this command:
+
+ /msg chanserv unban <channel>
+
+Likewise, if a channel is protected with a key (channelmode +k) or set to invitation only (channelmode +i), an op would be able to invite themselves into the channel through chanserv with this command:
+
+ /msg chanserv invite <channel>
+
+In channels with service bots, ops are also able to use chanserv to kick and/or ban users; note that it is usually easier to perform kicks using the standard /kick command.
+
+ /msg chanserv kick <channel> <nick> <reason>
+ /msg chanserv ban <channel> <nick> <reason>
+
+==Commands and Modes==
+There are [[at least 100|many]] different modes and commands available. These listed here are the only ones that matter and are important to know of if you don't want to sound like a tool on ED IRC.
+===Basic Commands===
+<center>
+{|class="wikitable" style="text-align:center;" 
+!Command!!Full Syntax!!Description!!Restrictions!!Additional Commands
+|-
+|'''''Ignore'''''||''/ignore $nick/hostmask''||Ignores user.||None||''/ignore -l'' (view ignore list)<br/>''/ignore -r $nick/hostmask'' (remove entry from ignore list)<br/>''/ignore -r'' (clear ignore list)<br/>
+|-
+|'''''Invite'''''||''/invite $nick #channel''||Invites user to channel.||Only privileged users are able to send invites||
+|-
+|'''''Kick'''''||''/kick #channel $nick <reason>''||Kicks user from channel with given reason.||Higher-privileged users cannot be kicked by lower-privileged users.||''/kick #channel $nick'' (use without reason parameter for a generic kick signed with your nick)
+|-
+|'''''Ban'''''||''/ban #channel $nick/hostmask''||Bans user from channel.||This command can only be used by Half-Ops and higher.||''/ban -k #channel $nick/hostmask <reason>'' (executes a kickban)
+|-
+|'''''Message'''''||''/msg $nick <text>''||Sends private message to user. Also used to initialize service commands.||You cannot send messages to users that have ignored you.||''/msg #channel <text>'' will send a message to a channel that does not have +n set.
+|-
+|'''''Mode'''''||''/mode $nick/#channel +/-<mode(s)> $nick(s)''||Modifies channel/usermode.||Some modes can only be set by channel Ops, some only by IRC Ops.||
+|-
+|'''''Notice'''''||''/notice $nick <text>''||Sends notice to user.||
+|-
+|'''''Part'''''||''/part #channel <reason>''||Parts channel with given reason. Depending on your client, you may or may not remain connected to the server.||None||''/part #channel'' (use without reason parameter for blank or default part message)
+|-
+|'''''Quit'''''||''/quit <reason>''||Disconnect from server with given reason.||None||''/quit'' (use without reason parameter for blank or default quit message)
+|-
+|'''''Disconnect'''''||''/disconnect''||Force disconnection from server. Note that your session doesn't immedieately terminate with this method, and you may have to ghost your nick upon reconnection.||None||
+|}
+</center>
+
+===User and Channelmodes===
+<center>
+{|class="wikitable" style="text-align:center;" 
+!Letter!!Name!!Mode Type!!Description!!Symbol<br/>(if applicable)!!Syntax
+|-
+|'''a'''||''Protect''||User||Gives/Removes Protected status||'''&'''||''/mode #chan +/-a <nick>''
+|-
+|'''b'''||''Ban''||User||Bans nick/hostmask from communicating channel; usually accompanied with a kick.|| ||''/mode #chan +/-b <nick/hostmask>''
+|-
+|'''C'''||''CTCP Block''||Channel||Blocks CTCPs from reaching the channel|| ||''/mode #chan +/-C''
+|-
+|'''c'''||''Color Block''||Channel||Blocks lines with color from reaching the channel|| ||''/mode #chan +/-c''
+|-
+|'''e'''||''Exception''||User||Allows nick/hostmask to override bans, invite only, moderated, etc.|| ||''/mode #chan +/-e <nick/hostmask>''
+|-
+|'''h'''||''Half-Operator''||User||Gives/Removes Half-Op status||'''%'''||''/mode #chan +/-h <nick>''
+|-
+|'''i'''||''Invitation''||Channel||Sets channel as invite-only; only those invited to the channel are able to join|| ||''/mode #chan +/-i''
+|-
+|'''i'''||''Invisible''||User||User will not show up in /names output|| ||''/mode <nick> +/-i''
+|-
+|'''k'''||''Key''||Channel||Channel is protected by a password ("key")|| ||''/mode #channel +/-k''<br/>''/join #channel <key>''
+|-
+|'''l'''||''Channel Limit''||Channel||Limit channel participants|| ||''/mode #chan +/-l <number>''
+|-
+|'''m'''||''Moderated''||Channel||Silence channel; only those with voice and higher can send messages|| ||''/mode #chan +/-m''
+|-
+|'''N'''||''Nickname Change Block''||Channel||Users cannot change nicknames while on a +N channel|| ||''/mode #chan +/-N''
+|-
+|'''n'''||''No External Messages''||Channel||Users outside of the channel cannot send messages|| ||''/mode #chan +/-n''
+|-
+|'''o'''||''Operator''||User||Gives/Removes Op status||'''@'''||''/mode #chan +/-o <nick>''
+|-
+|'''p'''||''Private''||Channel||Channel does not appear in /whois output|| ||''/mode #chan +/-p''
+|-
+|'''q'''||''Owner''||User||Gives/Removes Owner status||'''~'''||''This mode can only be given by the server.<br/>To remove, use /mode #chan -q <nick>''
+|-
+|'''R'''||''Registered Messages Only''||User||Only those with registered and identified nicks are able to communicate with the user; applies only to /msg|| ||''/mode <nick> +/-R''
+|-
+|'''r'''||''Registered''||User/Channel||Indicates that the user/channel is registered with Nick/ChanServ|| ||''This mode can only be set by Services''
+|-
+|'''s'''||''Secret''||Channel||Channel does not appear in /whois and /list output|| ||''/mode #chan +/-s''
+|-
+|'''T'''||''CTCP Block''||User||Blocks CTCPs from reaching the user|| ||''/mode <nick> +/-T''
+|-
+|'''t'''||''Topic''||Channel||Only Ops can change the channel topic|| ||''/mode #chan +/-t''
+|-
+|'''v'''||''Voice''||User||Gives/Removes voice status||'''+'''||''/mode #chan +/-v <nick>''
+|}
+</center>
+
+==mIRC User Scripts==
+===Basic ED Search Script===
+If you use [[mIRC]] for your IRC client - and about 99% of the internet does - this little snippet of [[code]] can be a very valuable tool for your IRC experience and can also be a very fun part of learning some coding for the program, if you are into that stuff.
+
+#Open mIRC's script editor and click on the "Remotes" tab. <br> 
+#Make a new mIRC remote by clicking on "File" and then "New."  You should be presented with a blank text area to edit in.<br>
+#Paste this line in the new remote:<br/><pre>alias end { if ($1) { url $+(http://encyclopediadramatica.com/Special:Search?search=,$1-) } }</pre>
+#Save that Remote as whatever you want, but make sure it ends in '''.mrc''' also make sure it is someplace in your mIRC folder.<br>
+#Load the remote by clicking on "file" again and then "load."  Find your recently saved .mrc file and click that.  The ED search script is now loaded.<br>
+#To use, type '''/end (your search terms)''' in any mIRC channel or status window you have.  The script will locate your search query and open the page in your default [[browser]].  
+:*Example:  '''/end raspberry rush''' will take you to this page: [http://encyclopediadramatica.com/Raspberry_Rush http://encyclopediadramatica.com/Raspberry_Rush]<br>
+
+===Advanced ED Search Script===
+[[File:EDscriptsearcher.jpg|frameless|right|Just what the hell is this thing doing?]]
+This script searches encyclopediadramatica.com for your search item. If no search word is given, it will give results from a random word. The syntax for the script is ''!dramatica <search word(s)>'', or simply ''!dramatica'' for a random search.
+
+There is a ! trigger that will notice the user and a @ trigger that will message the channel if the user has halfops or higher.
+
+<pre>
+;Encyclopedia Dramatica Search Script by Ford_Lawnmower -- irc.mindforge.org #USA-Chat
+menu Channel,Status {
+  .$iif($group(#dramatica) == On,$style(1)) Encyclopedia Dramatica Trigger
+  ..$iif($group(#dramatica) == On,$style(2)) On: .enable #dramatica
+  ..$iif($group(#dramatica) == Off,$style(2)) Off: .disable #dramatica
+}
+#dramatica on
+On $*:Text:/^(!|@)dramatica.*/Si:#: {
+  if ($timer($+(dramatica,$network,$nick))) { return }
+  .timer $+ $+(dramatica,$network,$nick) 1 4 noop
+  var %method $iif($regml(1) == !,.notice $nick,$iif($regex($nick($chan,$nick).pnick,/(!|~|&|@|%)/),.msg $chan,.notice $nick))
+  dramaticaS %method $2-
+}
+#dramatica end
+alias dramatica { dramaticaS echo -a $1- }
+alias -l dramaticaS {
+  $1-2 Searching........
+  var %sockname $+(dramaticaS,$network,$2,$ticks)
+  sockopen %sockname encyclopediadramatica.com 80
+  sockmark %sockname $1-2 $iif($3,$+(/Special:Search/,$replace($3-,$chr(32),+)),/Special:Random) 0 $iif(!$3,1,0)
+}
+alias -l dramaticaR {
+  var %sockname $+(dramaticaR,$network,$2,$ticks)
+  sockopen %sockname encyclopediadramatica.com 80
+  sockmark %sockname $1-2 $+(/,$3) 0 $iif($4,1,0)
+}
+On *:sockopen:dramatica*: {
+  if (!$sockerr) {
+    sockwrite -nt $sockname GET $gettok($sock($sockname).mark,3,32) HTTP/1.0
+    sockwrite -n $sockname Host: encyclopediadramatica.com
+    sockwrite -n $sockname $crlf
+  }
+  else { echo -st Socket Error $nopath($script) | sockclose $sockname | return }
+}
+On *:sockread:dramaticaS*: {
+  if ($sockerr) { echo -st Socket Error $nopath($script) | sockclose $sockname | return }
+  else {
+    var %dramaticaS | sockread %dramaticaS
+    if (Page title matches isincs %dramaticaS) { sockmark $sockname $puttok($sock($sockname).mark,1,4,32) }
+    if (Page text matches isincs %dramaticaS) { sockmark $sockname $puttok($sock($sockname).mark,1,4,32) }    
+    if ($gettok($sock($sockname).mark,4,32)) && ($regex(%dramaticaS,/\Q<li><a href="/\E(.*)\Q" title="\E/)) {
+      dramaticaR $gettok($sock($sockname).mark,1-2,32) $regml(1) $gettok($sock($sockname).mark,5,32)
+      sockclose $sockname
+      return
+    }
+    if (Location: isin %dramaticaS) {
+      dramaticaR $gettok($sock($sockname).mark,1-2,32) $nopath(%dramaticaS) $gettok($sock($sockname).mark,5,32)
+      sockclose $sockname
+      return
+    }
+  }
+}
+On *:sockread:dramaticaR*: {
+  if ($sockerr) { echo -st socket error $nopath($script) }
+  else {
+    var %dramaticaR | sockread %dramaticaR
+    if (*<p>*<b>* iswm %dramaticaR) || (*<p>*<i>* iswm %dramaticaR) { 
+      sockmark $sockname $puttok($sock($sockname).mark,$calc($gettok($sock($sockname).mark,4,32) + 1),4,32) 
+    }
+    if ($gettok($sock($sockname).mark,4,32)) && ($httpstrip(%dramaticaR)) { 
+      put $gettok($sock($sockname).mark,1-2,32) $v1 $+(�,http://encyclopediadramatica.com,$gettok($sock($sockname).mark,3,32))
+      sockclose $sockname
+      return
+    }
+  }
+}
+On *:sockclose:dramatica*: {
+  if ($gettok($sock($sockname).mark,5,32)) && (dramaticaR* iswm $sockname) { dramaticaS $gettok($sock($sockname).mark,1-2,32) }
+  else { $gettok($sock($sockname).mark,1-2,32) Sorry No results found for your Search }
+}
+alias -l httpstrip { var %x, %i = $regsub($1-,/(^[^<]*>|<[^>]*>|<[^>]*$)/g,$null,%x) | return $remove($replace(%x,&amp;,&),&nbsp;,&lt;) }
+alias -l Put {
+  if (!$regex($1,/(\.|^)(msg|notice|echo)$/Si)) || (!$3) { echo -st **Put error** Syntax /Put msg #channel text - or - /Put notice nickname text  | return }
+  var %tokens $0, %Tstart 3, %Dtimer 1500
+  if ($timer($+(Put,$2,$network)).secs) { %Dtimer = $calc($v1 * 1000) }  
+  while ($len($($+($,%Tstart,-,%tokens),2)) > 430) {
+    dec %tokens
+    if ($len($($+($,%Tstart,-,%tokens),2)) <= 430) {
+      .timer -m 1 %Dtimer $1-2 $($+($,%Tstart,-,%tokens),2))
+      inc %Dtimer 1500
+      %Tstart = $calc(%tokens + 1)
+      %tokens = $0
+    }
+  }
+  .timer -m 1 %Dtimer $1-2 $($+($,%Tstart,-,%tokens),2))
+  .timer $+ $+(Put,$2,$network) -m 1 $calc(%Dtimer + 1500) noop 
+}
+</pre>
+
+If you need any further help, send a message to [[User_talk:Wit|wit]], [[User_talk:weev|weev]] or any other available operator (Generally prefixed with @ or &).
+
+<sup>''[1]''</sup> <small>''Encyclopedia Dramatica IRC is an elaborately scripted piece of fiction. Everything discussed there is orchestrated to create the greatest amount of [[lulz|comedy]] available while also creating a realistic IRC environment. Most of the actors are actually perl scripts, commonly known as [[bot]]s who are responding to key words that are typed into the channel, these responses may or may not trigger responses from other bots ad infinitum. These replies produce shockingly realistic looking conversation but are in actuality completely random fabrications. ED IRC is not to be taken seriously and neither is anything mentioned or discussed wherein. Nothing true has ever been typed in IRC <small>(especially Encyclopedia Dramatica IRC)</small> and nothing true ever will be.''
+==See Also==
+{{edpolicy}}
+*[[ED IRC]]
+*[[ED:FAQ]]
+*[[Frequently Asked Questions]]
+
+{{ircseries}}
+[[Category:Site News]]
+[[Category:Communicae]]

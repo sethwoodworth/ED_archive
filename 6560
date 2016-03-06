@@ -1,0 +1,83 @@
+Post ending in (x)
+[[File:Post_ending_in_chemo_PM.png|900px|center|thumb|'''FINALLY!''' [[moot]] [[chemo|surgically reconstructs]] post number endings to [[xxx]].]]
+[[Image:Post_ending_in_sticky.png|thumb|750px|center|[[m00t]] fires the [[chemo]] laser at this [[The Cancer|malignant tumour]].]]
+[[Image:Post ending in full.jpg|thumb|right|[[DSFARGEG]]]]
+[[Image:PostendinginX-Banned.png|thumb|right|[[FAIL]]]]
+
+
+__NOTOC__
+'''Post ending in (#) gets to name my (x)''' (where '''(#)''' is the [[post]] number and '''(x)''' is a anything from [[OP]]'s penis to their newborn [[retard|/b/tarded baby]]) is an [[unfunny]] <s>[[meme]]</s> 'game' played over 9,000 times a day by [[newfags]] and is part of [[The Cancer That Is Killing /b/]]. 
+
+It used to be such a virulent strain of [[The Cancer]] that for many months, if you opened up each and every of the 10 pages of [[B|/b/]] [[threads]] currently in rotation in different tabs, you would have found at least one '''post ending in (#) gets to name my (x).''' Thankfully due to bannage this is no longer the case.
+
+==The Play==
+
+It goes something like this: A the [[OP]] posts a message stating that "the first reply with a post number ending in [[34]]" will become the OP's new name. Soon thereafter, a few hundred replies flood the thread, and post 291830'''34''' so happens to consist of the single word "black person". At this point, it is implied that the OP has gone off to the local registrar [[office]] to [[legal]]ly change his name to "Nigger." Laughs are had.
+
+As of 12/29/07, it is now a [[ban]]nable offence.
+
+[http://encyclopediadramatica.com/Hahaha_disregard_that,_I_suck_cocks HAHAHAHAH DISREGARD THAT I SUCK COCK]
+
+==The Banning==
+
+[[Moot]] and his admins have configured [[4chan]] to auto-ban (for three days) [[fucktard|anyone]] who posts the text string "Thread ending in". Even in a completely neutral context, the relentless autobanning software hands out its [[rape|punishments]], like an always-active robotic chemo machine. Hallelujah, my /b/rothers.
+
+This cancer now has migrated to [[Tinychan]] where it actually improves the post quality there.
+
+==Getting around the masking of post numbers==
+In a feeble attempt to combat "post ending in" threads, 4chan has censored the last three numbers of all /b/ posts, like 123456[[XXX]]. Most people get around this by mouseovering each individual post number. However, that's hella gay. To uncensor the post numbers, just do this:
+
+<ol>
+<li> Open your web browser's javascript console (Firefox users get Firebug. IE6 users go eat a bag of dicks)</li>
+<li> Paste this code in there:
+<pre>
+var quoteJSarray = document.getElementsByClassName('quotejs');
+
+for (var i = 0; i < quoteJSarray.length; i++) {
+	if (i % 2 == 1) {
+		var checkEm = quoteJSarray[i].href.match(/\d{2,}(?=['])/ig);
+		if (!checkEm) {
+			var checkEm = quoteJSarray[i].href.match(/\d{2,}$/ig);
+		}
+		document.getElementsByClassName('quotejs')[i].innerHTML = checkEm;
+	}
+}
+</pre></li>
+<li>If you have Firefox with the Grease[[Monkey]] extension, you can do this automatically on every page load (set the "included pages" to "http://boards.4chan.org/b/*")</li>
+<li>See all post numbers uncensored</li>
+<li>Participate in a "post ending in" thread</li>
+<li>Search for dubs all over /b/</li>
+<li>Die a virgin</li>
+<li> ??? </li>
+<li> [[PROFIT]] </li>
+</ol>
+
+==Related files==
+
+<center>
+<gallery>
+Image:Postendingwin.jpg|[[WIN]]
+Image:Do it you fucking cocksucker.jpg|This is pretty much what you're going to have to do if you decide to start one of these threads.
+Image:The-Game.jpg|[[DO NOT WANT|Don't know if want]]
+
+
+</gallery>
+</center>
+
+==See Also==
+*[[The cancer that is killing /b/]]
+*[[Post ending in 75 Girl]]
+*[[Show Bellybutton]]
+*[[User:OldDirtyBtard/the_treads_of_/b/|The threads of /b/]]
+*[[Bring Back Snacks]]
+*[[Doubles]]
+
+==Antonym==
+*[[Epic Threads]]
+
+
+
+{{stub}}
+{{cancer}}
+[[Category:Memes]]
+[[Category:Chans]]

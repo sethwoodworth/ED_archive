@@ -1,0 +1,37 @@
+Friends only
+[[Image:Friendsonly.gif]]
+[[Image:Locked.jpg|thumb|Example friends-only banner]][[Image:anchorman.gif|thumb|A rather funny way to conduct one's only friendness]] A [[LiveJournal]] entry that is '''friends only''' has the security set to allow only people on one's [[friends list]] to view the content within.  A lock symbol ([[Image:Friends_only.gif]]) appears on these entries &mdash; thus the expression '''friends lock''' (or '''flock''').
+
+An entire journal can be set friends only, making it appear empty to a casual passerby or search engine. Most friends only journals have one or more public entries stating that they are friends only, and some have the phrase "comment to be added" in the hopes of attracting new LJ friends. Once in, there's usually not much worth actually reading. It's usually just an [[emo]] diatribe of shit that just ends up making them look like a [[lol-cow]].
+
+Even public entries can be partially locked, making them read-only to the public. The user sets comment security to only let their friends comment, which effectively kills arguments with outside users.
+
+Often someone will go friends only after being the victim of [[LJ Drama]] in an attempt to save face. Usually this only indicates they couldn't take the heat and attention suddenly directed to their journal and are hiding from bystanders and 
+onlookers.
+
+[[Frienditto]] used to make the idea of "Friends only" completely useless as it has the capability to archive friendsonly entries and the respective comments anonymously.
+
+== Comparison of access modes ==
+{| border="1" style="border-collapse: collapse;" cellpadding="3px;"
+! Entry access mode || Corresponding mode<br />in [[UNIX]] OS || Friends may || Registered<br />LJ users may || Guests may
+|-
+| Public || [[Satan|666]] || Read entry and append comments || Read entry and append comments || Read entry
+|-
+| Public read-only || 664 || Read entry and append comments || Read entry || Read entry
+|-
+| [[Fags|Friends]] only || 600 || Read entry and append comments || N/A || N/A
+|}
+
+==Google Blogsearch==
+Google has recently created a tool to get around "Friends Only" called Blogsearch.  Just type in the username you wish to penetrate, and theres a chance it's cached the private entries.  Google uses advanced website programming to "ask the blog site for its entries", at which point the blog site "gives Google its entries", and "records those entries in its index".  Upon the public's realization that the public can search for public posts that were displayed publicly, the public freaked the fuck out.  References were made to "[[Frienditto]] times a billion", and thousands of journals were converted to Friends Only.  Once again, mankind has [[Obvious|realized that when you type something, people will eventually read it]].
+
+==Friends-locking in practice==
+* "I had to friends lock my whole journal because somebody told my work about it!"
+* "I tried to go to the [[wank]]y post you linked, but the [[OP]] went and flocked it... you didn't screencap, did you?"
+* {{lj|xxxteaserxxx}} (see also [[attention whore]])
+
+==Lulz Enhancer==
+When hurtful or embarrassing information about someone is discovered, it's usually pretty hilarious.  The hilarity triples if the info was in a friends only post, since the poster is undeniably [[pwned|PWNED]] by their own friends, indicating that they have [[no friends|no actual friends]].  This usually leads to unbearable disgrace, as in the case of Queenofthanite.
+
+{{LJ}}
+[[Category:Communicae]]

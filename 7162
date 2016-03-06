@@ -1,0 +1,109 @@
+SQL Injection
+{{FactAlert|This is serious shit and has been known to cause drama and IRL [[Banhammer|Ban Hammers]]. Actually doing this might get you [[Partyvan|v&]]. The information on page is provided for educational purposes only.}}
+
+[[Image:Lethal injection attack droid.jpg|thumb|right|Like this, but in a web browser.]]
+
+'''SQL Injection''' is a type of web-application attack that involves sending specially formatted strings along with a web request. Unlike many attacks which target a specific security hole, a SQL injection is made possible by bad coding practices and can be used against any application platform ([[PHP]], [[CGI]]), regardless of web or database server.
+
+==Examples==
+
+[[Image:Romanian Gymnastics.jpg|thumb|right|Romanian hackers preparing for battle.]]
+
+===February 2009: Kaspersky, F-Secure, Bit Defender===
+Romanian hackers exploited weakness in the websites of these three major security firms to gain access to a wide array of information, including F-Secure's private statistics on infection rates, Kaspersky's internal database of users and activation codes and known product bugs and Bit Defender's list of users' e-mail and personal information and the list of administrator accounts and passwords. Makes you feel warm and fuzzy about their antivirus products, doesn't it?
+
+===October 2009: Guardian Jobs===
+The UK paper's popular job hunting website fell prey to a similar injection attack which gave hackers access to the entire user database, including detailed personal information and employment history, resumes and contact information.
+
+==How-To==
+Injection attacks can be passive - such as logging in to a password-protected website or listing private data, or active - such as inserting records into a database or deleting a database table. All of these examples assume that proper precautions, such as those listed under ''Solutions'', have not been taken. All of the examples will be written in C# .NET because fuck you, it's my favorite language.
+
+===Logging In===
+Let's begin with a simple login page, with username (tbUsername) and password (tbPassword) text boxes and a submit button. The SQL command to log in might be something like:
+
+<pre>
+SqlCommand comm = new SqlCommand("SELECT UserID FROM Users WHERE Username = '" + tbUsername.Text + "' AND Password = '" + tbPassword.Text + "'");
+</pre>
+
+We're going to put the following in for username and the password can be anything:
+
+<pre>
+dongs' OR 1=1--
+</pre>
+
+When the application puts the strings together, the command becomes:
+
+<pre>
+SELECT UserID FROM Users WHERE Username = 'dongs' OR 1=1
+</pre>
+
+The double minus symbol tells SQL to ignore the rest of the command and since 1 is always equal to 1, this query will return some valid user ID and will permit the attacker to log in as if he had a valid username and password.
+
+===Changing Information===
+That was neat, but let's take it a step further. Instead of logging in as a random user, let's say we want to log in as an administrator and the username of that administrator is known. Assuming we're at the same login page with the same SQL command, we'll send the following as the username:
+
+<pre>
+dongs'; UPDATE Users SET Password = 'dongcopter' WHERE Username = 'admin'--
+</pre>
+
+Now, we've changed the admin's password to ''dongcopter'' and not only can he not log in, but you've got admin access to the site. Want to be a dick and just delete the entire users table instead? Try this:
+
+<pre>
+dongs'; DELETE FROM Users--
+</pre>
+
+===More===
+For a longer and more involved How To, visit [[SQL Injection/How To]].
+
+==Solutions==
+
+[[Image:Gatesfloppy.jpg|thumb|right|Looks fabulous while protecting you from hackers.]]
+
+Some application platforms, such as .NET, include built-in tools to prevent injection attacks whereas other platforms may require you to do the work manually. You can also make things harder on an attack by not using obvious database table and column names and not having forms elements share names with their respective database columns. For instance, if your users table is actually named Users and it has the columns Username and Password and your login elements are called ''tbUsername'' and ''tbPassword'', you are an idiot.
+
+===Parameterized Commands===
+Parameterized commands are an alternative to the traditional string-based approach to submitting SQL queries that prevent injection attacks before the command is sent to the server. Microsoft recommends using parameterized commands exclusively. Roughly speaking, one declares a SqlCommand object, sets the command string, and then adds to the parameter collection. .NET processes each parameter, performs error checking on the data, and either strips harmful code or prevents the request from being sent to the database server.
+
+Here is a simple example which does nothing useful:
+
+<pre>
+SqlCommand comm = new SqlCommand("SELECT FirstName, LastName WHERE Username = @Username");
+
+comm.Parameters.Add("@Username", SqlDbType.NVarChar, 25);
+comm.Parameters["@Username"].Value = tbUsername.Text;
+</pre>
+
+If an attacker tried to include any sort of injection attack in the text box named '''tbUsername''', the page would return with a validation error once the server reaches that third line and refuse to process.
+
+===Sanitizing Input===
+[[Image:XKCD-SQL-Injection.png|right|thumb|400px|Always sanitize your data inputs.]]
+Sanitizing input involves processing a user's input and either modifying or outright rejecting the input based on certain heuristics. For platforms that don't support parameterizing commands, you can often find libraries that will sanitize input for you. Some common techniques:
+* '''Look for SQL Keywords''' - If the string contains keywords such as ''SELECT'' or ''DELETE'' or ''DROP'', reject the input.
+* '''Escape/Encode Input''' - If your platform doesn't have a built in function, find and replace all instances of single quotes, double quotes, semicolons and other punctuation or operators with the escaped form. For instance, '''OR 1=1 --''' would be encoded to '''OR 1\=1 \-\-''' and becomes plain text.
+* '''Convert Values''' - Most platforms contain functions to convert from text to numerical values. If a field is known to be numerical, wrap the conversion in a try/catch block and reject the input if it doesn't convert.
+
+===Other Countermeasures===
+*Change "Startup and run SQL Server" using low privilege user in SQL Server Security tab.
+*Delete stored procedures that you are not using like: master..Xp_cmdshell, xp_startmail, xp_sendmail, sp_makewebtask
+
+
+==See Also==
+* [[Hacking]]
+* [[Cross Site Scripting]]
+
+==External Links==
+* [http://www.acunetix.com/blog/news/looking-back-at-2009-through-sql-injection-goggles/ High Profile SQL Injection Attacks in 2009]
+* [http://msdn.microsoft.com/en-us/library/ms998271.aspx Protecting Against SQL Injection in .NET] (Writen for .NET, but has good information for many platforms.)
+* [http://anonym.to/http://www.wiretrip.net/rfp/p/doc.asp?id=42&iface=6 One of the earliest works on SQL Injection, the paper from Rain Forest Puppy about how he hacked PacketStorm]
+* [http://anonym.to/http://www.blackhat.com/presentations/win-usa-01/Litchfield/BHWin01Litchfield.doc Great article on gathering information from ODBC error messages]
+* [http://anonym.to/http://www.owasp.org/asac/input_validation/sql.shtml A good summary of SQL Injection on various SQL Servers]
+* [http://anonym.to/http://www.sensepost.com/misc/SQLinsertion.htm Senseport's article on reading SQL Injection]
+* Others worth reading:
+:* http://anonym.to/http://www.digitaloffense.net/wargames01/IOWargames.ppt 
+:* http://anonym.to/http://www.wiretrip.net/rfp/p/doc.asp?id=7&iface=6 
+:* http://anonym.to/http://www.wiretrip.net/rfp/p/doc.asp?id=60&iface=6
+:* http://anonym.to/http://www.spidynamics.com/whitepapers/WhitepaperSQLInjection.pdf
+
+{{SecurityFaggots}}
+
+[[Category:Softwarez]]

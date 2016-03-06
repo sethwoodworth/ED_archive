@@ -1,0 +1,21 @@
+4olderDump
+[[Image:4olderDump.jpg|thumb|right|Screenshot of the  program]]
+
+<s>The xChan Directory Dumper</s> '''4olderDump'''  is a nifty piece of python witchcraft that makes it easy for you, [[Anonymous]], to dump (hence the name) an entire directory of your [[porn]] or other images into a thread on 4chan. The software runs on Python and requires [http://pycurl.sourceforge.net/ pycurl] to run. You would use this in place of other shit, when you are running on [[Linux]] or you don't feel like running exe's downloaded off an anonymous image board.
+
+'''EXPERT PROGRAMMERS''' will use curl on jewnix, and type in something like: ''for i in *jpg; do curl -F board=b -F replythread=1177 -F message="MASSIVE DUMP" -F imagefile=@$i www.54chan.org/board.php; sleep 3; done''
+
+
+==See Also==
+*[[Bwatch]]
+*[[rape.sh]]
+*[[Mi-Chan]]
+*[[4cGet|Chanmongler]]
+*[[XChan Directory Dumper]]
+
+==External links==
+*[http://pastebin.com/f23e34468 Python Code for 4olderDump]
+<br>
+{{stub}}
+[[Category: Softwarez]] 
+[[Category:Chans]]

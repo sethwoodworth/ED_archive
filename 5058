@@ -1,0 +1,1140 @@
+MIRC Script
+{{programming}}
+
+The '''mIRC scripting language''' is the scripting language embedded in mIRC, a popular [[IRC]] client for Windows. Learning this will make you a [[script kiddie]]. [[Fag]].
+
+==Primary uses==
+*Channel and personal protection against any types of attacks (flooding, spamming, CTCP floods, etc)
+*Dialog windows can be created in mIRC to better serve user-compatibility.
+**Popular mIRC dialog extensions include MDX ('''M'''irc '''D'''ialog '''Ex'''tension) and DCX ('''D'''ialog '''C'''ontrol '''Ex'''tension) There are also a few versions of mdx.dll and dcx.dll modded by irc hackers.
+*Bots that provide automated IRC channel management, trivia or other games, and other desired functions for chatters
+*Commands that save typing or otherwise simplify life on IRC (such as automatically identifying as the owner of a nickname)
+
+==Script storage==
+Scripts are stored as either plain text files, usually with a .mrc file extension, or as INI files. They however can be stored with any extension. It can be: .exe, .script, etc.
+Multiple script files can be loaded at one time, although in some cases, one script will conflict with another and cause one or both of them to no longer work properly.
+
+==Language features==
+mIRC scripting involves a peculiar nomenclature that is not entirely consistent with most of the rest of the programming world. (Most notably, the term identifier—which in most languages refers to the name of a variable or function (whether it returns a value or not)—in mIRC refers specifically to a value returning function.)
+
+*Built-in functions are termed '''commands''' or, if they return a value, '''identifiers'''.
+*Custom scripted functions are called '''aliases'''.  Aliases that return a value are known as '''custom identifiers'''. Both are called from the command line or other parts of a script in the same ways as built-in commands and identifiers (and can even supersede them).
+*'''Popups''' are scripted context menu items.  Popups are called when they are selected by the user. The term originally referred to the menus—which pop up upon a right click. It is still used this way in the manual. But the user community (who tend not to read scripting manuals) took to calling the individual items popups—perhaps thinking of the colourful novelty actions that are popular with many users as pages of a popup book.
+*Remotes are event-handling scripts.  Remotes are called when the event they handle occurs.
+*All variables are dynamically typed.
+*mIRC scripts make use of sigils.  Identifiers (whether custom or built-in) are preceded by ''$'', binary variables are preceded by ''&'', and other variables (whether local or global) are preceded by ''%''.  Commands and aliases are not preceded by any particular character (although when entered from a window's command line they must be preceded by the command prefix, usually ''/'').
+
+===File handling===
+*Scripts can read from and write to files [''$read(file,[args])'' | ''/write'' ]
+The above is intended for singular access to the file. Because each time you issue <code>$read</code> or ''/write'' you open and close the file for access.
+Multiple accesses, during a loop for instance, is best handled through ''/fopen'', ''/fwrite'' and ''/fclose''. Since this opens the file only once. In some cases ''/filter'' and ''/savebuf'' is an even more efficient (non scripted loop) method.
+*Scripts can also copy and delete files. [''/copy'' | ''/remove'']
+
+===Binary variables===
+*Contain unlimited (8192 bytes prior to mIRC 6.1) raw data
+*Globally accessible via commands and identifiers
+*Automatically unset when script returns control to mIRC (and not to another part of a script)
+*Prefixed with ''&'' (eg. ''&Variable'')
+*Cannot be accessed other than by ''/bread'' and ''/bwrite'', so these variables cannot be passed onto other parts of the script
+
+===Hash tables===
+*May contain unlimited binary data or up to 4,143 (941 prior to mIRC 6.32) bytes of plain text. This limit is imposed by mIRC's scripting parser's own line length limitation (unless assigning a binary variable)
+*Globally accessible via commands and identifiers
+*Automatically unset when exiting mIRC
+*Not prefixed
+*Faster than accessing from a variable or INI file, as hash tables are stored in memory rather than the hard disk
+*Can be saved for later use
+*Size limited only by the computer's memory limits. Each table defaults with a size to hold 1000 different items, but this may be enlarged to potentially unlimited sizes
+*The default size of an hash table created using /hmake table name is actually 100 and not 1000 items
+
+===Global variables===
+*May contain up to 4,147 (946 prior to mIRC 6.32) bytes of data (however due to line-length limitations in mIRC's scripting parser, a maximum of 4,144 bytes can be assigned explicitly&nbsp;— this number decreasing as the variable's name grows longer)
+*Cannot store NUL (ASCII 0) or trailing spaces
+*Globally accessible
+*Do not automatically unset (stored automatically in a mIRC initialization file)
+*Prefixed with ''%'' (eg. ''%Variable'')
+*Created using the ''set'' command or ''var -g'' or ''%Variable = value'' notation
+
+===Local variables===
+*May contain up to 4,147 (946 prior to mIRC 6.32) bytes of data (however due to line-length limitations in mIRC's scripting parser, a maximum of 4,144 bytes can be assigned explicitly&nbsp;— this number decreasing as the variable's name grows longer)
+*Can store NUL (ASCII 0) or trailing spaces
+*Accessible only within the scope that created them
+*Prefixed with ''%'' (eg. ''%Variable'')
+*Created using the ''var'' command. ''var'' is merely an internal alias for ''set -l'' but ''var'' poses the means to declare multiple local variables on a single line.
+
+==Limitations==
+*mIRC's scripting parser only supports a maximum of 4,147 (947 prior to mIRC 6.32) characters per line (not including newlines or indentation).
+*Strings are not syntactically enclosed, creating ambiguities in code where characters meant as literal strings are treated as part of the language's syntax.
+*Each line of code is broken down into a set of space-delimited tokens. As mIRC's parser does not support null tokens and the language doesn't provide a syntax to clearly differentiate literal strings from code; Prior to mIRC version 6.2 it was impossible to pass multiple consecutive spaces to any command or alias. However, this was fixed with the introduction of the returnex command which allows the preservation of spaces.
+
+==Code examples==
+The code below is in the remote scripts format. If placed into an alias file, the command names should not be preceded by the word "''alias''". Test Comments include the common ''/* comment */'' and '';comment''.
+
+Here is an example of a Hello World alias:
+
+
+ ;Defines the alias 'hello' in the remote script
+
+ ;Note: if this is placed in an alias script, the 'alias' part must be removed (result: hello {)
+ ;Usage: /hello
+ alias hello {
+
+   ;Displays(/echo) 'Hello World!' into the active window(-a)
+   echo -a Hello World!
+ 
+ }
+
+
+Counting to 10:
+
+
+ alias ten {
+ 
+   ;'%i' is locally set as 1
+   var %i = 1
+ 
+   ;The while loop continues until '%i' is greater than 10, then stops.
+   while (%i <= 10) {
+ 
+     ;Displays(/echo) '[value of %i]' into the active window(-a)
+     ;'[value of %i]' will be 1 at the beginning of the execution.
+     echo -a %i
+ 
+     ;To continue the while loop, '%i' must be increased, or you'll
+     ;have yourself an infinite loop (can be breaked with Ctrl+Pause/Break)
+     inc %i
+ 
+     ;Don't forget to close the while loop scope.
+   }
+ }
+
+
+A remote script event handler:
+
+
+ ;Placed in a remote script.
+
+ ;Literally: when any user joins #IRCHelp, message to the channel: Hello [nickname that joined]
+ on *:JOIN:#IRChelp: { msg $chan Hello $nick }
+
+ ;To do this for any channel, the code would be:
+ on *:JOIN:#: { msg $chan Hello $nick }
+
+
+A remote script to automatically respond to certain text
+
+ ;Placed in a remote script
+
+ ;When a user types Hello! in a channel, you answer back: Hello, [nickname]!
+ on *:TEXT:Hello!:#:{ msg $chan Hello, $nick $+ ! }
+
+ ;When a user types Hello! in a private message, you answer back: Hello, [nickname]!
+ on *:TEXT:Hello!:?: { msg $nick Hello, $nick $+ ! }
+
+
+Here is an example of picture windows:
+
+
+ alias cir {
+
+ ;Create a picture (-p) window (@cir)
+ window -pek @cir
+
+ ;Draw a circle (on window @cir) with color 4 (red), size of 50 at coordinates (200,200)
+ drawdot @cir 4 50 200 200
+
+=='''How To Use The Scripts'''==
+[[Image:Lolflood.jpg|thumb|some scripts can be used for evil.]]
+[[Image:Mircnote.jpg|thumb|irc is often referred to as "multi-player notepad.]]
+[[Image:Undernet Bookz - 2.jpg|thumb|some scripts can become huge and complicated.  these are often called "bots."]]
+Firstly, it must be stressed that these aliases and remote scripts are for use with mIRC.  I have not tested them with xchat or icechat or irssi or any of the other gay little chat clients most of the kiddies these days seem to favor.  With that in mind, if you are using some other client besides mIRC, stop right now.
+
+==='''How to Create, Save, and Load an mIRC Script'''===
+
+1. Locate the mIRC '''script editor'''.  This is a glorified version of notepad that can be found by clicking the remote editor icon in mIRC's '''status bar'''.  The icon looks like a green button with a '''/a''' emblazoned on it.  Newer versions of mIRC will have an icon that looks like a scroll with a small green dot on it.  To open the editor, click that icon.
+
+2. Now that you have the editor open, make sure you are in the '''remotes section''' of the editor.  To do this, click on the '''Remotes''' tab near the top of the editor.
+
+3. Once you are in the Remotes portion of the editor, you need a fresh new remote to work with.  To do this, you must go to the remote editor's menu and click '''File''' and then '''New'''
+
+4. You will be confronted with a blank area to edit with.  Copy your script that you want to create into this blank area.
+
+5. Save the file by going back to the remote editor's menu and clicking on '''File''' and then clicking on '''Save As'''.  Make sure  you save the file in someplace you will remember and also make sure that the file ends with '''.mrc'''  This is the mIRC script extension and while some scripts may run without that extension, it is best to just keep with the program for now.  
+
+'''Example:'''  you have a script that makes big sized text in a channel.  You should save the script as bigtext'''.mrc'''
+
+6. Once you have saved the script file, you must now load it.  To do this, go back to the '''remote editor''' and click on '''File''' and '''Load'''.  This will bring up a dialog of files where mIRC usually stores the many scripts it runs.  Navigate to where  you saved your '''.mrc''' file and double click it.  This will load the file.
+
+7. Test your file.  If the file you created is like my search scripts located above, you must activate the script by typing one of it's '''aliases''' in a channel, query, or status window.  
+
+'''Example:''' You have loaded the Encyclopedia Dramatica search script.  To make it work, you must type it's alias in the channel window.  To do this, you type '''/end (search term)''' in the channel.  '''/end shamwow''' will take you to this page:
+
+http://encyclopediadramatica.com/Shamwow
+
+And that should be it.  If you have questions regarding the use of scripts and how to make them work, I suggest going to [http://www.hawkee.com/ Hawkee] as there is a wealth of information as well as a huge number of scripts to look through and use.
+
+=='''mIRC Is A Command Line'''==
+
+mIRC is a command line program.  What this means to you is that you can use it much like you would use a command line app on your computer.  Some of the better uses I have found is for navigating from drive to drive or folder to folder and also to open applications.  mIRC, on it's own can already open many of the programs that come with a normal Windows install.  Examples of these are as follows:
+
+* '''command prompt'''
+* '''mspaint'''
+* '''notepad'''
+* '''wordpad'''
+* '''control pannel'''
+
+These are just a few of the examples that mIRC can already open.  To open one of these files, type /run and the file you wish to open.  If you want to open notepad.exe then all you have to do is type '''/run notepad''' in any mIRC channel, query, or status window.
+
+Through the use of '''Aliases''' you can open any program on your computer.  Lets say you want to open Photoshop.  You would need to create an alias for that task.  To do this, you would go to your aliases tab in the mIRC scripts editor and make that alias.  The process is similar to creating, saving and loading a remote script (see above).
+
+For Photoshop, you would need to locate the photoshop.exe file and copy down that file path.  It should look something like this:
+
+'''C:/Program Files/Adobe/Photoshop/photoshop.exe''
+
+Then you would create that alias.  To do this you go to the aliases section and on a fresh line type out '''/pho'''  After that you would type out /run C:/Program Files/Adobe/Photoshop/photoshop.exe
+
+After you do that, you save and load your aliases.ini file.  To test if your photohshop alias works, go to a channel or query window and type '''/pho''' there.  The program should open or else you did something wrong.
+
+Also note, aliases can use other commands besides the '''/run''' command.  Some of these include:
+
+* '''/url''' which will open up your browser to a specified url.
+* '''/say''' which will say a line in a channel or query window.
+* '''/join''' which will allow you to join another channel on your current server.
+* '''/echo''' which will repeat a line back to you.  This is useful in conjunction with other scripts.
+
+=='''Other Fun Scripts'''==
+[[Image:Undernet Bookz - 5.jpg|thumb|some scripts can be used to download files.]]
+Below I will be adding scripts as I find or create them.  These will generally be of the "fun" nature because I think hacking and botfarms are for teenagers who don't get laid enough.
+
+==Some Search Remotes==
+
+Here is a list of search scripts that will work when made into a remote script in mIRC.  They are saved here for sharing purposes.
+
+<pre>
+alias gt  { if ($1) { url $+(http://www.google.com/search?hl=en&q=thesaurus+ $1-) } }
+alias gdi { if ($1) { url $+(http://www.google.com/search?hl=en&q=dictionary+ $1-) } }
+alias g { if ($1) { url $+(http://www.google.com/custom?q=,$1-) } }
+alias y { if ($1) { url $+(http://uk.youtube.com/results?search_type=&search_query=,$1-) } }
+alias wiki { if ($1) { url $+(http://en.wikipedia.org/wiki/special:search?search=,$1-) } }
+alias end { if ($1) { url $+(http://encyclopediadramatica.com/Special:Search?search=,$1-) } }
+alias imgs { if ($1) { url $+(http://images.google.com/images?hl=en&q=,$1-) } }
+alias imdb  { if ($1) { url $+(http://www.imdb.com/find?s=all&q= + $1-) } }
+alias pbs  { if ($1) { url $+(http://thepiratebay.org/search/ + $1-) } }
+</pre>
+
+==='''FML Random Generator'''===
+
+This script will broadcast a random FML into the channel whenever a person types the following triger:  '''!fml'''
+
+<pre>
+
+
+on *:text:!fml:#: {
+  sockopen fml www.fmylife.com 80
+  set %fmltarg $chan
+}
+on *:sockopen:fml: {
+  sockwrite -n $sockname GET /random HTTP/2.0
+  sockwrite -n $sockname Host: www.fmylife.com
+  sockwrite -n $sockname Connection: close
+  sockwrite -n $sockname $crlf
+}
+on *:sockread:fml: {
+  sockread %fmltemp
+  if (class="fmllink"> isin %fmltemp) {
+    inc %t 1
+    set %fml $+ %t $remove($nohtml(%fmltemp),$(Net Avenir : gestion publicitaireClose the advertisement))
+  }
+}
+on *:sockclose:fml: {
+  var %fmml $rand(1,$var(%fml*,0))
+  msg %fmltarg $remove($gettok($var(%fml*,%fmml).value,1,35),$(FML))
+  unset %fml* %t
+}
+alias -l nohtml {
+  var %x, %i = $regsub($1-,/(^[^<]*>|<[^>]*>|<[^>]*$)/g,$null,%x), %x = $remove(%x,&nbsp;)
+  return %x
+}
+
+</pre>
+
+==='''Bigtext'''===
+
+This script causes huge (4 lines tall) all capital text to broadcast to a channel.  It is done when the user types '''/big (message)''' in the channel window.
+
+<pre>
+alias big {
+  if ( $remove($1-,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,$chr(32),0,1,2,3,4,5,6,7,8,9,$chr(35),',+,=,°,:,!,?,.,/,\,$chr(40),$chr(41),%,-,[,]) !== $null ) { 
+    echo -a ¤¤¤ Bigtext Error. Unsupported character used: ( $remove($1-,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,$chr(32),0,1,2,3,4,5,6,7,8,9,$chr(35),',+,=,°,:,!,?,.,/,\,$chr(40),$chr(41),%,-,[,]) ) 
+    halt
+  }
+  set %mt $1-  
+  set %mt2  $1-
+  set %mt3 $1-
+  set %mt4 $1-
+  set %mt5 $1-
+  %mt = $replace(%mt,9, �    �  )
+  %mt = $replace(%mt,7,�        � �)
+  %mt = $replace(%mt,6, �    �  �)
+  %mt = $replace(%mt,5,�      � �)
+  %mt = $replace(%mt,4,     �   �  �)
+  %mt = $replace(%mt,3,�     �  �)
+  %mt = $replace(%mt,2,�     �  �)
+  %mt = $replace(%mt,1, �    � �)
+  %mt = $replace(%mt,],�     � �)
+  %mt = $replace(%mt,q, �    �   )
+  %mt = $replace(%mt,l, �  �     )
+  %mt = $replace(%mt,r, �    �   )
+  %mt = $replace(%mt,a, �    �  �)
+  %mt = $replace(%mt,s, �    �  �)
+  %mt = $replace(%mt,e,�     � �)
+  %mt = $replace(%mt,[,�     � �)
+  %mt = $replace(%mt,j,    �  � �)
+  %mt = $replace(%mt,m, �  � �  �  �)
+  %mt = $replace(%mt,$chr(32),     �)  
+  %mt = $replace(%mt,i,�    � �)
+  %mt = $replace(%mt,o, �    �  )
+  %mt = $replace(%mt,u,�  �   �  � �)
+  %mt = $replace(%mt,!, �  � �)
+  %mt = $replace(%mt,b,�     �  �)
+  %mt = $replace(%mt,n,�  �  �  � �)
+  %mt = $replace(%mt,?,�    �  �)  
+  %mt = $replace(%mt,$chr(35),      �  �    �  �  �)  
+  %mt = $replace(%mt,t,�      � �)
+  %mt = $replace(%mt,g, �    �  �)
+  %mt = $replace(%mt,c, �    �  �)  
+  %mt = $replace(%mt,p,�     �  �)
+  %mt = $replace(%mt,w,�  �   �  � �)
+  %mt = $replace(%mt,z,�      � �)
+  %mt = $replace(%mt,8, �    �  )
+  %mt = $replace(%mt,0, �    �  �)
+  %mt = $replace(%mt,k,�  �  �  � �)
+  %mt = $replace(%mt,y,�  �  �  � �)
+  %mt = $replace(%mt,',  �  �   �)
+  %mt = $replace(%mt,+,          )
+  %mt = $replace(%mt,=,        )
+  %mt = $replace(%mt,-,          )
+  %mt = $replace(%mt,$chr(40),   �  � ) 
+  %mt = $replace(%mt,$chr(41),�  �    ) 
+  %mt = $replace(%mt,:,    )
+  %mt = $replace(%mt,.,     )
+  %mt = $replace(%mt,/,        �  � �)
+  %mt = $replace(%mt,\,�  �         �)
+  %mt = $replace(%mt,%,�    �    �  �  �)
+  %mt = $replace(%mt,h,�  �   �  � �)
+  %mt = $replace(%mt,f,�     � �)  
+  %mt = $replace(%mt,v,�  �      �  � �)
+  %mt = $replace(%mt,°,        �)  
+  %mt = $replace(%mt,d,�    �   �) 
+  %mt = $replace(%mt,x,�  �    �  � �)
+  msg $chan %mt
+  mt2
+}
+alias mt2 {
+  %mt2 = $replace(%mt2,9,�  �  �  � �)
+  %mt2 = $replace(%mt2,7,     �  �  ) 
+  %mt2 = $replace(%mt2,6,�  �     �)
+  %mt2 = $replace(%mt2,5,�  �     �)
+  %mt2 = $replace(%mt2,4,   �  � �  �  �)
+  %mt2 = $replace(%mt2,3,    �  � �)
+  %mt2 = $replace(%mt2,2,    �  � ) 
+  %mt2 = $replace(%mt2,1,�  � �  � �)
+  %mt2 = $replace(%mt2,q,�  �  �  � � )
+  %mt2 = $replace(%mt2,l, �  �     )
+  %mt2 = $replace(%mt2,r, �  �  �  � )
+  %mt2 = $replace(%mt2,a,�  �  �  � �)  
+  %mt2 = $replace(%mt2,m,�       � �)
+  %mt2 = $replace(%mt2,s,�  �     �)
+  %mt2 = $replace(%mt2,e,�  �    �)
+  %mt2 = $replace(%mt2,[,�  �    �)
+  %mt2 = $replace(%mt2,j,    �  � �)
+  %mt2 = $replace(%mt2,$chr(32),     �)
+  %mt2 = $replace(%mt2,i, �  �  �)  
+  %mt2 = $replace(%mt2,o,�  �  �  � �)
+  %mt2 = $replace(%mt2,u,�  �   �  � �)
+  %mt2 = $replace(%mt2,!, �  � �)
+  %mt2 = $replace(%mt2,b,�  �  �  � �)
+  %mt2 = $replace(%mt2,n,�   � �  � �)
+  %mt2 = $replace(%mt2,?,   �  � �)
+  %mt2 = $replace(%mt2,$chr(35),  �             � �)  
+  %mt2 = $replace(%mt2,t,  �  �   )
+  %mt2 = $replace(%mt2,g,�  �     �)
+  %mt2 = $replace(%mt2,c,�  �  �  � �)  
+  %mt2 = $replace(%mt2,p,�  �  �  � �)
+  %mt2 = $replace(%mt2,w,�  �   �  � �)  
+  %mt2 = $replace(%mt2,z,   �  �  )  
+  %mt2 = $replace(%mt2,8,�  �  �  � �)
+  %mt2 = $replace(%mt2,0,�  �  �  � �)
+  %mt2 = $replace(%mt2,k,�  � �  �  �)
+  %mt2 = $replace(%mt2,y,�  �  �  � �)  
+  %mt2 = $replace(%mt2,', �  �    �)
+  %mt2 = $replace(%mt2,+,   �   �    )
+  %mt2 = $replace(%mt2,-,          )
+  %mt2 = $replace(%mt2,=,�       � )
+  %mt2 = $replace(%mt2,$chr(40), �  �   ) 
+  %mt2 = $replace(%mt2,$chr(41),  �  �  ) 
+  %mt2 = $replace(%mt2,:,�   � )
+  %mt2 = $replace(%mt2,.,     )
+  %mt2 = $replace(%mt2,/,      �  �   �)
+  %mt2 = $replace(%mt2,\,  �  �       �)
+  %mt2 = $replace(%mt2,%,      �  �    �)
+  %mt2 = $replace(%mt2,h,�  �   �  � �)
+  %mt2 = $replace(%mt2,f,�  �    �)
+  %mt2 = $replace(%mt2,v, �  �    �  �  �)  
+  %mt2 = $replace(%mt2,°,        �)  
+  %mt2 = $replace(%mt2,d,�  � �  �  �)  
+  %mt2 = $replace(%mt2,x, �  �  �  �  �)
+  %mt2 = $replace(%mt2,],   �  � �)
+  msg $chan %mt2
+  mt3
+}
+alias mt3 {
+  %mt3 = $replace(%mt3,9, �     � )
+  %mt3 = $replace(%mt3,7,   �  �    ) 
+  %mt3 = $replace(%mt3,6,�     �  �)
+  %mt3 = $replace(%mt3,5,�    �   �)
+  %mt3 = $replace(%mt3,4, �  �   �  �  �)
+  %mt3 = $replace(%mt3,3, �    �  �)
+  %mt3 = $replace(%mt3,2,  �  �   )
+  %mt3 = $replace(%mt3,1,   �  � �)
+  %mt3 = $replace(%mt3,],   �  � �)
+  %mt3 = $replace(%mt3,q,�  �  �  � � )
+  %mt3 = $replace(%mt3,l, �  �     )
+  %mt3 = $replace(%mt3,r, �     �  )
+  %mt3 = $replace(%mt3,a,�      � �)  
+  %mt3 = $replace(%mt3,m,�  � � � �  � �)
+  %mt3 = $replace(%mt3,s, �    �  �)
+  %mt3 = $replace(%mt3,e,�    �  �)
+  %mt3 = $replace(%mt3,j,    �  � �)
+  %mt3 = $replace(%mt3,$chr(32),     �)
+  %mt3 = $replace(%mt3,i, �  �  �)
+  %mt3 = $replace(%mt3,o,�  �  �  � �)
+  %mt3 = $replace(%mt3,u,�  �   �  � �)
+  %mt3 = $replace(%mt3,!, �  � �)
+  %mt3 = $replace(%mt3,b,�     �  �)
+  %mt3 = $replace(%mt3,n,�      � �)
+  %mt3 = $replace(%mt3,?, �   �  �)
+  %mt3 = $replace(%mt3,$chr(35),    �  �    �  �    �)  
+  %mt3 = $replace(%mt3,t,  �  �   )
+  %mt3 = $replace(%mt3,g,�  � �   � �)
+  %mt3 = $replace(%mt3,c,�  �     �)
+  %mt3 = $replace(%mt3,p,�     �  �)
+  %mt3 = $replace(%mt3,w,�  � � � �  � �)  
+  %mt3 = $replace(%mt3,z,  �  �   )  
+  %mt3 = $replace(%mt3,8, �    �  )
+  %mt3 = $replace(%mt3,0,�  � �   � �)
+  %mt3 = $replace(%mt3,k,�    �   �)
+  %mt3 = $replace(%mt3,y, �     � )  
+  %mt3 = $replace(%mt3,',       )  
+  %mt3 = $replace(%mt3,+,�         � )
+  %mt3 = $replace(%mt3,-,�         � )
+  %mt3 = $replace(%mt3,=,        )
+  %mt3 = $replace(%mt3,$chr(40),�  �    ) 
+  %mt3 = $replace(%mt3,$chr(41),   �  � ) 
+  %mt3 = $replace(%mt3,:,    )
+  %mt3 = $replace(%mt3,.,     )
+  %mt3 = $replace(%mt3,/,    �  �     �)
+  %mt3 = $replace(%mt3,\,    �  �     �)
+  %mt3 = $replace(%mt3,%,    �  �      �)
+  %mt3 = $replace(%mt3,h,�       � �)
+  %mt3 = $replace(%mt3,f,�    �  �)
+  %mt3 = $replace(%mt3,v,  �  �  �  �   �)
+  %mt3 = $replace(%mt3,°,�      �  �)
+  %mt3 = $replace(%mt3,d,�  �  �  � �)  
+  %mt3 = $replace(%mt3,x,   �  �    �)
+  %mt3 = $replace(%mt3,[,�  �    �)  
+  msg $chan %mt3
+  mt4
+}
+alias mt4 {
+  %mt4 = $replace(%mt4,9,    �  � �)
+  %mt4 = $replace(%mt4,7, �  �      )
+  %mt4 = $replace(%mt4,6,�  �  �  � �)
+  %mt4 = $replace(%mt4,5,    �  � �)
+  %mt4 = $replace(%mt4,4,�         � �)
+  %mt4 = $replace(%mt4,3,    �  � �)
+  %mt4 = $replace(%mt4,2,�  �     )
+  %mt4 = $replace(%mt4,1,   �  � �)
+  %mt4 = $replace(%mt4,q,�  �  �  � � )
+  %mt4 = $replace(%mt4,l,�  �     )
+  %mt4 = $replace(%mt4,r, �  �  �  � )
+  %mt4 = $replace(%mt4,a,�  �  �  � �)  
+  %mt4 = $replace(%mt4,s,    �  � �)
+  %mt4 = $replace(%mt4,e,�  �    �)
+  %mt4 = $replace(%mt4,j,�  �  �  � �)
+  %mt4 = $replace(%mt4,m,�  �   �  � �)
+  %mt4 = $replace(%mt4,$chr(32),     �)
+  %mt4 = $replace(%mt4,i, �  �  �)
+  %mt4 = $replace(%mt4,o,�  �  �  � �)
+  %mt4 = $replace(%mt4,u,�  �   �  � �)
+  %mt4 = $replace(%mt4,!,    �)
+  %mt4 = $replace(%mt4,b,�  �  �  � �)
+  %mt4 = $replace(%mt4,n,�  � �   � �)
+  %mt4 = $replace(%mt4,?,      �) 
+  %mt4 = $replace(%mt4,$chr(35),�              �  �)  
+  %mt4 = $replace(%mt4,t,  �  �   )
+  %mt4 = $replace(%mt4,g,�  �  �  � �)
+  %mt4 = $replace(%mt4,c,�  �  �  � �)
+  %mt4 = $replace(%mt4,p,�  �     �)
+  %mt4 = $replace(%mt4,w,�       � �)  
+  %mt4 = $replace(%mt4,z, �  �    ) 
+  %mt4 = $replace(%mt4,8,�  �  �  � �)
+  %mt4 = $replace(%mt4,0,�   � �  � �)
+  %mt4 = $replace(%mt4,k,�  � �  �  �)
+  %mt4 = $replace(%mt4,y,    �  � )
+  %mt4 = $replace(%mt4,',       )  
+  %mt4 = $replace(%mt4,+,   �   �    )
+  %mt4 = $replace(%mt4,-,          )
+  %mt4 = $replace(%mt4,=,�       � )
+  %mt4 = $replace(%mt4,$chr(40), �  �   ) 
+  %mt4 = $replace(%mt4,$chr(41),  �  �  ) 
+  %mt4 = $replace(%mt4,:,�   � )
+  %mt4 = $replace(%mt4,.,     )
+  %mt4 = $replace(%mt4,/,  �  �       �)
+  %mt4 = $replace(%mt4,%,  �  �        �)
+  %mt4 = $replace(%mt4,\,      �  �   )
+  %mt4 = $replace(%mt4,h,�  �   �  � �)
+  %mt4 = $replace(%mt4,f,�  �    �)
+  %mt4 = $replace(%mt4,v,   �  ��  �    �)  
+  %mt4 = $replace(%mt4,°,        �)  
+  %mt4 = $replace(%mt4,d,�  �  �  � �)
+  %mt4 = $replace(%mt4,x, �  �  �  �  �)
+  %mt4 = $replace(%mt4,[,�  �    �)
+  %mt4 = $replace(%mt4,],   �  � �) 
+  msg $chan %mt4
+  mt5
+}
+alias mt5 {
+  %mt5 = $replace(%mt5,9, �    �  )
+  %mt5 = $replace(%mt5,7,�  �       �)
+  %mt5 = $replace(%mt5,6, �     � �)
+  %mt5 = $replace(%mt5,5,�     �  �)
+  %mt5 = $replace(%mt5,4,      �  �  �)
+  %mt5 = $replace(%mt5,3,�     �  �)
+  %mt5 = $replace(%mt5,2,�      � �)
+  %mt5 = $replace(%mt5,1,   �  � �)
+  %mt5 = $replace(%mt5,q, �      � )
+  %mt5 = $replace(%mt5,l, �      � )
+  %mt5 = $replace(%mt5,r, �  �  �  � )
+  %mt5 = $replace(%mt5,a,�  �  �  � �)  
+  %mt5 = $replace(%mt5,s,�     �  �)
+  %mt5 = $replace(%mt5,e,�     � �)
+  %mt5 = $replace(%mt5,[,�     � �)
+  %mt5 = $replace(%mt5,j, �    �  �)
+  %mt5 = $replace(%mt5,m,�  �   �  � �)
+  %mt5 = $replace(%mt5,$chr(32),     �)
+  %mt5 = $replace(%mt5,i,�    � �)
+  %mt5 = $replace(%mt5,o, �    �  )
+  %mt5 = $replace(%mt5,u, �      � �)
+  %mt5 = $replace(%mt5,!, �  � �)
+  %mt5 = $replace(%mt5,b,�     �  �)
+  %mt5 = $replace(%mt5,n,�  �  �  � �)
+  %mt5 = $replace(%mt5,?, �  �   �)
+  %mt5 = $replace(%mt5,$chr(35),  �  �    �  �      �)  
+  %mt5 = $replace(%mt5,t,  �  �   )
+  %mt5 = $replace(%mt5,g, �     � �)
+  %mt5 = $replace(%mt5,c, �    �  �)
+  %mt5 = $replace(%mt5,p,�  �     �)  
+  %mt5 = $replace(%mt5,w, �  � �  �  )  
+  %mt5 = $replace(%mt5,z,�      � �)  
+  %mt5 = $replace(%mt5,8, �    �  )
+  %mt5 = $replace(%mt5,0, �    �  �)
+  %mt5 = $replace(%mt5,k,�  �  �  � �)
+  %mt5 = $replace(%mt5,y, �    �  )  
+  %mt5 = $replace(%mt5,',       )
+  %mt5 = $replace(%mt5,+,          )
+  %mt5 = $replace(%mt5,-,          )
+  %mt5 = $replace(%mt5,=,        )
+  %mt5 = $replace(%mt5,$chr(40),   �  � ) 
+  %mt5 = $replace(%mt5,$chr(41),�  �    ) 
+  %mt5 = $replace(%mt5,:,    )
+  %mt5 = $replace(%mt5,/,�  �         �)
+  %mt5 = $replace(%mt5,.,�   �  )
+  %mt5 = $replace(%mt5,\,        �  � �)
+  %mt5 = $replace(%mt5,%,�  �     �    � �)
+  %mt5 = $replace(%mt5,h,�  �   �  � �)
+  %mt5 = $replace(%mt5,f,�  �    �)
+  %mt5 = $replace(%mt5,v,    �  �     �)
+  %mt5 = $replace(%mt5,°,        �)  
+  %mt5 = $replace(%mt5,d,�     �  �) 
+  %mt5 = $replace(%mt5,x,�  �    �  � �)
+  %mt5 = $replace(%mt5,],�     � �)
+
+  msg $chan %mt5
+  unset %mt $1-  
+  unset %mt2  $1-
+  unset %mt3 $1-
+  unset %mt4 $1-
+  unset %mt5 $1-
+}
+menu  {
+  Big Text:mt $input(Type text to make big: ,1, Use /big <text> in channel.)
+
+}
+</pre>
+
+==='''If A Specified Nick Says A Specified Thing In A Specified Channel'''===
+
+This script, when configured can be used to say something funny or informational when it's trigger word is said by another user in the channel.  By configuring the script where it says "TYPE TEXT HERE" you can make it say just about anything you want.
+
+<pre>
+on *:text:*TYPE TEXT HERE*:*: {
+  if ($nick = TYPE NICK HERE) {
+    msg #TYPE CHANNEL HERE �4TYPE WHAT YOU WANT TO SAY TO THE NICK HERE
+  }
+}
+</pre>
+
+==='''Disc Free Space'''===
+
+This script will tell you how much space used and how much free space are left on your discs.  It adds up all totals so you get the maximum free space amount broadcast to an open channel window as a echo when you type the '''/disk''' command there.
+
+<pre>
+
+alias disk {
+  var %x 1
+  while (%x <= $disk(0)) {
+    var %totalspace $calc(%totalspace + $disk(%x).size)
+    var %totalfree $calc(%totalfree + $disk(%x).free)
+    inc %x
+  }
+  echo $chan �10Total disks: $+(>�11,%x,>�10;) Total diskspace: $+(>�11,$bytes(%totalspace, g).suf,>�10;) Total Free Space: $+(>�11,$bytes(%totalfree, g).suf,>�10;) Used: $+(>�11,$bytes($calc(%totalspace - %totalfree), g).suf,>�10.)
+}
+</pre>
+
+==='''4Walled Scraper'''===
+
+This little line of code will do the same sort of search function that the search codes at the top of the page will do, only this one searches 4Walled--a popular site that "scrapes" 4chan's /w/ /wg/ and /hr/ boards for pictures.  Once the script is installed, just type /scrp (search term) in a channel or query window and it will open your browser to that particular search term's page.
+
+This one scrapes 4scrape
+<pre>
+alias scrp { if ($1) { url $+(https://suigintou.desudesudesu.org/4scrape/search?ws=1&ret=i&q=,$1-) } }
+</pre>
+
+This one scrapes 4walled
+<pre>
+alias wall { if ($1) { url $+(http://4walled.org/search.php?content=$1-&board=&rez=&tags=true&sfw=&search=Search) } }
+</pre>
+
+=== mIRC Encyclopedia Dramatica Search Script ===
+
+If you use [[mIRC]] for your IRC client - and about 99% of the internet does - this little snippet of [[code]] can be a very valuable tool for your IRC experience and can also be a very fun part of learning some coding for the program, if you are into that stuff.
+
+: '''1.''' Open mIRC's script editor and click on the "Remotes" tab. <br> 
+: '''2.''' Make a new mIRC remote by clicking on "File" and then "New."  You should be presented with a blank text area to edit in.<br>
+: '''3.''' Paste this line in the new remote: 
+<pre>
+alias end { if ($1) { url $+(http://encyclopediadramatica.com/Special:Search?search=,$1-) } }</nowiki>
+</pre>
+: '''4.''' Save that Remote as whatever you want, but make sure it ends in '''.mrc''' also make sure it is someplace in your mIRC folder.<br>
+: '''5.''' Load the remote by clicking on "file" again and then "load."  Find your recently saved .mrc file and click that.  The ED search script is now loaded.<br>
+: '''6.''' To use, type '''/end (your search terms)''' in any mIRC channel or status window you have.  The script will locate your search query and open the page in your default [[browser]].  
+:: Example:  '''/end raspberry rush''' will take you to this page: [http://encyclopediadramatica.com/Raspberry_Rush http://encyclopediadramatica.com/Raspberry_Rush]<br>
+
+===mIRC ED Search Script Part Two===
+
+<pre>
+
+
+;Encyclopedia Dramatica Search Script by Ford_Lawnmower -- irc.mindforge.org #USA-Chat
+menu Channel,Status {
+  .$iif($group(#dramatica) == On,$style(1)) Encyclopedia Dramatica Trigger
+  ..$iif($group(#dramatica) == On,$style(2)) On: .enable #dramatica
+  ..$iif($group(#dramatica) == Off,$style(2)) Off: .disable #dramatica
+}
+#dramatica on
+On $*:Text:/^(!|@)dramatica.*/Si:#: {
+  if ($timer($+(dramatica,$network,$nick))) { return }
+  .timer $+ $+(dramatica,$network,$nick) 1 4 noop
+  var %method $iif($regml(1) == !,.notice $nick,$iif($regex($nick($chan,$nick).pnick,/(!|~|&|@|%)/),.msg $chan,.notice $nick))
+  dramaticaS %method $2-
+}
+#dramatica end
+alias dramatica { dramaticaS echo -a $1- }
+alias -l dramaticaS {
+  $1-2 Searching........
+  var %sockname $+(dramaticaS,$network,$2,$ticks)
+  sockopen %sockname encyclopediadramatica.com 80
+  sockmark %sockname $1-2 $iif($3,$+(/Special:Search/,$replace($3-,$chr(32),+)),/Special:Random) 0 $iif(!$3,1,0)
+}
+alias -l dramaticaR {
+  var %sockname $+(dramaticaR,$network,$2,$ticks)
+  sockopen %sockname encyclopediadramatica.com 80
+  sockmark %sockname $1-2 $+(/,$3) 0 $iif($4,1,0)
+}
+On *:sockopen:dramatica*: {
+  if (!$sockerr) {
+    sockwrite -nt $sockname GET $gettok($sock($sockname).mark,3,32) HTTP/1.0
+    sockwrite -n $sockname Host: encyclopediadramatica.com
+    sockwrite -n $sockname $crlf
+  }
+  else { echo -st Socket Error $nopath($script) | sockclose $sockname | return }
+}
+On *:sockread:dramaticaS*: {
+  if ($sockerr) { echo -st Socket Error $nopath($script) | sockclose $sockname | return }
+  else {
+    var %dramaticaS | sockread %dramaticaS
+    if (Page title matches isincs %dramaticaS) { sockmark $sockname $puttok($sock($sockname).mark,1,4,32) }
+    if (Page text matches isincs %dramaticaS) { sockmark $sockname $puttok($sock($sockname).mark,1,4,32) }    
+    if ($gettok($sock($sockname).mark,4,32)) && ($regex(%dramaticaS,/\Q<li><a href="/\E(.*)\Q" title="\E/)) {
+      dramaticaR $gettok($sock($sockname).mark,1-2,32) $regml(1) $gettok($sock($sockname).mark,5,32)
+      sockclose $sockname
+      return
+    }
+    if (Location: isin %dramaticaS) {
+      dramaticaR $gettok($sock($sockname).mark,1-2,32) $nopath(%dramaticaS) $gettok($sock($sockname).mark,5,32)
+      sockclose $sockname
+      return
+    }
+  }
+}
+On *:sockread:dramaticaR*: {
+  if ($sockerr) { echo -st socket error $nopath($script) }
+  else {
+    var %dramaticaR | sockread %dramaticaR
+    if (*<p>*<b>* iswm %dramaticaR) || (*<p>*<i>* iswm %dramaticaR) { 
+      sockmark $sockname $puttok($sock($sockname).mark,$calc($gettok($sock($sockname).mark,4,32) + 1),4,32) 
+    }
+    if ($gettok($sock($sockname).mark,4,32)) && ($httpstrip(%dramaticaR)) { 
+      put $gettok($sock($sockname).mark,1-2,32) $v1 $+(�,http://encyclopediadramatica.com,$gettok($sock($sockname).mark,3,32))
+      sockclose $sockname
+      return
+    }
+  }
+}
+On *:sockclose:dramatica*: {
+  if ($gettok($sock($sockname).mark,5,32)) && (dramaticaR* iswm $sockname) { dramaticaS $gettok($sock($sockname).mark,1-2,32) }
+  else { $gettok($sock($sockname).mark,1-2,32) Sorry No results found for your Search }
+}
+alias -l httpstrip { var %x, %i = $regsub($1-,/(^[^<]*>|<[^>]*>|<[^>]*$)/g,$null,%x) | return $remove($replace(%x,&amp;,&),&nbsp;,&lt;) }
+alias -l Put {
+  if (!$regex($1,/(\.|^)(msg|notice|echo)$/Si)) || (!$3) { echo -st **Put error** Syntax /Put msg #channel text - or - /Put notice nickname text  | return }
+  var %tokens $0, %Tstart 3, %Dtimer 1500
+  if ($timer($+(Put,$2,$network)).secs) { %Dtimer = $calc($v1 * 1000) }  
+  while ($len($($+($,%Tstart,-,%tokens),2)) > 430) {
+    dec %tokens
+    if ($len($($+($,%Tstart,-,%tokens),2)) <= 430) {
+      .timer -m 1 %Dtimer $1-2 $($+($,%Tstart,-,%tokens),2))
+      inc %Dtimer 1500
+      %Tstart = $calc(%tokens + 1)
+      %tokens = $0
+    }
+  }
+  .timer -m 1 %Dtimer $1-2 $($+($,%Tstart,-,%tokens),2))
+  .timer $+ $+(Put,$2,$network) -m 1 $calc(%Dtimer + 1500) noop 
+}
+
+</pre>
+
+==='''YouTube Detector'''===
+
+This one is kinda heavy duty.  What it does is when somebody links a youtube video in a channel, it will give you the following information in an echo to just your channel window:
+
+* '''Title of the video'''
+* '''Uploader's name'''
+* '''Date uploaded'''
+* '''Duration of the video'''
+* '''Number of views'''
+* '''Rating + Number of Ratings'''
+
+I did not make this, it was scripted and uploaded by some guy named "Neo Nemesis" on Hawkee.  Still, it is such a useful script (for avoiding rickrolls etc...) I copied and pasted it here.  The only thing I changed was the echo function.  The original script would broadcast the information in the channel, which I found to be a bit annoying.  As it is now, it will only tell YOU what is going on.
+
+<pre>
+;YouTube Info 1.3
+;By Neo Nemesis
+
+alias youtube { 
+  %ytube1 = $remove($1,http://,www.,youtube,.com)
+  sockclose ytb
+  sockopen ytb www.youtube.com 80 
+}
+on *:SOCKOPEN:ytb: {
+  sockwrite -n $sockname GET %ytube1 HTTP/1.1
+  sockwrite -n $sockname Host: www.youtube.com
+  sockwrite -n $sockname Connection: Close
+  sockwrite -n $sockname Content-Type: text/html
+  sockwrite -n $sockname $crlf 
+}
+on *:SOCKREAD:ytb: {
+  sockread %ytube2
+  if (%ytube2 == $null) && (%sockread == $null) { 
+    .timerBRS7 -m 1 1200 echo %ytube3 ��1,0You�0,4Tube��15,1 Error receiving information.
+    set %sockread 1 
+  }
+  elseif (%ytube2 == $null) && (%sockread != $null) { noop }
+  elseif (<meta name="title" content=" isin %ytube2) { 
+    .timerBRS8 -m 1 1200 echo %ytube3 ��1,0You�0,4Tube��15,1 $remove(%ytube2,<meta name="title" content=",">,&amp;quot;,&amp;#39;,&amp;amp;)
+    sockclose ytb
+  }
+}
+on *:SOCKCLOSE:ytb: { unset %ytube* }
+on *:TEXT:*youtube*:#: {
+  %ytube3 = $chan
+  %ytube4 = 1
+  while ([ $chr(36) $+ [ %ytube4 ]  ]) {
+    if (www.youtube.com/watch?v= isin [ $chr(36) $+ [ %ytube4 ]  ]) { 
+      sockclose ytb
+      youtube [ $chr(36) $+ [ %ytube4 ]  ] 
+    }
+    inc %ytube4
+  }
+}
+
+</pre>
+
+===Mirc Music Downloader===
+
+This handy little script will aid you in finding single mp3 files and then help you download them.  I did not write this snippet, but it is copied here for posterity and also in case somebody decides to delete it from where I got it:
+
+<pre>
+
+;mIRC Music Downloader By Ford_Lawnmower irc.mindforge.org #USA-Chat
+;
+;This section is part of an unfinished edition to this script. Stay Tuned :)
+;syntax airmp3 artist_name Song_name  If no Artist then use /airmp3 - song_name  Song name is Optional  UnderScores are required
+alias airmp3 {
+  var %sockname $+(airmp3G,$ticks)
+  sockopen %sockname www.airmp3.net 80
+  sockmark %sockname www.airmp3.net $+(/search/,$FRD($1),/,$FRD($2),$iif(!$2,mp3/,/mp3/))
+}
+On *:sockopen:airmp3*: {
+  echo -a $gettok($sock($sockname).mark,1,32)  $gettok($sock($sockname).mark,2,32)
+  sockwrite -nt $sockname GET $gettok($sock($sockname).mark,2,32) HTTP/1.1
+  sockwrite -nt $sockname Host: $gettok($sock($sockname).mark,1,32) $+ $str($crlf,2)
+  sockwrite -nt $sockname Connection: keep-alive 30
+  sockwrite -nt $sockname $crlf
+}
+On *:sockread:airmp3G*: {
+  if ($sockerr > 0) { echo -at socket error airmp3 -->> $sockerr }
+  else {
+    var %airmp3 | sockread %airmp3
+    if (Location: isin %airmp3) { redirect $remove(%airmp3,Location: ) | echo -a redirecting | sockclose $sockname }
+  }
+}
+On *:sockread:airmp3R*: {
+  if ($sockerr > 0) { echo -at socket error airmp3 -->> $sockerr }
+  else {
+    sockread &airmp3
+    bwrite airmp3.pat -1 -1 &airmp3
+    var %count $calc(%count + 1)
+    while ($bintween(&airmp3,<a title=",",%count)) {
+      echo -a $bintween(&airmp3,<a title=",",%count)
+      inc %count
+    }
+  }
+}
+alias -l redirect {
+  var %sockname $+(airmp3R,$ticks)
+  sockopen %sockname www.airmp3.net 80
+  sockmark %sockname www.airmp3.net $remove($1,http://www.airmp3.net)
+}
+;Start of Working Script
+;syntax kohit artist-name-Song-name
+alias kohit {
+  var %sockname $+(kohitF,$ticks)
+  sockopen %sockname $+($1,-search-downloads.kohit.net) 80
+  sockmark %sockname $+($1,-search-downloads.kohit.net) /_/
+}
+On *:sockopen:kohitF*: {
+  if ($dialog(M_D)) {
+    did -a M_D 5 Searching $gettok($sock($sockname).mark,1,32)  $gettok($sock($sockname).mark,2,32) ....
+    .timer 1 4 did -a M_D 5
+    did -r M_D 9
+    sockwrite -nt $sockname GET $gettok($sock($sockname).mark,2,32) HTTP/1.1
+    sockwrite -nt $sockname Host: $gettok($sock($sockname).mark,1,32) $+ $str($crlf,2)
+  }
+  else { sockclose $sockname }
+}
+On *:sockread:kohitF*: {
+  if ($sockerr > 0) { echo -at socket error kohit -->> $sockerr }
+  else {
+    var %kohit | sockread %kohit
+    if (<a href="http:// isin %kohit) && (MP3 Free"> isin %kohit) {
+      if ($dialog(M_D)) { did -a M_D 9 $fixchars($between(%kohit,Free">,</a>,1)) $chr(7) $between(%kohit,<a href="," class=,1) }
+      else { sockclose $sockname }
+    }
+  }
+}
+;syntax is /kohitD full path to download page
+alias kohitD {
+  var %sockname $+(kohitD,$ticks)
+  sockopen %sockname $gettok($1,$calc($gettok($1,0,47) - 2),47) 80
+  sockmark %sockname $gettok($1,$calc($gettok($1,0,47) - 2),47) $+(/_/,$nopath($1))
+}
+On *:sockopen:kohitD*: {
+  sockwrite -nt $sockname GET $gettok($sock($sockname).mark,2,32) HTTP/1.1
+  sockwrite -nt $sockname Host: $gettok($sock($sockname).mark,1,32) $+ $str($crlf,2)
+}
+On *:sockread:kohitD*: {
+  if ($sockerr > 0) { echo -at socket error kohitD -->> $sockerr }
+  else {
+    var %kohitD | sockread %kohitD
+    if (Download Now: isin %kohitD) {
+      sockclose $sockname
+      getfile  $between(%kohitD,<a href=",",1) $_($replace($gettok($between(%kohitD,<u>,</u>,1),1,45),$chr(32),_)) $_($replace($gettok($between(%kohitD,<u>,</u>,1),2,45),$chr(32),_))
+    }
+  }
+}
+alias -l _ { return $regsubex($1,/^_|_$/g,$null) }
+Alias -l GetFile {
+  var %sockname = $+(Getfile,$ticks)
+  if (!$isdir(mIRCMusic)) { mkdir mIRCMusic }
+  if (!$isfile($+(mIRCMusic\,$2,\) $+ $+($3,.mp3))) {
+    sockopen %sockname $gettok($remove($1,http://),1,47) 80
+    sockmark %sockname $+(mIRCMusic\,$2,\) $gettok($remove($1,http://),1,47) $remove($1,$gettok($1,1,47),$gettok($1,2,47),//) $+($3,.mp3) 0 0
+  }
+  else {
+    sockopen %sockname $gettok($remove($1,http://),1,47) 80
+    sockmark %sockname $+(mIRCMusic\,$2,\) $gettok($remove($1,http://),1,47) $remove($1,$gettok($1,1,47),$gettok($1,2,47),//) $+($3,$ticks,.mp3) 0 0
+  }
+}
+On *:sockopen:GetFile*:{
+  sockwrite -nt $sockname GET $gettok($sock($sockname).mark,3,32) HTTP/1.0
+  sockwrite $sockname Host: $gettok($sock($sockname).mark,2,32) $+ $crlf $+ $crlf
+}
+On *:sockread:GetFile*:{
+  if ($gettok($sock($sockname).mark,5,32) == 0) {
+    var %GetFile.var | sockread %GetFile.var
+    if (Content-Length: isin %GetFile.var) {
+      sockmark $sockname $sock($sockname).mark $calc($remove(%GetFile.var,Content-Length:))
+      if ($gettok($sock($sockname).mark,7,32) > 0) { downloader $sockname }
+    }
+    if (%GetFile.var == $null) {
+      sockmark $sockname $puttok($sock($sockname).mark,1,5,32)
+      if ($dialog($sockname)) {
+        did -a $sockname 1 Downloading $gettok($sock($sockname).mark,1,32) $+ $gettok($sock($sockname).mark,4,32) $gettok($sock($sockname).mark,7,32)
+      }
+    }
+  }
+  else {
+    sockread &GetFile
+    set %GetFile.done $calc(%GetFile.Done + $bvar(&GetFile,0))
+    if ($isdir($gettok($sock($sockname).mark,1,32))) {
+      bwrite $qt($gettok($sock($sockname).mark,1,32) $+ $gettok($sock($sockname).mark,4,32)) -1 -1 &GetFile
+      if ($file($gettok($sock($sockname).mark,1,32) $+ $gettok($sock($sockname).mark,4,32)).size == $gettok($sock($sockname).mark,7,32)) {
+        if ($dialog($sockname)) {
+          did -a $sockname 2 ||||||||||||||||||||||||||||||||||||||||
+          did -a $sockname 4 100 $+ %
+          did -a $sockname 1 Download Complete $gettok($sock($sockname).mark,1,32) $+ $gettok($sock($sockname).mark,4,32) $gettok($sock($sockname).mark,7,32)
+        }
+        sockclose $sockname
+      }
+      if ($round($calc($file($gettok($sock($sockname).mark,1,32) $+ $gettok($sock($sockname).mark,4,32)).size / $gettok($sock($sockname).mark,7,32) * 100),0) == $gettok($sock($sockname).mark,6,32)) {
+        if ($dialog($sockname)) {
+          did -a $sockname 4 $gettok($sock($sockname).mark,6,32) $+ %
+          did -a $sockname 2 ||
+          sockmark $sockname $puttok($sock($sockname).mark,$calc($gettok($sock($sockname).mark,6,32) + 5),6,32)
+        }
+      }
+    }
+    else {
+      mkdir $gettok($sock($sockname).mark,1,32)
+      bwrite $qt($gettok($sock($sockname).mark,1,32) $+ $gettok($sock($sockname).mark,4,32)) -1 -1 &GetFile
+      if ($file($gettok($sock($sockname).mark,1,32) $+ $gettok($sock($sockname).mark,4,32)).size == $gettok($sock($sockname).mark,7,32)) {
+        if ($dialog($sockname)) {
+          did -a $sockname 1 Download Complete $gettok($sock($sockname).mark,1,32) $+ $gettok($sock($sockname).mark,4,32) $gettok($sock($sockname).mark,7,32)
+        }
+        else {
+          echo -a Download Complete 100%
+        }
+        sockclose $sockname
+      }
+      if ($round($calc($file($gettok($sock($sockname).mark,1,32) $+ $gettok($sock($sockname).mark,4,32)).size / $gettok($sock($sockname).mark,7,32) * 100),0) == $gettok($sock($sockname).mark,6,32)) {
+        if ($dialog($sockname)) {
+          did -a $sockname 4 $gettok($sock($sockname).mark,6,32) $+ %
+          did -a $sockname 2 ||
+          sockmark $sockname $puttok($sock($sockname).mark,$calc($gettok($sock($sockname).mark,6,32) + 5),6,32)
+        }
+      }
+    }
+  }
+}
+On *:SockWrite:GetFile*: {
+  if ($sockerr) {
+    echo -a Download has failed badly - $sockerr
+    halt
+  }
+}
+alias -l Downloader {
+  if (!$dialog($1)) { dialog -md $1 mIRC_Downloader }
+  else { dialog -v $1 mIRC_Downloader }
+}
+On *:Dialog:GetFile*:Sclick:3: {
+  if ($gettok($sock($dname).mark,1,32)) {
+    dialog -x $dname mIRC_Downloader
+    .remove $+($gettok($sock($dname).mark,1,32),$gettok($sock($dname).mark,4,32))
+    sockclose $sockname
+  }
+}
+On *:Dialog:GetFile*:Sclick:5: { dialog -x $dname mIRC_Downloader }
+On *:Dialog:GetFile*:init:*: {
+  did -a $dname 1 Found file $gettok($sock($dname).mark,1,32) $+ $gettok($sock($dname).mark,4,32)
+  did -a $dname 4 0 $+ %
+}
+dialog -l mIRC_Downloader {
+  title "mIRC Downloader"
+  size -1 -1 120 48
+  option dbu
+  text "", 1, 0 0 121 24
+  edit "", 2, 16 25 82 10, read
+  button "Cancel", 3, 89 36 29 12
+  text "", 4, 16 35 25 8
+  button "Close", 5, 56 36 29 12
+}
+dialog -l M_D {
+  title "mIRC Music Downloader"
+  size -1 -1 200 232
+  option dbu
+  text "Artist", 1, 43 6 25 8, center
+  text "Song Name", 2, 132 6 33 8, center
+  text "Search Site", 3, 82 26 41 8, center
+  text "Results", 4, 88 50 25 8, center
+  text "", 5, 0 208 201 8, center
+  edit "", 6, 10 15 90 10, autohs
+  edit "", 7, 104 15 88 10, autohs
+  combo 8, 10 35 183 10, sort drop
+  combo 9, 8 60 186 144, sort hsbar vsbar
+  button "Close", 10, 12 218 37 12, cancel
+  button "Download", 11, 106 218 37 12
+  button "Search", 12, 152 218 37 12
+  button "Play File", 13, 59 218 37 12
+}
+On *:Dialog:M_D:init:*: {
+  did -ac M_D 8 www.kohit.net
+}
+On *:Dialog:M_D:Sclick:11,12,13: {
+  if ($did == 12) {
+    if ($did(M_D,6).text) || ($did(M_D,7).text) {
+      kohit $replace($did(M_D,6).text $did(M_D,7).text,$chr(32),-)
+    }
+    else {
+      did -a M_D 5 Please Enter a Artist or Song to Search!
+      .timer 1 4 if ($!dialog($dname)) { did -a M_D 5 }
+    }   
+  }
+  if ($did == 11) {
+    if ($did(M_D,9).seltext) {
+      kohitD $gettok($did(M_D,9).seltext,2,7)
+    }
+    else {
+      did -a M_D 5 Please Select a Song to Download!
+      .timer 1 4 if ($!dialog($dname)) { did -a M_D 5 }
+    }
+  }
+  if ($did == 13) {
+    if ($isdir(mircmusic)) { if ($sfile(mircmusic\,mIRC Music Downloader by Ford_Lawnmower)) { run $v1 }  }
+    else { did -a M_D 5 Download some Music first! | .timer 1 4 if ($!dialog($dname)) { did -a M_D 5 } }
+  }
+}
+alias -l DidOpen {
+  dialog $iif($dialog($1),-v,-md) $1 $1
+}
+menu * {
+  mIRC Music Downloader:DidOpen M_D
+}
+;alias to force redirect consistantly
+alias -l FRD { return $+($upper($left($1,1)),$lower($right($1,$calc($len($1) - 1)))) }
+alias -l bintween {
+  var %count = 1, %mark = 0, %mark2 = 0
+  while (%count <= $4) {
+    if ($bfind($1, %mark2, $2).text) {
+      %mark = $calc($bfind($1, %mark2, $2).text + $len($2))
+      if ($bfind($1, %mark, $3).text) {
+        %mark2 = $bfind($1, %mark, $3).text
+      }
+      else { return 0 }
+    }
+    else { return 0 }
+    inc %count
+  }
+  if ($calc(%mark2 - %mark) > 960) && ($version < 6.32) { return 0 }
+  else { return $bvar($1, $iif(%mark > 0,%mark,1), $calc(%mark2 - %mark)).text }
+}
+alias -l fixchars {
+  var %fixmatch = $regex($1-,/(&#.*?;)/g), %fixtext = $1-
+  while (%fixmatch) {
+    %fixtext = $replace(%fixtext,$regml(%fixmatch),$chr($remove($regml(%fixmatch),&#,;)))
+    dec %fixmatch
+  }
+  return %fixtext
+}
+;alias by Gummo
+alias -l between {
+  noop $regex($1,/\Q $+ $2 $+ \E(.*?)\Q $+ $3 $+ \E/gi)
+  return $regml($4)
+}
+
+</pre>
+
+==Auto-connect/Auto-join script==
+
+If you don't frequent certain channels, you can simply remove those command lines.
+
+<pre>
+alias sconnect { 
+  server irc.encyclopediadramatica.com 6667
+} 
+
+on *:Connect: {
+  if ($network == anonymuncule) {
+    nick YOURNICKHERE
+    ns identify YOURPASSWORDHERE
+    join #wiki
+    join #ed
+    join #forum
+  }
+} 
+
+on *:Start: { sconnect }
+</pre>
+
+{{quote|BUT IM ON OTHER SERVERS TOO1!11|You}}
+
+Fair enough, that can be easily accomodated. In order to do that, you have to know what the exact name of the network is. To determine that, type "//echo -a $network" with no quotes. Two slashes are mandatory, they tell mIRC to evaluate any special characters or flags, like $network and -a, respectively. Let's say (Hypothetically) that you LOEV 7chan and frequent their IRC in your search for [[CP]]. On 7chan's server, $network evaluates to "7chan" - FANCY THAT. You would add a similar if statement and the commands that go along with them. Lastly, make sure you go to where it says "server irc.encyclopediadramatica.com 6667" and add "server -m irc.7chan.org".  -m will open a seperate window and connect to that server instead of using the current one. It would look like this: 
+
+<pre>
+alias sconnect { 
+  server irc.encyclopediadramatica.com 6667
+  server -m irc.7chan.org 6667
+} 
+
+on *:Connect: {
+  if ($network == anonymuncule) {
+    nick YOURNICKHERE
+    ns identify YOURPASSWORDHERE
+    join #wiki
+    join #ed
+    join #forum
+  }
+  if ($network == 7chan) {
+    nick YOURNICKHERE
+    ns identify YOURPASSWORDHERE
+    join #CP
+    msg #cp Give me CP pl0x!
+  }
+} 
+
+on *:Start: { sconnect }
+</pre>
+
+==See also==
+* [[IRC]]
+*[[Get On IRC Fgt]]
+*[[ED IRC etiquette]]
+*[[IRC FAQ]]
+*[[Bookz]]
+
+==External Links==
+
+*[irc://irc.encyclopediadramatica.com irc.encyclopediadramatica.com]
+*[http://www.undernet.org/ Welcome to the Undernet.org network]
+*[irc://irc.undernet.org irc.undernet.org]
+*[http://www.hawkee.com/snippets/cat/mirc/ Hawkee's snippets repository.]
+* [http://anonym.to/http://www.mirc.com/ Official mIRC website]
+* [http://anonym.to/http://www.mirc.com/links.html mIRC scripting links]
+* [http://anonym.to/http://www.mircscripts.org/  mircscripts.org]
+* [http://anonym.to/http://www.mircscripts.com/ mircscripts.com]
+* [http://anonym.to/http://www.mircscripts.us/ mircscripts.us]
+* [http://anonym.to/http://wi-fizzle.com/mircdocs/ mIRC Online Manual]&nbsp;— documentation in single-page HTML format
+{{ircseries}}
+[[Category:Softwarez]][[Category:Communicae]]

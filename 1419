@@ -1,0 +1,29 @@
+Chan Thread Watch
+[[File:ChanThreadWatch2.png|thumb|500px|right]]
+'''Chan Thread Watch''' is a program which allows you to monitor a shit load of threads from 95% of chans. It will download all the images and the HTML file, Then it will keep checking it. Downloading fuck tons of [[pr0n]] has never been easier. It is written in C# and requires the [http://www.microsoft.com/downloads/en/details.aspx?FamilyID=5b2c0358-915b-4eb5-9b1d-10e506da9d0f .NET Framework 2.0] to run. It's open source, and is able to run on [[Windows]], [[Linux]], and [[Mac]] (the latter two via [http://www.mono-project.com/ Mono]).
+
+The developer is lazy, however manages to update it when necessary.
+
+==Installation==
+[http://sites.google.com/site/chanthreadwatch/ Download], unzip, and run. Keep it on a flash drive for on the go fapping.
+
+==Usage==
+* 1. Copy paste the URL of the thread into that box that says URL
+* 2. Select the interval you want to check the thread at (1 minute is best for 4chan /b/, most threads on other boards/chans don't 404 that quickly, so higher intervals work)
+* 3. ADD THREAD
+* 4. Fap away
+
+If you close the program, it will save the list of active threads and restore them when you start it again.
+
+==Download==
+*[http://sites.google.com/site/chanthreadwatch/ Chan Thread Watch]
+
+==See Also==
+* [[Bwatch]]
+* [[Chanmongler]]
+* [[xChan Directory Dumper]]
+<br />
+{{stub}}
+{{chans}}
+[[Category:Softwarez]]
+[[Category:Chans]]

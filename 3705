@@ -1,0 +1,213 @@
+Hiding Files
+When storing tools and such (read: your [[CP]] stash, you [[sick fuck]]), and you live with other people, it may be necessary to hide your shit. There are several ways to do this.
+
+==Hiding in JPEGs==
+[[Image:RAR Guide.png|right|200px]]
+
+===Intro===
+Basically, in the header of a jpeg it specifies where the data for the picture ends, so you can safely append binary data (like rar archives) to the end of jpeg images, and the image will still work.
+
+===Details===
+Fusion Script (or simply Fusion) is a script that can be used to merge WinRAR archives with several common file types. This is useful in sharing information over Imageboards (especially illegal/sensitive content, you sick fuck). It is very simple to use, a copy of it can be found in the image on this page (just save and change the file from jpg to rar).
+
+The current version (v5.2) allows you to merge RARs, ZIPs, and 7Zs with JPGs, PNGs, GIFs, BMPs and SWFs! Enjoy and use it wisely, Anonymous.
+
+====Instructions====
+#Place an image file(JPG, PNG, GIF, BMP) and an archive file(RAR, ZIP, 7Z) into C:\FUSION
+#Double click fusion.bat
+
+====Fusion using the Command Prompt====
+Files may be merged '''without''' a script using the Windows command prompt:
+#Move the two files you wish to merge into the C: drive.
+#Open the command prompt using Start > Run and entering cmd
+#If your prompt does not look like C:\ then enter cd \
+#Enter "copy /b [filenameone.extension] + [filenametwo.extension] [outputfile.extension] to create the merged file outputfile.extension. By renaming the extension it alters the way the file behaves. 
+
+====Fusion on Lunix====
+Similar to the Windows way:
+#Open up a terminal and go the directory where both files are located.
+#Enter cat picture.jpg archive.rar > result.jpg
+#The resulting file will function as a jpg or rar, depending on what the extension is and/or which program is opening it. 
+
+===Download===
+v5.2
+*<s>[http://anonym.to/http://www.mediafire.com/?b94jl5jth5z Mediafire],rename .jpg to .rar</s> Dead. 
+*[http://anonym.to/http://pastebay.com/43237 Pastebay], save as fusion.bat <!-- File name said 5.2, but script says 5.1-->
+v4.1
+*[http://anonym.to/http://rapidshare.com/files/52334345/ImageRAR_Fusion.rar.html Rapidshare]
+*[http://anonym.to/http://image.bayimg.com/jafljaabd.jpg Bayimg], rename .jpg to .rar
+*[http://anonym.to/http://img248.imageshack.us/img248/6836/mergeke2.jpg Imageshack], rename .jpg to .rar
+*[http://anonym.to/http://pastebay.com/43239 Pastebay], save as fusion.bat
+
+===How to do it===
+Drusepth wrote a sweet ass guide on how to do this madness.  Check it out: http://anonym.to/http://drusepth.wordpress.com/2007/08/28/hiding-files-in-images/
+
+==Windows file name witchcraft==
+===Intro===
+Straight from the pits of /tech/ comes the combination of a few well known windows easter-eggs, that translates to you craftily hiding porn in the open.
+
+===Details===
+This section will go over a method of hiding shit in a folder with two levels of protection. 
+
+====Windows Easter Eggs====
+In windows, there are several odd behaviors displayed when you use certain file/folder names. By combining these, you can pretty safely store files.
+
+=====Con=====
+If you try to make a file/folder named "con", you will get an error. This is because the file name is reserved from DOS. However, you can get around this by creating it with a network path: "\\.\c:\full\path\name\con"
+
+=====[[CP|Control Panel]]=====
+Another trick in Windows is to make a folder and change the file extension to "{21EC2020-3AEA-1069-A2DD-08002B30309D}"; when you click on it, you see the Control Panel (and the file extension is hidden). You can toggle back and forth with command prompt. This does not work on Windows Vista; see [[Hiding_Files#Vista|below]].
+
+====The Trick====
+Now, what can you do with these tricks? Let's find out.
+
+=====How To=====
+Make a directory and fill it with your shit. Then, rename and move it to this path: "\\.\c:\windows\system32\con.{21EC2020-3AEA-1069-A2DD-08002B30309D}". It acts like the Control Panel, living in the system32 directory (a logical place for the Control Panel), and is unrenamable. You can't search within it, can't delete it, etc.
+
+=====Script=====
+There is a premade script for this, courtesy of pseudolobster.
+<pre>
+  @echo off
+  if exist con.{21EC2020-3AEA-1069-A2DD-08002B30309D}\nul goto toggleoff
+  if exist porn\nul goto toggleon
+  md "\\.\%cd%\con.{21EC2020-3AEA-1069-A2DD-08002B30309D}"
+  goto end
+  :toggleoff
+  move "\\.\%cd%\con.{21EC2020-3AEA-1069-A2DD-08002B30309D}" porn>nul
+  goto end
+  :toggleon
+  move porn "\\.\%cd%\con.{21EC2020-3AEA-1069-A2DD-08002B30309D}">nul
+  :end
+</pre>
+Just put in the system32 directory, and run it to toggle between hidden and normal mode.
+
+====Vista====
+For all of you that have vista, Microsoft decided that they were going to no longer allow you to use {21EC2020-3AEA-1069-A2DD-08002B30309D} to disguise that folder as a link to the control panel.  What they didn't do was disable this for any other folder type.  Therefore, we can take any other folder type and use that instead of the control panel.  If you have the balls to pick a folder for yourself, the list in the registry is located at:
+  My Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\explorer\FolderDescriptions\
+When selecting a type, you do not want to use the key's name.  Instead, use the value of ParsingName (without the double colons).
+
+For everyone who is lazy, here are a few I grabbed for you:
+
+  Printers: {2227A280-3AEA-1069-A2DE-08002B30309D}
+  History: {FF393560-C2A7-11CF-bff4-444553540000}
+  Network Connections: {992CFFA0-F557-101A-88EC-00DD010CCC48}
+
+
+Simple replace {21EC2020-3AEA-1069-A2DD-08002B30309D} with a folder type of your choice.  I would recommend the Network Connections folder type.  This way you can say "con" is a shortened name.
+
+====Problems====
+Depending on the person, using "con" can set off red flags to your investigator.
+The first dead giveaway is the fact that your "shortcut" to printers is not named "Printers" like default, but "con".  This causes three problems:
+#If the person knows what "con" is, they are going to know exactly how to get around it.  Also, your batch file is a big giveaway.
+#If the person doesn't know what "con" is and you aren't able to pass it off for a shortened version of "Network Connections," a simple Google search will give it away.
+#If your computer is seized by the FBI, that's the first thing they are going to look for.
+
+If you decide to name it "Printers.{2227A280-3AEA-1069-A2DE-08002B30309D}" instead of "con.{2227A280-3AEA-1069-A2DE-08002B30309D}" because of the reasons above, then you will have another problem.  It is now renamable, deletable, and searchable.  If a file is found in it, a simple ''right click --> open containing folder'' will reveal everything.
+
+====TL;DR====
+*"con.{...}" is more protected but more suspicious.
+*"Printers.{...}" is less suspicious but less protected.
+
+==Truecrypt==
+===Intro===
+Truecrypt is an app for Windows and Linux which lets you use strong encryption on data.
+
+===Details===
+Of course, it's not likely you're going to go to this length to hide scripts or a bit of porn. We all know you're looking to hide your CP you sick fuck. 
+
+Here's how to make a truecrypt volume (protip - keep a copy of firefox portable or opera portable inside it and your browser, including all cache and downloads, will be stored encrypted, nothing of any consequence will be insecure): 
+
+====How to Hide Your Files====
+Download truecrypt: http://anonym.to/http://www.truecrypt.org/downloads.php 
+
+Dont bother running the install, just copy everything inside the folder "setup files" except license.txt and the user guide to a new folder - for example "tc" or something like that. 
+
+Open truecrypt format.exe 
+
+Select "create a hidden truecrypt volume" 
+
+Select "create a truecrypt volume and then a hidden volume within it" 
+
+Make sure to leave "never save history" on the next page checked, then press "select file" For ease, just go to the desktop and enter the desired filename in the filename box (use something non-obvious ie boot.log) 
+
+click next, then next, under encryption algorithm choose AES-Twofish-Serpent or Serpent-Twofish-AES (twofish and serpent are both AES variants so in essence this is Triple-AES) Leave hash algorithm as RIPEMD-160, the others have published exploits. 
+
+Decide on a size. I suggest 10GB - it might seem like a lot but it fills up faster than you might think. For reference: 10 gigabytes = 10240 megabytes 5 gigabytes = 5120mb 1GB = 1024mb 
+
+Choose a secure password here. 24+ characters. If you need to write it down, don't write it down verbatim just use hints (ie 7Penis*FUCK*FUCK*FUCK = 7P*F*F*F) - destroy whatever you write it on after memorizing it. 
+
+Click next and start waving your mouse around to speed up the random generation. It never finishes but the longer you do it the more "random" it is. When youre satisfied click format. 
+
+Sit back and wait... 
+
+Click open outer volume. 
+
+Fill it with stupid stuff like mp3s, warez, etc. Don't load it up, just put in "enough". In the event that a crack is ever run against this file it should find this one first and nothing of significance will be inside. 
+
+When you are done, close it. You should never need to open it again (you can but it's a risk of destroying valuable data). 
+
+Click next then next again 
+
+Choose the opposite of the first encryption algo (ie if you did S-T-AES, do AES-T-S) 
+
+Use the maximum possible size, or if you plan on adding stuff to the other volume later, leave a bit of room. the max size is displayed underneath the selection box. 
+
+Press next then confirm. 
+
+Choose a LONGER, STRONGER password for this volume. This is because a brute force will, by its very nature, start guessing from simpler to more complex (shorter->longer basically) and will find the other one first if it has a shorter password. 
+
+Press next, repeat the mouse waving procedure, and hit format. it should be almost instant this time. 
+
+Press exit. You're done making it. 
+
+Now to mount the volume, open truecrypt.exe press select file and choose your file (you may want to move it to somewhere like C:\)... for my example let's say it's at C:\boot.ini Double click on the drive letter you want and enter the SECOND password you entered - the longer one. This mounts the secure volume. it should be empty. 
+
+If it mounts successfully, volume data will show up next to that letter. Right click on it and press open. You may now transfer CP into it. 
+
+WARNING: if you are moving stuff to this volume from an unencrypted drive, do NOT just MOVE it over. First copy it over (dragging and dropping should by default just copy, or press CTRL+C and CTRL+V on the files). Once you have COPIED everything you want over, get this program: http://anonym.to/http://www.cylog.org/utils_9.asp Open the program and drag all your old, unencrypted stuff onto the main blue window. It will begin to shred. This can take a while for a lot of stuff, but it is being overwritten and securely deleted. 
+
+Now use your hidden volume as you wish. When you are done right click on the drive or system tray icon and press dismount. If it complains about files being in use, you can either just press yes to force dismount, or use a program like unlocker (http://anonym.to/http://ccollomb.free.fr/unlocker/) to view what might still be using it and drop all locking handles on the drive before dismounting. The most common locking application is windows explorer (thumbnailing videos and pics into those stupid thumbs.db files), which it is not a harm to interrupt and force dismount. 
+
+You can use this volume like a regular hard drive, but anything on it will be encrypted. I have accidentally deleted stuff from it and TRIED to recover it, it is virtually impossible. 
+
+Now...you are secured 
+
+Also, for added security. You could use an encrypted keyfile for the hidden volume. The keyfile should be stored on a micro-SD that is hidden somewhere that isn't obvious, such as inside your speakers etc.
+
+==Lockbox==
+===Intro===
+Lockbox does away with the confusing partition bullshit Truecrypt has and is therefore a must for lazy computer-inept faggots. Very simple to use, just follow the instructions:
+*http://www.fspro.net/my-lockbox/
+
+==Toucan==
+===Intro===
+Toucan is a multi-platform (and flash drive portable) open source app that can encrypt any file (think .rar) using Rijndeal or Blowfish encryption. Shit hard to crack, it renders any file unusable without the program and the password.
+
+===Links===
+*http://anonym.to/http://portableapps.com/apps/utilities/toucan/
+
+==OR YOU COULD JUST FUCKING DO THIS FGTS==
+===Intro===
+If you do have a lot of files in one folder you can make a batch script to rename them all in one go and one to rename them back when you are finished. To rename them open a text editor and on the first line put 'rename *.mov *.whatever' (extensions are changeable) and save file as a .bat. The rename back to .mov is just the same in reverse.
+
+OR
+
+Just make a folder on your desktop invisible to the naked eye. This is the easiest way to hide pr0n from others.
+*http://www.youtube.com/watch?v=Xa2Mo3IMTPU
+
+OR
+
+Enable viewing extensions in Folder Options.
+Rename your file's extension to something else (it helps to rename the file accordingly) 
+'''eg:''' n0rp.jpg -> music.mp3
+'''to use again:''' music.mp3 -> n0rp.jpg
+Better still, simply delete the extension (and paste it back if you want to use the file again)
+'''eg:''' n0rp.jpg -> temp002
+'''to use again:''' temp002 -> n0rp.jpg
+Then disable viewing extensions.
+Just change the extension back if you ever want to use the file again.
+
+=External Links=
+* [http://partyvan.info/wiki/Hiding_Shit page this was copied from]
+
+[[Category:Softwarez]]

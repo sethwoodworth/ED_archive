@@ -1,0 +1,49 @@
+Bwatch
+[[image:Bwatch20.jpg|thumb|/b/watch]]
+
+'''BWatch''' or /b/watch, as it should be called (not to be confused with Baywatch) is a program developed by an [[Australia]]n programmer calling himself Insanemal. It allows a user to key in a URL and, once the settings are configured, the program will go through the thread, saving all the images in it.
+
+As of June 2007, /b/watch is at version v2.2, but version 3.0 is expected any day now. 
+The features of /b/watch compared to just saving the images yourself are:
+
+* Ability to Watch threads until their death,
+* Renaming of images (Can keep numerals as with normal 4chan images, or in sets, such as 00001-00027.jpg)
+* Posting filter compatability (Download strictly either posts with a certain text added, or lacking it)
+* Filtering of sage posts (In 2 stages)
+
+The supposed features for v3.0 are:
+
+* Ability to search for RapidShare links (And hopefully other servers)
+* Improvements to the filter engine
+* Ability to work on other boards
+* Ability to rename images back to the name they were posted with
+
+In reality, if this program doesn't work for you then it's 99% likely to be a fault on your end. Any support questions can be thrown at the support email posted below.
+
+== Further Links ==
+* [http://rapidshare.com/files/127088389/BWatch-2.2_July_2008.7z] - latest version of bwatch
+
+* [http://rapidshare.com/files/127089504/BWatch_2.2_July_2008_Src_with_source.zip] - bwatch with source
+
+Please do not alter these links.
+
+[http://insanemal.mnc99.com Insanemal's official site @ MNc99.Com
+
+[mailto:bwatchemail@gmail.com eMail Insanemal re: /b/watch]
+
+
+[[File:ChanThreadWatch.png|thumb|right|ChanThreadWatch]]
+==[[Chan Thread Watch]]==
+In December 2007 !MNc99 added a new tool to his website, known as [[Chan Thread Watch]]. It can be found at http://sites.google.com/site/chanthreadwatch/. It boasts many features common to that of /b/watch, but is considered a different tool. CTW saves thread HTML and images with emphasis on getting the data (HTTPS support, multi-board support), however /b/watch focuses on the end result (Sage protection, XChan filtering, etc. etc.). CTW is generally easier to use and supports more boards.
+
+== See Also ==
+* [[Dump-chan]]
+* [[XChan Directory Dumper]]
+* [[4chanarchive]]
+
+
+
+{{4chan}}
+
+[[Category: Softwarez]] 
+[[Category:Chans]]
